@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6"/>
+  <g id="header">
+    <rect x="64" y="62" width="112" height="30" rx="15" fill="#EAF2EB"/>
+    <text x="84" y="83" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#155E47">项目进展汇报</text>
+    <text x="1096" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#5E6D65">2026.08</text>
+    <line x1="64" y1="116" x2="1216" y2="116" stroke="#C9D7CE" stroke-width="1"/>
+  </g>
+  <g id="title-block">
+    <text x="64" y="244" font-family="Microsoft YaHei, Arial, sans-serif" font-size="66" font-weight="700" fill="#15221C">成人肥胖</text>
+    <text x="64" y="325" font-family="Microsoft YaHei, Arial, sans-serif" font-size="66" font-weight="700" fill="#155E47">诊前问诊系统</text>
+    <rect x="67" y="363" width="82" height="7" fill="#E07A5F"/>
+    <text x="64" y="419" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#5E6D65">规则驱动的结构化采集 · AI 辅助理解与追问</text>
+    <text x="64" y="465" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5E6D65">目标是为诊中辨证、风险识别和检查决策准备可靠资料</text>
+  </g>
+  <g id="intake-structure">
+    <line x1="896" y1="194" x2="896" y2="501" stroke="#C9D7CE" stroke-width="3"/>
+    <circle cx="896" cy="205" r="34" fill="#155E47"/>
+    <text x="896" y="214" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#F7F9F6">基</text>
+    <text x="950" y="200" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#15221C">基础资料</text>
+    <text x="950" y="229" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">BMI、腰围与主诉入口</text>
+    <circle cx="896" cy="302" r="34" fill="#4C8C7B"/>
+    <text x="896" y="311" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#F7F9F6">问</text>
+    <text x="950" y="297" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#15221C">病因与风险</text>
+    <text x="950" y="326" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">分层追问与危险信号</text>
+    <circle cx="896" cy="399" r="34" fill="#E07A5F"/>
+    <text x="896" y="408" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#F7F9F6">辨</text>
+    <text x="950" y="394" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#15221C">中医资料</text>
+    <text x="950" y="423" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">症状、舌象与生活方式</text>
+    <circle cx="896" cy="496" r="34" fill="#155E47"/>
+    <text x="896" y="505" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#F7F9F6">档</text>
+    <text x="950" y="491" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#15221C">诊前档案</text>
+    <text x="950" y="520" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">患者摘要与医生执行依据</text>
+  </g>
+  <g id="footer">
+    <line x1="64" y1="642" x2="1216" y2="642" stroke="#C9D7CE" stroke-width="1"/>
+    <text x="64" y="678" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">第二部分 · 成人肥胖诊前问诊系统</text>
+    <text x="1190" y="678" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">21</text>
+  </g>
+</svg>

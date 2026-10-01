@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9"/></g>
+  <g id="header">
+    <text x="64" y="78" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">系统解决的问题</text>
+    <text x="64" y="116" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">从患者自然表达，到医生可以直接接续的诊前资料</text>
+  </g>
+  <g id="problem-1">
+    <rect x="64" y="178" width="332" height="276" rx="8" fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2"/>
+    <circle cx="112" cy="224" r="24" fill="#F1F6EF"/>
+    <use data-icon="tabler-filled/message-chatbot" x="96" y="208" width="32" height="32" fill="#236B45"/>
+    <text x="148" y="232" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#24332B">说不清</text>
+    <text x="96" y="292" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#68756D">
+      <tspan x="96" dy="0">患者的症状、持续时间、</tspan>
+      <tspan x="96" dy="34">诱因和既往情况，常常混在</tspan>
+      <tspan x="96" dy="34">一段自然语言里。</tspan>
+    </text>
+    <rect x="96" y="402" width="84" height="4" rx="2" fill="#C68A3A"/>
+  </g>
+  <g id="connector-1"><polygon points="412,304 440,288 440,298 466,298 466,310 440,310 440,320" fill="#72A984"/></g>
+  <g id="problem-2">
+    <rect x="476" y="178" width="332" height="276" rx="8" fill="#F1F6EF"/>
+    <circle cx="524" cy="224" r="24" fill="#FFFFFF"/>
+    <use data-icon="tabler-filled/search" x="508" y="208" width="32" height="32" fill="#236B45"/>
+    <text x="560" y="232" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#24332B">问不全</text>
+    <text x="508" y="292" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#68756D">
+      <tspan x="508" dy="0">首次问诊时间有限，需要同时</tspan>
+      <tspan x="508" dy="34">覆盖中医症状、用药安全、</tspan>
+      <tspan x="508" dy="34">既往史和代谢风险。</tspan>
+    </text>
+    <rect x="508" y="402" width="84" height="4" rx="2" fill="#C68A3A"/>
+  </g>
+  <g id="connector-2"><polygon points="824,304 852,288 852,298 878,298 878,310 852,310 852,320" fill="#72A984"/></g>
+  <g id="problem-3">
+    <rect x="888" y="178" width="328" height="276" rx="8" fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2"/>
+    <circle cx="936" cy="224" r="24" fill="#F1F6EF"/>
+    <use data-icon="tabler-filled/clipboard-list" x="920" y="208" width="32" height="32" fill="#236B45"/>
+    <text x="972" y="232" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#24332B">看不快</text>
+    <text x="920" y="292" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#68756D">
+      <tspan x="920" dy="0">医生需要在较短时间内识别</tspan>
+      <tspan x="920" dy="34">信息缺口、回答冲突和需要</tspan>
+      <tspan x="920" dy="34">优先确认的风险线索。</tspan>
+    </text>
+    <rect x="920" y="402" width="84" height="4" rx="2" fill="#C68A3A"/>
+  </g>
+  <g id="outcome-band">
+    <rect x="64" y="502" width="1152" height="110" rx="8" fill="#236B45"/>
+    <use data-icon="tabler-filled/file-description" x="96" y="531" width="52" height="52" fill="#FFFFFF"/>
+    <text x="180" y="546" font-family="KaiTi, Georgia, serif" font-size="27" font-weight="bold" fill="#FFFFFF">系统输出</text>
+    <text x="180" y="582" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#F1F6EF">结构化、可追溯、可继续确认的诊前档案与检查准备建议</text>
+  </g>
+  <g id="footer"><text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text><text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">03</text></g>
+</svg>

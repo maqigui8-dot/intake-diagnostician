@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9"/></g>
+  <g id="header"><text x="64" y="72" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">医生端档案与检查建议</text><text x="64" y="108" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">将患者陈述、结构化字段和检查准备放在同一份可继续确认的诊前档案中</text></g>
+  <g id="archive-placeholder">
+    <text x="64" y="158" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#236B45">诊前档案与完整度明细</text>
+    <rect x="64" y="178" width="548" height="360" rx="8" fill="#FFFFFF" stroke="#72A984" stroke-width="2" stroke-dasharray="8,4"/>
+    <rect x="64" y="178" width="548" height="40" rx="8" fill="#F1F6EF"/><rect x="64" y="208" width="548" height="10" fill="#F1F6EF"/>
+    <circle cx="91" cy="198" r="5" fill="#C68A3A"/><circle cx="109" cy="198" r="5" fill="#72A984"/><circle cx="127" cy="198" r="5" fill="#D7E2D8"/>
+    <use data-icon="tabler-filled/file-description" x="281" y="282" width="112" height="112" fill="#D7E2D8"/>
+    <text x="338" y="430" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#236B45">医生端档案截图</text>
+    <text x="338" y="468" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">放入结构化档案、问答记录和待确认信息</text>
+  </g>
+  <g id="exam-placeholder">
+    <text x="668" y="158" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#236B45">推荐检查项目</text>
+    <rect x="668" y="178" width="548" height="360" rx="8" fill="#FFFFFF" stroke="#72A984" stroke-width="2" stroke-dasharray="8,4"/>
+    <rect x="668" y="178" width="548" height="40" rx="8" fill="#F1F6EF"/><rect x="668" y="208" width="548" height="10" fill="#F1F6EF"/>
+    <circle cx="695" cy="198" r="5" fill="#C68A3A"/><circle cx="713" cy="198" r="5" fill="#72A984"/><circle cx="731" cy="198" r="5" fill="#D7E2D8"/>
+    <use data-icon="tabler-filled/report-analytics" x="885" y="282" width="112" height="112" fill="#D7E2D8"/>
+    <text x="942" y="430" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#236B45">检查建议截图</text>
+    <text x="942" y="468" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">放入检查项目、推荐理由与注意事项</text>
+  </g>
+  <g id="doctor-takeaway">
+    <rect x="64" y="568" width="1152" height="72" rx="8" fill="#236B45"/>
+    <use data-icon="tabler-filled/shield-check" x="92" y="584" width="40" height="40" fill="#FFFFFF"/>
+    <text x="154" y="600" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">系统提供整理与提示</text>
+    <text x="420" y="600" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#F1F6EF">最终诊断、检查选择与处方由医生完成</text>
+  </g>
+  <g id="footer"><text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text><text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">09</text></g>
+</svg>

@@ -1,0 +1,100 @@
+{
+  "lang": "zh",
+  "recommend": {
+    "canvas": "ppt169",
+    "mode": "briefing",
+    "visual_style": "editorial",
+    "icons": "tabler-outline",
+    "image_usage": "placeholder",
+    "formula_policy": "text-only",
+    "generation_mode": "continuous"
+  },
+  "page_count": { "value": "14" },
+  "audience": { "value": "课题组教师、临床与技术方向组会成员；用于10—12分钟项目进展汇报" },
+  "content_divergence": { "value": "严格保留已确认的14页顺序与标题，在不引入外部事实的前提下压缩文字、强化完整度判断与停止追问逻辑" },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "临床墨绿",
+        "name_en": "Clinical Teal",
+        "note_zh": "沉稳、可信，兼顾中医气质与现代医疗研究表达",
+        "note_en": "Calm and credible for a modern clinical research briefing",
+        "palette": {
+          "background": "#F7F5EF",
+          "secondary_bg": "#E8EFEA",
+          "primary": "#174C43",
+          "accent": "#C76B3C",
+          "secondary_accent": "#6E9184",
+          "body_text": "#24332E"
+        }
+      },
+      {
+        "name_zh": "医学蓝绿",
+        "name_en": "Medical Blue Teal",
+        "note_zh": "更偏现代医学与技术系统，适合强调规则引擎",
+        "note_en": "More technical and system-oriented",
+        "palette": {
+          "background": "#F7FAFA",
+          "secondary_bg": "#E7F1F2",
+          "primary": "#155D68",
+          "accent": "#E18B3A",
+          "secondary_accent": "#4B8E99",
+          "body_text": "#203238"
+        }
+      },
+      {
+        "name_zh": "研究深蓝",
+        "name_en": "Research Navy",
+        "note_zh": "更正式、理性，接近学术答辩和研究报告",
+        "note_en": "Formal and analytical like an academic defense",
+        "palette": {
+          "background": "#F8F7F3",
+          "secondary_bg": "#EDEFF3",
+          "primary": "#233A5E",
+          "accent": "#B86A45",
+          "secondary_accent": "#687C9B",
+          "body_text": "#252B35"
+        }
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "微软雅黑 + Aptos",
+        "name_en": "Microsoft YaHei + Aptos",
+        "note_zh": "稳妥清晰，适合现场投影与后续编辑",
+        "note_en": "Reliable and highly legible for projection",
+        "heading": { "cjk": "Microsoft YaHei", "latin": "Aptos Display", "css": "'Microsoft YaHei','Aptos Display',sans-serif", "sample_cjk": "完整度判断", "sample_latin": "Completeness Logic" },
+        "body": { "cjk": "Microsoft YaHei", "latin": "Aptos", "css": "'Microsoft YaHei','Aptos',sans-serif", "sample_cjk": "动态追问与停止条件", "sample_latin": "Dynamic Follow-up" },
+        "body_size": 20
+      },
+      {
+        "name_zh": "等线 + Arial",
+        "name_en": "DengXian + Arial",
+        "note_zh": "更轻、更理性，适合信息结构和流程页面",
+        "note_en": "Light and analytical for process slides",
+        "heading": { "cjk": "DengXian", "latin": "Arial", "css": "'DengXian','Arial',sans-serif", "sample_cjk": "完整度判断", "sample_latin": "Completeness Logic" },
+        "body": { "cjk": "DengXian", "latin": "Arial", "css": "'DengXian','Arial',sans-serif", "sample_cjk": "动态追问与停止条件", "sample_latin": "Dynamic Follow-up" },
+        "body_size": 20
+      },
+      {
+        "name_zh": "黑体 + Arial",
+        "name_en": "SimHei + Arial",
+        "note_zh": "标题力量更强，适合较远距离的会议室投影",
+        "note_en": "Stronger headings for large-room projection",
+        "heading": { "cjk": "SimHei", "latin": "Arial", "css": "'SimHei','Arial',sans-serif", "sample_cjk": "完整度判断", "sample_latin": "Completeness Logic" },
+        "body": { "cjk": "Microsoft YaHei", "latin": "Arial", "css": "'Microsoft YaHei','Arial',sans-serif", "sample_cjk": "动态追问与停止条件", "sample_latin": "Dynamic Follow-up" },
+        "body_size": 20
+      }
+    ]
+  },
+  "visual_style_spectrum": [
+    { "id": "editorial", "tag_zh": "稳健研究感", "tag_en": "Safe research editorial", "note_zh": "像医学期刊专题与研究简报", "note_en": "Like a medical journal feature" },
+    { "id": "swiss-minimal", "tag_zh": "理性极简", "tag_en": "Shifted minimal", "note_zh": "像高端咨询公司的医疗研究报告", "note_en": "Like a healthcare consulting report" },
+    { "id": "ink-wash", "tag_zh": "中医文化感", "tag_en": "Bold cultural", "note_zh": "像现代中医研究展览，但装饰更克制", "note_en": "Like a contemporary TCM research exhibition" }
+  ],
+  "refine_spec": { "value": false }
+}

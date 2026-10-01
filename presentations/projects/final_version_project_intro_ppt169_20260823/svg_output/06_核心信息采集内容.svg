@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9"/></g>
+  <g id="header"><text x="64" y="74" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">核心信息采集内容</text><text x="64" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">围绕肥胖病程、中医症状、安全资料和相关风险形成完整诊前视图</text></g>
+  <g id="domain-course">
+    <rect x="64" y="154" width="1152" height="108" rx="8" fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2"/>
+    <rect x="64" y="154" width="164" height="108" rx="8" fill="#236B45"/>
+    <rect x="220" y="154" width="8" height="108" fill="#236B45"/>
+    <use data-icon="tabler-filled/flag" x="92" y="184" width="42" height="42" fill="#FFFFFF"/>
+    <text x="150" y="211" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="bold" fill="#FFFFFF">肥胖与病程</text>
+    <text x="266" y="193" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#24332B">身高体重、腰围、体重变化与起病经过</text>
+    <text x="266" y="230" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">可能诱因 · 既往减重经历 · 当前最希望改善的问题</text>
+  </g>
+  <g id="domain-tcm">
+    <rect x="64" y="278" width="1152" height="108" rx="8" fill="#F1F6EF"/>
+    <rect x="64" y="278" width="164" height="108" rx="8" fill="#72A984"/>
+    <rect x="220" y="278" width="8" height="108" fill="#72A984"/>
+    <use data-icon="tabler-filled/message-chatbot" x="92" y="308" width="42" height="42" fill="#FFFFFF"/>
+    <text x="150" y="335" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="bold" fill="#FFFFFF">中医症状</text>
+    <text x="266" y="317" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#24332B">食欲口渴、寒热汗出、二便、睡眠与情绪</text>
+    <text x="266" y="354" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">疲劳与活动耐力 · 身体困重 · 浮肿及胸腹不适 · 舌象资料</text>
+  </g>
+  <g id="domain-safety">
+    <rect x="64" y="402" width="1152" height="108" rx="8" fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2"/>
+    <rect x="64" y="402" width="164" height="108" rx="8" fill="#C68A3A"/>
+    <rect x="220" y="402" width="8" height="108" fill="#C68A3A"/>
+    <use data-icon="tabler-filled/shield-check" x="92" y="432" width="42" height="42" fill="#FFFFFF"/>
+    <text x="150" y="459" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="bold" fill="#FFFFFF">安全资料</text>
+    <text x="266" y="441" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#24332B">过敏史、当前用药、保健品与减重产品</text>
+    <text x="266" y="478" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">危险信号 · 妊娠与生育相关情况 · 用药禁忌线索</text>
+  </g>
+  <g id="domain-risk">
+    <rect x="64" y="526" width="1152" height="108" rx="8" fill="#F1F6EF"/>
+    <rect x="64" y="526" width="164" height="108" rx="8" fill="#236B45"/>
+    <rect x="220" y="526" width="8" height="108" fill="#236B45"/>
+    <use data-icon="tabler-filled/report-analytics" x="92" y="556" width="42" height="42" fill="#FFFFFF"/>
+    <text x="150" y="583" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="bold" fill="#FFFFFF">相关风险</text>
+    <text x="266" y="565" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#24332B">既往疾病、继发性肥胖线索与近期检查</text>
+    <text x="266" y="602" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">肝肾功能 · 代谢风险 · 血压血糖血脂 · 医生诊中继续确认项</text>
+  </g>
+  <g id="footer"><text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text><text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">06</text></g>
+</svg>

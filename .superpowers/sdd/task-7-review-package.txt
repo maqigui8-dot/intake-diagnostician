@@ -1,0 +1,733 @@
+Task 7 review package
+Base: pre-task snapshot (.superpowers/sdd/task-7-before/)
+Head: current workspace
+
+===== DIFF backend/intake_views.py =====
+--- .superpowers/sdd/task-7-before/intake_views.py	2026-08-18 22:01:28.917717300 +0800
++++ backend/intake_views.py	2026-08-18 22:37:09.440729800 +0800
+@@ -2,6 +2,7 @@
+ 
+ from typing import Any
+ 
++from intake_execution import NORMAL_THRESHOLDS
+ from obesity_intake_schema import FIELD_DEFINITIONS, RULE_VERSION
+ 
+ 
+@@ -19,6 +20,42 @@
+ }
+ 
+ 
++SECTION_BASELINE = "基础测量与肥胖范围"
++SECTION_COURSE = "肥胖病程与可能病因"
++SECTION_DISEASE = "相关疾病风险"
++SECTION_LIFESTYLE = "生活方式与心理情况"
++SECTION_TCM = "中医诊前资料"
++SECTION_PENDING = "待医生确认"
++
++SECTION_ORDER = (
++    SECTION_BASELINE,
++    SECTION_COURSE,
++    SECTION_DISEASE,
++    SECTION_LIFESTYLE,
++    SECTION_TCM,
++    SECTION_PENDING,
++)
++
++DOCTOR_CONFIRMATION_HINT = (
++    "成人BMI规则仅适用于18岁及以上；患者端仅显示“达到成人肥胖范围，待医生确认”，"
++    "不直接确诊、不输出患病概率、不自动辨证或开方。"
++)
++
++
++def _section_for_definition(definition: Any) -> str:
++    if definition.layer == "baseline":
++        return SECTION_BASELINE
++    if definition.layer == "safety":
++        return SECTION_PENDING
++    if definition.layer == "tcm":
++        return SECTION_TCM
++    if definition.group == "近期检查":
++        return SECTION_DISEASE
++    if definition.group == "生活方式与心理因素":
++        return SECTION_LIFESTYLE
++    return SECTION_COURSE
++
++
+ def build_patient_state(internal_state: dict[str, Any]) -> dict[str, Any]:
+     history = [
+         {
+@@ -32,6 +69,8 @@
+     return {
+         "session_id": internal_state.get("session_id", ""),
+         "phase": phase,
++        "baseline": internal_state.get("baseline"),
++        "bmi_assessment": internal_state.get("bmi_assessment"),
+         "open_question": internal_state.get("open_question", ""),
+         "open_answer": internal_state.get("open_answer", ""),
+         "follow_up_answers": history,
+@@ -48,7 +87,7 @@
+ 
+ def build_doctor_summary(internal_state: dict[str, Any]) -> dict[str, Any]:
+     definitions = {item.key: item for item in FIELD_DEFINITIONS}
+-    groups = {"confirmed": [], "partial": [], "unavailable": [], "not_asked": [], "not_applicable": []}
++    groups: dict[str, list[dict[str, Any]]] = {section: [] for section in SECTION_ORDER}
+     safety_fields = []
+     legacy_fields = {}
+     for key, field in (internal_state.get("field_states") or {}).items():
+@@ -68,6 +107,7 @@
+             "field_key": key,
+             "group": definition.group,
+             "section": definition.section,
++            "layer": definition.layer,
+             "status": field.get("status", "not_asked"),
+             "weight": definition.weight,
+             "evidence": list(field.get("evidence") or []),
+@@ -76,16 +116,64 @@
+             "conflicts": list(field.get("conflicts") or []),
+             "source": definition.source,
+         }
+-        groups.setdefault(item["status"], []).append(item)
+-        if definition.section == "safety":
++        groups[_section_for_definition(definition)].append(item)
++        if definition.layer == "safety":
+             safety_fields.append(item)
+ 
+     execution = dict(internal_state.get("execution") or {})
++    baseline = internal_state.get("baseline") or {}
++    bmi_assessment = internal_state.get("bmi_assessment") or {}
++
++    baseline_summary = {
++        "age": baseline.get("age"),
++        "sex": baseline.get("sex"),
++        "height_cm": baseline.get("height_cm"),
++        "weight_kg": baseline.get("weight_kg"),
++        "waist_cm": baseline.get("waist_cm"),
++        "hip_cm": baseline.get("hip_cm"),
++        "measured_at": baseline.get("measured_at"),
++        "bmi": bmi_assessment.get("bmi"),
++        "bmi_grade": bmi_assessment.get("bmi_grade"),
++        "central_obesity": bmi_assessment.get("central_obesity"),
++        "diagnosis_copy": bmi_assessment.get("diagnosis_copy"),
++        "rule_hint": DOCTOR_CONFIRMATION_HINT,
++    }
++
++    layer_raw = execution.get("layer_raw") or {}
++    layer_max = execution.get("layer_max") or {}
++
++    def _scored_layer(key: str, label: str) -> dict[str, Any]:
++        return {
++            "key": key,
++            "label": label,
++            "score": execution.get(f"{key}_score", 0.0),
++            "threshold": NORMAL_THRESHOLDS.get(key),
++            "raw": layer_raw.get(key),
++            "max": layer_max.get(key),
++        }
++
++    layer_execution = {
++        "baseline": {
++            "key": "baseline",
++            "label": "基础测量",
++            "ready": bool(execution.get("baseline_ready")),
++            "score": 100.0 if execution.get("baseline_ready") else 0.0,
++            "threshold": None,
++            "raw": None,
++            "max": None,
++        },
++        "risk": _scored_layer("risk", "病因与风险"),
++        "tcm": _scored_layer("tcm", "中医诊前"),
++        "safety": _scored_layer("safety", "安全"),
++    }
++
+     return {
+         "access_scope": "prototype_doctor_view",
+         "session_id": internal_state.get("session_id", ""),
+         "phase": internal_state.get("phase", "open_intake"),
+         "execution": execution,
++        "baseline_assessment": baseline_summary,
++        "layer_execution": layer_execution,
+         "threshold_reached": internal_state.get("stop_reason") == "threshold_reached",
+         "stop_reason": internal_state.get("stop_reason"),
+         "rule_version": execution.get("rule_version", RULE_VERSION),
+
+===== DIFF backend/exam_recommendations.py =====
+--- .superpowers/sdd/task-7-before/exam_recommendations.py	2026-08-18 22:01:28.943606600 +0800
++++ backend/exam_recommendations.py	2026-08-18 22:36:46.597320900 +0800
+@@ -2,6 +2,33 @@
+ 
+ from typing import Any
+ 
++from obesity_intake_schema import RULE_VERSION
++
++
++EXAM_SOURCE = "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
++
++
++def _exam(
++    name: str,
++    exam_type: str,
++    department: str,
++    reason: str,
++    trigger: str,
++    priority: str,
++    precautions: str,
++) -> dict[str, str]:
++    return {
++        "name": name,
++        "type": exam_type,
++        "department": department,
++        "reason": reason,
++        "trigger": trigger,
++        "priority": priority,
++        "source": EXAM_SOURCE,
++        "rule_version": RULE_VERSION,
++        "precautions": precautions,
++    }
++
+ 
+ def build_recommended_exams(
+     field_states: dict[str, dict[str, Any]],
+@@ -16,46 +43,52 @@
+         for field in field_states.values()
+         for evidence in field.get("evidence") or []
+     )
+-    exams = [{
+-        "name": "肝肾功能、血脂、空腹血糖和尿酸",
+-        "type": "抽血",
+-        "department": "内分泌科或检验科",
+-        "reason": "用于了解肥胖相关代谢风险及后续干预前的基础安全情况。",
+-        "priority": "routine",
+-        "precautions": "通常需空腹 8 小时以上，按就诊医院要求准备。",
+-    }]
++    exams = [
++        _exam(
++            "肝肾功能、血脂、空腹血糖和尿酸",
++            "抽血",
++            "内分泌科或检验科",
++            "用于了解肥胖相关代谢风险及后续干预前的基础安全情况。",
++            "基础常规筛查（完成基础测量的成年肥胖就诊者）",
++            "routine",
++            "通常需空腹 8 小时以上，按就诊医院要求准备。",
++        )
++    ]
+ 
+     metabolic_markers = ("糖尿病", "血糖", "口渴", "多尿", "家族史")
+     important_history = field_states.get("important_history", {})
+     if important_history.get("status") in {"confirmed", "partial"} and any(marker in evidence_text for marker in metabolic_markers):
+-        exams.append({
+-            "name": "糖化血红蛋白",
+-            "type": "抽血",
+-            "department": "内分泌科或检验科",
+-            "reason": "反映近 2 至 3 个月平均血糖水平，用于进一步评估糖代谢风险。",
+-            "priority": "priority",
+-            "precautions": "一般不受单次进食直接影响，具体按医院要求。",
+-        })
++        exams.append(_exam(
++            "糖化血红蛋白",
++            "抽血",
++            "内分泌科或检验科",
++            "反映近 2 至 3 个月平均血糖水平，用于进一步评估糖代谢风险。",
++            "既往疾病史（important_history）提示糖尿病、血糖或家族史相关证据",
++            "priority",
++            "一般不受单次进食直接影响，具体按医院要求。",
++        ))
+ 
+     secondary_markers = ("甲状腺", "无明显原因", "短期迅速", "突然增加")
+     if any(marker in evidence_text for marker in secondary_markers):
+-        exams.append({
+-            "name": "甲状腺功能",
+-            "type": "抽血",
+-            "department": "内分泌科",
+-            "reason": "体重在缺少明确生活方式诱因时明显变化，可由医生判断是否排查甲状腺功能异常。",
+-            "priority": "priority",
+-            "precautions": "正在使用甲状腺相关药物时，应提前告知医生。",
+-        })
++        exams.append(_exam(
++            "甲状腺功能",
++            "抽血",
++            "内分泌科",
++            "体重在缺少明确生活方式诱因时明显变化，可由医生判断是否排查甲状腺功能异常。",
++            "体重变化缺乏明确诱因或出现甲状腺相关证据",
++            "priority",
++            "正在使用甲状腺相关药物时，应提前告知医生。",
++        ))
+ 
+     if len(exams) < 3 and field_states.get("height_weight", {}).get("status") in {"confirmed", "partial"}:
+-        exams.append({
+-            "name": "上腹部超声",
+-            "type": "影像",
+-            "department": "超声科",
+-            "reason": "用于初步观察脂肪肝及上腹部脏器情况，是否需要由医生结合风险决定。",
+-            "priority": "routine",
+-            "precautions": "通常需空腹 8 小时以上。",
+-        })
++        exams.append(_exam(
++            "上腹部超声",
++            "影像",
++            "超声科",
++            "用于初步观察脂肪肝及上腹部脏器情况，是否需要由医生结合风险决定。",
++            "身高体重已确认，补充上腹部脏器影像观察",
++            "routine",
++            "通常需空腹 8 小时以上。",
++        ))
+ 
+     return exams[:3]
+
+===== DIFF backend/tests/test_intake_views.py =====
+--- .superpowers/sdd/task-7-before/test_intake_views.py	2026-08-18 22:01:28.970179100 +0800
++++ backend/tests/test_intake_views.py	2026-08-18 22:36:03.703093500 +0800
+@@ -21,6 +21,25 @@
+         self.assertNotIn("blocking_keys", encoded)
+         self.assertNotIn("question_key", encoded)
+ 
++    def test_patient_state_exposes_baseline_and_bmi_assessment(self):
++        state = get_intake_state("session-a")
++        state["baseline"] = {"age": 32, "sex": "female", "height_cm": 170.0, "weight_kg": 81.0}
++        state["bmi_assessment"] = {
++            "bmi": 28.0,
++            "bmi_grade": "轻度肥胖范围",
++            "diagnosis_copy": "达到成人肥胖范围，待医生确认",
++        }
++
++        public = build_patient_state(state)
++
++        self.assertEqual(public["baseline"], state["baseline"])
++        self.assertEqual(public["bmi_assessment"]["bmi"], 28.0)
++        self.assertEqual(public["bmi_assessment"]["diagnosis_copy"], "达到成人肥胖范围，待医生确认")
++        self.assertNotIn("execution", public)
++        self.assertNotIn("field_states", public)
++        self.assertNotIn("blocking_keys", public)
++        self.assertNotIn("context", public)
++
+     def test_patient_state_uses_public_stop_reason(self):
+         state = get_intake_state("session-a")
+         state.update({"phase": "completed", "stop_reason": "safety_limit"})
+@@ -71,6 +90,61 @@
+         self.assertEqual(summary["legacy_fields"]["metabolic_tests"]["evidence"], ["旧版代谢检查已回答"])
+         self.assertEqual(summary["legacy_fields"]["metabolic_tests"]["audit"], [{"turn": 1}])
+ 
++    def test_doctor_summary_exposes_baseline_assessment_with_bmi_and_rule_hint(self):
++        state = get_intake_state("session-a")
++        state["baseline"] = {
++            "age": 32, "sex": "female", "height_cm": 170.0, "weight_kg": 81.0,
++            "waist_cm": 88.0, "hip_cm": None, "measured_at": "2026-08-01",
++        }
++        state["bmi_assessment"] = {
++            "bmi": 28.0,
++            "bmi_grade": "轻度肥胖范围",
++            "diagnosis_copy": "达到成人肥胖范围，待医生确认",
++        }
++
++        summary = build_doctor_summary(state)
++
++        self.assertEqual(summary["baseline_assessment"]["age"], 32)
++        self.assertEqual(summary["baseline_assessment"]["bmi"], 28.0)
++        self.assertEqual(summary["baseline_assessment"]["bmi_grade"], "轻度肥胖范围")
++        self.assertIn("待医生确认", summary["baseline_assessment"]["rule_hint"])
++
++    def test_doctor_summary_exposes_four_layer_scores(self):
++        summary = build_doctor_summary(get_intake_state("session-a"))
++        layers = summary["layer_execution"]
++        for key in ("baseline", "risk", "tcm", "safety"):
++            self.assertIn(key, layers)
++            self.assertIn("score", layers[key])
++        self.assertIn("threshold", layers["risk"])
++        self.assertIn("threshold", layers["tcm"])
++        self.assertIn("threshold", layers["safety"])
++
++    def test_doctor_summary_groups_fields_into_six_sections(self):
++        summary = build_doctor_summary(get_intake_state("session-a"))
++        expected = [
++            "基础测量与肥胖范围",
++            "肥胖病程与可能病因",
++            "相关疾病风险",
++            "生活方式与心理情况",
++            "中医诊前资料",
++            "待医生确认",
++        ]
++        for section in expected:
++            self.assertIn(section, summary["field_groups"])
++
++        pending = {item["field_key"] for item in summary["field_groups"]["待医生确认"]}
++        self.assertIn("allergies", pending)
++        self.assertIn("red_flags", pending)
++
++        tcm = {item["field_key"] for item in summary["field_groups"]["中医诊前资料"]}
++        self.assertIn("tongue", tcm)
++        self.assertIn("appetite_thirst", tcm)
++
++    def test_patient_state_omits_doctor_only_structures(self):
++        public = build_patient_state(get_intake_state("session-a"))
++        for key in ("baseline_assessment", "layer_execution", "field_groups", "execution", "blocking_keys"):
++            self.assertNotIn(key, public)
++
+ 
+ if __name__ == "__main__":
+     unittest.main()
+
+===== DIFF backend/tests/test_exam_recommendations.py =====
+--- .superpowers/sdd/task-7-before/test_exam_recommendations.py	2026-08-18 22:01:28.996853100 +0800
++++ backend/tests/test_exam_recommendations.py	2026-08-18 22:36:09.457895100 +0800
+@@ -28,6 +28,45 @@
+         states = blank_field_states({})
+         self.assertEqual(build_recommended_exams(states, red_flags=["胸痛"]), [])
+ 
++    def test_every_exam_carries_required_metadata_fields(self):
++        states = blank_field_states({"pregnancy_applicable": False})
++        states["height_weight"].update({"status": "confirmed", "evidence": ["身高165厘米，体重85公斤"]})
++        exams = build_recommended_exams(states, red_flags=[])
++        self.assertGreaterEqual(len(exams), 1)
++        for item in exams:
++            for key in ("name", "reason", "trigger", "priority", "source", "rule_version", "precautions"):
++                self.assertIn(key, item)
++                self.assertTrue(item[key])
++            # 患者结果视图仍依赖 type 与 department
++            self.assertIn("type", item)
++            self.assertIn("department", item)
++
++    def test_exam_source_and_rule_version_reference_guideline(self):
++        states = blank_field_states({"pregnancy_applicable": False})
++        exams = build_recommended_exams(states, red_flags=[])
++        self.assertTrue(exams)
++        for item in exams:
++            self.assertEqual(item["rule_version"], "adult-obesity-intake-v1")
++            self.assertIn("肥胖症诊疗指南", item["source"])
++
++    def test_metabolic_history_triggers_glycated_hemoglobin_with_trigger(self):
++        states = blank_field_states({"pregnancy_applicable": False})
++        states["important_history"].update({"status": "confirmed", "evidence": ["有糖尿病家族史"]})
++        exams = build_recommended_exams(states, red_flags=[])
++        glycated = next(item for item in exams if item["name"] == "糖化血红蛋白")
++        self.assertTrue(glycated["trigger"])
++
++    def test_missing_data_produces_no_diagnosis_wording(self):
++        states = blank_field_states({"pregnancy_applicable": False})
++        exams = build_recommended_exams(states, red_flags=[])
++        for item in exams:
++            self.assertNotIn("确诊", item["reason"])
++            self.assertNotIn("诊断", item["reason"])
++
++    def test_red_flag_suppresses_routine_package_but_safety_alert_stays_separate(self):
++        states = blank_field_states({})
++        self.assertEqual(build_recommended_exams(states, red_flags=["胸痛"]), [])
++
+ 
+ if __name__ == "__main__":
+     unittest.main()
+
+===== DIFF frontend/src/components/DoctorExecutionPanel.vue =====
+--- .superpowers/sdd/task-7-before/DoctorExecutionPanel.vue	2026-08-18 22:01:29.023004500 +0800
++++ frontend/src/components/DoctorExecutionPanel.vue	2026-08-18 22:37:39.873091800 +0800
+@@ -3,7 +3,7 @@
+     <div class="doctor-panel-head">
+       <div>
+         <span class="section-label">医生视图</span>
+-        <h2>诊前资料执行情况</h2>
++        <h2>分层诊前档案</h2>
+       </div>
+       <span class="stop-reason">{{ formatStopReason(summary?.stop_reason) }}</span>
+     </div>
+@@ -12,61 +12,82 @@
+     <p v-else-if="error" class="form-error">{{ error }}</p>
+ 
+     <template v-else-if="summary">
+-      <div class="score-grid">
+-        <article :class="['score-item', scoreTone(execution.total_score, 85)]">
+-          <span>总执行度</span>
+-          <strong>{{ displayScore(execution.total_score) }}</strong>
+-          <div class="score-track"><i :style="{ width: `${bounded(execution.total_score)}%` }"></i></div>
+-          <small>正常门槛 85</small>
+-        </article>
+-        <article :class="['score-item', scoreTone(execution.differentiation_score, 55)]">
+-          <span>辨证资料</span>
+-          <strong>{{ displayScore(execution.differentiation_score) }}<em>/70</em></strong>
+-          <div class="score-track"><i :style="{ width: `${bounded((execution.differentiation_score || 0) / 70 * 100)}%` }"></i></div>
+-          <small>最低要求 55/70</small>
+-        </article>
+-        <article :class="['score-item', scoreTone(execution.safety_score, 27)]">
+-          <span>开方安全</span>
+-          <strong>{{ displayScore(execution.safety_score) }}<em>/30</em></strong>
+-          <div class="score-track"><i :style="{ width: `${bounded((execution.safety_score || 0) / 30 * 100)}%` }"></i></div>
+-          <small>最低要求 27/30</small>
+-        </article>
+-      </div>
++      <!-- 1. 基础测量与肥胖范围 -->
++      <section class="doctor-section">
++        <div class="section-heading">
++          <h3>基础测量与肥胖范围</h3>
++          <span>规则版本 {{ summary.rule_version }}</span>
++        </div>
++        <div class="baseline-grid-rows">
++          <div class="baseline-cell"><span>年龄</span><strong>{{ baseline.age ?? '—' }} 岁</strong></div>
++          <div class="baseline-cell"><span>生理性别</span><strong>{{ sexLabel(baseline.sex) }}</strong></div>
++          <div class="baseline-cell"><span>身高</span><strong>{{ baseline.height_cm ?? '—' }} cm</strong></div>
++          <div class="baseline-cell"><span>体重</span><strong>{{ baseline.weight_kg ?? '—' }} kg</strong></div>
++          <div class="baseline-cell"><span>BMI</span><strong>{{ baseline.bmi ?? '—' }}</strong></div>
++          <div class="baseline-cell"><span>BMI 分级</span><strong>{{ baseline.bmi_grade || '—' }}</strong></div>
++          <div class="baseline-cell"><span>腰围</span><strong>{{ baseline.waist_cm ?? '—' }} cm</strong></div>
++          <div class="baseline-cell"><span>测量时间</span><strong>{{ baseline.measured_at || '—' }}</strong></div>
++        </div>
++        <p v-if="baseline.rule_hint" class="rule-hint">{{ baseline.rule_hint }}</p>
++        <p v-if="baseline.diagnosis_copy" class="diagnosis-copy">{{ baseline.diagnosis_copy }}</p>
++      </section>
++
++      <!-- 分层执行度 -->
++      <section class="doctor-section">
++        <div class="section-heading">
++          <h3>分层执行度</h3>
++          <span>规则版本 {{ summary.rule_version }}</span>
++        </div>
++        <div class="layer-grid">
++          <div v-for="layer in layerList" :key="layer.key" :class="['layer-item', layerTone(layer)]">
++            <span>{{ layer.label }}</span>
++            <strong>{{ layer.key === 'baseline' ? (layer.ready ? '就绪' : '待确认') : displayScore(layer.score) }}</strong>
++            <small>{{ layerMeta(layer) }}</small>
++          </div>
++        </div>
++      </section>
+ 
+-      <section class="doctor-section safety-section">
++      <!-- 2-6. 各分层字段区块 -->
++      <section v-for="section in fieldSections" :key="section.title" class="doctor-section">
+         <div class="section-heading">
+-          <h3>开方安全资料</h3>
+-          <span>{{ confirmedSafety }}/{{ summary.safety_fields?.length || 0 }} 项明确</span>
++          <h3>{{ section.title }}</h3>
++          <span>{{ section.items.length }} 项 · {{ statusSummary(section.items) }}</span>
+         </div>
+-        <div class="safety-table">
+-          <div v-for="field in summary.safety_fields" :key="field.field_key" class="safety-row">
+-            <div>
++        <div class="field-table">
++          <div v-for="field in section.items" :key="field.field_key" class="field-row">
++            <div class="field-row-head">
+               <strong>{{ field.group }}</strong>
+               <span :class="['status-text', field.status]">{{ statusLabel(field.status) }}</span>
+             </div>
+             <p>{{ field.evidence?.join('；') || '待诊中确认' }}</p>
+           </div>
+         </div>
+-      </section>
+ 
+-      <section class="doctor-section">
+-        <div class="section-heading"><h3>资料状态</h3><span>规则版本 {{ summary.rule_version }}</span></div>
+-        <div class="status-grid">
+-          <div v-for="group in visibleGroups" :key="group.key" class="status-group">
+-            <strong>{{ group.label }} · {{ group.items.length }}</strong>
+-            <ul>
+-              <li v-for="field in group.items" :key="field.field_key">
+-                <span>{{ field.group }}</span>
+-                <small>{{ field.evidence?.join('；') || '无可用证据' }}</small>
+-              </li>
+-            </ul>
++        <template v-if="section.key === 'pending'">
++          <div v-if="summary.conflicts?.length" class="pending-block conflict-block">
++            <strong>需要医生确认的矛盾</strong>
++            <p v-for="(item, index) in summary.conflicts" :key="index">{{ item.description || item.field_key }}</p>
+           </div>
+-        </div>
+-      </section>
+ 
+-      <section v-if="summary.conflicts?.length" class="doctor-section conflict-section">
+-        <h3>需要医生确认的矛盾</h3>
+-        <p v-for="(item, index) in summary.conflicts" :key="index">{{ item.description || item.field_key }}</p>
++          <div v-if="summary.safety_alerts?.length" class="pending-block safety-block">
++            <strong>安全提醒</strong>
++            <p v-for="item in summary.safety_alerts" :key="item">{{ item }}</p>
++          </div>
++
++          <div class="pending-block exam-block">
++            <strong>检查候选（{{ summary.recommended_exams?.length || 0 }} 项）</strong>
++            <p v-if="!summary.recommended_exams?.length" class="empty-note">暂无检查候选，由医生结合诊中情况决定。</p>
++            <div v-else class="exam-list">
++              <article v-for="exam in summary.recommended_exams" :key="exam.name" class="exam-item">
++                <div><strong>{{ exam.name }}</strong><span>{{ examPriorityLabel(exam.priority) }}</span></div>
++                <small>{{ exam.type }} · {{ exam.department }} · {{ exam.source }}</small>
++                <p>{{ exam.reason }}</p>
++                <p class="exam-note">触发：{{ exam.trigger }}</p>
++                <p v-if="exam.precautions" class="exam-note">注意：{{ exam.precautions }}</p>
++              </article>
++            </div>
++          </div>
++        </template>
+       </section>
+     </template>
+   </section>
+@@ -74,7 +95,7 @@
+ 
+ <script setup>
+ import { computed } from 'vue'
+-import { formatStopReason, scoreTone } from '../doctor-view.js'
++import { formatStopReason } from '../doctor-view.js'
+ 
+ const props = defineProps({
+   summary: { type: Object, default: null },
+@@ -82,27 +103,63 @@
+   error: { type: String, default: '' },
+ })
+ 
+-const execution = computed(() => props.summary?.execution || {})
+-const confirmedSafety = computed(() => (props.summary?.safety_fields || []).filter((item) => item.status === 'confirmed').length)
+-const visibleGroups = computed(() => {
+-  const groups = props.summary?.field_groups || {}
+-  return [
+-    { key: 'confirmed', label: '已明确', items: groups.confirmed || [] },
+-    { key: 'partial', label: '部分明确', items: groups.partial || [] },
+-    { key: 'unavailable', label: '患者无法提供', items: groups.unavailable || [] },
+-    { key: 'not_asked', label: '待诊中确认', items: groups.not_asked || [] },
+-  ].filter((group) => group.items.length)
++const SECTION_KEYS = [
++  { key: 'course', title: '肥胖病程与可能病因' },
++  { key: 'disease', title: '相关疾病风险' },
++  { key: 'lifestyle', title: '生活方式与心理情况' },
++  { key: 'tcm', title: '中医诊前资料' },
++  { key: 'pending', title: '待医生确认' },
++]
++
++const baseline = computed(() => props.summary?.baseline_assessment || {})
++const layerList = computed(() => {
++  const layers = props.summary?.layer_execution || {}
++  return ['baseline', 'risk', 'tcm', 'safety'].map((key) => layers[key]).filter(Boolean)
+ })
+ 
+-function bounded(value) {
+-  return Math.max(0, Math.min(100, Number(value) || 0))
+-}
++const fieldSections = computed(() => {
++  const groups = props.summary?.field_groups || {}
++  return SECTION_KEYS.map((section) => ({ ...section, items: groups[section.title] || [] }))
++})
+ 
+ function displayScore(value) {
+   return Number(value || 0).toFixed(1)
+ }
+ 
++function sexLabel(sex) {
++  return { male: '男', female: '女' }[sex] || '—'
++}
++
+ function statusLabel(status) {
+   return { confirmed: '已明确', partial: '部分明确', unavailable: '无法提供', not_asked: '待确认', not_applicable: '不适用' }[status] || '待确认'
+ }
++
++function layerMeta(layer) {
++  if (layer.key === 'baseline') return layer.ready ? '基础测量已确认' : '基础测量未完成'
++  return layer.threshold != null ? `门槛 ${layer.threshold}` : '—'
++}
++
++function layerTone(layer) {
++  if (layer.key === 'baseline') return layer.ready ? 'good' : 'low'
++  const score = Number(layer.score) || 0
++  const threshold = Number(layer.threshold) || 0
++  if (score >= threshold) return 'good'
++  if (score >= threshold * 0.7) return 'warning'
++  return 'low'
++}
++
++function statusSummary(items) {
++  const counts = items.reduce((acc, item) => {
++    acc[item.status] = (acc[item.status] || 0) + 1
++    return acc
++  }, {})
++  return ['confirmed', 'partial', 'unavailable', 'not_asked', 'not_applicable']
++    .filter((status) => counts[status])
++    .map((status) => `${statusLabel(status)} ${counts[status]}`)
++    .join(' · ') || '暂无字段'
++}
++
++function examPriorityLabel(priority) {
++  return { urgent: '尽快就医', priority: '优先检查', routine: '常规参考' }[priority] || '常规参考'
++}
+ </script>
+
+===== DIFF frontend/tests/doctor-view.test.mjs =====
+--- .superpowers/sdd/task-7-before/doctor-view.test.mjs	2026-08-18 22:01:29.048993400 +0800
++++ frontend/tests/doctor-view.test.mjs	2026-08-18 22:36:15.325040000 +0800
+@@ -1,8 +1,12 @@
+ import test from 'node:test'
+ import assert from 'node:assert/strict'
++import { readFileSync } from 'node:fs'
+ 
+ import { formatStopReason, isDoctorView, scoreTone } from '../src/doctor-view.js'
+ 
++const panelPath = new URL('../src/components/DoctorExecutionPanel.vue', import.meta.url)
++const panelSource = readFileSync(panelPath, 'utf8')
++
+ test('只有明确 doctor 参数才进入医生视图', () => {
+   assert.equal(isDoctorView('?view=doctor'), true)
+   assert.equal(isDoctorView('?session=abc'), false)
+@@ -19,3 +23,30 @@
+   assert.equal(scoreTone(70, 85), 'warning')
+   assert.equal(scoreTone(40, 85), 'low')
+ })
++
++test('医生视图包含六个分层档案区块标题', () => {
++  const headings = [
++    '基础测量与肥胖范围',
++    '肥胖病程与可能病因',
++    '相关疾病风险',
++    '生活方式与心理情况',
++    '中医诊前资料',
++    '待医生确认',
++  ]
++  for (const heading of headings) {
++    assert.ok(panelSource.includes(heading), `缺少区块标题：${heading}`)
++  }
++})
++
++test('医生视图渲染基线评估、分层执行度与检查候选', () => {
++  assert.match(panelSource, /baseline_assessment/)
++  assert.match(panelSource, /layer_execution/)
++  assert.match(panelSource, /recommended_exams/)
++})
++
++test('医生视图渲染检查候选的触发、来源、优先级与注意事项', () => {
++  assert.match(panelSource, /exam\.trigger/)
++  assert.match(panelSource, /exam\.source/)
++  assert.match(panelSource, /exam\.priority/)
++  assert.match(panelSource, /exam\.precautions/)
++})
+
+===== DIFF frontend/src/style.css (base is pre-fix; may include Task 6 fix's 2 link-button classes) =====
+--- .superpowers/sdd/task-6-fix-before/style.css	2026-08-18 22:22:28.518021000 +0800
++++ frontend/src/style.css	2026-08-18 22:37:49.174331200 +0800
+@@ -182,6 +182,8 @@
+ .bmi-row strong { font-size: 30px; color: var(--green-dark); }
+ .bmi-row span:last-child { color: var(--muted); font-weight: 700; }
+ .diagnosis-copy { margin: 12px 0 0; color: var(--green-dark); font-weight: 800; }
++.edit-baseline-link { display: inline-block; margin: 12px 0 0; padding: 0; border: 0; background: none; color: var(--green-dark); font-size: 13px; font-weight: 800; cursor: pointer; text-decoration: underline; }
++.left-panel-edit { margin: 4px 6px 0; align-self: flex-start; }
+ 
+ .chat-section { display: flex; flex-direction: column; min-height: 650px; }
+ .chat-head { justify-content: space-between; align-items: flex-start; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+@@ -298,3 +300,30 @@
+   .primary-button, .secondary-button { width: 100%; }
+   .disclaimer { margin: auto 18px 18px; }
+ }
++
++/* 医生端分层档案 */
++.baseline-grid-rows { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 12px; }
++.baseline-cell { min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; background: #fbfcfb; }
++.baseline-cell span { display: block; color: var(--muted); font-size: 11px; }
++.baseline-cell strong { display: block; margin-top: 4px; font-size: 15px; }
++.rule-hint { margin: 12px 0 0; padding: 10px 12px; border-radius: 6px; color: var(--yellow); background: var(--yellow-soft); font-size: 12px; line-height: 1.6; }
++.layer-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 12px; }
++.layer-item { min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; }
++.layer-item span, .layer-item small { display: block; color: var(--muted); font-size: 11px; }
++.layer-item strong { display: block; margin: 5px 0 4px; font-size: 18px; color: var(--green-dark); }
++.layer-item.warning strong { color: #b8872c; }
++.layer-item.low strong { color: var(--red); }
++.field-table { margin-top: 12px; }
++.field-row { padding: 10px 0; border-bottom: 1px solid #edf0ed; }
++.field-row-head { display: flex; justify-content: space-between; gap: 10px; }
++.field-row-head strong { font-size: 13px; }
++.field-row p { margin: 6px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; overflow-wrap: anywhere; }
++.pending-block { margin-top: 14px; padding: 12px; border: 1px solid var(--line); border-radius: 6px; background: #f7f8f6; }
++.pending-block > strong { font-size: 12px; }
++.pending-block p { margin: 8px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; overflow-wrap: anywhere; }
++.conflict-block { color: #6c4b15; background: var(--yellow-soft); border-color: #e7d7a8; }
++.safety-block { background: var(--red-soft); border-color: #ecc9c9; }
++.safety-block p { color: #6d2929; font-weight: 700; }
++.exam-block { background: #fbfcfb; }
++.exam-list { display: grid; gap: 10px; margin-top: 12px; }
++.exam-block .exam-item { background: #fff; }

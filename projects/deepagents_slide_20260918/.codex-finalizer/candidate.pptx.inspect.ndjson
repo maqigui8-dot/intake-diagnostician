@@ -1,0 +1,761 @@
+{"kind":"deck","id":"pr/9tzcge","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"subtitle","type":"subtitle","textPreview":"Click to edit Master subtitle style"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Title and Content","type":"obj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Section Header","type":"secHead","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Two Content","type":"twoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Comparison","type":"twoTxTwoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 5","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"Title Only","type":"titleOnly","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"Blank","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"Content with Caption","type":"objTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout9.xml","name":"Picture with Caption","type":"picTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"picture","type":"picture"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout10.xml","name":"Title and Vertical Text","type":"vertTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout11.xml","name":"Vertical Title and Text","type":"vertTitleAndTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/20/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"第一部分 / 前期学习与能力准备","textShapes":12}
+{"kind":"shape","id":"sh/547294r6","slide":1,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"TextBox 3","text":"第一部分 / 前期学习与能力准备","textPreview":"第一部分 / 前期学习与能力准备","textChars":16,"textLines":1,"bbox":[62.4,68.4,252.81,25.6]}
+{"kind":"shape","id":"sh/7qp4be9c","slide":1,"name":"Line 4","bbox":[64,112,1152,1]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"name":"TextBox 6","text":"前期学习","textPreview":"前期学习","textChars":4,"textLines":1,"bbox":[57.4,208.9,304.26,105.6]}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"name":"TextBox 7","text":"与能力准备","textPreview":"与能力准备","textChars":5,"textLines":1,"bbox":[57.4,287.9,377.02,105.6]}
+{"kind":"shape","id":"sh/fu94fe98","slide":1,"name":"Rectangle 8","bbox":[67,380,82,7]}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"name":"TextBox 9","text":"从前后端基础到医疗 AI Agent 的能力积累","textPreview":"从前后端基础到医疗 AI Agent 的能力积累","textChars":24,"textLines":1,"bbox":[61.5,413.75,490.62,40]}
+{"kind":"shape","id":"sh/hofulsf2","slide":1,"name":"Line 11","bbox":[912,210,1,286]}
+{"kind":"shape","id":"sh/ul4vaxgb","slide":1,"name":"Ellipse 12","bbox":[879,187,66,66]}
+{"kind":"shape","id":"sh/vmdcj2xw","slide":1,"name":"Ellipse 13","bbox":[879,319,66,66]}
+{"kind":"shape","id":"sh/4r6dg7et","slide":1,"name":"Ellipse 14","bbox":[879,451,66,66]}
+{"kind":"textbox","id":"sh/5sfepcfe","slide":1,"name":"TextBox 15","text":"前","textPreview":"前","textChars":1,"textLines":1,"bbox":[898.98,212,26.05,32]}
+{"kind":"textbox","id":"sh/ipovexwn","slide":1,"name":"TextBox 16","text":"后","textPreview":"后","textChars":1,"textLines":1,"bbox":[898.98,344,26.05,32]}
+{"kind":"textbox","id":"sh/3qxwn2x8","slide":1,"name":"TextBox 17","text":"智","textPreview":"智","textChars":1,"textLines":1,"bbox":[898.98,476,26.05,32]}
+{"kind":"textbox","id":"sh/sfqdkrep","slide":1,"name":"TextBox 18","text":"前端交互","textPreview":"前端交互","textChars":4,"textLines":1,"bbox":[967.7,208.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/dgzetcfa","slide":1,"name":"TextBox 19","text":"服务接口","textPreview":"服务接口","textChars":4,"textLines":1,"bbox":[967.7,340.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/1cvuxc7e","slide":1,"name":"TextBox 20","text":"Agent 能力","textPreview":"Agent 能力","textChars":8,"textLines":1,"bbox":[967.7,472.45,132.66,36.8]}
+{"kind":"shape","id":"sh/zadcv2p8","slide":1,"name":"Line 22","bbox":[64,642,1152,1]}
+{"kind":"textbox","id":"sh/e94v2hon","slide":1,"name":"TextBox 23","text":"学习积累 → 项目实践","textPreview":"学习积累 → 项目实践","textChars":11,"textLines":1,"bbox":[62.4,664.4,156.92,25.6]}
+{"kind":"textbox","id":"sh/90ve1w7q","slide":1,"name":"TextBox 24","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1169.92,664.4,21.68,25.6]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"这一部分汇报前期学习如何为当前项目建立能力基础。"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"学习路线","textShapes":17}
+{"kind":"shape","id":"sh/9072xkry","slide":2,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"name":"TextBox 3","text":"学习路线","textPreview":"学习路线","textChars":4,"textLines":1,"bbox":[62.4,68.4,73.76,25.6]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"name":"TextBox 4","text":"从基础开发到医疗 AI 应用","textPreview":"从基础开发到医疗 AI 应用","textChars":14,"textLines":1,"bbox":[59.8,108.3,538.59,67.2]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"name":"TextBox 5","text":"基本要求提供方向，学习内容通过可运行练习逐步沉淀。","textPreview":"基本要求提供方向，学习内容通过可运行练习逐步沉淀。","textChars":25,"textLines":1,"bbox":[61.9,166.15,555.45,33.6]}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"name":"TextBox 7","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72.4,252.4,79.11,89.6]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"name":"TextBox 8","text":"前端学习","textPreview":"前端学习","textChars":4,"textLines":1,"bbox":[75.2,341.2,129.08,44.8]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"name":"TextBox 9","text":"HTML · CSS · JavaScript","textPreview":"HTML · CSS · JavaScript","textChars":23,"textLines":1,"bbox":[76,388,247.6,32]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"name":"TextBox 10","text":"Vue · Vite · TypeScript","textPreview":"Vue · Vite · TypeScript","textChars":23,"textLines":1,"bbox":[76,418,238.15,32]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"name":"TextBox 12","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[484.4,252.4,79.11,89.6]}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"name":"TextBox 13","text":"后端学习","textPreview":"后端学习","textChars":4,"textLines":1,"bbox":[487.2,341.2,129.08,44.8]}
+{"kind":"textbox","id":"sh/wjy9sry9","slide":2,"name":"TextBox 14","text":"FastAPI · REST API · JSON","textPreview":"FastAPI · REST API · JSON","textChars":25,"textLines":1,"bbox":[488,388,260.2,32]}
+{"kind":"textbox","id":"sh/xk7qlczu","slide":2,"name":"TextBox 15","text":"规则计算 · 参数校验","textPreview":"规则计算 · 参数校验","textChars":11,"textLines":1,"bbox":[488,418,196.15,32]}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"name":"TextBox 17","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[896.4,252.4,79.11,89.6]}
+{"kind":"textbox","id":"sh/cnupgny5","slide":2,"name":"TextBox 18","text":"Agent 学习","textPreview":"Agent 学习","textChars":8,"textLines":1,"bbox":[899.2,341.2,161.49,44.8]}
+{"kind":"textbox","id":"sh/do3q9szq","slide":2,"name":"TextBox 19","text":"Dify · RAG · MCP","textPreview":"Dify · RAG · MCP","textChars":16,"textLines":1,"bbox":[900,388,166.75,32]}
+{"kind":"textbox","id":"sh/t8byxkn2","slide":2,"name":"TextBox 20","text":"LangChain · LangGraph · DeepAgents","textPreview":"LangChain · LangGraph · DeepAgents","textChars":34,"textLines":1,"bbox":[900,418,370.45,32]}
+{"kind":"shape","id":"sh/76twva5c","slide":2,"name":"Rectangle 22","bbox":[64,552,1152,72]}
+{"kind":"textbox","id":"sh/65kfmpor","slide":2,"name":"TextBox 23","text":"三条学习线最终交汇为：可交互的界面、可验证的服务、可控的智能化流程。","textPreview":"三条学习线最终交汇为：可交互的界面、可验证的服务、可控的智能化流程。","textChars":34,"textLines":1,"bbox":[93.7,577.45,866.75,36.8]}
+{"kind":"textbox","id":"sh/hcvy14ne","slide":2,"name":"TextBox 24","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"学习分为前端、后端和 Agent 三条线，最后在医疗 AI 场景中汇合。"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"学习成果总览","textShapes":17}
+{"kind":"shape","id":"sh/cza94vmx","slide":3,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"name":"TextBox 3","text":"学习成果总览","textPreview":"学习成果总览","textChars":6,"textLines":1,"bbox":[62.4,68.4,109.04,25.6]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"TextBox 4","text":"已完成的学习不止停留在知识点","textPreview":"已完成的学习不止停留在知识点","textChars":14,"textLines":1,"bbox":[59.8,108.3,656.67,67.2]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"name":"TextBox 5","text":"每条学习线都通过一个或多个可运行原型来检验理解。","textPreview":"每条学习线都通过一个或多个可运行原型来检验理解。","textChars":24,"textLines":1,"bbox":[61.9,166.15,533.4,33.6]}
+{"kind":"shape","id":"sh/pcjqtg36","slide":3,"name":"Rectangle 7","bbox":[64,250,350,278]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"name":"TextBox 8","text":"页面交互","textPreview":"页面交互","textChars":4,"textLines":1,"bbox":[93.1,291.35,133.69,46.4]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"name":"TextBox 9","text":"Vue Todo List","textPreview":"Vue Todo List","textChars":13,"textLines":1,"bbox":[93.8,346.3,152.24,35.2]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"name":"TextBox 10","text":"列表、编辑、筛选、状态切换","textPreview":"列表、编辑、筛选、状态切换","textChars":13,"textLines":1,"bbox":[94.2,386.7,249.3,28.8]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"name":"TextBox 11","text":"本地持久化与响应式渲染","textPreview":"本地持久化与响应式渲染","textChars":11,"textLines":1,"bbox":[94.2,416.7,211.5,28.8]}
+{"kind":"shape","id":"sh/83ulovat","slide":3,"name":"Rectangle 13","bbox":[465,250,350,278]}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"name":"TextBox 14","text":"服务接口","textPreview":"服务接口","textChars":4,"textLines":1,"bbox":[494.1,291.35,133.69,46.4]}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"name":"TextBox 15","text":"FastAPI BMI 与 LLM API","textPreview":"FastAPI BMI 与 LLM API","textChars":21,"textLines":1,"bbox":[494.8,346.3,250.42,35.2]}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"name":"TextBox 16","text":"参数、规则、JSON 与异常处理","textPreview":"参数、规则、JSON 与异常处理","textChars":16,"textLines":1,"bbox":[495.2,386.7,262.53,28.8]}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"name":"TextBox 17","text":"前端请求到后端响应的闭环","textPreview":"前端请求到后端响应的闭环","textChars":12,"textLines":1,"bbox":[495.2,416.7,230.4,28.8]}
+{"kind":"shape","id":"sh/i9w3u58v","slide":3,"name":"Rectangle 19","bbox":[866,250,350,278]}
+{"kind":"textbox","id":"sh/e10f2twf","slide":3,"name":"TextBox 20","text":"智能体流程","textPreview":"智能体流程","textChars":5,"textLines":1,"bbox":[895.1,291.35,165.66,46.4]}
+{"kind":"textbox","id":"sh/f29gbyx0","slide":3,"name":"TextBox 21","text":"RAG 与持久记忆 Agent","textPreview":"RAG 与持久记忆 Agent","textChars":15,"textLines":1,"bbox":[895.8,346.3,235.4,35.2]}
+{"kind":"textbox","id":"sh/03ix43e5","slide":3,"name":"TextBox 22","text":"知识库、工具调用与状态管理","textPreview":"知识库、工具调用与状态管理","textChars":13,"textLines":1,"bbox":[896.2,386.7,249.3,28.8]}
+{"kind":"textbox","id":"sh/14ryd8fq","slide":3,"name":"TextBox 23","text":"多轮对话的流程编排","textPreview":"多轮对话的流程编排","textChars":9,"textLines":1,"bbox":[896.2,416.7,173.7,28.8]}
+{"kind":"textbox","id":"sh/re9g7yxo","slide":3,"name":"TextBox 25","text":"学习方式：以小原型验证抽象概念，再将能力迁移到实际项目。","textPreview":"学习方式：以小原型验证抽象概念，再将能力迁移到实际项目。","textChars":28,"textLines":1,"bbox":[61.7,600.45,714.61,36.8]}
+{"kind":"textbox","id":"sh/sfix03y9","slide":3,"name":"TextBox 26","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"每条学习线都通过可运行的练习原型验证，而不是只停留在阅读知识点。"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"能力迁移","textShapes":12}
+{"kind":"shape","id":"sh/1cj2d8b6","slide":4,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"name":"TextBox 3","text":"能力迁移","textPreview":"能力迁移","textChars":4,"textLines":1,"bbox":[62.4,68.4,73.76,25.6]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"name":"TextBox 4","text":"学习内容如何逐步指向医疗场景","textPreview":"学习内容如何逐步指向医疗场景","textChars":14,"textLines":1,"bbox":[59.8,108.3,656.67,67.2]}
+{"kind":"shape","id":"sh/doj29oba","slide":4,"name":"Line 6","bbox":[182,365,916,1]}
+{"kind":"shape","id":"sh/sna103ap","slide":4,"name":"Ellipse 7","bbox":[150,313,104,104]}
+{"kind":"shape","id":"sh/3ihk3et8","slide":4,"name":"Ellipse 8","bbox":[452,313,104,104]}
+{"kind":"shape","id":"sh/ih8ju9sn","slide":4,"name":"Ellipse 9","bbox":[754,313,104,104]}
+{"kind":"shape","id":"sh/kbm987y5","slide":4,"name":"Ellipse 10","bbox":[1056,313,104,104]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"name":"TextBox 11","text":"交互","textPreview":"交互","textChars":2,"textLines":1,"bbox":[173.14,354.6,57.72,38.4]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"name":"TextBox 12","text":"接口","textPreview":"接口","textChars":2,"textLines":1,"bbox":[475.14,354.6,57.72,38.4]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"name":"TextBox 13","text":"智能","textPreview":"智能","textChars":2,"textLines":1,"bbox":[777.14,354.6,57.72,38.4]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"name":"TextBox 14","text":"服务","textPreview":"服务","textChars":2,"textLines":1,"bbox":[1079.14,354.6,57.72,38.4]}
+{"kind":"textbox","id":"sh/x8vaxsfe","slide":4,"name":"TextBox 15","text":"输入与反馈","textPreview":"输入与反馈","textChars":5,"textLines":1,"bbox":[142.02,444.15,119.96,33.6]}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"name":"TextBox 16","text":"规则与数据","textPreview":"规则与数据","textChars":5,"textLines":1,"bbox":[444.02,444.15,119.96,33.6]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"name":"TextBox 17","text":"检索与追问","textPreview":"检索与追问","textChars":5,"textLines":1,"bbox":[746.02,444.15,119.96,33.6]}
+{"kind":"textbox","id":"sh/g36tgryd","slide":4,"name":"TextBox 18","text":"医生核对","textPreview":"医生核对","textChars":4,"textLines":1,"bbox":[1059.59,444.15,96.81,33.6]}
+{"kind":"shape","id":"sh/p0batw72","slide":4,"name":"Rectangle 20","bbox":[64,572,1152,56]}
+{"kind":"textbox","id":"sh/oz29krqh","slide":4,"name":"TextBox 21","text":"前期学习的价值，在于把“能做出原型”推进到“能拆解可靠业务流程”。","textPreview":"前期学习的价值，在于把“能做出原型”推进到“能拆解可靠业务流程”。","textChars":33,"textLines":1,"bbox":[93.9,591.15,692.16,33.6]}
+{"kind":"textbox","id":"sh/3ytsrmpw","slide":4,"name":"TextBox 22","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"从页面交互、接口规则到智能流程，能力逐步迁移到医生可用的诊前资料服务。"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"前端学习","textShapes":12}
+{"kind":"shape","id":"sh/dgbulwnm","slide":5,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"name":"TextBox 3","text":"前端学习","textPreview":"前端学习","textChars":4,"textLines":1,"bbox":[62.4,68.4,73.76,25.6]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"name":"TextBox 4","text":"先理解页面如何响应用户","textPreview":"先理解页面如何响应用户","textChars":11,"textLines":1,"bbox":[59.8,108.3,517.75,67.2]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"name":"TextBox 5","text":"以 HTML、CSS、JavaScript 为基础，使用 Vue 组织可维护的交互页面。","textPreview":"以 HTML、CSS、JavaScript 为基础，使用 Vue 组织可维护的交互页面。","textChars":44,"textLines":1,"bbox":[61.9,166.15,713.11,33.6]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"name":"TextBox 7","text":"HTML","textPreview":"HTML","textChars":4,"textLines":1,"bbox":[88.8,287.8,91.07,51.2]}
+{"kind":"shape","id":"sh/n6dcr65o","slide":5,"name":"Line 8","bbox":[92,335,340,1]}
+{"kind":"textbox","id":"sh/m5kbi1oj","slide":5,"name":"TextBox 9","text":"页面结构与语义","textPreview":"页面结构与语义","textChars":7,"textLines":1,"bbox":[90,358,151,32]}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"name":"TextBox 10","text":"CSS","textPreview":"CSS","textChars":3,"textLines":1,"bbox":[466.8,287.8,64.61,51.2]}
+{"kind":"shape","id":"sh/x4vedgvm","slide":5,"name":"Line 11","bbox":[470,335,340,1]}
+{"kind":"textbox","id":"sh/ahkvi1cb","slide":5,"name":"TextBox 12","text":"布局、视觉层级与响应式","textPreview":"布局、视觉层级与响应式","textChars":11,"textLines":1,"bbox":[468,358,235,32]}
+{"kind":"textbox","id":"sh/v2twb6dw","slide":5,"name":"TextBox 13","text":"JavaScript","textPreview":"JavaScript","textChars":10,"textLines":1,"bbox":[844.8,287.8,191.62,51.2]}
+{"kind":"shape","id":"sh/k7mxovud","slide":5,"name":"Line 14","bbox":[848,335,340,1]}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"name":"TextBox 15","text":"事件、状态与数据交互","textPreview":"事件、状态与数据交互","textChars":10,"textLines":1,"bbox":[846,358,214,32]}
+{"kind":"shape","id":"sh/j6dwfqds","slide":5,"name":"Rectangle 17","bbox":[64,478,1152,105]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"name":"TextBox 18","text":"Vue 3 的作用：将界面状态、用户操作和页面更新组织成清晰的组件逻辑。","textPreview":"Vue 3 的作用：将界面状态、用户操作和页面更新组织成清晰的组件逻辑。","textChars":36,"textLines":1,"bbox":[93.4,502.9,945.41,41.6]}
+{"kind":"textbox","id":"sh/tcfel0vu","slide":5,"name":"TextBox 19","text":"同步学习 Vite、TypeScript、Git 和 npm/pnpm 等工程化工具。","textPreview":"同步学习 Vite、TypeScript、Git 和 npm/pnpm 等工程化工具。","textChars":43,"textLines":1,"bbox":[94.2,541.7,544.14,28.8]}
+{"kind":"textbox","id":"sh/hgrmpwj2","slide":5,"name":"TextBox 20","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"前端学习使我能够组织用户输入、状态变化和清晰的页面反馈。"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"Vue 练习原型","textShapes":12}
+{"kind":"shape","id":"sh/yhg7epsj","slide":6,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"name":"TextBox 3","text":"Vue 练习原型","textPreview":"Vue 练习原型","textChars":8,"textLines":1,"bbox":[62.4,68.4,108.16,25.6]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"name":"TextBox 4","text":"Todo List：用完整交互理解响应式开发","textPreview":"Todo List：用完整交互理解响应式开发","textChars":22,"textLines":1,"bbox":[59.8,108.3,816.42,67.2]}
+{"kind":"shape","id":"sh/ml07i9sv","slide":6,"name":"Rectangle 6","bbox":[64,220,1152,62]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"name":"TextBox 7","text":"任务添加 → 编辑 → 完成 → 筛选 → 清除 → 本地持久化","textPreview":"任务添加 → 编辑 → 完成 → 筛选 → 清除 → 本地持久化","textChars":32,"textLines":1,"bbox":[93.7,240.45,581.48,36.8]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"name":"TextBox 8","text":"输入与事件","textPreview":"输入与事件","textChars":5,"textLines":1,"bbox":[75.5,333.75,142.81,40]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"name":"TextBox 9","text":"v-model、键盘事件、点击与失焦处理","textPreview":"v-model、键盘事件、点击与失焦处理","textChars":20,"textLines":1,"bbox":[76.1,372.85,338.96,30.4]}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"name":"TextBox 10","text":"状态与渲染","textPreview":"状态与渲染","textChars":5,"textLines":1,"bbox":[439.5,333.75,142.81,40]}
+{"kind":"textbox","id":"sh/w32twb6l","slide":6,"name":"TextBox 11","text":"ref、computed、v-for、v-if","textPreview":"ref、computed、v-for、v-if","textChars":23,"textLines":1,"bbox":[440.1,372.85,282.1,30.4]}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"name":"TextBox 12","text":"体验与持久化","textPreview":"体验与持久化","textChars":6,"textLines":1,"bbox":[803.5,333.75,170.38,40]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"name":"TextBox 13","text":"编辑聚焦、空状态、localStorage","textPreview":"编辑聚焦、空状态、localStorage","textChars":21,"textLines":1,"bbox":[804.1,372.85,305.05,30.4]}
+{"kind":"shape","id":"sh/47mt0b6x","slide":6,"name":"Rectangle 15","bbox":[64,495,1152,94]}
+{"kind":"textbox","id":"sh/j6dcr65c","slide":6,"name":"TextBox 16","text":"学习收获","textPreview":"学习收获","textChars":4,"textLines":1,"bbox":[94.1,518.85,87.59,30.4]}
+{"kind":"textbox","id":"sh/i54bylor","slide":6,"name":"TextBox 17","text":"把一个“用户操作”拆成状态变化、界面更新与数据保存，为后续业务页面打下基础。","textPreview":"把一个“用户操作”拆成状态变化、界面更新与数据保存，为后续业务页面打下基础。","textChars":38,"textLines":1,"bbox":[93.7,551.45,900.57,36.8]}
+{"kind":"textbox","id":"sh/twfux0ne","slide":6,"name":"TextBox 18","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"Todo List 练习覆盖了常见的表单、编辑、筛选、状态和持久化交互。"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"前端能力沉淀","textShapes":13}
+{"kind":"shape","id":"sh/cb2tkvap","slide":7,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/dcbud0ra","slide":7,"name":"TextBox 3","text":"前端能力沉淀","textPreview":"前端能力沉淀","textChars":6,"textLines":1,"bbox":[62.4,68.4,109.04,25.6]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"name":"TextBox 4","text":"从练习页面带走的三类能力","textPreview":"从练习页面带走的三类能力","textChars":12,"textLines":1,"bbox":[59.8,108.3,564.06,67.2]}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"name":"TextBox 6","text":"状态","textPreview":"状态","textChars":2,"textLines":1,"bbox":[78.6,236.1,129.87,86.4]}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"name":"TextBox 7","text":"把用户填写、进度和结果","textPreview":"把用户填写、进度和结果","textChars":11,"textLines":1,"bbox":[81.8,311.3,258.5,35.2]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"name":"TextBox 8","text":"变为可管理的数据状态","textPreview":"变为可管理的数据状态","textChars":10,"textLines":1,"bbox":[81.8,342.3,235.4,35.2]}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"name":"TextBox 10","text":"渲染","textPreview":"渲染","textChars":2,"textLines":1,"bbox":[456.6,236.1,129.87,86.4]}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"name":"TextBox 11","text":"根据状态实时更新页面，","textPreview":"根据状态实时更新页面，","textChars":11,"textLines":1,"bbox":[459.8,311.3,258.5,35.2]}
+{"kind":"textbox","id":"sh/xcz2l03q","slide":7,"name":"TextBox 12","text":"减少手动操作 DOM","textPreview":"减少手动操作 DOM","textChars":10,"textLines":1,"bbox":[459.8,342.3,197.29,35.2]}
+{"kind":"textbox","id":"sh/n6x0fqlo","slide":7,"name":"TextBox 14","text":"体验","textPreview":"体验","textChars":2,"textLines":1,"bbox":[834.6,236.1,129.87,86.4]}
+{"kind":"textbox","id":"sh/25ojml43","slide":7,"name":"TextBox 15","text":"关注输入、提示、空状态","textPreview":"关注输入、提示、空状态","textChars":11,"textLines":1,"bbox":[837.8,311.3,258.5,35.2]}
+{"kind":"textbox","id":"sh/p8fih03e","slide":7,"name":"TextBox 16","text":"与异常场景的连续性","textPreview":"与异常场景的连续性","textChars":9,"textLines":1,"bbox":[837.8,342.3,212.3,35.2]}
+{"kind":"shape","id":"sh/f2d0b6lc","slide":7,"name":"Rectangle 18","bbox":[64,520,1152,80]}
+{"kind":"textbox","id":"sh/eh4jil4r","slide":7,"name":"TextBox 19","text":"迁移到项目：支撑了诊前资料表单、对话历史、流程进度和结果展示。","textPreview":"迁移到项目：支撑了诊前资料表单、对话历史、流程进度和结果展示。","textChars":31,"textLines":1,"bbox":[93.6,548.6,825.06,38.4]}
+{"kind":"textbox","id":"sh/id4ju1oz","slide":7,"name":"TextBox 20","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"这些前端能力后来用于问诊表单、进度、聊天历史和结果展示。"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"后端学习","textShapes":10}
+{"kind":"shape","id":"sh/18byd4zy","slide":8,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/g72x4zyd","slide":8,"name":"TextBox 3","text":"后端学习","textPreview":"后端学习","textChars":4,"textLines":1,"bbox":[62.4,68.4,73.76,25.6]}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"name":"TextBox 4","text":"把业务规则封装为可验证的服务","textPreview":"把业务规则封装为可验证的服务","textChars":14,"textLines":1,"bbox":[59.8,108.3,656.67,67.2]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"name":"TextBox 5","text":"以 FastAPI 为主，练习路由、参数、响应、异常和本地服务启动。","textPreview":"以 FastAPI 为主，练习路由、参数、响应、异常和本地服务启动。","textChars":34,"textLines":1,"bbox":[61.9,166.15,648.06,33.6]}
+{"kind":"shape","id":"sh/sjix0zy1","slide":8,"name":"Ellipse 7","bbox":[166,308,124,124]}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"name":"TextBox 8","text":"请求","textPreview":"请求","textChars":2,"textLines":1,"bbox":[197.94,358.75,60.13,40]}
+{"kind":"shape","id":"sh/id0fu50z","slide":8,"name":"Line 9","bbox":[290,370,198,1]}
+{"kind":"shape","id":"sh/o7ydoret","slide":8,"name":"Polygon 10","bbox":[470,359,18,22]}
+{"kind":"shape","id":"sh/98rehwve","slide":8,"name":"Ellipse 11","bbox":[516,302,136,136]}
+{"kind":"textbox","id":"sh/m5gvmhwn","slide":8,"name":"TextBox 12","text":"规则","textPreview":"规则","textChars":2,"textLines":1,"bbox":[556.34,342.45,55.31,36.8]}
+{"kind":"textbox","id":"sh/n6pwfmd8","slide":8,"name":"TextBox 13","text":"服务","textPreview":"服务","textChars":2,"textLines":1,"bbox":[556.34,371.45,55.31,36.8]}
+{"kind":"shape","id":"sh/0jydkreh","slide":8,"name":"Line 14","bbox":[652,370,198,1]}
+{"kind":"shape","id":"sh/1k7edwv2","slide":8,"name":"Polygon 15","bbox":[832,359,18,22]}
+{"kind":"shape","id":"sh/ehgvihwr","slide":8,"name":"Ellipse 16","bbox":[884,308,124,124]}
+{"kind":"textbox","id":"sh/zipwbmdc","slide":8,"name":"TextBox 17","text":"响应","textPreview":"响应","textChars":2,"textLines":1,"bbox":[915.94,358.75,60.13,40]}
+{"kind":"textbox","id":"sh/lgbepgvm","slide":8,"name":"TextBox 19","text":"接口承担的三件事：接收可信输入、执行确定性规则、返回结构化数据。","textPreview":"接口承担的三件事：接收可信输入、执行确定性规则、返回结构化数据。","textChars":32,"textLines":1,"bbox":[61.9,518.15,745.08,33.6]}
+{"kind":"textbox","id":"sh/tw7e9gnq","slide":8,"name":"TextBox 20","text":"这也是后续把 BMI、流程状态和档案结果交给前端的基础。","textPreview":"这也是后续把 BMI、流程状态和档案结果交给前端的基础。","textChars":28,"textLines":1,"bbox":[62.2,561.7,493.11,28.8]}
+{"kind":"textbox","id":"sh/svydgb65","slide":8,"name":"TextBox 21","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"后端学习的重点是将输入、规则和响应封装成可验证的 API。"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"FastAPI 练习原型","textShapes":16}
+{"kind":"shape","id":"sh/1cfmhgne","slide":9,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/0b65obm9","slide":9,"name":"TextBox 3","text":"FastAPI 练习原型","textPreview":"FastAPI 练习原型","textChars":12,"textLines":1,"bbox":[62.4,68.4,142.56,25.6]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"name":"TextBox 4","text":"BMI 计算器：完成一次前后端闭环","textPreview":"BMI 计算器：完成一次前后端闭环","textChars":17,"textLines":1,"bbox":[59.8,108.3,698.34,67.2]}
+{"kind":"shape","id":"sh/9gzml0nq","slide":9,"name":"Rectangle 6","bbox":[64,244,278,250]}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"name":"TextBox 7","text":"前端输入","textPreview":"前端输入","textChars":4,"textLines":1,"bbox":[93.4,279.9,119.86,41.6]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"name":"TextBox 8","text":"身高","textPreview":"身高","textChars":2,"textLines":1,"bbox":[93.8,333.3,50.6,35.2]}
+{"kind":"textbox","id":"sh/ah8nu54b","slide":9,"name":"TextBox 9","text":"体重","textPreview":"体重","textChars":2,"textLines":1,"bbox":[93.8,372.3,50.6,35.2]}
+{"kind":"textbox","id":"sh/oza1gfyh","slide":9,"name":"TextBox 10","text":"fetch 发送请求","textPreview":"fetch 发送请求","textChars":10,"textLines":1,"bbox":[94.2,424.7,136.85,28.8]}
+{"kind":"shape","id":"sh/2xsjepgb","slide":9,"name":"Rectangle 12","bbox":[501,244,278,250]}
+{"kind":"textbox","id":"sh/3y107axw","slide":9,"name":"TextBox 13","text":"后端 API","textPreview":"后端 API","textChars":6,"textLines":1,"bbox":[530.4,279.9,111.26,41.6]}
+{"kind":"textbox","id":"sh/cnu1kzyd","slide":9,"name":"TextBox 14","text":"计算 BMI","textPreview":"计算 BMI","textChars":6,"textLines":1,"bbox":[530.8,333.3,94.49,35.2]}
+{"kind":"textbox","id":"sh/do3id4fy","slide":9,"name":"TextBox 15","text":"判断体重等级","textPreview":"判断体重等级","textChars":6,"textLines":1,"bbox":[530.8,372.3,143,35.2]}
+{"kind":"textbox","id":"sh/qlcjipgn","slide":9,"name":"TextBox 16","text":"返回 JSON","textPreview":"返回 JSON","textChars":7,"textLines":1,"bbox":[531.2,424.7,92.43,28.8]}
+{"kind":"shape","id":"sh/0ru1ozyp","slide":9,"name":"Rectangle 18","bbox":[938,244,278,250]}
+{"kind":"textbox","id":"sh/lsn2h4fa","slide":9,"name":"TextBox 19","text":"页面反馈","textPreview":"页面反馈","textChars":4,"textLines":1,"bbox":[967.4,279.9,119.86,41.6]}
+{"kind":"textbox","id":"sh/98ji147e","slide":9,"name":"TextBox 20","text":"BMI 数值","textPreview":"BMI 数值","textChars":6,"textLines":1,"bbox":[967.8,333.3,94.49,35.2]}
+{"kind":"textbox","id":"sh/87a18zqt","slide":9,"name":"TextBox 21","text":"体重等级","textPreview":"体重等级","textChars":4,"textLines":1,"bbox":[967.8,372.3,96.8,35.2]}
+{"kind":"textbox","id":"sh/76h0zup8","slide":9,"name":"TextBox 22","text":"动态渲染结果","textPreview":"动态渲染结果","textChars":6,"textLines":1,"bbox":[968.2,424.7,117,28.8]}
+{"kind":"shape","id":"sh/hcji5o7a","slide":9,"name":"Line 24","bbox":[342,369,159,1]}
+{"kind":"shape","id":"sh/wba1cjqp","slide":9,"name":"Line 25","bbox":[779,369,159,1]}
+{"kind":"textbox","id":"sh/va103ep4","slide":9,"name":"TextBox 26","text":"收获：理解了页面、接口、确定性规则和结构化响应如何组成一个可用工具。","textPreview":"收获：理解了页面、接口、确定性规则和结构化响应如何组成一个可用工具。","textChars":34,"textLines":1,"bbox":[61.8,567.3,829.07,35.2]}
+{"kind":"textbox","id":"sh/u9sja98z","slide":9,"name":"TextBox 27","text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"BMI 计算器跑通了前端输入、后端规则计算与 JSON 结果展示的闭环。"}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"规则计算的启发","textShapes":13}
+{"kind":"shape","id":"sh/xc3mho32","slide":10,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/cbu58j2h","slide":10,"name":"TextBox 3","text":"规则计算的启发","textPreview":"规则计算的启发","textChars":7,"textLines":1,"bbox":[62.4,68.4,126.68,25.6]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"name":"TextBox 4","text":"关键数值由确定性规则计算","textPreview":"关键数值由确定性规则计算","textChars":12,"textLines":1,"bbox":[59.8,108.3,564.06,67.2]}
+{"kind":"textbox","id":"sh/ydcnatkn","slide":10,"name":"TextBox 5","text":"BMI 原型带来的重要认识：涉及阈值和安全边界的内容，不能交给模型猜测。","textPreview":"BMI 原型带来的重要认识：涉及阈值和安全边界的内容，不能交给模型猜测。","textChars":36,"textLines":1,"bbox":[61.9,166.15,751.7,33.6]}
+{"kind":"textbox","id":"sh/kzu5c32t","slide":10,"name":"TextBox 7","text":"规则擅长","textPreview":"规则擅长","textChars":4,"textLines":1,"bbox":[129,304.5,138.3,48]}
+{"kind":"textbox","id":"sh/725onyl4","slide":10,"name":"TextBox 8","text":"计算","textPreview":"计算","textChars":2,"textLines":1,"bbox":[129.8,364.3,50.6,35.2]}
+{"kind":"textbox","id":"sh/m1cnetkj","slide":10,"name":"TextBox 9","text":"校验","textPreview":"校验","textChars":2,"textLines":1,"bbox":[129.8,401.3,50.6,35.2]}
+{"kind":"textbox","id":"sh/s7yt4b21","slide":10,"name":"TextBox 10","text":"分级","textPreview":"分级","textChars":2,"textLines":1,"bbox":[129.8,438.3,50.6,35.2]}
+{"kind":"shape","id":"sh/d87uxg3m","slide":10,"name":"Line 11","bbox":[474,280,1,212]}
+{"kind":"textbox","id":"sh/q5gb21kb","slide":10,"name":"TextBox 12","text":"模型擅长","textPreview":"模型擅长","textChars":4,"textLines":1,"bbox":[561,304.5,138.3,48]}
+{"kind":"textbox","id":"sh/r6pcv6lw","slide":10,"name":"TextBox 13","text":"理解自然语言","textPreview":"理解自然语言","textChars":6,"textLines":1,"bbox":[561.8,364.3,143,35.2]}
+{"kind":"textbox","id":"sh/0bit8b2d","slide":10,"name":"TextBox 14","text":"解释术语","textPreview":"解释术语","textChars":4,"textLines":1,"bbox":[561.8,401.3,96.8,35.2]}
+{"kind":"textbox","id":"sh/1cru1g3y","slide":10,"name":"TextBox 15","text":"组织追问","textPreview":"组织追问","textChars":4,"textLines":1,"bbox":[561.8,438.3,96.8,35.2]}
+{"kind":"shape","id":"sh/fapcz6ls","slide":10,"name":"Rectangle 17","bbox":[64,558,1152,66]}
+{"kind":"textbox","id":"sh/ozitcv29","slide":10,"name":"TextBox 18","text":"这条分工直接成为当前项目“规则负责判断，AI 负责理解”的设计原则。","textPreview":"这条分工直接成为当前项目“规则负责判断，AI 负责理解”的设计原则。","textChars":34,"textLines":1,"bbox":[93.8,580.3,762.37,35.2]}
+{"kind":"textbox","id":"sh/p0ru503u","slide":10,"name":"TextBox 19","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"BMI 原型让我明确：关键数值和阈值要由规则计算，模型更适合理解语言。"}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"大模型 API 原型","textShapes":11}
+{"kind":"shape","id":"sh/xcryxg7y","slide":11,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/wbih4b6d","slide":11,"name":"TextBox 3","text":"大模型 API 原型","textPreview":"大模型 API 原型","textChars":10,"textLines":1,"bbox":[62.4,68.4,126.68,25.6]}
+{"kind":"textbox","id":"sh/n69grmpw","slide":11,"name":"TextBox 4","text":"完成症状信息到结构化结果的接口探索","textPreview":"完成症状信息到结构化结果的接口探索","textChars":17,"textLines":1,"bbox":[59.8,108.3,795.58,67.2]}
+{"kind":"textbox","id":"sh/250zy18b","slide":11,"name":"TextBox 5","text":"使用 FastAPI 接收症状与舌象，将提示词发送给兼容 OpenAI 协议的模型服务。","textPreview":"使用 FastAPI 接收症状与舌象，将提示词发送给兼容 OpenAI 协议的模型服务。","textChars":44,"textLines":1,"bbox":[61.9,166.15,777.05,33.6]}
+{"kind":"shape","id":"sh/o7ih0r6h","slide":11,"name":"Rectangle 7","bbox":[64,285,270,130]}
+{"kind":"textbox","id":"sh/72t03qp0","slide":11,"name":"TextBox 8","text":"输入","textPreview":"输入","textChars":2,"textLines":1,"bbox":[93.5,318.75,60.13,40]}
+{"kind":"textbox","id":"sh/61kzalof","slide":11,"name":"TextBox 9","text":"症状、舌象等资料","textPreview":"症状、舌象等资料","textChars":8,"textLines":1,"bbox":[94.1,361.85,163.4,30.4]}
+{"kind":"shape","id":"sh/ofqtgnyt","slide":11,"name":"Rectangle 10","bbox":[505,285,270,130]}
+{"kind":"textbox","id":"sh/9gza9sze","slide":11,"name":"TextBox 11","text":"模型调用","textPreview":"模型调用","textChars":4,"textLines":1,"bbox":[534.5,318.75,115.25,40]}
+{"kind":"textbox","id":"sh/mdobedg3","slide":11,"name":"TextBox 12","text":"提示词与响应解析","textPreview":"提示词与响应解析","textChars":8,"textLines":1,"bbox":[535.1,361.85,163.4,30.4]}
+{"kind":"shape","id":"sh/nehs7iho","slide":11,"name":"Rectangle 13","bbox":[946,285,270,130]}
+{"kind":"textbox","id":"sh/0b6tc3yx","slide":11,"name":"TextBox 14","text":"输出","textPreview":"输出","textChars":2,"textLines":1,"bbox":[975.5,318.75,60.13,40]}
+{"kind":"textbox","id":"sh/1cfa58zi","slide":11,"name":"TextBox 15","text":"结构化字段与提示","textPreview":"结构化字段与提示","textChars":8,"textLines":1,"bbox":[976.1,361.85,163.4,30.4]}
+{"kind":"shape","id":"sh/epobatgr","slide":11,"name":"Line 16","bbox":[334,350,171,1]}
+{"kind":"shape","id":"sh/zaxs3yhc","slide":11,"name":"Line 17","bbox":[775,350,171,1]}
+{"kind":"textbox","id":"sh/dofa18z6","slide":11,"name":"TextBox 19","text":"定位：这是能力探索原型；当前项目已将对模型的使用收敛到理解、追问与资料整理。","textPreview":"定位：这是能力探索原型；当前项目已将对模型的使用收敛到理解、追问与资料整理。","textChars":38,"textLines":1,"bbox":[61.9,552.15,883.99,33.6]}
+{"kind":"textbox","id":"sh/tsnip0ny","slide":11,"name":"TextBox 20","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":"大模型 API 原型用于探索症状资料如何进入结构化处理流程。"}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"可靠性学习","textShapes":16}
+{"kind":"shape","id":"sh/1gbm9s3a","slide":12,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/0f2lgnmp","slide":12,"name":"TextBox 3","text":"可靠性学习","textPreview":"可靠性学习","textChars":5,"textLines":1,"bbox":[62.4,68.4,91.4,25.6]}
+{"kind":"textbox","id":"sh/ra943il8","slide":12,"name":"TextBox 4","text":"结构化输出不是只写一个提示词","textPreview":"结构化输出不是只写一个提示词","textChars":14,"textLines":1,"bbox":[59.8,108.3,656.67,67.2]}
+{"kind":"textbox","id":"sh/dcbm583y","slide":12,"name":"TextBox 6","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72.6,244.1,76.29,86.4]}
+{"kind":"textbox","id":"sh/sb2lcnmd","slide":12,"name":"TextBox 7","text":"环境变量管理密钥","textPreview":"环境变量管理密钥","textChars":8,"textLines":1,"bbox":[157.5,268.75,225.5,40]}
+{"kind":"textbox","id":"sh/b6d4f2lc","slide":12,"name":"TextBox 8","text":"避免把 API Key 写入代码","textPreview":"避免把 API Key 写入代码","textChars":16,"textLines":1,"bbox":[158.2,306.7,210.55,28.8]}
+{"kind":"textbox","id":"sh/a543mx4r","slide":12,"name":"TextBox 9","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72.6,354.1,76.29,86.4]}
+{"kind":"textbox","id":"sh/wvupgz6t","slide":12,"name":"TextBox 10","text":"多层 JSON 解析与错误兜底","textPreview":"多层 JSON 解析与错误兜底","textChars":15,"textLines":1,"bbox":[157.5,378.75,335.75,40]}
+{"kind":"textbox","id":"sh/xw3q94ne","slide":12,"name":"TextBox 11","text":"处理模型返回代码块、额外文本或字段缺失","textPreview":"处理模型返回代码块、额外文本或字段缺失","textChars":19,"textLines":1,"bbox":[158.2,416.7,362.7,28.8]}
+{"kind":"textbox","id":"sh/atc7epon","slide":12,"name":"TextBox 12","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[712.6,244.1,76.29,86.4]}
+{"kind":"textbox","id":"sh/bulo7u58","slide":12,"name":"TextBox 13","text":"Pydantic 定义接口边界","textPreview":"Pydantic 定义接口边界","textChars":15,"textLines":1,"bbox":[797.5,268.75,293.03,40]}
+{"kind":"textbox","id":"sh/orapcf6h","slide":12,"name":"TextBox 14","text":"校验输入输出，自动形成接口文档","textPreview":"校验输入输出，自动形成接口文档","textChars":15,"textLines":1,"bbox":[798.2,306.7,287.1,28.8]}
+{"kind":"textbox","id":"sh/9sj65kn2","slide":12,"name":"TextBox 15","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[712.6,354.1,76.29,86.4]}
+{"kind":"textbox","id":"sh/mps7a5or","slide":12,"name":"TextBox 16","text":"服务失败时保持流程可继续","textPreview":"服务失败时保持流程可继续","textChars":12,"textLines":1,"bbox":[797.5,378.75,335.75,40]}
+{"kind":"textbox","id":"sh/nq1o3a5w","slide":12,"name":"TextBox 17","text":"为后续系统降级策略提供经验","textPreview":"为后续系统降级策略提供经验","textChars":13,"textLines":1,"bbox":[798.2,416.7,249.3,28.8]}
+{"kind":"shape","id":"sh/1oj61kn6","slide":12,"name":"Rectangle 19","bbox":[64,550,1152,64]}
+{"kind":"textbox","id":"sh/hkbm5wzu","slide":12,"name":"TextBox 20","text":"从“调用模型”到“让服务在不确定输出下仍可控”，是学习阶段的重要提升。","textPreview":"从“调用模型”到“让服务在不确定输出下仍可控”，是学习阶段的重要提升。","textChars":35,"textLines":1,"bbox":[93.8,572.3,809.67,35.2]}
+{"kind":"textbox","id":"sh/gj25cry9","slide":12,"name":"TextBox 21","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":"接口可靠性还依赖密钥管理、JSON 解析、参数校验和失败兜底。"}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"Agent 平台级入门","textShapes":13}
+{"kind":"shape","id":"sh/q50nydsj","slide":13,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/bq9orito","slide":13,"name":"TextBox 3","text":"Agent 平台级入门","textPreview":"Agent 平台级入门","textChars":11,"textLines":1,"bbox":[62.4,68.4,145.2,25.6]}
+{"kind":"textbox","id":"sh/o3i5w3ad","slide":13,"name":"TextBox 4","text":"通过 Dify 与 Ollama 建立第一条 Agent 链路","textPreview":"通过 Dify 与 Ollama 建立第一条 Agent 链路","textChars":31,"textLines":1,"bbox":[59.8,108.3,920.61,67.2]}
+{"kind":"textbox","id":"sh/21gnuts7","slide":13,"name":"TextBox 6","text":"部署","textPreview":"部署","textChars":2,"textLines":1,"bbox":[81.2,256.2,67.34,44.8]}
+{"kind":"textbox","id":"sh/32ponyts","slide":13,"name":"TextBox 7","text":"部署 Dify 平台","textPreview":"部署 Dify 平台","textChars":10,"textLines":1,"bbox":[82,303,141.55,32]}
+{"kind":"textbox","id":"sh/gzy5s3a1","slide":13,"name":"TextBox 8","text":"模型","textPreview":"模型","textChars":2,"textLines":1,"bbox":[363.2,256.2,67.34,44.8]}
+{"kind":"textbox","id":"sh/1076lobm","slide":13,"name":"TextBox 9","text":"Ollama 本地模型与 API","textPreview":"Ollama 本地模型与 API","textChars":16,"textLines":1,"bbox":[364,303,218.2,32]}
+{"kind":"textbox","id":"sh/hcfy9k3u","slide":13,"name":"TextBox 10","text":"知识","textPreview":"知识","textChars":2,"textLines":1,"bbox":[685.2,256.2,67.34,44.8]}
+{"kind":"textbox","id":"sh/gb6x0zm9","slide":13,"name":"TextBox 11","text":"挂载古籍知识库","textPreview":"挂载古籍知识库","textChars":7,"textLines":1,"bbox":[686,303,151,32]}
+{"kind":"textbox","id":"sh/vaxg7ulo","slide":13,"name":"TextBox 12","text":"对话","textPreview":"对话","textChars":2,"textLines":1,"bbox":[997.2,256.2,67.34,44.8]}
+{"kind":"textbox","id":"sh/u9ofyp43","slide":13,"name":"TextBox 13","text":"多轮问答与提示词","textPreview":"多轮问答与提示词","textChars":8,"textLines":1,"bbox":[998,303,172,32]}
+{"kind":"shape","id":"sh/t8fy5k3i","slide":13,"name":"Line 14","bbox":[84,370,1076,1]}
+{"kind":"shape","id":"sh/7mdg3als","slide":13,"name":"Rectangle 16","bbox":[64,480,1152,102]}
+{"kind":"textbox","id":"sh/6l4fu547","slide":13,"name":"TextBox 17","text":"平台实践解决的问题：快速看见“模型、知识库、提示词、工具”如何共同组成一个可交互应用。","textPreview":"平台实践解决的问题：快速看见“模型、知识库、提示词、工具”如何共同组成一个可交互应用。","textChars":43,"textLines":1,"bbox":[93.7,505.45,1072.15,36.8]}
+{"kind":"textbox","id":"sh/lkvy103m","slide":13,"name":"TextBox 18","text":"随后再进入 LangChain、LangGraph 和 DeepAgents，理解它们背后的模块化实现。","textPreview":"随后再进入 LangChain、LangGraph 和 DeepAgents，理解它们背后的模块化实现。","textChars":52,"textLines":1,"bbox":[94.2,541.7,703.85,28.8]}
+{"kind":"textbox","id":"sh/kjmxsfm1","slide":13,"name":"TextBox 19","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":"Dify 和 Ollama 的平台实践帮助我快速理解模型、知识库、提示词和工具的组合方式。"}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"RAG 知识库流程","textShapes":10}
+{"kind":"shape","id":"sh/xc7eds76","slide":14,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/wbydknq1","slide":14,"name":"TextBox 3","text":"RAG 知识库流程","textPreview":"RAG 知识库流程","textChars":9,"textLines":1,"bbox":[62.4,68.4,125.8,25.6]}
+{"kind":"textbox","id":"sh/jepwf2pc","slide":14,"name":"TextBox 4","text":"让模型回答时参考可检索的资料","textPreview":"让模型回答时参考可检索的资料","textChars":14,"textLines":1,"bbox":[59.8,108.3,656.67,67.2]}
+{"kind":"shape","id":"sh/5grehs7i","slide":14,"name":"Rectangle 6","bbox":[64,266,206,88]}
+{"kind":"textbox","id":"sh/kfidonqx","slide":14,"name":"TextBox 7","text":"上传资料","textPreview":"上传资料","textChars":4,"textLines":1,"bbox":[113.98,300.45,106.03,36.8]}
+{"kind":"shape","id":"sh/zi5c3y98","slide":14,"name":"Rectangle 8","bbox":[314,266,206,88]}
+{"kind":"textbox","id":"sh/ehwvat8n","slide":14,"name":"TextBox 9","text":"切分与向量化","textPreview":"切分与向量化","textChars":6,"textLines":1,"bbox":[338.63,300.45,156.74,36.8]}
+{"kind":"shape","id":"sh/c3e1gjyd","slide":14,"name":"Rectangle 10","bbox":[564,266,206,88]}
+{"kind":"textbox","id":"sh/x4ni9ofy","slide":14,"name":"TextBox 11","text":"检索相关片段","textPreview":"检索相关片段","textChars":6,"textLines":1,"bbox":[588.63,300.45,156.74,36.8]}
+{"kind":"shape","id":"sh/a1wze9g7","slide":14,"name":"Rectangle 12","bbox":[814,266,206,88]}
+{"kind":"textbox","id":"sh/b2507exs","slide":14,"name":"TextBox 13","text":"拼接提示词","textPreview":"拼接提示词","textChars":5,"textLines":1,"bbox":[851.31,300.45,131.39,36.8]}
+{"kind":"shape","id":"sh/kre1k3y9","slide":14,"name":"Rectangle 14","bbox":[1064,266,152,88]}
+{"kind":"textbox","id":"sh/ls7idofu","slide":14,"name":"TextBox 15","text":"回答","textPreview":"回答","textChars":2,"textLines":1,"bbox":[1112.34,300.45,55.31,36.8]}
+{"kind":"textbox","id":"sh/z650byxo","slide":14,"name":"TextBox 17","text":"实践内容：创建知识库并上传中医古籍，观察检索内容如何进入模型回答。","textPreview":"实践内容：创建知识库并上传中医古籍，观察检索内容如何进入模型回答。","textChars":33,"textLines":1,"bbox":[61.4,451.9,951.14,41.6]}
+{"kind":"textbox","id":"sh/0buh8zy5","slide":14,"name":"TextBox 18","text":"学习重点不是“让模型背资料”，而是理解知识来源、检索范围和回答引用之间的关系。","textPreview":"学习重点不是“让模型背资料”，而是理解知识来源、检索范围和回答引用之间的关系。","textChars":39,"textLines":1,"bbox":[62,503,804.1,32]}
+{"kind":"textbox","id":"sh/1w3i14fq","slide":14,"name":"TextBox 19","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":"RAG 练习跑通了资料上传、检索和拼接提示词的完整链路。"}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"对话原型实践","textShapes":13}
+{"kind":"shape","id":"sh/547mhg3m","slide":15,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/k3y5ov21","slide":15,"name":"TextBox 3","text":"对话原型实践","textPreview":"对话原型实践","textChars":6,"textLines":1,"bbox":[62.4,68.4,109.04,25.6]}
+{"kind":"textbox","id":"sh/76p4jqls","slide":15,"name":"TextBox 4","text":"“克隆老中医”：用多轮对话练习采集流程","textPreview":"“克隆老中医”：用多轮对话练习采集流程","textChars":19,"textLines":1,"bbox":[59.8,108.3,846.52,67.2]}
+{"kind":"textbox","id":"sh/65gnqlk7","slide":15,"name":"TextBox 5","text":"基于 Dify、知识库和模型服务构建的学习原型。","textPreview":"基于 Dify、知识库和模型服务构建的学习原型。","textChars":24,"textLines":1,"bbox":[61.9,166.15,472.76,33.6]}
+{"kind":"shape","id":"sh/s7y5sv2x","slide":15,"name":"Rectangle 7","bbox":[64,258,700,72]}
+{"kind":"textbox","id":"sh/na5476l8","slide":15,"name":"TextBox 8","text":"患者：描述不适与生活状态","textPreview":"患者：描述不适与生活状态","textChars":12,"textLines":1,"bbox":[94,287,256,32]}
+{"kind":"shape","id":"sh/m9c3e1kn","slide":15,"name":"Rectangle 9","bbox":[236,354,700,72]}
+{"kind":"textbox","id":"sh/wrm9kvep","slide":15,"name":"TextBox 10","text":"助手：围绕饮食、睡眠、情绪等维度继续追问","textPreview":"助手：围绕饮食、睡眠、情绪等维度继续追问","textChars":20,"textLines":1,"bbox":[266,383,424,32]}
+{"kind":"shape","id":"sh/hsvat0fa","slide":15,"name":"Rectangle 11","bbox":[64,450,700,72]}
+{"kind":"textbox","id":"sh/upkrilwj","slide":15,"name":"TextBox 12","text":"系统：汇总为结构化记录，附带知识库检索内容","textPreview":"系统：汇总为结构化记录，附带知识库检索内容","textChars":21,"textLines":1,"bbox":[94,479,445,32]}
+{"kind":"textbox","id":"sh/4vm9ovel","slide":15,"name":"TextBox 14","text":"练习到的能力","textPreview":"练习到的能力","textChars":6,"textLines":1,"bbox":[851.5,274.75,170.38,40]}
+{"kind":"textbox","id":"sh/5wvax0f6","slide":15,"name":"TextBox 15","text":"多轮流程控制","textPreview":"多轮流程控制","textChars":6,"textLines":1,"bbox":[851.9,331.15,136.5,33.6]}
+{"kind":"textbox","id":"sh/it4rm5wv","slide":15,"name":"TextBox 16","text":"结构化总结","textPreview":"结构化总结","textChars":5,"textLines":1,"bbox":[851.9,373.15,114.45,33.6]}
+{"kind":"textbox","id":"sh/judsvqxg","slide":15,"name":"TextBox 17","text":"知识库回答","textPreview":"知识库回答","textChars":5,"textLines":1,"bbox":[851.9,415.15,114.45,33.6]}
+{"kind":"textbox","id":"sh/0z29cbyh","slide":15,"name":"TextBox 18","text":"用户表达理解","textPreview":"用户表达理解","textChars":6,"textLines":1,"bbox":[851.9,457.15,136.5,33.6]}
+{"kind":"textbox","id":"sh/1kjyt83e","slide":15,"name":"TextBox 20","text":"当前项目对这一原型进行了安全收敛：不在线确诊和开方，重点转为诊前资料整理。","textPreview":"当前项目对这一原型进行了安全收敛：不在线确诊和开方，重点转为诊前资料整理。","textChars":37,"textLines":1,"bbox":[62,595,819.85,32]}
+{"kind":"textbox","id":"sh/gjax03m9","slide":15,"name":"TextBox 21","text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/vaxsvy10","slide":15,"text":"对话原型重点练习多轮采集和结构化总结，当前项目已收敛了它的医疗边界。"}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"工具调用","textShapes":9}
+{"kind":"shape","id":"sh/8z2h8bq1","slide":16,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/9kby1g7m","slide":16,"name":"TextBox 3","text":"工具调用","textPreview":"工具调用","textChars":4,"textLines":1,"bbox":[62.4,68.4,73.76,25.6]}
+{"kind":"textbox","id":"sh/ytkf2h8j","slide":16,"name":"TextBox 4","text":"Function Calling 与 MCP：让 Agent 连接外部能力","textPreview":"Function Calling 与 MCP：让 Agent 连接外部能力","textChars":37,"textLines":1,"bbox":[59.8,108.3,1043.32,67.2]}
+{"kind":"shape","id":"sh/kv2h4rqp","slide":16,"name":"Ellipse 6","bbox":[155,287,130,130]}
+{"kind":"textbox","id":"sh/lwbyxwra","slide":16,"name":"TextBox 7","text":"用户问题","textPreview":"用户问题","textChars":4,"textLines":1,"bbox":[162.38,340.75,115.25,40]}
+{"kind":"shape","id":"sh/ip4zel83","slide":16,"name":"Line 8","bbox":[285,352,205,1]}
+{"kind":"shape","id":"sh/3qdg7qpo","slide":16,"name":"Ellipse 9","bbox":[490,287,130,130]}
+{"kind":"textbox","id":"sh/fm1gzq5o","slide":16,"name":"TextBox 10","text":"Agent","textPreview":"Agent","textChars":5,"textLines":1,"bbox":[514.6,340.75,80.8,40]}
+{"kind":"shape","id":"sh/e1sf65o3","slide":16,"name":"Line 11","bbox":[620,352,205,1]}
+{"kind":"shape","id":"sh/1ojy10ne","slide":16,"name":"Ellipse 12","bbox":[825,287,130,130]}
+{"kind":"textbox","id":"sh/gnax8v6t","slide":16,"name":"TextBox 13","text":"外部工具","textPreview":"外部工具","textChars":4,"textLines":1,"bbox":[832.38,340.75,115.25,40]}
+{"kind":"shape","id":"sh/nqlg3a5k","slide":16,"name":"Line 14","bbox":[955,352,139,1]}
+{"kind":"textbox","id":"sh/2pcfa5oz","slide":16,"name":"TextBox 15","text":"结果","textPreview":"结果","textChars":2,"textLines":1,"bbox":[1107.7,324.45,55.31,36.8]}
+{"kind":"textbox","id":"sh/ps3y5knq","slide":16,"name":"TextBox 16","text":"再组织回答","textPreview":"再组织回答","textChars":5,"textLines":1,"bbox":[1108.2,361.7,98.1,28.8]}
+{"kind":"shape","id":"sh/bulg7u5g","slide":16,"name":"Rectangle 18","bbox":[64,525,1152,78]}
+{"kind":"textbox","id":"sh/atczepob","slide":16,"name":"TextBox 19","text":"实践：为助手增加“查天气”工具，理解模型何时决定调用、工具如何返回结果。","textPreview":"实践：为助手增加“查天气”工具，理解模型何时决定调用、工具如何返回结果。","textChars":36,"textLines":1,"bbox":[93.8,552.3,855.75,35.2]}
+{"kind":"textbox","id":"sh/mpgj6t8j","slide":16,"name":"TextBox 20","text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/gny5sjyp","slide":16,"text":"Function Calling 和 MCP 让我理解 Agent 如何按需调用外部工具。"}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"框架深入：LangChain","textShapes":9}
+{"kind":"shape","id":"sh/1c7e50ni","slide":17,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/gbedwfmx","slide":17,"name":"TextBox 3","text":"框架深入：LangChain","textPreview":"框架深入：LangChain","textChars":14,"textLines":1,"bbox":[62.4,68.4,174.31,25.6]}
+{"kind":"textbox","id":"sh/rm5czq50","slide":17,"name":"TextBox 4","text":"脱离平台，理解 RAG 全链路模块","textPreview":"脱离平台，理解 RAG 全链路模块","textChars":17,"textLines":1,"bbox":[59.8,108.3,668.25,67.2]}
+{"kind":"shape","id":"sh/t8ne10n6","slide":17,"name":"Rectangle 6","bbox":[64,252,250,98]}
+{"kind":"textbox","id":"sh/snedsvml","slide":17,"name":"TextBox 7","text":"文档切分","textPreview":"文档切分","textChars":4,"textLines":1,"bbox":[135.98,292.45,106.03,36.8]}
+{"kind":"shape","id":"sh/jilcvq54","slide":17,"name":"Rectangle 8","bbox":[350,252,250,98]}
+{"kind":"textbox","id":"sh/ihcvml4j","slide":17,"name":"TextBox 9","text":"Embedding","textPreview":"Embedding","textChars":9,"textLines":1,"bbox":[410.57,292.45,128.85,36.8]}
+{"kind":"shape","id":"sh/4by9or6l","slide":17,"name":"Rectangle 10","bbox":[636,252,250,98]}
+{"kind":"textbox","id":"sh/pc7qhwn6","slide":17,"name":"TextBox 11","text":"向量检索","textPreview":"向量检索","textChars":4,"textLines":1,"bbox":[707.98,292.45,106.03,36.8]}
+{"kind":"shape","id":"sh/29grm1of","slide":17,"name":"Rectangle 12","bbox":[922,252,294,98]}
+{"kind":"textbox","id":"sh/3ap8fm50","slide":17,"name":"TextBox 13","text":"Prompt 与模型回答","textPreview":"Prompt 与模型回答","textChars":12,"textLines":1,"bbox":[955.13,292.45,227.75,36.8]}
+{"kind":"textbox","id":"sh/honqdwnu","slide":17,"name":"TextBox 15","text":"学习重点：每一环都可以独立替换、调试与评估，而不是把知识库当成黑盒。","textPreview":"学习重点：每一环都可以独立替换、调试与评估，而不是把知识库当成黑盒。","textChars":34,"textLines":1,"bbox":[61.5,439.75,942.13,40]}
+{"kind":"textbox","id":"sh/ulw7ihoj","slide":17,"name":"TextBox 16","text":"实践内容：基于 LangChain 与通义千问 API 的检索增强问答系统。","textPreview":"实践内容：基于 LangChain 与通义千问 API 的检索增强问答系统。","textChars":38,"textLines":1,"bbox":[62,496,619.3,32]}
+{"kind":"textbox","id":"sh/fm58bm54","slide":17,"name":"TextBox 17","text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/14bup87q","slide":17,"text":"LangChain 学习把 RAG 从平台能力拆解为可独立理解的模块。"}
+{"kind":"slide","id":"sl/y5wne50z","slide":18,"title":"框架深入：LangGraph","textShapes":8}
+{"kind":"shape","id":"sh/wrelszu9","slide":18,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/hsn2l4bu","slide":18,"name":"TextBox 3","text":"框架深入：LangGraph","textPreview":"框架深入：LangGraph","textChars":14,"textLines":1,"bbox":[62.4,68.4,178.72,25.6]}
+{"kind":"textbox","id":"sh/itw3upcf","slide":18,"name":"TextBox 4","text":"用状态图和持久化记忆承接多轮对话","textPreview":"用状态图和持久化记忆承接多轮对话","textChars":16,"textLines":1,"bbox":[59.8,108.3,749.28,67.2]}
+{"kind":"shape","id":"sh/4felwzu5","slide":18,"name":"Ellipse 6","bbox":[146,300,124,124]}
+{"kind":"textbox","id":"sh/5gnmp4bq","slide":18,"name":"TextBox 7","text":"身份确认","textPreview":"身份确认","textChars":4,"textLines":1,"bbox":[154.98,352.45,106.03,36.8]}
+{"kind":"shape","id":"sh/6hw3y9sb","slide":18,"name":"Ellipse 8","bbox":[438,300,124,124]}
+{"kind":"textbox","id":"sh/rip4retw","slide":18,"name":"TextBox 9","text":"查询历史","textPreview":"查询历史","textChars":4,"textLines":1,"bbox":[446.98,352.45,106.03,36.8]}
+{"kind":"shape","id":"sh/fapkr6pw","slide":18,"name":"Ellipse 10","bbox":[730,300,124,124]}
+{"kind":"textbox","id":"sh/upg3i18r","slide":18,"name":"TextBox 11","text":"本次对话","textPreview":"本次对话","textChars":4,"textLines":1,"bbox":[738.98,352.45,106.03,36.8]}
+{"kind":"shape","id":"sh/1cr2tg72","slide":18,"name":"Ellipse 12","bbox":[1022,300,124,124]}
+{"kind":"textbox","id":"sh/gbylkbqh","slide":18,"name":"TextBox 13","text":"保存记录","textPreview":"保存记录","textChars":4,"textLines":1,"bbox":[1030.98,352.45,106.03,36.8]}
+{"kind":"shape","id":"sh/7mpknmp0","slide":18,"name":"Line 14","bbox":[270,362,168,1]}
+{"kind":"shape","id":"sh/6lg3e18f","slide":18,"name":"Line 15","bbox":[562,362,168,1]}
+{"kind":"shape","id":"sh/to72pw76","slide":18,"name":"Line 16","bbox":[854,362,168,1]}
+{"kind":"shape","id":"sh/bi94zqp4","slide":18,"name":"Rectangle 18","bbox":[64,526,1152,76]}
+{"kind":"textbox","id":"sh/qh03ql8j","slide":18,"name":"TextBox 19","text":"实践：带永久记忆的中医复诊 Agent；核心收获是“流程状态”和“长期记录”应被分开管理。","textPreview":"实践：带永久记忆的中医复诊 Agent；核心收获是“流程状态”和“长期记录”应被分开管理。","textChars":45,"textLines":1,"bbox":[93.8,553.3,980.66,35.2]}
+{"kind":"textbox","id":"sh/md4nipsr","slide":18,"name":"TextBox 20","text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/y5wne50z","slide":18,"text":"LangGraph 练习说明多轮状态与长期记录需要分别管理。"}
+{"kind":"slide","id":"sl/nid43ytk","slide":19,"title":"框架深入：DeepAgents","textShapes":7}
+{"kind":"shape","id":"sh/9gb6xgbi","slide":19,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/8v2pobax","slide":19,"name":"TextBox 3","text":"框架深入：DeepAgents","textPreview":"框架深入：DeepAgents","textChars":15,"textLines":1,"bbox":[62.4,68.4,188.42,25.6]}
+{"kind":"textbox","id":"sh/vitozqt8","slide":19,"name":"TextBox 4","text":"将工具、记忆和流程编排为智能体原型","textPreview":"将工具、记忆和流程编排为智能体原型","textChars":17,"textLines":1,"bbox":[59.8,108.3,795.58,67.2]}
+{"kind":"shape","id":"sh/xkbq10be","slide":19,"name":"Rectangle 6","bbox":[64,240,1152,58]}
+{"kind":"textbox","id":"sh/wj2psvat","slide":19,"name":"TextBox 7","text":"对话流程：身份确认 → 历史查询 → 信息处理 → 结构化报告","textPreview":"对话流程：身份确认 → 历史查询 → 信息处理 → 结构化报告","textChars":31,"textLines":1,"bbox":[93.8,259.3,621.69,35.2]}
+{"kind":"shape","id":"sh/jmd83atk","slide":19,"name":"Rectangle 8","bbox":[64,322,1152,58]}
+{"kind":"textbox","id":"sh/il47u5sz","slide":19,"name":"TextBox 9","text":"工具层：查询历史、保存会话、检索知识库","textPreview":"工具层：查询历史、保存会话、检索知识库","textChars":19,"textLines":1,"bbox":[93.8,341.3,465.25,35.2]}
+{"kind":"shape","id":"sh/cri1gnql","slide":19,"name":"Rectangle 10","bbox":[64,404,1152,58]}
+{"kind":"textbox","id":"sh/dsri9sr6","slide":19,"name":"TextBox 11","text":"数据层：PostgreSQL 优先，SQLite 回退，支持持久化记录","textPreview":"数据层：PostgreSQL 优先，SQLite 回退，支持持久化记录","textChars":35,"textLines":1,"bbox":[93.8,423.3,648.37,35.2]}
+{"kind":"textbox","id":"sh/rqp07290","slide":19,"name":"TextBox 13","text":"学习价值：理解 Agent 不是单轮聊天，而是可组合、可保存、可审查的程序流程。","textPreview":"学习价值：理解 Agent 不是单轮聊天，而是可组合、可保存、可审查的程序流程。","textChars":40,"textLines":1,"bbox":[61.8,527.3,886.07,35.2]}
+{"kind":"textbox","id":"sh/0vi1k7qx","slide":19,"name":"TextBox 14","text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"notes","id":"nt/nid43ytk","slide":19,"text":"DeepAgents 实践将工具、记忆和数据层编排为可运行的智能体原型。"}
+{"kind":"slide","id":"sl/8zsfrb","slide":20,"title":"Agent 学习实践","textShapes":28}
+{"kind":"shape","id":"sh/nqpszyd0","slide":20,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/oryt83el","slide":20,"text":"Agent 学习实践","textPreview":"Agent 学习实践","textChars":10,"textLines":1,"bbox":[68,34,220,20]}
+{"kind":"textbox","id":"sh/9s7a18v6","slide":20,"text":"基于 DeepAgents 构建中医复诊智能体","textPreview":"基于 DeepAgents 构建中医复诊智能体","textChars":23,"textLines":1,"bbox":[68,64,760,50]}
+{"kind":"shape","id":"sh/elwb29wj","slide":20,"bbox":[68,124,86,4]}
+{"kind":"shape","id":"sh/zm5sved4","slide":20,"bbox":[154,125,1058,2]}
+{"kind":"textbox","id":"sh/0nyt4jep","slide":20,"text":"工作链路","textPreview":"工作链路","textChars":4,"textLines":1,"bbox":[68,158,190,28]}
+{"kind":"shape","id":"sh/1o7axova","slide":20,"bbox":[68,206,42,42]}
+{"kind":"textbox","id":"sh/qxwry9wn","slide":20,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[68,217,42,18]}
+{"kind":"textbox","id":"sh/ry5sreds","slide":20,"text":"患者输入","textPreview":"患者输入","textChars":4,"textLines":1,"bbox":[54,258,70,22]}
+{"kind":"shape","id":"sh/32lg3adg","slide":20,"bbox":[110,225,54,2]}
+{"kind":"shape","id":"sh/21cfa5wv","slide":20,"bbox":[164,206,42,42]}
+{"kind":"textbox","id":"sh/p43y5kvm","slide":20,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[164,217,42,18]}
+{"kind":"textbox","id":"sh/o3uxcfe1","slide":20,"text":"查询历史","textPreview":"查询历史","textChars":4,"textLines":1,"bbox":[150,258,70,22]}
+{"kind":"shape","id":"sh/bqlg7uds","slide":20,"bbox":[206,225,54,2]}
+{"kind":"shape","id":"sh/q5cfepw7","slide":20,"bbox":[260,206,42,42]}
+{"kind":"textbox","id":"sh/ds3y94vi","slide":20,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[260,217,42,18]}
+{"kind":"textbox","id":"sh/cruxgzex","slide":20,"text":"辨证分析","textPreview":"辨证分析","textChars":4,"textLines":1,"bbox":[246,258,70,22]}
+{"kind":"shape","id":"sh/7u1wbqx8","slide":20,"bbox":[302,225,54,2]}
+{"kind":"shape","id":"sh/698f2lwn","slide":20,"bbox":[356,206,42,42]}
+{"kind":"textbox","id":"sh/apgjatgb","slide":20,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[356,217,42,18]}
+{"kind":"textbox","id":"sh/vqp0jyxw","slide":20,"text":"保存记录","textPreview":"保存记录","textChars":4,"textLines":1,"bbox":[342,258,70,22]}
+{"kind":"shape","id":"sh/wry1c3yh","slide":20,"bbox":[398,225,54,2]}
+{"kind":"shape","id":"sh/xsril8f2","slide":20,"bbox":[452,206,42,42]}
+{"kind":"textbox","id":"sh/mlgz6tgf","slide":20,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[452,217,42,18]}
+{"kind":"textbox","id":"sh/nmp0fyx0","slide":20,"text":"对比报告","textPreview":"对比报告","textChars":4,"textLines":1,"bbox":[438,258,70,22]}
+{"kind":"textbox","id":"sh/8nyh83y5","slide":20,"text":"实现要点","textPreview":"实现要点","textChars":4,"textLines":1,"bbox":[68,316,180,28]}
+{"kind":"textbox","id":"sh/9o7ih8fq","slide":20,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[68,358,32,22]}
+{"kind":"textbox","id":"sh/yxwz29g3","slide":20,"text":"框架编排","textPreview":"框架编排","textChars":4,"textLines":1,"bbox":[112,356,120,24]}
+{"kind":"textbox","id":"sh/zy50beho","slide":20,"text":"create_deep_agent 统一配置模型、工具、提示词与状态","textPreview":"create_deep_agent 统一配置模型、工具、提示词与状态","textChars":34,"textLines":1,"bbox":[112,384,420,34]}
+{"kind":"textbox","id":"sh/hcvmhcz6","slide":20,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[68,428,32,22]}
+{"kind":"textbox","id":"sh/gbml8ril","slide":20,"text":"工具调用","textPreview":"工具调用","textChars":4,"textLines":1,"bbox":[112,426,120,24]}
+{"kind":"textbox","id":"sh/fatkfmh0","slide":20,"text":"查询历史、检索知识、保存记录并生成复诊对比","textPreview":"查询历史、检索知识、保存记录并生成复诊对比","textChars":21,"textLines":1,"bbox":[112,454,420,34]}
+{"kind":"textbox","id":"sh/upk36h0v","slide":20,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[68,498,32,22]}
+{"kind":"textbox","id":"sh/tob2dcza","slide":20,"text":"状态持久化","textPreview":"状态持久化","textChars":5,"textLines":1,"bbox":[112,496,120,24]}
+{"kind":"textbox","id":"sh/sn2l47ip","slide":20,"text":"SqliteSaver 保存会话；PostgreSQL 不可用时回退 SQLite","textPreview":"SqliteSaver 保存会话；PostgreSQL 不可用时回退 SQLite","textChars":41,"textLines":1,"bbox":[112,524,420,34]}
+{"kind":"shape","id":"sh/7mtkb2h4","slide":20,"bbox":[586,158,626,410]}
+{"kind":"textbox","id":"sh/6lk32x0j","slide":20,"text":"DeepAgent 运行效果","textPreview":"DeepAgent 运行效果","textChars":14,"textLines":1,"bbox":[610,180,330,26]}
+{"kind":"textbox","id":"sh/5kb29szy","slide":20,"text":"在此放置终端运行结果或复诊对比报告截图","textPreview":"在此放置终端运行结果或复诊对比报告截图","textChars":19,"textLines":1,"bbox":[650,338,498,32]}
+{"kind":"shape","id":"sh/kjil07id","slide":20,"bbox":[624,388,550,1]}
+{"kind":"textbox","id":"sh/knutgbip","slide":20,"text":"截图说明：测试患者 / 输入场景 / 输出结果","textPreview":"截图说明：测试患者 / 输入场景 / 输出结果","textChars":23,"textLines":1,"bbox":[624,532,550,22]}
+{"kind":"shape","id":"sh/lo3u9gza","slide":20,"bbox":[68,590,1144,48]}
+{"kind":"textbox","id":"sh/ylsbe10j","slide":20,"text":"项目定位：用于学习 DeepAgents 的工具调用、状态记忆与任务编排，不替代医生诊断或临床决策。","textPreview":"项目定位：用于学习 DeepAgents 的工具调用、状态记忆与任务编排，不替代医生诊断或临床决策。","textChars":50,"textLines":1,"bbox":[92,604,1096,22]}
+{"kind":"textbox","id":"sh/jm1c76h4","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"notes","id":"nt/8zsfrb","slide":20,"text":"本页展示基于 DeepAgents 框架实现的中医复诊智能体原型。左侧说明框架如何查询历史、结合当前症状与舌象完成分析，并保存记录生成复诊对比；右侧预留实际运行截图位置。该项目仅用于学习与原型验证，不替代医生诊断。"}
+{"kind":"slide","id":"sl/zyxsni5k","slide":21,"title":"能力转化","textShapes":15}
+{"kind":"shape","id":"sh/qpwjmh8n","slide":21,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/rq50vmp8","slide":21,"name":"TextBox 3","text":"能力转化","textPreview":"能力转化","textChars":4,"textLines":1,"bbox":[62.4,68.4,73.76,25.6]}
+{"kind":"textbox","id":"sh/4nu1krqh","slide":21,"name":"TextBox 4","text":"从能力探索到安全收敛","textPreview":"从能力探索到安全收敛","textChars":10,"textLines":1,"bbox":[59.8,108.3,471.45,67.2]}
+{"kind":"textbox","id":"sh/po3itc72","slide":21,"name":"TextBox 5","text":"学习原型验证了技术路径，当前项目则根据真实使用场景收敛了边界。","textPreview":"学习原型验证了技术路径，当前项目则根据真实使用场景收敛了边界。","textChars":31,"textLines":1,"bbox":[61.9,166.15,687.75,33.6]}
+{"kind":"textbox","id":"sh/3ml0rmpw","slide":21,"name":"TextBox 7","text":"前期学习原型","textPreview":"前期学习原型","textChars":6,"textLines":1,"bbox":[77.3,282.05,184.01,43.2]}
+{"kind":"textbox","id":"sh/gjuhg7ql","slide":21,"name":"TextBox 8","text":"模型调用与 RAG","textPreview":"模型调用与 RAG","textChars":9,"textLines":1,"bbox":[77.7,340.45,172.44,36.8]}
+{"kind":"textbox","id":"sh/hk3ipcr6","slide":21,"name":"TextBox 9","text":"多轮对话与工具","textPreview":"多轮对话与工具","textChars":7,"textLines":1,"bbox":[77.7,382.45,173.65,36.8]}
+{"kind":"textbox","id":"sh/dkfmp4zy","slide":21,"name":"TextBox 10","text":"Agent 记忆与报告","textPreview":"Agent 记忆与报告","textChars":11,"textLines":1,"bbox":[77.7,424.45,199.01,36.8]}
+{"kind":"shape","id":"sh/rid4nuhs","slide":21,"name":"Line 12","bbox":[482,380,288,1]}
+{"kind":"shape","id":"sh/qh4nupg7","slide":21,"name":"Polygon 13","bbox":[748,366,22,28]}
+{"kind":"textbox","id":"sh/pwvmlkzm","slide":21,"name":"TextBox 14","text":"面向真实诊前流程","textPreview":"面向真实诊前流程","textChars":8,"textLines":1,"bbox":[535.8,333,180.4,32]}
+{"kind":"textbox","id":"sh/3ud4juhg","slide":21,"name":"TextBox 16","text":"当前项目实践","textPreview":"当前项目实践","textChars":6,"textLines":1,"bbox":[847.3,282.05,184.01,43.2]}
+{"kind":"textbox","id":"sh/2t4nqpgb","slide":21,"name":"TextBox 17","text":"确定性规则计算","textPreview":"确定性规则计算","textChars":7,"textLines":1,"bbox":[847.7,340.45,173.65,36.8]}
+{"kind":"textbox","id":"sh/hsvmhkzq","slide":21,"name":"TextBox 18","text":"结构化资料采集","textPreview":"结构化资料采集","textChars":7,"textLines":1,"bbox":[847.7,382.45,173.65,36.8]}
+{"kind":"textbox","id":"sh/grm5ofy5","slide":21,"name":"TextBox 19","text":"患者安全展示与医生核对","textPreview":"患者安全展示与医生核对","textChars":11,"textLines":1,"bbox":[847.7,424.45,270.25,36.8]}
+{"kind":"shape","id":"sh/tcz6dk7m","slide":21,"name":"Rectangle 21","bbox":[64,570,1152,62]}
+{"kind":"textbox","id":"sh/69on25ov","slide":21,"name":"TextBox 22","text":"下面进入第二部分：成人肥胖诊前问诊系统项目实践","textPreview":"下面进入第二部分：成人肥胖诊前问诊系统项目实践","textChars":23,"textLines":1,"bbox":[333.31,589.6,613.38,38.4]}
+{"kind":"textbox","id":"sh/7ax4bapg","slide":21,"name":"TextBox 23","text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/k7650f6p","slide":21,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/l8fm907a","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"notes","id":"nt/zyxsni5k","slide":21,"text":"前期学习验证技术路径，当前项目则将能力收敛为安全、可核对的诊前信息采集。"}
+{"kind":"slide","id":"sl/m1wvqtk3","slide":22,"title":"项目进展汇报","textShapes":21}
+{"kind":"shape","id":"sh/1gbmxs7a","slide":22,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/0f2lon6p","slide":22,"name":"Rectangle 3","bbox":[64,62,112,30]}
+{"kind":"textbox","id":"sh/ra9kryp8","slide":22,"name":"TextBox 4","text":"项目进展汇报","textPreview":"项目进展汇报","textChars":6,"textLines":1,"bbox":[82.6,71.1,95.41,22.4]}
+{"kind":"textbox","id":"sh/qp03yt8n","slide":22,"name":"TextBox 5","text":"2026.08","textPreview":"2026.08","textChars":7,"textLines":1,"bbox":[1094.5,69.25,63.64,24]}
+{"kind":"shape","id":"sh/dcb2t87y","slide":22,"name":"Line 6","bbox":[64,116,1152,1]}
+{"kind":"textbox","id":"sh/b6d432pc","slide":22,"name":"TextBox 8","text":"成人肥胖","textPreview":"成人肥胖","textChars":4,"textLines":1,"bbox":[57.4,187.9,304.26,105.6]}
+{"kind":"textbox","id":"sh/al43uxor","slide":22,"name":"TextBox 9","text":"诊前问诊系统","textPreview":"诊前问诊系统","textChars":6,"textLines":1,"bbox":[57.4,268.9,449.79,105.6]}
+{"kind":"shape","id":"sh/4jax4nqd","slide":22,"name":"Rectangle 10","bbox":[67,363,82,7]}
+{"kind":"textbox","id":"sh/5kjydsri","slide":22,"name":"TextBox 11","text":"规则驱动的结构化采集 · AI 辅助理解与追问","textPreview":"规则驱动的结构化采集 · AI 辅助理解与追问","textChars":23,"textLines":1,"bbox":[61.5,397.75,511.62,40]}
+{"kind":"textbox","id":"sh/ixsf2d87","slide":22,"name":"TextBox 12","text":"目标是为诊中辨证、风险识别和检查决策准备可靠资料","textPreview":"目标是为诊中辨证、风险识别和检查决策准备可靠资料","textChars":24,"textLines":1,"bbox":[62,448,508,32]}
+{"kind":"shape","id":"sh/wvax03q1","slide":22,"name":"Line 14","bbox":[896,194,1,307]}
+{"kind":"shape","id":"sh/hwjy98rm","slide":22,"name":"Ellipse 15","bbox":[862,171,68,68]}
+{"kind":"textbox","id":"sh/utsfyt8v","slide":22,"name":"TextBox 16","text":"基","textPreview":"基","textChars":1,"textLines":1,"bbox":[881.02,194.45,29.96,36.8]}
+{"kind":"textbox","id":"sh/vu1w7y9g","slide":22,"name":"TextBox 17","text":"基础资料","textPreview":"基础资料","textChars":4,"textLines":1,"bbox":[947.7,180.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/8rqxw3q5","slide":22,"name":"TextBox 18","text":"BMI、腰围与主诉入口","textPreview":"BMI、腰围与主诉入口","textChars":11,"textLines":1,"bbox":[948.4,215.4,164.48,25.6]}
+{"kind":"shape","id":"sh/9sze58rq","slide":22,"name":"Ellipse 19","bbox":[862,268,68,68]}
+{"kind":"textbox","id":"sh/porutkje","slide":22,"name":"TextBox 20","text":"问","textPreview":"问","textChars":1,"textLines":1,"bbox":[881.02,291.45,29.96,36.8]}
+{"kind":"textbox","id":"sh/onid0f2t","slide":22,"name":"TextBox 21","text":"病因与风险","textPreview":"病因与风险","textChars":5,"textLines":1,"bbox":[947.7,277.45,131.39,36.8]}
+{"kind":"textbox","id":"sh/nm9cru18","slide":22,"name":"TextBox 22","text":"分层追问与危险信号","textPreview":"分层追问与危险信号","textChars":9,"textLines":1,"bbox":[948.4,312.4,154.4,25.6]}
+{"kind":"shape","id":"sh/2l0vypkn","slide":22,"name":"Ellipse 23","bbox":[862,365,68,68]}
+{"kind":"textbox","id":"sh/1kru5kj2","slide":22,"name":"TextBox 24","text":"辨","textPreview":"辨","textChars":1,"textLines":1,"bbox":[881.02,388.45,29.96,36.8]}
+{"kind":"textbox","id":"sh/0jidwf2x","slide":22,"name":"TextBox 25","text":"中医资料","textPreview":"中医资料","textChars":4,"textLines":1,"bbox":[947.7,374.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/fi9c3a1c","slide":22,"name":"TextBox 26","text":"症状、舌象与生活方式","textPreview":"症状、舌象与生活方式","textChars":10,"textLines":1,"bbox":[948.4,409.4,171.2,25.6]}
+{"kind":"shape","id":"sh/ehgvu5kr","slide":22,"name":"Ellipse 27","bbox":[862,462,68,68]}
+{"kind":"textbox","id":"sh/lgbe14jm","slide":22,"name":"TextBox 28","text":"档","textPreview":"档","textChars":1,"textLines":1,"bbox":[881.02,485.45,29.96,36.8]}
+{"kind":"textbox","id":"sh/kf2d8zi1","slide":22,"name":"TextBox 29","text":"诊前档案","textPreview":"诊前档案","textChars":4,"textLines":1,"bbox":[947.7,471.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/ipcjmhw7","slide":22,"name":"TextBox 30","text":"患者摘要与医生执行依据","textPreview":"患者摘要与医生执行依据","textChars":11,"textLines":1,"bbox":[948.4,506.4,188,25.6]}
+{"kind":"shape","id":"sh/4ru1o7ed","slide":22,"name":"Line 32","bbox":[64,642,1152,1]}
+{"kind":"textbox","id":"sh/5c32hcvy","slide":22,"name":"TextBox 33","text":"第二部分 · 成人肥胖诊前问诊系统","textPreview":"第二部分 · 成人肥胖诊前问诊系统","textChars":17,"textLines":1,"bbox":[62.4,664.4,257.72,25.6]}
+{"kind":"textbox","id":"sh/ulcjixwb","slide":22,"name":"TextBox 34","text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1169.92,664.4,21.68,25.6]}
+{"kind":"shape","id":"sh/vml0b2dw","slide":22,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/wnu1k7e1","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"notes","id":"nt/m1wvqtk3","slide":22,"text":"下面进入项目实践部分：成人肥胖诊前问诊系统。"}
+{"kind":"slide","id":"sl/5onypobq","slide":23,"title":"01 / 项目定位","textShapes":16}
+{"kind":"shape","id":"sh/6987itcr","slide":23,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/7a18rydc","slide":23,"name":"TextBox 3","text":"01 / 项目定位","textPreview":"01 / 项目定位","textChars":9,"textLines":1,"bbox":[62.4,68.4,113.45,25.6]}
+{"kind":"textbox","id":"sh/k7qpgjul","slide":23,"name":"TextBox 4","text":"为诊中服务，而不是在线确诊","textPreview":"为诊中服务，而不是在线确诊","textChars":13,"textLines":1,"bbox":[59.8,108.3,610.37,67.2]}
+{"kind":"shape","id":"sh/58zqpov6","slide":23,"name":"Line 5","bbox":[64,172,1152,1]}
+{"kind":"shape","id":"sh/jmh8nyd0","slide":23,"name":"Ellipse 7","bbox":[151,275,110,110]}
+{"kind":"textbox","id":"sh/43u9snu5","slide":23,"name":"TextBox 8","text":"患","textPreview":"患","textChars":1,"textLines":1,"bbox":[187.11,315.35,37.77,46.4]}
+{"kind":"textbox","id":"sh/p43q1sva","slide":23,"name":"TextBox 9","text":"患者表达","textPreview":"患者表达","textChars":4,"textLines":1,"bbox":[148.38,402.75,115.25,40]}
+{"kind":"textbox","id":"sh/p4z6tcri","slide":23,"name":"TextBox 10","text":"主诉、体重变化、","textPreview":"主诉、体重变化、","textChars":8,"textLines":1,"bbox":[128.6,440.7,154.8,28.8]}
+{"kind":"textbox","id":"sh/436507qx","slide":23,"name":"TextBox 11","text":"症状与生活方式","textPreview":"症状与生活方式","textChars":7,"textLines":1,"bbox":[138.05,466.7,135.9,28.8]}
+{"kind":"shape","id":"sh/2honyx8r","slide":23,"name":"Line 13","bbox":[301,330,163,1]}
+{"kind":"shape","id":"sh/hgf6pcr6","slide":23,"name":"Polygon 14","bbox":[447,320,17,20]}
+{"kind":"shape","id":"sh/gf65w7ql","slide":23,"name":"Ellipse 15","bbox":[531,260,140,140]}
+{"kind":"textbox","id":"sh/fexon290","slide":23,"name":"TextBox 16","text":"结构化","textPreview":"结构化","textChars":3,"textLines":1,"bbox":[553.65,301.05,94.7,43.2]}
+{"kind":"textbox","id":"sh/udonux8v","slide":23,"name":"TextBox 17","text":"诊前资料","textPreview":"诊前资料","textChars":4,"textLines":1,"bbox":[538.77,335.05,124.47,43.2]}
+{"kind":"textbox","id":"sh/1cj61w7q","slide":23,"name":"TextBox 18","text":"规则校验 · 对话追问 · 完整度判断","textPreview":"规则校验 · 对话追问 · 完整度判断","textChars":19,"textLines":1,"bbox":[454.62,418.7,292.77,28.8]}
+{"kind":"shape","id":"sh/krihkz2d","slide":23,"name":"Line 20","bbox":[675,330,163,1]}
+{"kind":"shape","id":"sh/lsrit4jy","slide":23,"name":"Polygon 21","bbox":[821,320,17,20]}
+{"kind":"shape","id":"sh/yp0zipk7","slide":23,"name":"Ellipse 22","bbox":[917,275,110,110]}
+{"kind":"textbox","id":"sh/jq90ru1s","slide":23,"name":"TextBox 23","text":"医","textPreview":"医","textChars":1,"textLines":1,"bbox":[953.11,315.35,37.77,46.4]}
+{"kind":"textbox","id":"sh/wnihgf2h","slide":23,"name":"TextBox 24","text":"医生确认","textPreview":"医生确认","textChars":4,"textLines":1,"bbox":[914.38,402.75,115.25,40]}
+{"kind":"textbox","id":"sh/xoripkj2","slide":23,"name":"TextBox 25","text":"诊中辨证、风险判断、","textPreview":"诊中辨证、风险判断、","textChars":10,"textLines":1,"bbox":[875.7,440.7,192.6,28.8]}
+{"kind":"textbox","id":"sh/al0zepkb","slide":23,"name":"TextBox 26","text":"检查与治疗决策","textPreview":"检查与治疗决策","textChars":7,"textLines":1,"bbox":[904.05,466.7,135.9,28.8]}
+{"kind":"shape","id":"sh/ozyhcf25","slide":23,"name":"Rectangle 28","bbox":[64,564,1152,76]}
+{"kind":"shape","id":"sh/907ylkjq","slide":23,"name":"Rectangle 29","bbox":[64,564,7,76]}
+{"kind":"textbox","id":"sh/rup0va5s","slide":23,"name":"TextBox 30","text":"患者端只呈现安全结果，最终判断由医生确认。","textPreview":"患者端只呈现安全结果，最终判断由医生确认。","textChars":21,"textLines":1,"bbox":[93.7,591.45,537.11,36.8]}
+{"kind":"textbox","id":"sh/qtwz2547","slide":23,"name":"TextBox 31","text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/dw7ixkni","slide":23,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/cvy14fmx","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"notes","id":"nt/5onypobq","slide":23,"text":"系统服务于诊中准备，最终判断仍由医生完成。"}
+{"kind":"slide","id":"sl/c7uhcr6t","slide":24,"title":"02 / 改造背景","textShapes":19}
+{"kind":"shape","id":"sh/90vqdczq","slide":24,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/8zm9k7y5","slide":24,"name":"TextBox 3","text":"02 / 改造背景","textPreview":"02 / 改造背景","textChars":9,"textLines":1,"bbox":[62.4,68.4,113.45,25.6]}
+{"kind":"textbox","id":"sh/v2d8fmhw","slide":24,"name":"TextBox 4","text":"改造前的核心问题","textPreview":"改造前的核心问题","textChars":8,"textLines":1,"bbox":[59.8,108.3,378.84,67.2]}
+{"kind":"textbox","id":"sh/a14rmhgb","slide":24,"name":"TextBox 5","text":"问题不在于“能不能问”，而在于问诊过程是否稳定、可解释、可服务诊中。","textPreview":"问题不在于“能不能问”，而在于问诊过程是否稳定、可解释、可服务诊中。","textChars":34,"textLines":1,"bbox":[61.9,166.15,734.06,33.6]}
+{"kind":"textbox","id":"sh/w3m9o7yh","slide":24,"name":"TextBox 7","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72.2,233.7,81.94,92.8]}
+{"kind":"shape","id":"sh/jqd8jmhs","slide":24,"name":"Line 8","bbox":[78,310,304,1]}
+{"kind":"textbox","id":"sh/ip4rqhgn","slide":24,"name":"TextBox 9","text":"固定问答","textPreview":"固定问答","textChars":4,"textLines":1,"bbox":[75.2,337.2,129.08,44.8]}
+{"kind":"textbox","id":"sh/sby90zm1","slide":24,"name":"TextBox 10","text":"一次选择无法承接","textPreview":"一次选择无法承接","textChars":8,"textLines":1,"bbox":[76,385,172,32]}
+{"kind":"textbox","id":"sh/tc7at436","slide":24,"name":"TextBox 11","text":"患者的自由描述与澄清需求","textPreview":"患者的自由描述与澄清需求","textChars":12,"textLines":1,"bbox":[76,415,256,32]}
+{"kind":"textbox","id":"sh/rapsrelg","slide":24,"name":"TextBox 13","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[482.2,233.7,81.94,92.8]}
+{"kind":"shape","id":"sh/0fi94jmx","slide":24,"name":"Line 14","bbox":[488,310,304,1]}
+{"kind":"textbox","id":"sh/1graxo3i","slide":24,"name":"TextBox 15","text":"状态不稳","textPreview":"状态不稳","textChars":4,"textLines":1,"bbox":[485.2,337.2,129.08,44.8]}
+{"kind":"textbox","id":"sh/edgr294r","slide":24,"name":"TextBox 16","text":"页面刷新后，追问进度与","textPreview":"页面刷新后，追问进度与","textChars":11,"textLines":1,"bbox":[486,385,235,32]}
+{"kind":"textbox","id":"sh/fepsvelc","slide":24,"name":"TextBox 17","text":"历史信息容易出现断开","textPreview":"历史信息容易出现断开","textChars":10,"textLines":1,"bbox":[486,415,214,32]}
+{"kind":"textbox","id":"sh/p4ra1o3e","slide":24,"name":"TextBox 19","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[892.2,233.7,81.94,92.8]}
+{"kind":"shape","id":"sh/x0nalovi","slide":24,"name":"Line 20","bbox":[898,310,304,1]}
+{"kind":"textbox","id":"sh/wze9cjud","slide":24,"name":"TextBox 21","text":"完成不准","textPreview":"完成不准","textChars":4,"textLines":1,"bbox":[895.2,337.2,129.08,44.8]}
+{"kind":"textbox","id":"sh/by58jeds","slide":24,"name":"TextBox 22","text":"单一总分可能在关键资料","textPreview":"单一总分可能在关键资料","textChars":11,"textLines":1,"bbox":[896,385,235,32]}
+{"kind":"textbox","id":"sh/axwratc7","slide":24,"name":"TextBox 23","text":"未收集时过早生成档案","textPreview":"未收集时过早生成档案","textChars":10,"textLines":1,"bbox":[896,415,214,32]}
+{"kind":"shape","id":"sh/k3y9g3u9","slide":24,"name":"Rectangle 25","bbox":[64,526,1152,98]}
+{"kind":"shape","id":"sh/j2psnydo","slide":24,"name":"Rectangle 26","bbox":[64,526,8,98]}
+{"kind":"textbox","id":"sh/y1gretc3","slide":24,"name":"TextBox 27","text":"改造方向","textPreview":"改造方向","textChars":4,"textLines":1,"bbox":[98.2,553.7,82.98,28.8]}
+{"kind":"textbox","id":"sh/183qd4vq","slide":24,"name":"TextBox 28","text":"将一次性答题改为可恢复的对话式采集，并以分层门槛控制结束时机。","textPreview":"将一次性答题改为可恢复的对话式采集，并以分层门槛控制结束时机。","textChars":31,"textLines":1,"bbox":[97.6,583.6,825.06,38.4]}
+{"kind":"textbox","id":"sh/07u94ze5","slide":24,"name":"TextBox 29","text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/qds7e5sn","slide":24,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/re1onat8","slide":24,"text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"notes","id":"nt/c7uhcr6t","slide":24,"text":"项目改造解决固定问答、状态不稳和过早结束三类问题。"}
+{"kind":"slide","id":"sl/7qto7e10","slide":25,"title":"03 / 改造原则","textShapes":15}
+{"kind":"shape","id":"sh/1sfqxsv6","slide":25,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/0r6p4nul","slide":25,"name":"TextBox 3","text":"03 / 改造原则","textPreview":"03 / 改造原则","textChars":9,"textLines":1,"bbox":[62.4,68.4,113.45,25.6]}
+{"kind":"textbox","id":"sh/nux8zidc","slide":25,"name":"TextBox 4","text":"规则负责判断，AI 负责理解","textPreview":"规则负责判断，AI 负责理解","textChars":14,"textLines":1,"bbox":[59.8,108.3,571.01,67.2]}
+{"kind":"textbox","id":"sh/2to76dcr","slide":25,"name":"TextBox 5","text":"让停止条件可解释，让对话表达更自然。","textPreview":"让停止条件可解释，让对话表达更自然。","textChars":18,"textLines":1,"bbox":[61.9,167.15,401.1,33.6]}
+{"kind":"shape","id":"sh/ov6p8nux","slide":25,"name":"Rectangle 7","bbox":[64,240,492,328]}
+{"kind":"textbox","id":"sh/3ydonyd8","slide":25,"name":"TextBox 8","text":"确定性规则","textPreview":"确定性规则","textChars":5,"textLines":1,"bbox":[99.1,277.35,165.66,46.4]}
+{"kind":"shape","id":"sh/ix47utcn","slide":25,"name":"Line 9","bbox":[102,326,396,1]}
+{"kind":"shape","id":"sh/8veh8ril","slide":25,"name":"Ellipse 10","bbox":[108,368,20,20]}
+{"kind":"textbox","id":"sh/9wni1wjq","slide":25,"name":"TextBox 11","text":"BMI、腰围等客观字段计算","textPreview":"BMI、腰围等客观字段计算","textChars":13,"textLines":1,"bbox":[145.8,367.3,272.36,35.2]}
+{"kind":"shape","id":"sh/mtwz6h0f","slide":25,"name":"Ellipse 12","bbox":[108,434,20,20]}
+{"kind":"textbox","id":"sh/nu50zm10","slide":25,"name":"TextBox 13","text":"分层阈值与停止条件判断","textPreview":"分层阈值与停止条件判断","textChars":11,"textLines":1,"bbox":[145.8,433.3,258.5,35.2]}
+{"kind":"shape","id":"sh/wzyhcrih","slide":25,"name":"Ellipse 14","bbox":[108,500,20,20]}
+{"kind":"textbox","id":"sh/x07i5wj2","slide":25,"name":"TextBox 15","text":"危险信号持续提示而不强制中断","textPreview":"危险信号持续提示而不强制中断","textChars":14,"textLines":1,"bbox":[145.8,499.3,327.8,35.2]}
+{"kind":"shape","id":"sh/vyp03m1w","slide":25,"name":"Line 17","bbox":[636,260,1,288]}
+{"kind":"shape","id":"sh/c3uh07id","slide":25,"name":"Ellipse 18","bbox":[594,362,84,84]}
+{"kind":"textbox","id":"sh/d43itcjy","slide":25,"name":"TextBox 19","text":"协同","textPreview":"协同","textChars":2,"textLines":1,"bbox":[605.94,392.75,60.13,40]}
+{"kind":"shape","id":"sh/s72p8z6p","slide":25,"name":"Rectangle 21","bbox":[716,240,500,328]}
+{"kind":"textbox","id":"sh/rmtofup4","slide":25,"name":"TextBox 22","text":"AI 辅助能力","textPreview":"AI 辅助能力","textChars":7,"textLines":1,"bbox":[751.1,277.35,170.46,46.4]}
+{"kind":"shape","id":"sh/6lk76poz","slide":25,"name":"Line 23","bbox":[754,326,404,1]}
+{"kind":"shape","id":"sh/1cv6l47m","slide":25,"name":"Ellipse 24","bbox":[760,368,20,20]}
+{"kind":"textbox","id":"sh/gbmpcz61","slide":25,"name":"TextBox 25","text":"从患者原话中提取字段证据","textPreview":"从患者原话中提取字段证据","textChars":12,"textLines":1,"bbox":[797.8,367.3,281.6,35.2]}
+{"kind":"shape","id":"sh/fadojepg","slide":25,"name":"Ellipse 26","bbox":[760,434,20,20]}
+{"kind":"textbox","id":"sh/e947a9ov","slide":25,"name":"TextBox 27","text":"围绕缺失字段组织自然追问","textPreview":"围绕缺失字段组织自然追问","textChars":12,"textLines":1,"bbox":[797.8,433.3,281.6,35.2]}
+{"kind":"shape","id":"sh/pgf6po7i","slide":25,"name":"Ellipse 28","bbox":[760,500,20,20]}
+{"kind":"textbox","id":"sh/of6pgj6x","slide":25,"name":"TextBox 29","text":"解释患者不理解的医学术语","textPreview":"解释患者不理解的医学术语","textChars":12,"textLines":1,"bbox":[797.8,499.3,281.6,35.2]}
+{"kind":"textbox","id":"sh/nmp4jq50","slide":25,"name":"TextBox 31","text":"边界：AI 不直接诊断、开方或修改系统停止条件。","textPreview":"边界：AI 不直接诊断、开方或修改系统停止条件。","textChars":24,"textLines":1,"bbox":[393.8,621,492.41,32]}
+{"kind":"textbox","id":"sh/8nylcvml","slide":25,"name":"TextBox 32","text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/9o7mlgn6","slide":25,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/ap03el4r","slide":25,"text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"notes","id":"nt/7qto7e10","slide":25,"text":"规则负责确定性判断，AI 负责理解、解释和自然追问。"}
+{"kind":"slide","id":"sl/69wfm9o7","slide":26,"title":"04 / 当前方案","textShapes":21}
+{"kind":"shape","id":"sh/xg7axgf2","slide":26,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/cfyt4beh","slide":26,"name":"TextBox 3","text":"04 / 当前方案","textPreview":"04 / 当前方案","textChars":9,"textLines":1,"bbox":[62.4,68.4,113.45,25.6]}
+{"kind":"textbox","id":"sh/napsr6x0","slide":26,"name":"TextBox 4","text":"当前完整流程","textPreview":"当前完整流程","textChars":6,"textLines":1,"bbox":[59.8,108.3,286.23,67.2]}
+{"kind":"textbox","id":"sh/29wby1wf","slide":26,"name":"TextBox 5","text":"从可量化的基础资料开始，以可解释的完整度门槛结束。","textPreview":"从可量化的基础资料开始，以可解释的完整度门槛结束。","textChars":25,"textLines":1,"bbox":[61.9,166.15,555.45,33.6]}
+{"kind":"shape","id":"sh/obyt0bel","slide":26,"name":"Line 7","bbox":[136,353,1008,1]}
+{"kind":"shape","id":"sh/fm5snmx4","slide":26,"name":"Polygon 8","bbox":[1126,342,18,22]}
+{"kind":"shape","id":"sh/wza9cbqp","slide":26,"name":"Ellipse 10","bbox":[104,311,84,84]}
+{"kind":"textbox","id":"sh/h0jalgra","slide":26,"name":"TextBox 11","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[136.32,342.6,19.35,38.4]}
+{"kind":"textbox","id":"sh/uxsra18j","slide":26,"name":"TextBox 12","text":"基础资料","textPreview":"基础资料","textChars":4,"textLines":1,"bbox":[95.29,417.3,101.42,35.2]}
+{"kind":"textbox","id":"sh/vy1sj694","slide":26,"name":"TextBox 13","text":"年龄、身高、体重","textPreview":"年龄、身高、体重","textChars":8,"textLines":1,"bbox":[77.2,452.4,137.6,25.6]}
+{"kind":"shape","id":"sh/9cjahgry","slide":26,"name":"Ellipse 15","bbox":[343,311,84,84]}
+{"kind":"textbox","id":"sh/m98r618n","slide":26,"name":"TextBox 16","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[375.32,342.6,19.35,38.4]}
+{"kind":"textbox","id":"sh/7a1sf698","slide":26,"name":"TextBox 17","text":"开放描述","textPreview":"开放描述","textChars":4,"textLines":1,"bbox":[334.29,417.3,101.42,35.2]}
+{"kind":"textbox","id":"sh/s7utkvqx","slide":26,"name":"TextBox 18","text":"当前诉求与变化","textPreview":"当前诉求与变化","textChars":7,"textLines":1,"bbox":[324.6,452.4,120.8,25.6]}
+{"kind":"shape","id":"sh/1czihwva","slide":26,"name":"Ellipse 20","bbox":[582,311,84,84]}
+{"kind":"textbox","id":"sh/gbq1obep","slide":26,"name":"TextBox 21","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[614.32,342.6,19.35,38.4]}
+{"kind":"textbox","id":"sh/fax0f6d4","slide":26,"name":"TextBox 22","text":"分层追问","textPreview":"分层追问","textChars":4,"textLines":1,"bbox":[573.29,417.3,101.42,35.2]}
+{"kind":"textbox","id":"sh/e9ojm1wj","slide":26,"name":"TextBox 23","text":"病因、风险、中医资料","textPreview":"病因、风险、中医资料","textChars":10,"textLines":1,"bbox":[538.4,452.4,171.2,25.6]}
+{"kind":"shape","id":"sh/s761kret","slide":26,"name":"Ellipse 25","bbox":[821,311,84,84]}
+{"kind":"textbox","id":"sh/r6x0bmx8","slide":26,"name":"TextBox 26","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[853.32,342.6,19.35,38.4]}
+{"kind":"textbox","id":"sh/6lojihwn","slide":26,"name":"TextBox 27","text":"资料汇总","textPreview":"资料汇总","textChars":4,"textLines":1,"bbox":[812.29,417.3,101.42,35.2]}
+{"kind":"textbox","id":"sh/5kfi9cf2","slide":26,"name":"TextBox 28","text":"字段、证据与矛盾","textPreview":"字段、证据与矛盾","textChars":8,"textLines":1,"bbox":[794.2,452.4,137.6,25.6]}
+{"kind":"shape","id":"sh/upkfqdcf","slide":26,"name":"Ellipse 30","bbox":[1060,311,84,84]}
+{"kind":"textbox","id":"sh/vqtgjid0","slide":26,"name":"TextBox 31","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1092.32,342.6,19.35,38.4]}
+{"kind":"textbox","id":"sh/wr2xsnul","slide":26,"name":"TextBox 32","text":"输出档案","textPreview":"输出档案","textChars":4,"textLines":1,"bbox":[1051.29,417.3,101.42,35.2]}
+{"kind":"textbox","id":"sh/hcvylsb6","slide":26,"name":"TextBox 33","text":"检查候选与交接","textPreview":"检查候选与交接","textChars":7,"textLines":1,"bbox":[1041.6,452.4,120.8,25.6]}
+{"kind":"shape","id":"sh/7mtgfido","slide":26,"name":"Rectangle 35","bbox":[64,558,1152,67]}
+{"kind":"textbox","id":"sh/8n2xonu9","slide":26,"name":"TextBox 36","text":"患者端隐藏内部执行度；医生端保留缺失项、证据来源和冲突信息，便于诊中核对。","textPreview":"患者端隐藏内部执行度；医生端保留缺失项、证据来源和冲突信息，便于诊中核对。","textChars":37,"textLines":1,"bbox":[93.9,581.15,820.05,33.6]}
+{"kind":"textbox","id":"sh/9obyh8vu","slide":26,"name":"TextBox 37","text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/yh0fitc7","slide":26,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/zi9gbyds","slide":26,"text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"notes","id":"nt/69wfm9o7","slide":26,"text":"系统从基础资料开始，经过开放描述和分层追问，最后输出档案与检查候选。"}
+{"kind":"slide","id":"sl/l0bepsfm","slide":27,"title":"05 / 当前页面","textShapes":17}
+{"kind":"shape","id":"sh/uhk36lk7","slide":27,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/vitkzqlc","slide":27,"name":"TextBox 3","text":"05 / 当前页面","textPreview":"05 / 当前页面","textChars":9,"textLines":1,"bbox":[62.4,68.4,113.45,25.6]}
+{"kind":"textbox","id":"sh/8fil4b21","slide":27,"name":"TextBox 4","text":"基础资料：先把客观起点问清楚","textPreview":"基础资料：先把客观起点问清楚","textChars":14,"textLines":1,"bbox":[59.8,108.3,656.67,67.2]}
+{"kind":"textbox","id":"sh/tgr2xg3m","slide":27,"name":"TextBox 5","text":"将年龄、性别、身高和体重作为成人肥胖问诊的前置资料。","textPreview":"将年龄、性别、身高和体重作为成人肥胖问诊的前置资料。","textChars":26,"textLines":1,"bbox":[61.9,166.15,577.5,33.6]}
+{"kind":"shape","id":"sh/7e9kv6lg","slide":27,"name":"Rectangle 7","bbox":[64,232,720,316]}
+{"kind":"shape","id":"sh/lcr2tw3a","slide":27,"name":"Rectangle 9","bbox":[82,505,154,27]}
+{"kind":"textbox","id":"sh/lsja143i","slide":27,"name":"TextBox 10","text":"真实系统页面","textPreview":"真实系统页面","textChars":6,"textLines":1,"bbox":[111.3,512.1,95.41,22.4]}
+{"kind":"textbox","id":"sh/z61szulc","slide":27,"name":"TextBox 12","text":"前置采集规则","textPreview":"前置采集规则","textChars":6,"textLines":1,"bbox":[855.5,252.75,170.38,40]}
+{"kind":"shape","id":"sh/y5sr69kr","slide":27,"name":"Line 13","bbox":[858,298,320,1]}
+{"kind":"textbox","id":"sh/x4jax436","slide":27,"name":"TextBox 14","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[856,338,28.26,32]}
+{"kind":"textbox","id":"sh/c3a94z21","slide":27,"name":"TextBox 15","text":"仅进入成人肥胖流程","textPreview":"仅进入成人肥胖流程","textChars":9,"textLines":1,"bbox":[907.8,336.3,212.3,35.2]}
+{"kind":"textbox","id":"sh/b21svulg","slide":27,"name":"TextBox 16","text":"年龄条件先校验，再进入后续问诊","textPreview":"年龄条件先校验，再进入后续问诊","textChars":15,"textLines":1,"bbox":[908.3,370.55,271.15,27.2]}
+{"kind":"textbox","id":"sh/a18r2pkv","slide":27,"name":"TextBox 17","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[856,428,28.26,32]}
+{"kind":"textbox","id":"sh/p0zatk3a","slide":27,"name":"TextBox 18","text":"四项基础资料必填","textPreview":"四项基础资料必填","textChars":8,"textLines":1,"bbox":[907.8,426.3,189.2,35.2]}
+{"kind":"textbox","id":"sh/ozq90f2p","slide":27,"name":"TextBox 19","text":"年龄、性别、身高、体重缺一不可","textPreview":"年龄、性别、身高、体重缺一不可","textChars":15,"textLines":1,"bbox":[908.3,460.55,271.15,27.2]}
+{"kind":"textbox","id":"sh/0ve1wjex","slide":27,"name":"TextBox 20","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[856,518,28.26,32]}
+{"kind":"textbox","id":"sh/1wn25ofi","slide":27,"name":"TextBox 21","text":"BMI 和腰围由服务端计算","textPreview":"BMI 和腰围由服务端计算","textChars":13,"textLines":1,"bbox":[907.8,516.3,256.19,35.2]}
+{"kind":"textbox","id":"sh/etwju9wr","slide":27,"name":"TextBox 22","text":"避免由模型对数值做不确定推断","textPreview":"避免由模型对数值做不确定推断","textChars":14,"textLines":1,"bbox":[908.3,550.55,253.3,27.2]}
+{"kind":"textbox","id":"sh/sru1szel","slide":27,"name":"TextBox 24","text":"页面支持自然语言主诉输入，为后续分层追问提供上下文。","textPreview":"页面支持自然语言主诉输入，为后续分层追问提供上下文。","textChars":26,"textLines":1,"bbox":[62.3,614.55,467.5,27.2]}
+{"kind":"textbox","id":"sh/ds3i14f6","slide":27,"name":"TextBox 25","text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/rql0zex0","slide":27,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/cny143e5","slide":27,"text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"image","id":"im/hwvudc76","slide":27,"name":"Image 8","bbox":[64,232,720,316]}
+{"kind":"notes","id":"nt/l0bepsfm","slide":27,"text":"成人流程先校验基础资料，BMI 等数值由服务端规则计算。"}
+{"kind":"slide","id":"sl/4vyxknqp","slide":28,"title":"08 / 对话式追问","textShapes":14}
+{"kind":"shape","id":"sh/kn694nmx","slide":28,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/lofadsni","slide":28,"name":"TextBox 3","text":"08 / 对话式追问","textPreview":"08 / 对话式追问","textChars":10,"textLines":1,"bbox":[62.4,68.4,131.09,25.6]}
+{"kind":"textbox","id":"sh/mpor6x43","slide":28,"name":"TextBox 4","text":"对话式追问：围绕缺失信息，而不是凑轮次","textPreview":"对话式追问：围绕缺失信息，而不是凑轮次","textChars":19,"textLines":1,"bbox":[59.8,108.3,888.19,67.2]}
+{"kind":"textbox","id":"sh/7qxsfi5o","slide":28,"name":"TextBox 5","text":"每次只推进一个信息目标，历史对话持续保留并可滚动查看。","textPreview":"每次只推进一个信息目标，历史对话持续保留并可滚动查看。","textChars":27,"textLines":1,"bbox":[61.9,166.15,599.55,33.6]}
+{"kind":"textbox","id":"sh/9sfahsnu","slide":28,"name":"TextBox 7","text":"追问约束","textPreview":"追问约束","textChars":4,"textLines":1,"bbox":[61.5,234.75,115.25,40]}
+{"kind":"shape","id":"sh/utobax4f","slide":28,"name":"Line 8","bbox":[64,280,350,1]}
+{"kind":"shape","id":"sh/vuxsj250","slide":28,"name":"Ellipse 9","bbox":[70,321,26,26]}
+{"kind":"textbox","id":"sh/ju5gv294","slide":28,"name":"TextBox 10","text":"澄清不作为医学证据","textPreview":"澄清不作为医学证据","textChars":9,"textLines":1,"bbox":[113.9,324.15,202.65,33.6]}
+{"kind":"textbox","id":"sh/ytwfmx8j","slide":28,"name":"TextBox 11","text":"患者不理解时先解释，不消耗追问机会","textPreview":"患者不理解时先解释，不消耗追问机会","textChars":17,"textLines":1,"bbox":[114.3,356.55,306.85,27.2]}
+{"kind":"shape","id":"sh/lw7yxcra","slide":28,"name":"Ellipse 12","bbox":[70,422,26,26]}
+{"kind":"textbox","id":"sh/kvyxo7qp","slide":28,"name":"TextBox 13","text":"同一字段最多委婉重问一次","textPreview":"同一字段最多委婉重问一次","textChars":12,"textLines":1,"bbox":[113.9,425.15,268.8,33.6]}
+{"kind":"textbox","id":"sh/bq5gr298","slide":28,"name":"TextBox 14","text":"避免机械重复，保留患者拒答或不确定","textPreview":"避免机械重复，保留患者拒答或不确定","textChars":17,"textLines":1,"bbox":[114.3,457.55,306.85,27.2]}
+{"kind":"shape","id":"sh/apwfix8n","slide":28,"name":"Ellipse 15","bbox":[70,523,26,26]}
+{"kind":"textbox","id":"sh/xsnytcry","slide":28,"name":"TextBox 16","text":"AI 不可用时仍可继续采集","textPreview":"AI 不可用时仍可继续采集","textChars":13,"textLines":1,"bbox":[113.9,526.15,250.06,33.6]}
+{"kind":"textbox","id":"sh/wrexk7qt","slide":28,"name":"TextBox 17","text":"降级为固定问题，保证流程不被服务故障阻断","textPreview":"降级为固定问题，保证流程不被服务故障阻断","textChars":20,"textLines":1,"bbox":[114.3,558.55,360.4,27.2]}
+{"kind":"shape","id":"sh/ulgzuh8r","slide":28,"name":"Rectangle 19","bbox":[472,238,744,326]}
+{"kind":"shape","id":"sh/rit0vqtk","slide":28,"name":"Rectangle 21","bbox":[492,522,146,27]}
+{"kind":"textbox","id":"sh/sj214va5","slide":28,"name":"TextBox 22","text":"真实系统页面","textPreview":"真实系统页面","textChars":6,"textLines":1,"bbox":[517.3,529.1,95.41,22.4]}
+{"kind":"shape","id":"sh/elkj65sb","slide":28,"name":"Rectangle 24","bbox":[64,625,1152,1]}
+{"kind":"textbox","id":"sh/fmdkzatw","slide":28,"name":"TextBox 25","text":"停止条件由完整度模型决定，不再依赖固定 12 轮上限。","textPreview":"停止条件由完整度模型决定，不再依赖固定 12 轮上限。","textChars":27,"textLines":1,"bbox":[62.1,649.85,521.2,30.4]}
+{"kind":"textbox","id":"sh/0nm18fa1","slide":28,"name":"TextBox 26","text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/up0ju1sr","slide":28,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/vq90n6tc","slide":28,"text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"image","id":"im/axwr6d8j","slide":28,"name":"Image 20","bbox":[472.36,238,743.28,326]}
+{"kind":"notes","id":"nt/4vyxknqp","slide":28,"text":"对话式追问一次推进一个信息目标，并保留用户历史表达。"}
+{"kind":"slide","id":"sl/3mdove10","slide":29,"title":"06 / 核心机制","textShapes":18}
+{"kind":"shape","id":"sh/q9cz6xkv","slide":29,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/ralgf21g","slide":29,"name":"TextBox 3","text":"06 / 核心机制","textPreview":"06 / 核心机制","textChars":9,"textLines":1,"bbox":[62.4,68.4,113.45,25.6]}
+{"kind":"textbox","id":"sh/0zehcr2x","slide":29,"name":"TextBox 4","text":"完整度模型：四层门槛共同决定何时问够","textPreview":"完整度模型：四层门槛共同决定何时问够","textChars":18,"textLines":1,"bbox":[59.8,108.3,841.89,67.2]}
+{"kind":"textbox","id":"sh/10nylwji","slide":29,"name":"TextBox 5","text":"系统不依赖固定轮次，而是依据资料层级、字段证据与安全条件持续判断。","textPreview":"系统不依赖固定轮次，而是依据资料层级、字段证据与安全条件持续判断。","textChars":33,"textLines":1,"bbox":[61.9,166.15,731.85,33.6]}
+{"kind":"shape","id":"sh/zy5gjm1c","slide":29,"name":"Rectangle 7","bbox":[64,238,1152,72]}
+{"kind":"textbox","id":"sh/o3ehgr29","slide":29,"name":"TextBox 8","text":"1 基础资料","textPreview":"1 基础资料","textChars":6,"textLines":1,"bbox":[93.6,263.6,133.13,38.4]}
+{"kind":"textbox","id":"sh/947ipwje","slide":29,"name":"TextBox 9","text":"年龄、性别、身高、体重与 BMI 已校验","textPreview":"年龄、性别、身高、体重与 BMI 已校验","textChars":20,"textLines":1,"bbox":[368,267,365.2,32]}
+{"kind":"textbox","id":"sh/lg3690fq","slide":29,"name":"TextBox 10","text":"硬性前提","textPreview":"硬性前提","textChars":4,"textLines":1,"bbox":[1094.82,268.7,82.98,28.8]}
+{"kind":"shape","id":"sh/je1o7ax0","slide":29,"name":"Rectangle 12","bbox":[64,324,1152,72]}
+{"kind":"textbox","id":"sh/ytsne5wf","slide":29,"name":"TextBox 13","text":"2 病因与风险","textPreview":"2 病因与风险","textChars":7,"textLines":1,"bbox":[93.6,349.6,159.59,38.4]}
+{"kind":"textbox","id":"sh/tk36dkf2","slide":29,"name":"TextBox 14","text":"体重变化、诱因、既往减重、代谢风险和继发性线索","textPreview":"体重变化、诱因、既往减重、代谢风险和继发性线索","textChars":23,"textLines":1,"bbox":[368,353,487,32]}
+{"kind":"textbox","id":"sh/8ju5kfeh","slide":29,"name":"TextBox 15","text":"按分层阈值","textPreview":"按分层阈值","textChars":5,"textLines":1,"bbox":[1074.98,354.7,102.82,28.8]}
+{"kind":"shape","id":"sh/6hcni5wb","slide":29,"name":"Rectangle 17","bbox":[64,410,1152,72]}
+{"kind":"textbox","id":"sh/9ojm1gfi","slide":29,"name":"TextBox 18","text":"3 中医资料","textPreview":"3 中医资料","textChars":6,"textLines":1,"bbox":[93.6,435.6,133.13,38.4]}
+{"kind":"textbox","id":"sh/ona58ved","slide":29,"name":"TextBox 19","text":"寒热汗出、二便、睡眠、情绪、乏力、浮肿与舌象","textPreview":"寒热汗出、二便、睡眠、情绪、乏力、浮肿与舌象","textChars":22,"textLines":1,"bbox":[368,439,466,32]}
+{"kind":"textbox","id":"sh/0jex4fq5","slide":29,"name":"TextBox 20","text":"按分层阈值","textPreview":"按分层阈值","textChars":5,"textLines":1,"bbox":[1074.98,440.7,102.82,28.8]}
+{"kind":"shape","id":"sh/ehwf2p8z","slide":29,"name":"Rectangle 22","bbox":[64,496,1152,72]}
+{"kind":"textbox","id":"sh/zi5wba9k","slide":29,"name":"TextBox 23","text":"4 安全信息","textPreview":"4 安全信息","textChars":6,"textLines":1,"bbox":[93.6,521.6,133.13,38.4]}
+{"kind":"textbox","id":"sh/o7yx8zqh","slide":29,"name":"TextBox 24","text":"危险信号、当前用药、过敏史和妊娠生育相关情况","textPreview":"危险信号、当前用药、过敏史和妊娠生育相关情况","textChars":22,"textLines":1,"bbox":[368,525,466,32]}
+{"kind":"textbox","id":"sh/987eh4rm","slide":29,"name":"TextBox 25","text":"持续提示","textPreview":"持续提示","textChars":4,"textLines":1,"bbox":[1094.82,526.7,82.98,28.8]}
+{"kind":"textbox","id":"sh/n6pwfu9w","slide":29,"name":"TextBox 27","text":"只有四层均达到要求，系统才生成“正常完成”的诊前档案。","textPreview":"只有四层均达到要求，系统才生成“正常完成”的诊前档案。","textChars":27,"textLines":1,"bbox":[321.27,608.3,637.46,35.2]}
+{"kind":"textbox","id":"sh/wbyxczqd","slide":29,"name":"TextBox 28","text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/xc7yl4ry","slide":29,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/76t0byt0","slide":29,"text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"notes","id":"nt/3mdove10","slide":29,"text":"完整度由基础资料、病因风险、中医资料和安全信息四层共同决定。"}
+{"kind":"slide","id":"sl/i5o3q10v","slide":30,"title":"07 / 结束判断","textShapes":26}
+{"kind":"shape","id":"sh/tk36hwby","slide":30,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/8jup8rad","slide":30,"name":"TextBox 3","text":"07 / 结束判断","textPreview":"07 / 结束判断","textChars":9,"textLines":1,"bbox":[62.4,68.4,113.45,25.6]}
+{"kind":"textbox","id":"sh/vmlojmto","slide":30,"name":"TextBox 4","text":"什么时候问够了？由停止条件决定","textPreview":"什么时候问够了？由停止条件决定","textChars":15,"textLines":1,"bbox":[59.8,108.3,702.98,67.2]}
+{"kind":"textbox","id":"sh/ulc7a1s3","slide":30,"name":"TextBox 5","text":"不按固定轮次结束，而是判断当前资料是否已经可以交给医生核对。","textPreview":"不按固定轮次结束，而是判断当前资料是否已经可以交给医生核对。","textChars":30,"textLines":1,"bbox":[61.9,166.15,665.7,33.6]}
+{"kind":"shape","id":"sh/g7upcra9","slide":30,"name":"Ellipse 7","bbox":[89,317,126,126]}
+{"kind":"textbox","id":"sh/bq1o72tk","slide":30,"name":"TextBox 8","text":"?","textPreview":"?","textChars":1,"textLines":1,"bbox":[122.16,341.1,59.67,118.4]}
+{"kind":"textbox","id":"sh/apsnyxcz","slide":30,"name":"TextBox 9","text":"结束判断","textPreview":"结束判断","textChars":4,"textLines":1,"bbox":[105.9,460,92.2,32]}
+{"kind":"shape","id":"sh/5gbupcrm","slide":30,"name":"Line 11","bbox":[238,285,94,1]}
+{"kind":"shape","id":"sh/idkbuxsv","slide":30,"name":"Ellipse 12","bbox":[337,262,46,46]}
+{"kind":"textbox","id":"sh/jetc329g","slide":30,"name":"TextBox 13","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[352.74,277.7,14.51,28.8]}
+{"kind":"textbox","id":"sh/s32t07ax","slide":30,"name":"TextBox 14","text":"必需字段齐全","textPreview":"必需字段齐全","textChars":6,"textLines":1,"bbox":[399.7,258.45,156.74,36.8]}
+{"kind":"textbox","id":"sh/t4butcri","slide":30,"name":"TextBox 15","text":"年龄、性别、身高、体重等硬性前提已完成","textPreview":"年龄、性别、身高、体重等硬性前提已完成","textChars":19,"textLines":1,"bbox":[400.3,293.55,342.55,27.2]}
+{"kind":"shape","id":"sh/7itcr29s","slide":30,"name":"Line 17","bbox":[238,375,94,1]}
+{"kind":"shape","id":"sh/87itonat","slide":30,"name":"Ellipse 18","bbox":[337,352,46,46]}
+{"kind":"textbox","id":"sh/98ruxsre","slide":30,"name":"TextBox 19","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[352.74,367.7,14.51,28.8]}
+{"kind":"textbox","id":"sh/p4jal432","slide":30,"name":"TextBox 20","text":"当前场景的信息覆盖达到门槛","textPreview":"当前场景的信息覆盖达到门槛","textChars":13,"textLines":1,"bbox":[399.7,348.45,334.25,36.8]}
+{"kind":"textbox","id":"sh/o3a9sj2h","slide":30,"name":"TextBox 21","text":"病因风险、中医资料和安全信息已达到对应要求","textPreview":"病因风险、中医资料和安全信息已达到对应要求","textChars":21,"textLines":1,"bbox":[400.3,383.55,378.25,27.2]}
+{"kind":"shape","id":"sh/218rq9kr","slide":30,"name":"Line 23","bbox":[238,465,94,1]}
+{"kind":"shape","id":"sh/x8japo3e","slide":30,"name":"Ellipse 24","bbox":[337,442,46,46]}
+{"kind":"textbox","id":"sh/c7a9wj2t","slide":30,"name":"TextBox 25","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[352.74,457.7,14.51,28.8]}
+{"kind":"textbox","id":"sh/b61snel8","slide":30,"name":"TextBox 26","text":"没有未处理的关键风险或矛盾","textPreview":"没有未处理的关键风险或矛盾","textChars":13,"textLines":1,"bbox":[399.7,438.45,334.25,36.8]}
+{"kind":"textbox","id":"sh/a5sru9kn","slide":30,"name":"TextBox 27","text":"危险信号持续提示，关键冲突需要进一步核对","textPreview":"危险信号持续提示，关键冲突需要进一步核对","textChars":20,"textLines":1,"bbox":[400.3,473.55,360.4,27.2]}
+{"kind":"shape","id":"sh/kbu9032p","slide":30,"name":"Line 29","bbox":[238,555,94,1]}
+{"kind":"shape","id":"sh/i54fy1wb","slide":30,"name":"Ellipse 30","bbox":[337,532,46,46]}
+{"kind":"textbox","id":"sh/j6dg76xg","slide":30,"name":"TextBox 31","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[352.74,547.7,14.51,28.8]}
+{"kind":"textbox","id":"sh/k7mx0be1","slide":30,"name":"TextBox 32","text":"不知道或拒答已完成一次澄清","textPreview":"不知道或拒答已完成一次澄清","textChars":13,"textLines":1,"bbox":[399.7,528.45,334.25,36.8]}
+{"kind":"textbox","id":"sh/58vy9wfm","slide":30,"name":"TextBox 33","text":"记录真实状态，不为了凑完整度而无限重复提问","textPreview":"记录真实状态，不为了凑完整度而无限重复提问","textChars":21,"textLines":1,"bbox":[400.3,563.55,378.25,27.2]}
+{"kind":"shape","id":"sh/7adgb6xs","slide":30,"name":"Rectangle 35","bbox":[848,257,368,135]}
+{"kind":"textbox","id":"sh/svmx4bed","slide":30,"name":"TextBox 36","text":"四项全部满足","textPreview":"四项全部满足","textChars":6,"textLines":1,"bbox":[880,289,136.3,32]}
+{"kind":"textbox","id":"sh/twvydgfy","slide":30,"name":"TextBox 37","text":"结束追问","textPreview":"结束追问","textChars":4,"textLines":1,"bbox":[879.5,324.75,115.25,40]}
+{"kind":"textbox","id":"sh/uxof6lw3","slide":30,"name":"TextBox 38","text":"生成可供诊中核对的档案","textPreview":"生成可供诊中核对的档案","textChars":11,"textLines":1,"bbox":[880.3,359.55,199.75,27.2]}
+{"kind":"shape","id":"sh/fyxgfqxo","slide":30,"name":"Rectangle 39","bbox":[848,426,368,135]}
+{"kind":"textbox","id":"sh/nutgzqps","slide":30,"name":"TextBox 40","text":"任一条件尚未满足","textPreview":"任一条件尚未满足","textChars":8,"textLines":1,"bbox":[880,458,180.4,32]}
+{"kind":"textbox","id":"sh/2tkfqlon","slide":30,"name":"TextBox 41","text":"继续追问","textPreview":"继续追问","textChars":4,"textLines":1,"bbox":[879.5,493.75,115.25,40]}
+{"kind":"textbox","id":"sh/pgby1g7y","slide":30,"name":"TextBox 42","text":"优先补当前最关键的缺失字段","textPreview":"优先补当前最关键的缺失字段","textChars":13,"textLines":1,"bbox":[880.3,528.55,235.45,27.2]}
+{"kind":"textbox","id":"sh/bitg3q54","slide":30,"name":"TextBox 44","text":"“问够”不是信息越多越好，而是足以让医生高效、安全地进入诊中。","textPreview":"“问够”不是信息越多越好，而是足以让医生高效、安全地进入诊中。","textChars":31,"textLines":1,"bbox":[62.1,649.85,634.32,30.4]}
+{"kind":"textbox","id":"sh/ahkfuloj","slide":30,"name":"TextBox 45","text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/xkvy50na","slide":30,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/cjmxwv6p","slide":30,"text":"30","textPreview":"30","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"notes","id":"nt/i5o3q10v","slide":30,"text":"追问结束不依赖固定轮次，而取决于资料、风险、矛盾和澄清状态。"}
+{"kind":"slide","id":"sl/wnqh07ex","slide":31,"title":"09 / 结果输出","textShapes":12}
+{"kind":"shape","id":"sh/po72d8nm","slide":31,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/o3yl4361","slide":31,"name":"TextBox 3","text":"09 / 结果输出","textPreview":"09 / 结果输出","textChars":9,"textLines":1,"bbox":[62.4,68.4,113.45,25.6]}
+{"kind":"textbox","id":"sh/bqpkfy5s","slide":31,"name":"TextBox 4","text":"双端结果：患者可理解，医生可追溯","textPreview":"双端结果：患者可理解，医生可追溯","textChars":16,"textLines":1,"bbox":[59.8,108.3,749.28,67.2]}
+{"kind":"textbox","id":"sh/apg36do7","slide":31,"name":"TextBox 5","text":"同一份问诊数据，按使用者的任务分成不同信息层次。","textPreview":"同一份问诊数据，按使用者的任务分成不同信息层次。","textChars":24,"textLines":1,"bbox":[61.9,166.15,533.4,33.6]}
+{"kind":"textbox","id":"sh/cril836d","slide":31,"name":"TextBox 7","text":"患者端","textPreview":"患者端","textChars":3,"textLines":1,"bbox":[61.6,207.6,84.18,38.4]}
+{"kind":"shape","id":"sh/ru5k3ep8","slide":31,"name":"Rectangle 8","bbox":[64,246,544,238]}
+{"kind":"textbox","id":"sh/onqx8zix","slide":31,"name":"TextBox 10","text":"安全文案、BMI 提示、诊前档案与检查建议","textPreview":"安全文案、BMI 提示、诊前档案与检查建议","textChars":21,"textLines":1,"bbox":[61.9,516.15,441.78,33.6]}
+{"kind":"textbox","id":"sh/p8ze14zi","slide":31,"name":"TextBox 11","text":"不展示内部完整度、字段优先级和医学判断过程","textPreview":"不展示内部完整度、字段优先级和医学判断过程","textChars":21,"textLines":1,"bbox":[62.3,550.55,378.25,27.2]}
+{"kind":"textbox","id":"sh/3mhwzu1c","slide":31,"name":"TextBox 13","text":"医生端","textPreview":"医生端","textChars":3,"textLines":1,"bbox":[669.6,207.6,84.18,38.4]}
+{"kind":"shape","id":"sh/cbaxczit","slide":31,"name":"Rectangle 14","bbox":[672,246,544,238]}
+{"kind":"textbox","id":"sh/q9sfap03","slide":31,"name":"TextBox 16","text":"分层执行度、字段证据、冲突和检查候选","textPreview":"分层执行度、字段证据、冲突和检查候选","textChars":18,"textLines":1,"bbox":[669.9,516.15,420.94,33.6]}
+{"kind":"textbox","id":"sh/ba1w3uh8","slide":31,"name":"TextBox 17","text":"帮助医生在诊中快速核对资料，而非替代医生判断","textPreview":"帮助医生在诊中快速核对资料，而非替代医生判断","textChars":22,"textLines":1,"bbox":[670.3,550.55,396.1,27.2]}
+{"kind":"shape","id":"sh/tgfetkja","slide":31,"name":"Line 19","bbox":[64,622,1152,1]}
+{"kind":"textbox","id":"sh/907mhc7m","slide":31,"name":"TextBox 20","text":"核心结果：数据采集、完整度判断与医生核对形成一条闭环。","textPreview":"核心结果：数据采集、完整度判断与医生核对形成一条闭环。","textChars":27,"textLines":1,"bbox":[62,650,571,32]}
+{"kind":"textbox","id":"sh/8zel8761","slide":31,"name":"TextBox 21","text":"30","textPreview":"30","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/h47mlc7y","slide":31,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/w3ylc76d","slide":31,"text":"31","textPreview":"31","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"image","id":"im/4rydwb21","slide":31,"name":"Image 9","bbox":[64.68,246,542.64,238]}
+{"kind":"image","id":"im/5s7u5gjm","slide":31,"name":"Image 15","bbox":[672.68,246,542.64,238]}
+{"kind":"notes","id":"nt/wnqh07ex","slide":31,"text":"患者端提供安全可理解的摘要，医生端提供证据、冲突与执行依据。"}
+{"kind":"slide","id":"sl/lcn6tkb6","slide":32,"title":"10 / 总结与下一步","textShapes":16}
+{"kind":"shape","id":"sh/dgja98fe","slide":32,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/cfa903yt","slide":32,"name":"TextBox 3","text":"10 / 总结与下一步","textPreview":"10 / 总结与下一步","textChars":11,"textLines":1,"bbox":[62.4,68.4,148.73,25.6]}
+{"kind":"textbox","id":"sh/zilsbyx4","slide":32,"name":"TextBox 4","text":"当前成果与下一步","textPreview":"当前成果与下一步","textChars":8,"textLines":1,"bbox":[59.8,108.3,378.84,67.2]}
+{"kind":"textbox","id":"sh/ehsr2dgz","slide":32,"name":"TextBox 5","text":"从单次答题页面，迭代为面向诊中服务的诊前采集闭环。","textPreview":"从单次答题页面，迭代为面向诊中服务的诊前采集闭环。","textChars":25,"textLines":1,"bbox":[61.9,166.15,555.45,33.6]}
+{"kind":"textbox","id":"sh/0jut43yp","slide":32,"name":"TextBox 7","text":"本周已完成","textPreview":"本周已完成","textChars":5,"textLines":1,"bbox":[61.8,239.3,125.67,35.2]}
+{"kind":"shape","id":"sh/fmhszex0","slide":32,"name":"Rectangle 8","bbox":[64,281,510,238]}
+{"kind":"textbox","id":"sh/ul8rq9gf","slide":32,"name":"TextBox 9","text":"01 流程从固定问答改为对话式追问","textPreview":"01 流程从固定问答改为对话式追问","textChars":17,"textLines":1,"bbox":[97.6,316.6,412.28,38.4]}
+{"kind":"textbox","id":"sh/4vm5g7al","slide":32,"name":"TextBox 10","text":"02 建立四层完整度与停止条件","textPreview":"02 建立四层完整度与停止条件","textChars":15,"textLines":1,"bbox":[97.6,363.6,359.36,38.4]}
+{"kind":"textbox","id":"sh/5wvmpcr6","slide":32,"name":"TextBox 11","text":"03 完善患者端与医生端结果分层","textPreview":"03 完善患者端与医生端结果分层","textChars":16,"textLines":1,"bbox":[97.6,410.6,385.82,38.4]}
+{"kind":"textbox","id":"sh/it4nexsf","slide":32,"name":"TextBox 12","text":"基础资料、追问、档案与检查建议已形成可演示链路","textPreview":"基础资料、追问、档案与检查建议已形成可演示链路","textChars":23,"textLines":1,"bbox":[98.2,464.7,438.3,28.8]}
+{"kind":"textbox","id":"sh/sz65k7ah","slide":32,"name":"TextBox 14","text":"下一步收口","textPreview":"下一步收口","textChars":5,"textLines":1,"bbox":[659.8,239.3,125.67,35.2]}
+{"kind":"shape","id":"sh/d0fmtcr2","slide":32,"name":"Line 15","bbox":[662,281,554,1]}
+{"kind":"textbox","id":"sh/qx4nihsb","slide":32,"name":"TextBox 16","text":"01 补充真实浏览器端到端流程测试","textPreview":"01 补充真实浏览器端到端流程测试","textChars":17,"textLines":1,"bbox":[659.6,316.6,412.28,38.4]}
+{"kind":"textbox","id":"sh/ryd4rm9w","slide":32,"name":"TextBox 17","text":"02 继续打磨医生端访问控制与隐私","textPreview":"02 继续打磨医生端访问控制与隐私","textChars":17,"textLines":1,"bbox":[659.6,363.6,412.28,38.4]}
+{"kind":"textbox","id":"sh/832l8nad","slide":32,"name":"TextBox 18","text":"03 补足文档，收口旧接口与演示路径","textPreview":"03 补足文档，收口旧接口与演示路径","textChars":18,"textLines":1,"bbox":[659.6,410.6,438.74,38.4]}
+{"kind":"textbox","id":"sh/t4bmhsry","slide":32,"name":"TextBox 19","text":"把“可演示”推进到“可稳定验证、可持续迭代”。","textPreview":"把“可演示”推进到“可稳定验证、可持续迭代”。","textChars":23,"textLines":1,"bbox":[660.2,464.7,404.28,28.8]}
+{"kind":"shape","id":"sh/8zu1cj21","slide":32,"name":"Rectangle 21","bbox":[64,578,1152,63]}
+{"kind":"textbox","id":"sh/nylkjelg","slide":32,"name":"TextBox 22","text":"采集更完整，交接更清楚，服务于医生的最终判断。","textPreview":"采集更完整，交接更清楚，服务于医生的最终判断。","textChars":23,"textLines":1,"bbox":[320.53,596.75,638.94,40]}
+{"kind":"textbox","id":"sh/mxcja9kv","slide":32,"name":"TextBox 23","text":"31","textPreview":"31","textChars":2,"textLines":1,"bbox":[1169.92,670.4,21.68,25.6]}
+{"kind":"shape","id":"sh/xon2po3i","slide":32,"bbox":[1152,656,76,42]}
+{"kind":"textbox","id":"sh/wnulgj2d","slide":32,"text":"32","textPreview":"32","textChars":2,"textLines":1,"bbox":[1166,670,36,18]}
+{"kind":"notes","id":"nt/lcn6tkb6","slide":32,"text":"下一步将补充端到端测试、访问控制与文档收口。"}

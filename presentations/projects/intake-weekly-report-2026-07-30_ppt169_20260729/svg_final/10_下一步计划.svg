@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F7FAF7" />
+  <g id="chrome">
+    <text x="56" y="57" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700">INTAKE DIAGNOSTICIAN · WEEKLY REPORT</text>
+    <text x="1224" y="680" fill="#8A978E" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" text-anchor="end">10</text>
+  </g>
+  <g id="title">
+    <text x="56" y="105" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700">下一步计划</text>
+    <text x="56" y="137" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20">围绕真实问诊质量和稳定交付继续推进</text>
+  </g>
+  <g id="steps">
+    <line x1="190" y1="294" x2="1090" y2="294" stroke="#D8E4DA" stroke-width="4" />
+
+    <circle cx="190" cy="294" r="42" fill="#2F7D4A" />
+    <text x="190" y="306" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">1</text>
+    <text x="190" y="376" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">动态追问</text>
+    <text x="190" y="411" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">根据答案调整问题</text>
+    <text x="190" y="438" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">减少无效问答</text>
+
+    <circle cx="490" cy="294" r="42" fill="#65B66C" />
+    <text x="490" y="306" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">2</text>
+    <text x="490" y="376" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">风险提示</text>
+    <text x="490" y="411" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">识别高风险症状</text>
+    <text x="490" y="438" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">给出及时就医建议</text>
+
+    <circle cx="790" cy="294" r="42" fill="#D9A441" />
+    <text x="790" y="306" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">3</text>
+    <text x="790" y="376" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">档案管理</text>
+    <text x="790" y="411" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">支持历史记录检索</text>
+    <text x="790" y="438" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">对比和导出</text>
+
+    <circle cx="1090" cy="294" r="42" fill="#2F7D4A" />
+    <text x="1090" y="306" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">4</text>
+    <text x="1090" y="376" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">部署稳定性</text>
+    <text x="1090" y="411" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">统一启动方式</text>
+    <text x="1090" y="438" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">补充异常监控</text>
+  </g>
+  <g id="closing">
+    <path fill="#2F7D4A" d="M104,522 H1176 A8,8 0 0 1 1184,530 V618 A8,8 0 0 1 1176,626 H104 A8,8 0 0 1 96,618 V530 A8,8 0 0 1 104,522 Z" />
+    
+  <g transform="translate(136, 553) scale(1.66667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M12 7a5 5 0 1 0 5 5" />
+    <path d="M13 3.055a9 9 0 1 0 7.941 7.945" />
+    <path d="M15 6v3h3l3 -3h-3v-3l-3 3" />
+    <path d="M15 9l-3 3" />
+  </g>
+    <text x="202" y="579" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="700">本周已经完成从聊天 Demo 到结构化问诊产品的关键一步</text>
+    <text x="202" y="607" fill="#EEF6EF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17">下一阶段重点从“可用”走向“更智能、更稳、更接近真实场景”</text>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F7FAF7" />
+  <g id="chrome">
+    <text x="56" y="57" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700">INTAKE DIAGNOSTICIAN · WEEKLY REPORT</text>
+    <text x="1224" y="680" fill="#8A978E" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" text-anchor="end">08</text>
+  </g>
+  <g id="title">
+    <text x="56" y="105" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700">四诊档案与数据沉淀</text>
+    <text x="56" y="137" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20">从“答完即结束”升级为可检索、可回看的诊疗资料</text>
+  </g>
+  <g id="pipeline">
+    <line x1="198" y1="326" x2="1082" y2="326" stroke="#D8E4DA" stroke-width="8" />
+    <line x1="198" y1="326" x2="1082" y2="326" stroke="#65B66C" stroke-width="4" />
+
+    <circle cx="198" cy="326" r="46" fill="#2F7D4A" />
+    <text x="198" y="337" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">1</text>
+    <path fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1.5" d="M82,390 H314 A8,8 0 0 1 322,398 V520 A8,8 0 0 1 314,528 H82 A8,8 0 0 1 74,520 V398 A8,8 0 0 1 82,390 Z" />
+    <text x="198" y="429" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">用户回答</text>
+    <text x="198" y="465" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">症状、时长、诱因</text>
+    <text x="198" y="494" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">伴随情况与补充描述</text>
+
+    <circle cx="492" cy="326" r="46" fill="#65B66C" />
+    <text x="492" y="337" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">2</text>
+    <path fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1.5" d="M376,390 H608 A8,8 0 0 1 616,398 V520 A8,8 0 0 1 608,528 H376 A8,8 0 0 1 368,520 V398 A8,8 0 0 1 376,390 Z" />
+    <text x="492" y="429" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">会话与摘要</text>
+    <text x="492" y="465" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">保留题目顺序和答案</text>
+    <text x="492" y="494" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">同步生成结构化摘要</text>
+
+    <circle cx="786" cy="326" r="46" fill="#D9A441" />
+    <text x="786" y="337" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">3</text>
+    <path fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1.5" d="M670,390 H902 A8,8 0 0 1 910,398 V520 A8,8 0 0 1 902,528 H670 A8,8 0 0 1 662,520 V398 A8,8 0 0 1 670,390 Z" />
+    <text x="786" y="429" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">四诊档案</text>
+    <text x="786" y="465" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">自动整理 Markdown</text>
+    <text x="786" y="494" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">形成可阅读的问诊记录</text>
+
+    <circle cx="1082" cy="326" r="46" fill="#2F7D4A" />
+    <text x="1082" y="337" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">4</text>
+    <path fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1.5" d="M966,390 H1198 A8,8 0 0 1 1206,398 V520 A8,8 0 0 1 1198,528 H966 A8,8 0 0 1 958,520 V398 A8,8 0 0 1 966,390 Z" />
+    <text x="1082" y="429" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">JSON 记录</text>
+    <text x="1082" y="465" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">保存 structured_answers</text>
+    <text x="1082" y="494" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">支持后续统计与扩展</text>
+  </g>
+  <g id="value-strip">
+    <path fill="#EEF6EF" stroke="#D8E4DA" stroke-width="1.5" d="M64,570 H1216 A8,8 0 0 1 1224,578 V632 A8,8 0 0 1 1216,640 H64 A8,8 0 0 1 56,632 V578 A8,8 0 0 1 64,570 Z" />
+    
+  <g transform="translate(86, 590) scale(1.25)" fill="none" stroke="#2F7D4A" stroke-width="2">
+    <path d="M4 6c0 1.657 3.582 3 8 3s8 -1.343 8 -3s-3.582 -3 -8 -3s-8 1.343 -8 3" />
+    <path d="M4 6v6c0 1.453 2.755 2.665 6.414 2.941" />
+    <path d="M20 11v-5" />
+    <path d="M4 12v6c0 1.579 3.253 2.873 7.383 2.991" />
+    <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296" />
+  </g>
+    <text x="134" y="615" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700">数据价值</text>
+    <text x="302" y="615" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700">可检索</text>
+    <circle cx="410" cy="607" r="4" fill="#D9A441" />
+    <text x="452" y="615" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700">可回看</text>
+    <circle cx="560" cy="607" r="4" fill="#D9A441" />
+    <text x="602" y="615" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700">可扩展</text>
+    <text x="760" y="615" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17">为档案管理、统计分析和模型优化提供基础</text>
+  </g>
+</svg>

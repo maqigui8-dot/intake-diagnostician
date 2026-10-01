@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="74" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">11 · 操作展示</text>
+  <text x="64" y="120" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="700" fill="#174C43">项目操作展示（一）：建立患者基础资料</text>
+  <text x="64" y="154" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#62716B">患者填写基础测量信息和主要诉求，系统完成BMI计算并建立本次问诊上下文。</text>
+  <rect x="72" y="184" width="1136" height="396" fill="#FFFFFF" stroke="#6E9184" stroke-width="2" stroke-dasharray="8,4"/>
+  <!-- icon: tabler-outline/forms -->
+  <g transform="translate(590, 310) scale(4.16667)" fill="none" stroke="#6E9184" stroke-width="2">
+    <path d="M12 3a3 3 0 0 0 -3 3v12a3 3 0 0 0 3 3" />
+    <path d="M6 3a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3" />
+    <path d="M13 7h7a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-7" />
+    <path d="M5 7h-1a1 1 0 0 0 -1 1v8a1 1 0 0 0 1 1h1" />
+    <path d="M17 12h.01" />
+    <path d="M13 12h.01" />
+  </g>
+  <text x="640" y="444" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#174C43">在此插入：基础资料填写或BMI评估页面截图</text>
+  <text x="640" y="480" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#62716B">建议使用16:9或宽屏裁切，覆盖整个虚线区域</text>
+  <line x1="170" y1="630" x2="1110" y2="630" stroke="#6E9184" stroke-width="3"/>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#24332E">
+    <circle cx="194" cy="630" r="18" fill="#174C43"/><text x="194" y="636" fill="#F7F5EF">1</text><text x="194" y="672">基础资料确认</text>
+    <circle cx="492" cy="630" r="18" fill="#174C43"/><text x="492" y="636" fill="#F7F5EF">2</text><text x="492" y="672">BMI评估</text>
+    <circle cx="790" cy="630" r="18" fill="#174C43"/><text x="790" y="636" fill="#F7F5EF">3</text><text x="790" y="672">提交主要诉求</text>
+    <circle cx="1088" cy="630" r="18" fill="#C76B3C"/><text x="1088" y="636" fill="#F7F5EF">4</text><text x="1088" y="672">开始问诊</text>
+  </g>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">12</text>
+</svg>

@@ -1,0 +1,162 @@
+{
+  "lang": "zh",
+  "recommend": {
+    "canvas": "ppt169",
+    "mode": "briefing",
+    "visual_style": "soft-rounded",
+    "icons": "tabler-outline",
+    "image_usage": "使用项目实机页面截图，配合 SVG 流程图与信息图",
+    "formula_policy": "text-only",
+    "generation_mode": "continuous"
+  },
+  "page_count": {
+    "value": "5"
+  },
+  "audience": {
+    "value": "项目组成员、指导教师与阶段进展汇报听众；用于说明本轮需求调整、实现方案和验证结果"
+  },
+  "content_divergence": {
+    "value": ""
+  },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "清润医疗绿",
+        "name_en": "Clinical Jade",
+        "note_zh": "延续系统界面的中医医疗气质，用珊瑚红强调问题与修复。",
+        "note_en": "A calm clinical palette with coral emphasis for problems and fixes.",
+        "palette": {
+          "background": "#FFFFFF",
+          "secondary_bg": "#F3F7F5",
+          "primary": "#237A57",
+          "accent": "#E45B4B",
+          "secondary_accent": "#D6A83B",
+          "body_text": "#1E2A25"
+        }
+      },
+      {
+        "name_zh": "墨青与朱印",
+        "name_en": "Ink Green & Seal Red",
+        "note_zh": "传统中医识别度更强，但保持现代汇报的清晰与克制。",
+        "note_en": "A more traditional TCM identity with modern restraint.",
+        "palette": {
+          "background": "#FCFDFC",
+          "secondary_bg": "#EFF3F0",
+          "primary": "#193F35",
+          "accent": "#B93632",
+          "secondary_accent": "#4F8871",
+          "body_text": "#17231F"
+        }
+      },
+      {
+        "name_zh": "青蓝技术感",
+        "name_en": "Teal Technology",
+        "note_zh": "更突出 AI 与工程实现，适合技术型项目汇报。",
+        "note_en": "A more technical palette emphasizing AI and implementation.",
+        "palette": {
+          "background": "#FFFFFF",
+          "secondary_bg": "#F1F6F8",
+          "primary": "#16697A",
+          "accent": "#F0A23A",
+          "secondary_accent": "#3D8F82",
+          "body_text": "#17252B"
+        }
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "稳健汇报",
+        "name_en": "Reliable Briefing",
+        "note_zh": "中文显示稳定，标题清晰，适合投影与现场讲解。",
+        "note_en": "Stable Chinese rendering and clear projected headings.",
+        "heading": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Aptos Display",
+          "css": "'Microsoft YaHei','Aptos Display',sans-serif",
+          "sample_cjk": "诊前问诊阶段进展",
+          "sample_latin": "Project Progress"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Aptos",
+          "css": "'Microsoft YaHei','Aptos',sans-serif",
+          "sample_cjk": "追问由信息完整度动态决定",
+          "sample_latin": "Dynamic Follow-up"
+        },
+        "body_size": 20
+      },
+      {
+        "name_zh": "简洁技术",
+        "name_en": "Clean Technical",
+        "note_zh": "字面更紧凑，适合流程图、规则和测试信息。",
+        "note_en": "Compact and practical for flows, rules, and test evidence.",
+        "heading": {
+          "cjk": "DengXian",
+          "latin": "Arial",
+          "css": "'DengXian','Arial',sans-serif",
+          "sample_cjk": "诊前问诊阶段进展",
+          "sample_latin": "Project Progress"
+        },
+        "body": {
+          "cjk": "DengXian",
+          "latin": "Arial",
+          "css": "'DengXian','Arial',sans-serif",
+          "sample_cjk": "追问由信息完整度动态决定",
+          "sample_latin": "Dynamic Follow-up"
+        },
+        "body_size": 19
+      },
+      {
+        "name_zh": "编辑感标题",
+        "name_en": "Editorial Headings",
+        "note_zh": "中文保持稳健，英文数字用衬线体增加阶段总结的质感。",
+        "note_en": "Stable CJK with serif Latin and numerals for editorial contrast.",
+        "heading": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Georgia",
+          "css": "Georgia,'Microsoft YaHei',serif",
+          "sample_cjk": "诊前问诊阶段进展",
+          "sample_latin": "Project Progress"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "'Microsoft YaHei','Arial',sans-serif",
+          "sample_cjk": "追问由信息完整度动态决定",
+          "sample_latin": "Dynamic Follow-up"
+        },
+        "body_size": 20
+      }
+    ]
+  },
+  "visual_style_spectrum": [
+    {
+      "id": "soft-rounded",
+      "tag_zh": "稳妥亲和",
+      "tag_en": "Safe & approachable",
+      "note_zh": "像成熟医疗 SaaS 的产品进展汇报",
+      "note_en": "Like a mature healthcare SaaS progress review"
+    },
+    {
+      "id": "editorial",
+      "tag_zh": "分析质感",
+      "tag_en": "Editorial analysis",
+      "note_zh": "像研究机构的阶段成果简报",
+      "note_en": "Like a research institute progress brief"
+    },
+    {
+      "id": "ink-wash",
+      "tag_zh": "新中式表达",
+      "tag_en": "Contemporary TCM",
+      "note_zh": "像现代中医文化展的技术专题页",
+      "note_en": "Like a modern TCM technology exhibit"
+    }
+  ],
+  "refine_spec": {
+    "value": false
+  }
+}

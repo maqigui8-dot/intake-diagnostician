@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9" /></g>
+  <g id="header"><text x="64" y="72" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">医生端档案与检查建议</text><text x="64" y="108" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">将患者陈述、结构化字段和检查准备放在同一份可继续确认的诊前档案中</text></g>
+  <g id="archive-placeholder">
+    <text x="64" y="158" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#236B45">诊前档案与完整度明细</text>
+    <path fill="#FFFFFF" stroke="#72A984" stroke-width="2" stroke-dasharray="8,4" d="M72,178 H604 A8,8 0 0 1 612,186 V530 A8,8 0 0 1 604,538 H72 A8,8 0 0 1 64,530 V186 A8,8 0 0 1 72,178 Z" />
+    <path fill="#F1F6EF" d="M72,178 H604 A8,8 0 0 1 612,186 V210 A8,8 0 0 1 604,218 H72 A8,8 0 0 1 64,210 V186 A8,8 0 0 1 72,178 Z" /><rect x="64" y="208" width="548" height="10" fill="#F1F6EF" />
+    <circle cx="91" cy="198" r="5" fill="#C68A3A" /><circle cx="109" cy="198" r="5" fill="#72A984" /><circle cx="127" cy="198" r="5" fill="#D7E2D8" />
+    
+  <g transform="translate(281, 282) scale(4.66667)" fill="#D7E2D8">
+    <path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm3 14h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m0 -4h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2" />
+    <path d="M19 7h-4l-.001 -4.001z" />
+  </g>
+    <text x="338" y="430" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#236B45">医生端档案截图</text>
+    <text x="338" y="468" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">放入结构化档案、问答记录和待确认信息</text>
+  </g>
+  <g id="exam-placeholder">
+    <text x="668" y="158" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#236B45">推荐检查项目</text>
+    <path fill="#FFFFFF" stroke="#72A984" stroke-width="2" stroke-dasharray="8,4" d="M676,178 H1208 A8,8 0 0 1 1216,186 V530 A8,8 0 0 1 1208,538 H676 A8,8 0 0 1 668,530 V186 A8,8 0 0 1 676,178 Z" />
+    <path fill="#F1F6EF" d="M676,178 H1208 A8,8 0 0 1 1216,186 V210 A8,8 0 0 1 1208,218 H676 A8,8 0 0 1 668,210 V186 A8,8 0 0 1 676,178 Z" /><rect x="668" y="208" width="548" height="10" fill="#F1F6EF" />
+    <circle cx="695" cy="198" r="5" fill="#C68A3A" /><circle cx="713" cy="198" r="5" fill="#72A984" /><circle cx="731" cy="198" r="5" fill="#D7E2D8" />
+    
+  <g transform="translate(885, 282) scale(4.66667)" fill="#D7E2D8">
+    <path d="M17.997 4.17a3 3 0 0 1 2.003 2.83v12a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 2.003 -2.83a4 4 0 0 0 3.997 3.83h4a4 4 0 0 0 3.98 -3.597zm-8.997 6.83a1 1 0 0 0 -1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0 -1 -1m3 4a1 1 0 0 0 -1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0 -1 -1m3 -2a1 1 0 0 0 -1 1v3a1 1 0 0 0 2 0v-3a1 1 0 0 0 -1 -1m-1 -11a2 2 0 1 1 0 4h-4a2 2 0 1 1 0 -4z" />
+  </g>
+    <text x="942" y="430" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#236B45">检查建议截图</text>
+    <text x="942" y="468" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">放入检查项目、推荐理由与注意事项</text>
+  </g>
+  <g id="doctor-takeaway">
+    <path fill="#236B45" d="M72,568 H1208 A8,8 0 0 1 1216,576 V632 A8,8 0 0 1 1208,640 H72 A8,8 0 0 1 64,632 V576 A8,8 0 0 1 72,568 Z" />
+    
+  <g transform="translate(92, 584) scale(1.66667)" fill="#FFFFFF">
+    <path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+    <text x="154" y="600" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">系统提供整理与提示</text>
+    <text x="420" y="600" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#F1F6EF">最终诊断、检查选择与处方由医生完成</text>
+  </g>
+  <g id="footer"><text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text><text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">09</text></g>
+</svg>

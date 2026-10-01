@@ -1,0 +1,110 @@
+{
+  "record_id": "d32b741a-7d3c-4b54-b798-2a186f0a94f7",
+  "patient_name": "匿名患者",
+  "created_at": "2026-07-29T23:24:05.163805",
+  "collected_info": {
+    "主要症状": "胃胀、反酸",
+    "持续时间": "今天刚出现",
+    "寒热": "比较怕冷",
+    "汗出": "和平时差不多",
+    "头身": "头身沉重",
+    "二便": "基本正常",
+    "饮食": "食欲正常",
+    "胸腹": "胸口发闷",
+    "睡眠": "睡眠正常",
+    "旧病与诱因": "暂时没有"
+  },
+  "markdown_table": "| 四诊项目 | 详情 |\n|---------|------|\n| 主要症状 | 胃胀、反酸 |\n| 持续时间 | 今天刚出现 |\n| 寒热 | 比较怕冷 |\n| 汗出 | 和平时差不多 |\n| 头身 | 头身沉重 |\n| 二便 | 基本正常 |\n| 饮食 | 食欲正常 |\n| 胸腹 | 胸口发闷 |\n| 睡眠 | 睡眠正常 |\n| 旧病与诱因 | 暂时没有 |\n| 舌象 | 待面诊采集 |\n| 脉象 | 待面诊采集 |\n| 检查建议 | 本结果仅用于诊前信息整理，如症状明显或持续加重，请及时线下就医。 |",
+  "structured_answers": {
+    "chief_complaint": {
+      "question_id": "chief_complaint",
+      "topic": "主要症状",
+      "field": "chief_complaint",
+      "question": "您目前最主要的不适是什么？",
+      "option_id": "stomach",
+      "option_label": "胃胀、反酸",
+      "note": ""
+    },
+    "duration": {
+      "question_id": "duration",
+      "topic": "持续时间",
+      "field": "duration",
+      "question": "这种不适大概持续多久了？",
+      "option_id": "today",
+      "option_label": "今天刚出现",
+      "note": ""
+    },
+    "cold_heat": {
+      "question_id": "cold_heat",
+      "topic": "寒热",
+      "field": "cold_heat",
+      "question": "您平时更怕冷还是更怕热？",
+      "option_id": "cold",
+      "option_label": "比较怕冷",
+      "note": ""
+    },
+    "sweating": {
+      "question_id": "sweating",
+      "topic": "汗出",
+      "field": "sweating",
+      "question": "最近出汗情况怎么样？",
+      "option_id": "normal",
+      "option_label": "和平时差不多",
+      "note": ""
+    },
+    "head_body": {
+      "question_id": "head_body",
+      "topic": "头身",
+      "field": "head_body",
+      "question": "头部和身体有没有疼痛、沉重或乏力？",
+      "option_id": "heavy",
+      "option_label": "头身沉重",
+      "note": ""
+    },
+    "bowel_urine": {
+      "question_id": "bowel_urine",
+      "topic": "二便",
+      "field": "bowel_urine",
+      "question": "大便和小便最近有什么变化吗？",
+      "option_id": "normal",
+      "option_label": "基本正常",
+      "note": ""
+    },
+    "appetite": {
+      "question_id": "appetite",
+      "topic": "饮食",
+      "field": "appetite",
+      "question": "最近食欲和消化怎么样？",
+      "option_id": "normal",
+      "option_label": "食欲正常",
+      "note": ""
+    },
+    "chest_abdomen": {
+      "question_id": "chest_abdomen",
+      "topic": "胸腹",
+      "field": "chest_abdomen",
+      "question": "胸口或肚子有没有闷、胀、痛的感觉？",
+      "option_id": "chest_tight",
+      "option_label": "胸口发闷",
+      "note": ""
+    },
+    "sleep_quality": {
+      "question_id": "sleep_quality",
+      "topic": "睡眠",
+      "field": "sleep_quality",
+      "question": "最近睡眠情况如何？",
+      "option_id": "normal",
+      "option_label": "睡眠正常",
+      "note": ""
+    },
+    "history_trigger": {
+      "question_id": "history_trigger",
+      "topic": "旧病与诱因",
+      "field": "history_trigger",
+      "question": "以前有慢性病、长期用药，或这次明显诱因吗？",
+      "option_id": "none",
+      "option_label": "暂时没有",
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#236B45"/></g>
+  <g id="header"><text x="64" y="74" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#FFFFFF">项目成果与应用价值</text><text x="64" y="110" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#F1F6EF">从诊前收集到医生端使用，形成可持续接续的完整闭环</text></g>
+  <g id="loop-connectors">
+    <line x1="640" y1="184" x2="851" y2="304" stroke="#72A984" stroke-width="4"/>
+    <polygon points="845,291 871,315 839,308" fill="#72A984"/>
+    <line x1="872" y1="337" x2="657" y2="457" stroke="#72A984" stroke-width="4"/>
+    <polygon points="672,447 640,468 659,438" fill="#72A984"/>
+    <line x1="623" y1="457" x2="408" y2="337" stroke="#72A984" stroke-width="4"/>
+    <polygon points="421,346 389,326 426,327" fill="#72A984"/>
+    <line x1="429" y1="304" x2="640" y2="184" stroke="#72A984" stroke-width="4"/>
+    <polygon points="625,194 657,174 638,203" fill="#72A984"/>
+  </g>
+  <g id="loop-center">
+    <circle cx="640" cy="326" r="88" fill="#FCFDF9"/>
+    <use data-icon="tabler-filled/medical-cross" x="612" y="270" width="56" height="56" fill="#236B45"/>
+    <text x="640" y="359" text-anchor="middle" font-family="KaiTi, Georgia, serif" font-size="28" font-weight="bold" fill="#24332B">服务诊中决策</text>
+    <text x="640" y="388" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#68756D">医生保留最终判断权</text>
+  </g>
+  <g id="node-collect">
+    <circle cx="640" cy="170" r="56" fill="#FCFDF9" stroke="#C68A3A" stroke-width="4"/>
+    <use data-icon="tabler-filled/user" x="620" y="136" width="40" height="40" fill="#236B45"/>
+    <text x="640" y="201" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#24332B">诊前收集</text>
+  </g>
+  <g id="node-question">
+    <circle cx="888" cy="326" r="56" fill="#FCFDF9" stroke="#C68A3A" stroke-width="4"/>
+    <use data-icon="tabler-filled/message-chatbot" x="868" y="292" width="40" height="40" fill="#236B45"/>
+    <text x="888" y="357" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#24332B">对话追问</text>
+  </g>
+  <g id="node-archive">
+    <circle cx="640" cy="482" r="56" fill="#FCFDF9" stroke="#C68A3A" stroke-width="4"/>
+    <use data-icon="tabler-filled/file-description" x="620" y="448" width="40" height="40" fill="#236B45"/>
+    <text x="640" y="513" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#24332B">档案整理</text>
+  </g>
+  <g id="node-exam">
+    <circle cx="392" cy="326" r="56" fill="#FCFDF9" stroke="#C68A3A" stroke-width="4"/>
+    <use data-icon="tabler-filled/report-analytics" x="372" y="292" width="40" height="40" fill="#236B45"/>
+    <text x="392" y="357" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#24332B">检查准备</text>
+  </g>
+  <g id="value-outcomes">
+    <line x1="136" y1="582" x2="1144" y2="582" stroke="#72A984" stroke-width="2"/>
+    <text x="192" y="626" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">患者</text>
+    <text x="252" y="626" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F1F6EF">降低表达负担，减少重复描述</text>
+    <line x1="484" y1="602" x2="484" y2="644" stroke="#72A984" stroke-width="2"/>
+    <text x="552" y="626" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">医生</text>
+    <text x="612" y="626" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F1F6EF">快速发现缺口、冲突和风险</text>
+    <line x1="844" y1="602" x2="844" y2="644" stroke="#72A984" stroke-width="2"/>
+    <text x="914" y="626" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">系统</text>
+    <text x="974" y="626" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F1F6EF">资料可追溯，流程可接续</text>
+  </g>
+  <g id="closing-footer"><text x="640" y="684" text-anchor="middle" font-family="KaiTi, Georgia, serif" font-size="22" font-weight="bold" fill="#FFFFFF">把患者说过的话，变成医生接得住的资料。</text></g>
+</svg>

@@ -1,0 +1,21 @@
+This deck uses only local project sources and locally captured screenshots.
+
+Primary sources:
+- docs/superpowers/specs/2026-08-12-conversational-follow-up-design.md
+- docs/superpowers/specs/2026-08-12-dynamic-follow-up-completion-design.md
+- frontend/src/App.vue
+- frontend/src/follow-up-stage.js
+- backend/intake_flow.py
+- backend/skill_analysis.py
+- backend/skills/tcm-intake-checklist/SKILL.md
+- backend/skills/tcm-questioning-guide/SKILL.md
+- frontend/tests/follow-up-stage.test.mjs
+- frontend/tests/patient-visibility.test.mjs
+- backend/tests/test_intake_flow.py
+- backend/tests/test_skill_analysis.py
+
+Visual assets:
+- output/playwright/project-home-current.png
+- output/playwright/dynamic-follow-up-mobile-13.png
+- output/playwright/follow-up-desktop.png
+- output/playwright/dynamic-follow-up-13.png

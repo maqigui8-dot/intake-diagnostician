@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arrowGreen" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#2F6B4F" />
+    </marker>
+    <marker id="arrowGold" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#D6A84B" />
+    </marker>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="#F7F9F5" />
+  </g>
+
+  <g id="header">
+    <text x="68" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1F2A24">动态补问闭环</text>
+    <text x="68" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">每轮只补一个关键缺口，回答后重新评估是否需要继续</text>
+    <path fill="#DCE5DC" d="M69.50,132 H1210.50 A1.50,1.50 0 0 1 1212,133.50 V133.50 A1.50,1.50 0 0 1 1210.50,135 H69.50 A1.50,1.50 0 0 1 68,133.50 V133.50 A1.50,1.50 0 0 1 69.50,132 Z" />
+  </g>
+
+  
+  
+  <g id="node-start">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2" d="M510,170 H770 A20,20 0 0 1 790,190 V222 A20,20 0 0 1 770,242 H510 A20,20 0 0 1 490,222 V190 A20,20 0 0 1 510,170 Z" />
+    
+  <g transform="translate(510, 190) scale(1.33333)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M9 14l2 2l4 -4" />
+  </g>
+    <text x="560" y="200" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1F2A24">固定问答完成</text>
+    <text x="560" y="226" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#657269">不等于信息已经完整</text>
+  </g>
+
+  
+  <g id="node-check">
+    <path fill="#EAF2E8" stroke="#2F6B4F" stroke-width="2" d="M740,304 H1000 A20,20 0 0 1 1020,324 V356 A20,20 0 0 1 1000,376 H740 A20,20 0 0 1 720,356 V324 A20,20 0 0 1 740,304 Z" />
+    
+  <g transform="translate(740, 324) scale(1.33333)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M3.5 5.5l1.5 1.5l2.5 -2.5" />
+    <path d="M3.5 11.5l1.5 1.5l2.5 -2.5" />
+    <path d="M3.5 17.5l1.5 1.5l2.5 -2.5" />
+    <path d="M11 6l9 0" />
+    <path d="M11 12l9 0" />
+    <path d="M11 18l9 0" />
+  </g>
+    <text x="790" y="334" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1F2A24">完整度 Skill 判断</text>
+    <text x="790" y="360" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#657269">识别当前最关键信息缺口</text>
+  </g>
+
+  
+  <g id="node-ask">
+    <path fill="#2F6B4F" d="M510,438 H770 A20,20 0 0 1 790,458 V490 A20,20 0 0 1 770,510 H510 A20,20 0 0 1 490,490 V458 A20,20 0 0 1 510,438 Z" />
+    
+  <g transform="translate(510, 458) scale(1.33333)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M8 9h8" />
+    <path d="M8 13h6" />
+    <path d="M14 18h-1l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5" />
+    <path d="M19 22v.01" />
+    <path d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+  </g>
+    <text x="560" y="468" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#FFFFFF">追问 Skill 生成问题</text>
+    <text x="560" y="494" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.72">一次一问、通俗自然、不诱导</text>
+  </g>
+
+  
+  <g id="node-answer">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2" d="M330,304 H550 A20,20 0 0 1 570,324 V356 A20,20 0 0 1 550,376 H330 A20,20 0 0 1 310,356 V324 A20,20 0 0 1 330,304 Z" />
+    
+  <g transform="translate(330, 324) scale(1.33333)" fill="none" stroke="#4C8C7A" stroke-width="2">
+    <path d="M5 12l14 0" />
+    <path d="M13 18l6 -6" />
+    <path d="M13 6l6 6" />
+  </g>
+    <text x="380" y="334" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1F2A24">用户回答</text>
+    <text x="380" y="360" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#657269">回答写入信息档案</text>
+  </g>
+
+  
+  
+  <line x1="700" y1="242" x2="804" y2="304" stroke="#2F6B4F" stroke-width="3" marker-end="url(#arrowGreen)" />
+  
+  <line x1="800" y1="376" x2="700" y2="438" stroke="#2F6B4F" stroke-width="3" marker-end="url(#arrowGreen)" />
+  
+  <line x1="540" y1="438" x2="470" y2="376" stroke="#2F6B4F" stroke-width="3" marker-end="url(#arrowGreen)" />
+  
+  <path d="M440 304 L440 260 L870 260 L870 304" fill="none" stroke="#D6A84B" stroke-width="3" stroke-dasharray="10,5" marker-end="url(#arrowGold)" />
+
+  
+  <g id="reevaluate-label">
+    <path fill="#FFFFFF" stroke="#DCE5DC" d="M577,232 H733 A12,12 0 0 1 745,244 V256 A12,12 0 0 1 733,268 H577 A12,12 0 0 1 565,256 V244 A12,12 0 0 1 577,232 Z" />
+    <text x="655" y="256" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#D6A84B">回答后重新评估</text>
+  </g>
+
+  
+  <g id="limit-badge">
+    <path fill="#F6EFD9" stroke="#D6A84B" stroke-width="1.5" d="M84,170 H272 A16,16 0 0 1 288,186 V226 A16,16 0 0 1 272,242 H84 A16,16 0 0 1 68,226 V186 A16,16 0 0 1 84,170 Z" />
+    
+  <g transform="translate(88, 190) scale(1.16667)" fill="none" stroke="#D6A84B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 7v5l3 3" />
+  </g>
+    <text x="130" y="200" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1F2A24">补问轮次上限</text>
+    <text x="130" y="226" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#D6A84B">最多 5 轮动态补问</text>
+  </g>
+
+  
+  <g id="principles">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5" d="M84,280 H272 A16,16 0 0 1 288,296 V544 A16,16 0 0 1 272,560 H84 A16,16 0 0 1 68,544 V296 A16,16 0 0 1 84,280 Z" />
+    <text x="92" y="314" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="bold" fill="#2F6B4F">补问原则</text>
+    <path fill="#DCE5DC" d="M93,328 H263 A1,1 0 0 1 264,329 V329 A1,1 0 0 1 263,330 H93 A1,1 0 0 1 92,329 V329 A1,1 0 0 1 93,328 Z" />
+
+    <circle cx="100" cy="356" r="4" fill="#4C8C7A" />
+    <text x="116" y="362" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#1F2A24">每轮只选一个最关</text>
+    <text x="116" y="382" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#1F2A24">键的信息缺口</text>
+
+    <circle cx="100" cy="412" r="4" fill="#4C8C7A" />
+    <text x="116" y="418" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#1F2A24">不重复已回答内容</text>
+
+    <circle cx="100" cy="452" r="4" fill="#4C8C7A" />
+    <text x="116" y="458" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#1F2A24">不做诊断结论</text>
+
+    <circle cx="100" cy="492" r="4" fill="#4C8C7A" />
+    <text x="116" y="498" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#1F2A24">回答后重新评估</text>
+
+    <circle cx="100" cy="532" r="4" fill="#4C8C7A" />
+    <text x="116" y="538" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#1F2A24">满 5 轮或无缺口时</text>
+    <text x="116" y="554" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#1F2A24">自动停止</text>
+  </g>
+
+  
+  <g id="output-card">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5" d="M1056,170 H1204 A16,16 0 0 1 1220,186 V534 A16,16 0 0 1 1204,550 H1056 A16,16 0 0 1 1040,534 V186 A16,16 0 0 1 1056,170 Z" />
+    <text x="1064" y="204" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="bold" fill="#2F6B4F">最终产出</text>
+    <path fill="#DCE5DC" d="M1065,218 H1195 A1,1 0 0 1 1196,219 V219 A1,1 0 0 1 1195,220 H1065 A1,1 0 0 1 1064,219 V219 A1,1 0 0 1 1065,218 Z" />
+
+    
+  <g transform="translate(1080, 248)" fill="none" stroke="#4C8C7A" stroke-width="2">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+    <path d="M9 17h6" />
+    <path d="M9 13h6" />
+  </g>
+    <text x="1116" y="266" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1F2A24">信息档案</text>
+    <text x="1088" y="292" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#657269">基础回答</text>
+    <text x="1088" y="312" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#657269">+ 补问结果</text>
+
+    
+  <g transform="translate(1080, 350)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M9 14l2 2l4 -4" />
+  </g>
+    <text x="1116" y="368" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1F2A24">完整度报告</text>
+    <text x="1088" y="394" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#657269">缺口分析</text>
+    <text x="1088" y="414" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#657269">+ 检查建议</text>
+
+    
+  <g transform="translate(1080, 452)" fill="none" stroke="#D6A84B" stroke-width="2">
+    <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+    <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+  </g>
+    <text x="1116" y="470" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1F2A24">诊中可用</text>
+    <text x="1088" y="496" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#657269">结构化数据</text>
+    <text x="1088" y="516" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#657269">可供后续引用</text>
+  </g>
+
+  
+  <g id="summary">
+    <path fill="#EAF2E8" d="M334,568 H946 A16,16 0 0 1 962,584 V610 A16,16 0 0 1 946,626 H334 A16,16 0 0 1 318,610 V584 A16,16 0 0 1 334,568 Z" />
+    <text x="640" y="604" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#2F6B4F">每补一问，重新评估 — 不浪费轮次、不纠缠次要信息</text>
+  </g>
+
+  <g id="footer">
+    <text x="1212" y="682" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">05</text>
+  </g>
+</svg>

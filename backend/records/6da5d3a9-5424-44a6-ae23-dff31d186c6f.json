@@ -1,0 +1,110 @@
+{
+  "record_id": "6da5d3a9-5424-44a6-ae23-dff31d186c6f",
+  "patient_name": "匿名患者",
+  "created_at": "2026-07-29T21:18:18.920023",
+  "collected_info": {
+    "主要症状": "其他不适；脚痛",
+    "持续时间": "几天左右",
+    "寒热": "比较怕冷",
+    "汗出": "夜里睡着后出汗",
+    "头身": "固定部位疼痛",
+    "二便": "大便偏干或便秘",
+    "饮食": "食欲不佳",
+    "胸腹": "胃脘胀满",
+    "睡眠": "多梦",
+    "旧病与诱因": "有慢性病"
+  },
+  "markdown_table": "| 四诊项目 | 详情 |\n|---------|------|\n| 主要症状 | 其他不适；脚痛 |\n| 持续时间 | 几天左右 |\n| 寒热 | 比较怕冷 |\n| 汗出 | 夜里睡着后出汗 |\n| 头身 | 固定部位疼痛 |\n| 二便 | 大便偏干或便秘 |\n| 饮食 | 食欲不佳 |\n| 胸腹 | 胃脘胀满 |\n| 睡眠 | 多梦 |\n| 旧病与诱因 | 有慢性病 |\n| 舌象 | 待面诊采集 |\n| 脉象 | 待面诊采集 |\n| 检查建议 | 本结果仅用于诊前信息整理，如症状明显或持续加重，请及时线下就医。 |",
+  "structured_answers": {
+    "chief_complaint": {
+      "question_id": "chief_complaint",
+      "topic": "主要症状",
+      "field": "chief_complaint",
+      "question": "您目前最主要的不适是什么？",
+      "option_id": "other",
+      "option_label": "其他不适",
+      "note": "脚痛"
+    },
+    "duration": {
+      "question_id": "duration",
+      "topic": "持续时间",
+      "field": "duration",
+      "question": "这种不适大概持续多久了？",
+      "option_id": "days",
+      "option_label": "几天左右",
+      "note": ""
+    },
+    "cold_heat": {
+      "question_id": "cold_heat",
+      "topic": "寒热",
+      "field": "cold_heat",
+      "question": "您平时更怕冷还是更怕热？",
+      "option_id": "cold",
+      "option_label": "比较怕冷",
+      "note": ""
+    },
+    "sweating": {
+      "question_id": "sweating",
+      "topic": "汗出",
+      "field": "sweating",
+      "question": "最近出汗情况怎么样？",
+      "option_id": "night",
+      "option_label": "夜里睡着后出汗",
+      "note": ""
+    },
+    "head_body": {
+      "question_id": "head_body",
+      "topic": "头身",
+      "field": "head_body",
+      "question": "头部和身体有没有疼痛、沉重或乏力？",
+      "option_id": "pain",
+      "option_label": "固定部位疼痛",
+      "note": ""
+    },
+    "bowel_urine": {
+      "question_id": "bowel_urine",
+      "topic": "二便",
+      "field": "bowel_urine",
+      "question": "大便和小便最近有什么变化吗？",
+      "option_id": "constipation",
+      "option_label": "大便偏干或便秘",
+      "note": ""
+    },
+    "appetite": {
+      "question_id": "appetite",
+      "topic": "饮食",
+      "field": "appetite",
+      "question": "最近食欲和消化怎么样？",
+      "option_id": "poor",
+      "option_label": "食欲不佳",
+      "note": ""
+    },
+    "chest_abdomen": {
+      "question_id": "chest_abdomen",
+      "topic": "胸腹",
+      "field": "chest_abdomen",
+      "question": "胸口或肚子有没有闷、胀、痛的感觉？",
+      "option_id": "stomach_bloat",
+      "option_label": "胃脘胀满",
+      "note": ""
+    },
+    "sleep_quality": {
+      "question_id": "sleep_quality",
+      "topic": "睡眠",
+      "field": "sleep_quality",
+      "question": "最近睡眠情况如何？",
+      "option_id": "dreams",
+      "option_label": "多梦",
+      "note": ""
+    },
+    "history_trigger": {
+      "question_id": "history_trigger",
+      "topic": "旧病与诱因",
+      "field": "history_trigger",
+      "question": "以前有慢性病、长期用药，或这次明显诱因吗？",
+      "option_id": "chronic",
+      "option_label": "有慢性病",
+      "note": ""
+    }
+  }
+}

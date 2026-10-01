@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F7FAF7" />
+  <g id="chrome">
+    <text x="56" y="57" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700">INTAKE DIAGNOSTICIAN · WEEKLY REPORT</text>
+    <text x="1224" y="680" fill="#8A978E" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" text-anchor="end">11</text>
+  </g>
+  <g id="title">
+    <text x="56" y="105" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700">中医 Skills 能力接入</text>
+    <text x="56" y="137" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20">固定流程保证稳定，专业 Skill 提供完成后的智能分析</text>
+  </g>
+  <g id="flow-connectors">
+    <line x1="180" y1="304" x2="1100" y2="304" stroke="#D8E4DA" stroke-width="6" />
+    <line x1="180" y1="304" x2="1100" y2="304" stroke="#65B66C" stroke-width="3" />
+  </g>
+  <g id="flow-stages">
+    <circle cx="180" cy="304" r="48" fill="#2F7D4A" />
+    
+  <g transform="translate(156, 280) scale(2)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M9 14l2 2l4 -4" />
+  </g>
+    <text x="180" y="388" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">结构化问诊</text>
+    <text x="180" y="420" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" text-anchor="middle">固定 10 题稳定采集</text>
+
+    <circle cx="410" cy="304" r="48" fill="#65B66C" />
+    <text x="410" y="299" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">十问歌</text>
+    <text x="410" y="323" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" text-anchor="middle">Skill</text>
+    <text x="410" y="388" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">完整度与风险</text>
+    <text x="410" y="420" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" text-anchor="middle">tcm-intake</text>
+
+    <circle cx="640" cy="304" r="48" fill="#D9A441" />
+    <text x="640" y="299" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">辨证</text>
+    <text x="640" y="323" fill="#FFFFFF" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" text-anchor="middle">Skill</text>
+    <text x="640" y="388" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">辨证参考</text>
+    <text x="640" y="420" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" text-anchor="middle">tcm-zhengxing</text>
+
+    <circle cx="870" cy="304" r="48" fill="#65B66C" />
+    
+  <g transform="translate(846, 280) scale(2)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" />
+    <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" />
+    <path d="M9.7 17l4.6 0" />
+  </g>
+    <text x="870" y="388" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">分析结果</text>
+    <text x="870" y="420" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" text-anchor="middle">风险 · 辨证 · 追问</text>
+
+    <circle cx="1100" cy="304" r="48" fill="#2F7D4A" />
+    
+  <g transform="translate(1076, 280) scale(2)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M4 6c0 1.657 3.582 3 8 3s8 -1.343 8 -3s-3.582 -3 -8 -3s-8 1.343 -8 3" />
+    <path d="M4 6v6c0 1.453 2.755 2.665 6.414 2.941" />
+    <path d="M20 11v-5" />
+    <path d="M4 12v6c0 1.579 3.253 2.873 7.383 2.991" />
+    <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296" />
+  </g>
+    <text x="1100" y="388" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">档案沉淀</text>
+    <text x="1100" y="420" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" text-anchor="middle">随历史记录保存</text>
+  </g>
+  <g id="stability">
+    <path fill="#EEF6EF" stroke="#D8E4DA" stroke-width="1.5" d="M104,510 H1176 A8,8 0 0 1 1184,518 V606 A8,8 0 0 1 1176,614 H104 A8,8 0 0 1 96,606 V518 A8,8 0 0 1 104,510 Z" />
+    
+  <g transform="translate(132, 542) scale(1.66667)" fill="none" stroke="#2F7D4A" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="196" y="557" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700">基础问诊与智能分析解耦</text>
+    <text x="196" y="591" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17">即使千问或 Ollama 暂时不可用，10 题问诊、四诊档案和历史保存仍可正常完成</text>
+  </g>
+</svg>

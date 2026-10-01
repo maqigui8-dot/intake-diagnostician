@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <g id="title">
+    <text x="640" y="286" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="58" font-weight="700" fill="#155348">中医诊前信息采集与整理系统</text>
+    <line x1="500" y1="320" x2="780" y2="320" stroke="#C86A3A" stroke-width="5"/>
+  </g>
+  <g id="meta">
+    <text x="640" y="390" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#566762">项目汇报</text>
+    <text x="640" y="426" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#7B8783">汇报人：________　　日期：________</text>
+  </g>
+  <g id="footer"><line x1="172" y1="618" x2="1108" y2="618" stroke="#BFCFC9" stroke-width="1"/><text x="1136" y="670" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#566762">01</text></g>
+</svg>

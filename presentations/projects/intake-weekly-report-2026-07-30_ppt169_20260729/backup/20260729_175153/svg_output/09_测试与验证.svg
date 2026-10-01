@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7FAF7"/>
+  <g id="chrome">
+    <text x="56" y="57" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700">INTAKE DIAGNOSTICIAN · WEEKLY REPORT</text>
+    <text x="1224" y="680" fill="#8A978E" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" text-anchor="end">09</text>
+  </g>
+  <g id="title">
+    <text x="56" y="105" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700">测试与验证</text>
+    <text x="56" y="137" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20">从代码检查到真实浏览器路径，验证改造结果可运行</text>
+  </g>
+  <g id="kpi-top">
+    <rect x="56" y="176" width="566" height="184" rx="8" fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/test-pipe" x="88" y="205" width="34" height="34" fill="#2F7D4A" stroke-width="2"/>
+    <text x="88" y="300" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="700">4/4</text>
+    <text x="224" y="278" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700">后端单元测试通过</text>
+    <text x="224" y="314" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17">核心会话和档案逻辑保持稳定</text>
+
+    <rect x="658" y="176" width="566" height="184" rx="8" fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/shield-check" x="690" y="205" width="34" height="34" fill="#2F7D4A" stroke-width="2"/>
+    <text x="690" y="300" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="700">0</text>
+    <text x="808" y="278" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700">Python 语法错误</text>
+    <text x="808" y="314" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17">后端源码完成编译级检查</text>
+  </g>
+  <g id="kpi-bottom">
+    <rect x="56" y="390" width="566" height="184" rx="8" fill="#EEF6EF" stroke="#D8E4DA" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/layout-dashboard" x="88" y="419" width="34" height="34" fill="#2F7D4A" stroke-width="2"/>
+    <text x="88" y="514" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="700">86</text>
+    <text x="224" y="492" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700">前端成功构建模块数</text>
+    <text x="224" y="528" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17">生产构建链路完整通过</text>
+
+    <rect x="658" y="390" width="566" height="184" rx="8" fill="#EEF6EF" stroke="#D8E4DA" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/browser-check" x="690" y="419" width="34" height="34" fill="#2F7D4A" stroke-width="2"/>
+    <text x="690" y="514" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="700">1</text>
+    <text x="808" y="492" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700">完整浏览器交互路径</text>
+    <text x="808" y="528" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17">页面加载、答题与状态更新均已实测</text>
+  </g>
+  <g id="operation-note">
+    <rect x="56" y="600" width="1168" height="48" rx="8" fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1.5"/>
+    <circle cx="84" cy="624" r="7" fill="#D9A441"/>
+    <text x="104" y="631" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17">运行提示：本地服务停止后，需要分别重启前端与后端服务，再访问 127.0.0.1:5173</text>
+  </g>
+</svg>

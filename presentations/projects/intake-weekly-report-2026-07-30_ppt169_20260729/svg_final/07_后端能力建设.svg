@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F7FAF7" />
+  <g id="chrome">
+    <text x="56" y="57" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700">INTAKE DIAGNOSTICIAN · WEEKLY REPORT</text>
+    <text x="1224" y="680" fill="#8A978E" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" text-anchor="end">07</text>
+  </g>
+  <g id="title">
+    <text x="56" y="105" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700">后端能力建设</text>
+    <text x="56" y="137" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20">把一次问答组织成可维护、可扩展的完整服务</text>
+  </g>
+  <g id="architecture">
+    <path fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1.5" d="M64,170 H802 A8,8 0 0 1 810,178 V266 A8,8 0 0 1 802,274 H64 A8,8 0 0 1 56,266 V178 A8,8 0 0 1 64,170 Z" />
+    <path fill="#2F7D4A" d="M62,170 H62 A6,6 0 0 1 68,176 V268 A6,6 0 0 1 62,274 H62 A6,6 0 0 1 56,268 V176 A6,6 0 0 1 62,170 Z" />
+    <text x="88" y="206" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">展示层</text>
+    <text x="88" y="242" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21">Vue 页面 · 题目选择 · 进度同步 · 结果呈现</text>
+
+    <path fill="#EEF6EF" stroke="#D8E4DA" stroke-width="1.5" d="M84,288 H802 A8,8 0 0 1 810,296 V384 A8,8 0 0 1 802,392 H84 A8,8 0 0 1 76,384 V296 A8,8 0 0 1 84,288 Z" />
+    <path fill="#65B66C" d="M82,288 H82 A6,6 0 0 1 88,294 V386 A6,6 0 0 1 82,392 H82 A6,6 0 0 1 76,386 V294 A6,6 0 0 1 82,288 Z" />
+    <text x="108" y="324" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">流程层</text>
+    <text x="108" y="360" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21">会话状态 · 答案更新 · 前后回退 · 问诊完成</text>
+
+    <path fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1.5" d="M104,406 H802 A8,8 0 0 1 810,414 V502 A8,8 0 0 1 802,510 H104 A8,8 0 0 1 96,502 V414 A8,8 0 0 1 104,406 Z" />
+    <path fill="#D9A441" d="M102,406 H102 A6,6 0 0 1 108,412 V504 A6,6 0 0 1 102,510 H102 A6,6 0 0 1 96,504 V412 A6,6 0 0 1 102,406 Z" />
+    <text x="128" y="442" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">智能层</text>
+    <text x="128" y="478" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21">Qwen / Ollama · 答案解释 · 智能追问 · 档案整理</text>
+
+    <path fill="#EEF6EF" stroke="#D8E4DA" stroke-width="1.5" d="M124,524 H802 A8,8 0 0 1 810,532 V620 A8,8 0 0 1 802,628 H124 A8,8 0 0 1 116,620 V532 A8,8 0 0 1 124,524 Z" />
+    <path fill="#2F7D4A" d="M122,524 H122 A6,6 0 0 1 128,530 V622 A6,6 0 0 1 122,628 H122 A6,6 0 0 1 116,622 V530 A6,6 0 0 1 122,524 Z" />
+    <text x="148" y="560" fill="#2F7D4A" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">数据层</text>
+    <text x="148" y="596" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21">结构化答案 · Markdown 档案 · JSON 记录</text>
+  </g>
+  <g id="api-panel">
+    <path fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1.5" d="M854,170 H1216 A8,8 0 0 1 1224,178 V620 A8,8 0 0 1 1216,628 H854 A8,8 0 0 1 846,620 V178 A8,8 0 0 1 854,170 Z" />
+    
+  <g transform="translate(878, 198) scale(1.25)" fill="none" stroke="#2F7D4A" stroke-width="2">
+    <path d="M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-2" />
+    <path d="M12 20h-6a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h10.5" />
+    <path d="M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M18 14.5v1.5" />
+    <path d="M18 20v1.5" />
+    <path d="M21.032 16.25l-1.299 .75" />
+    <path d="M16.27 19l-1.3 .75" />
+    <path d="M14.97 16.25l1.3 .75" />
+    <path d="M19.733 19l1.3 .75" />
+    <path d="M7 8v.01" />
+    <path d="M7 16v.01" />
+  </g>
+    <text x="922" y="221" fill="#1F2A24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700">核心接口</text>
+
+    <path fill="#EEF6EF" d="M886,258 H1184 A8,8 0 0 1 1192,266 V314 A8,8 0 0 1 1184,322 H886 A8,8 0 0 1 878,314 V266 A8,8 0 0 1 886,258 Z" />
+    <text x="898" y="285" fill="#2F7D4A" font-family="Consolas, Courier New, monospace" font-size="15" font-weight="700">GET</text>
+    <text x="898" y="307" fill="#1F2A24" font-family="Consolas, Courier New, monospace" font-size="16">/state</text>
+    <text x="1070" y="297" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16">获取状态</text>
+
+    <path fill="#EEF6EF" d="M886,338 H1184 A8,8 0 0 1 1192,346 V394 A8,8 0 0 1 1184,402 H886 A8,8 0 0 1 878,394 V346 A8,8 0 0 1 886,338 Z" />
+    <text x="898" y="365" fill="#2F7D4A" font-family="Consolas, Courier New, monospace" font-size="15" font-weight="700">POST</text>
+    <text x="898" y="387" fill="#1F2A24" font-family="Consolas, Courier New, monospace" font-size="16">/answer</text>
+    <text x="1070" y="377" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16">提交答案</text>
+
+    <path fill="#EEF6EF" d="M886,418 H1184 A8,8 0 0 1 1192,426 V474 A8,8 0 0 1 1184,482 H886 A8,8 0 0 1 878,474 V426 A8,8 0 0 1 886,418 Z" />
+    <text x="898" y="445" fill="#2F7D4A" font-family="Consolas, Courier New, monospace" font-size="15" font-weight="700">POST</text>
+    <text x="898" y="467" fill="#1F2A24" font-family="Consolas, Courier New, monospace" font-size="16">/move</text>
+    <text x="1070" y="457" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16">切换题目</text>
+
+    <path fill="#EEF6EF" d="M886,498 H1184 A8,8 0 0 1 1192,506 V554 A8,8 0 0 1 1184,562 H886 A8,8 0 0 1 878,554 V506 A8,8 0 0 1 886,498 Z" />
+    <text x="898" y="525" fill="#2F7D4A" font-family="Consolas, Courier New, monospace" font-size="15" font-weight="700">POST</text>
+    <text x="898" y="547" fill="#1F2A24" font-family="Consolas, Courier New, monospace" font-size="16">/complete</text>
+    <text x="1070" y="537" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16">生成档案</text>
+
+    <text x="878" y="598" fill="#5F6F64" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16">前后端职责清晰，后续可替换模型或存储方案</text>
+  </g>
+</svg>

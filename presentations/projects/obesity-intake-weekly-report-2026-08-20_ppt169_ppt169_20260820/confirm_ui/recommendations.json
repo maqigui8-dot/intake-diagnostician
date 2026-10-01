@@ -1,0 +1,88 @@
+{
+  "lang": "zh",
+  "recommend": {
+    "canvas": "ppt169",
+    "mode": "briefing",
+    "visual_style": "editorial",
+    "icons": "tabler-outline",
+    "image_usage": "provided",
+    "formula_policy": "none",
+    "generation_mode": "continuous"
+  },
+  "page_count": { "value": "10" },
+  "audience": { "value": "组会项目进展汇报，面向导师、学长和同组同学" },
+  "content_divergence": { "value": "" },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "青绿医研（推荐）",
+        "note": "以专业青绿建立医疗感，用珊瑚色突出风险与关键变化。",
+        "palette": {
+          "background": "#F7F9F6",
+          "secondary_bg": "#EAF2EB",
+          "primary": "#155E47",
+          "accent": "#E07A5F",
+          "secondary_accent": "#4C8C7B",
+          "body_text": "#15221C"
+        }
+      },
+      {
+        "name": "临床蓝白",
+        "note": "更偏理工和临床研究，适合强调规则和数据验证。",
+        "palette": {
+          "background": "#F7F9FC",
+          "secondary_bg": "#EAF0F6",
+          "primary": "#1E5A84",
+          "accent": "#D97745",
+          "secondary_accent": "#5E8EB6",
+          "body_text": "#17222D"
+        }
+      },
+      {
+        "name": "墨绿纸感",
+        "note": "更有中医气质，适合突出十问歌与医生确认边界。",
+        "palette": {
+          "background": "#FAFAF7",
+          "secondary_bg": "#ECEFE8",
+          "primary": "#203C32",
+          "accent": "#B85C38",
+          "secondary_accent": "#788D70",
+          "body_text": "#202722"
+        }
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "清晰汇报体（推荐）",
+        "note": "中文信息密集时最稳，投影可读性最好。",
+        "heading": { "cjk": "Microsoft YaHei", "latin": "Arial", "css": "'Microsoft YaHei', Arial, sans-serif", "sample_cjk": "成人肥胖诊前问诊系统", "sample_latin": "Project Progress" },
+        "body": { "cjk": "Microsoft YaHei", "latin": "Arial", "css": "'Microsoft YaHei', Arial, sans-serif", "sample_cjk": "规则负责判断，AI负责理解", "sample_latin": "Rules first, AI assisted" },
+        "body_size": 20
+      },
+      {
+        "name": "研究报告体",
+        "note": "标题稍有学术感，适合方法与规则页面。",
+        "heading": { "cjk": "SimSun", "latin": "Georgia", "css": "SimSun, Georgia, serif", "sample_cjk": "成人肥胖诊前问诊系统", "sample_latin": "Project Progress" },
+        "body": { "cjk": "Microsoft YaHei", "latin": "Arial", "css": "'Microsoft YaHei', Arial, sans-serif", "sample_cjk": "规则负责判断，AI负责理解", "sample_latin": "Rules first, AI assisted" },
+        "body_size": 19
+      },
+      {
+        "name": "现代产品体",
+        "note": "更像成熟医疗软件的产品展示。",
+        "heading": { "cjk": "Microsoft YaHei", "latin": "Segoe UI", "css": "'Microsoft YaHei', 'Segoe UI', Arial, sans-serif", "sample_cjk": "成人肥胖诊前问诊系统", "sample_latin": "Project Progress" },
+        "body": { "cjk": "Microsoft YaHei", "latin": "Segoe UI", "css": "'Microsoft YaHei', 'Segoe UI', Arial, sans-serif", "sample_cjk": "规则负责判断，AI负责理解", "sample_latin": "Rules first, AI assisted" },
+        "body_size": 20
+      }
+    ]
+  },
+  "visual_style_spectrum": [
+    { "id": "editorial", "tag_zh": "推荐：研究汇报", "tag_en": "Recommended", "note_zh": "像一份干净、克制的研究简报", "note_en": "Like a concise research brief" },
+    { "id": "soft-rounded", "tag_zh": "友好产品感", "tag_en": "Friendly product", "note_zh": "更突出患者端体验和页面截图", "note_en": "More product-oriented" },
+    { "id": "ink-wash", "tag_zh": "中医气质", "tag_en": "TCM character", "note_zh": "更有东方医学的文化辨识度", "note_en": "More traditional-medical character" }
+  ],
+  "refine_spec": { "value": false }
+}

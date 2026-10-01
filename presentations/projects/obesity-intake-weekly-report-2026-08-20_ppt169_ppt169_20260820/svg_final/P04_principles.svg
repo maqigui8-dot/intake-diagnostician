@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6" />
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#155E47">03 / 改造原则</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">规则负责判断，AI 负责理解</text>
+    <text x="64" y="185" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#5E6D65">让停止条件可解释，让对话表达更自然。</text>
+  </g>
+  <g id="rules-side">
+    <path fill="#EAF2EB" d="M70,240 H550 A6,6 0 0 1 556,246 V562 A6,6 0 0 1 550,568 H70 A6,6 0 0 1 64,562 V246 A6,6 0 0 1 70,240 Z" />
+    <text x="102" y="302" font-family="Microsoft YaHei, Arial, sans-serif" font-size="29" font-weight="700" fill="#155E47">确定性规则</text>
+    <line x1="102" y1="326" x2="498" y2="326" stroke="#C9D7CE" stroke-width="1" />
+    <circle cx="118" cy="378" r="10" fill="#155E47" />
+    <text x="148" y="386" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#15221C">BMI、腰围等客观字段计算</text>
+    <circle cx="118" cy="444" r="10" fill="#155E47" />
+    <text x="148" y="452" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#15221C">分层阈值与停止条件判断</text>
+    <circle cx="118" cy="510" r="10" fill="#155E47" />
+    <text x="148" y="518" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#15221C">危险信号持续提示而不强制中断</text>
+  </g>
+  <g id="divider">
+    <line x1="636" y1="260" x2="636" y2="548" stroke="#C9D7CE" stroke-width="2" />
+    <circle cx="636" cy="404" r="42" fill="#E07A5F" />
+    <text x="636" y="414" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#F7F9F6">协同</text>
+  </g>
+  <g id="ai-side">
+    <path fill="#EAF2EB" d="M722,240 H1210 A6,6 0 0 1 1216,246 V562 A6,6 0 0 1 1210,568 H722 A6,6 0 0 1 716,562 V246 A6,6 0 0 1 722,240 Z" />
+    <text x="754" y="302" font-family="Microsoft YaHei, Arial, sans-serif" font-size="29" font-weight="700" fill="#155E47">AI 辅助能力</text>
+    <line x1="754" y1="326" x2="1158" y2="326" stroke="#C9D7CE" stroke-width="1" />
+    <circle cx="770" cy="378" r="10" fill="#4C8C7B" />
+    <text x="800" y="386" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#15221C">从患者原话中提取字段证据</text>
+    <circle cx="770" cy="444" r="10" fill="#4C8C7B" />
+    <text x="800" y="452" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#15221C">围绕缺失字段组织自然追问</text>
+    <circle cx="770" cy="510" r="10" fill="#4C8C7B" />
+    <text x="800" y="518" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#15221C">解释患者不理解的医学术语</text>
+  </g>
+  <g id="boundary">
+    <text x="640" y="638" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#C94A3D">边界：AI 不直接诊断、开方或修改系统停止条件。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">04</text>
+  </g>
+</svg>

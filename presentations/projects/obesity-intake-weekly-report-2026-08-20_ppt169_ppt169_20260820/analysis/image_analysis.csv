@@ -1,0 +1,5 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,RatioSource,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category,ImageArea_SxS,TextArea_SxS
+1,shot-baseline.png,2736,1200,2.28,2.28,pixel,1,,bitmap,True,True,198.7,Ultra-wide,812x356,328x600
+2,shot-doctor.png,2736,1200,2.28,2.28,pixel,1,,bitmap,True,True,306.8,Ultra-wide,812x356,328x600
+3,shot-followup.png,2736,1200,2.28,2.28,pixel,1,,bitmap,True,True,213.6,Ultra-wide,812x356,328x600
+4,shot-result.png,2736,1200,2.28,2.28,pixel,1,,bitmap,True,True,242.7,Ultra-wide,812x356,328x600

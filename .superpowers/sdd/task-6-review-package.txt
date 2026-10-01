@@ -1,0 +1,342 @@
+Task 6 review package
+Base: pre-task snapshot (.superpowers/sdd/task-6-before/)
+Head: current workspace
+
+===== DIFF frontend/src/App.vue =====
+--- .superpowers/sdd/task-6-before/App.vue	2026-08-18 22:01:16.457712800 +0800
++++ frontend/src/App.vue	2026-08-18 22:15:52.285220800 +0800
+@@ -37,6 +37,72 @@
+       <section class="main-panel">
+         <div v-if="loading && !state" class="loading-state">正在准备问诊...</div>
+ 
++        <section v-else-if="state && viewStage === 'baseline_collection'" class="baseline-form">
++          <div class="assistant-intro">
++            <span class="assistant-avatar">医</span>
++            <div>
++              <span class="section-label">基础资料</span>
++              <h2>请先填写基础测量信息</h2>
++              <p>这些信息仅用于计算 BMI 和诊前资料整理，最终结果由医生确认。</p>
++            </div>
++          </div>
++          <form class="baseline-body" @submit.prevent="submitBaseline">
++            <div class="baseline-grid">
++              <label class="field">
++                <span>年龄</span>
++                <input type="number" min="18" max="120" step="1" v-model.number="baseline.age" placeholder="例如 32" />
++                <small>岁 · 仅限18岁及以上</small>
++              </label>
++              <div class="field">
++                <span>生理性别</span>
++                <div class="segmented" role="radiogroup" aria-label="生理性别">
++                  <button type="button" :class="{ active: baseline.sex === 'male' }" @click="baseline.sex = 'male'">男</button>
++                  <button type="button" :class="{ active: baseline.sex === 'female' }" @click="baseline.sex = 'female'">女</button>
++                </div>
++              </div>
++              <label class="field">
++                <span>身高</span>
++                <input type="number" min="100" max="250" step="0.1" v-model.number="baseline.height_cm" placeholder="例如 170" />
++                <small>厘米 · 100–250</small>
++              </label>
++              <label class="field">
++                <span>体重</span>
++                <input type="number" min="20" max="500" step="0.1" v-model.number="baseline.weight_kg" placeholder="例如 81" />
++                <small>千克 · 20–500</small>
++              </label>
++            </div>
++            <div class="baseline-optional">
++              <strong>腰围与臀围（可选）</strong>
++              <div class="baseline-grid">
++                <label class="field">
++                  <span>腰围</span>
++                  <input type="number" min="0" step="0.1" v-model.number="baseline.waist_cm" placeholder="选填" />
++                  <small>厘米 · 大于0</small>
++                </label>
++                <label class="field">
++                  <span>臀围</span>
++                  <input type="number" min="0" step="0.1" v-model.number="baseline.hip_cm" placeholder="选填" />
++                  <small>厘米 · 大于0</small>
++                </label>
++              </div>
++            </div>
++            <div class="baseline-grid">
++              <label class="field">
++                <span>测量日期</span>
++                <input type="date" v-model="baseline.measured_at" />
++                <small>最近一次测量的时间</small>
++              </label>
++            </div>
++            <div class="composer-actions">
++              <p v-if="formError" class="form-error">{{ formError }}</p>
++              <small>提交后即可开始描述您的困扰</small>
++              <button class="primary-button" type="submit" :disabled="!baselineValid || saving">
++                {{ saving ? '正在提交...' : '确认并继续' }}
++              </button>
++            </div>
++          </form>
++        </section>
++
+         <section v-else-if="state && viewStage === 'open_intake'" class="open-intake">
+           <div class="assistant-intro">
+             <span class="assistant-avatar">医</span>
+@@ -140,6 +206,14 @@
+               <p>{{ state.stop_reason_public }}</p>
+             </div>
+           </div>
++          <div v-if="state.bmi_assessment?.bmi" class="bmi-card">
++            <div class="bmi-row">
++              <span class="section-label">BMI 结果</span>
++              <strong>{{ state.bmi_assessment.bmi }}</strong>
++              <span>{{ state.bmi_assessment.bmi_grade }}</span>
++            </div>
++            <p v-if="state.bmi_assessment.diagnosis_copy" class="diagnosis-copy">达到成人肥胖范围，待医生确认</p>
++          </div>
+           <div v-if="state.safety_alerts?.length" class="safety-alert persistent-alert result-safety-alert">
+             <strong>发现需要优先线下确认的情况</strong>
+             <p>您仍可继续填写诊前资料；如果症状正在发生、明显加重，或伴有呼吸困难、晕厥，请及时就医。</p>
+@@ -187,6 +261,15 @@
+ const saving = ref(false)
+ const saved = ref(false)
+ const formError = ref('')
++const baseline = ref({
++  age: '',
++  sex: '',
++  height_cm: '',
++  weight_kg: '',
++  waist_cm: '',
++  hip_cm: '',
++  measured_at: '',
++})
+ const messageList = ref(null)
+ const doctorSummary = ref(null)
+ const doctorLoading = ref(false)
+@@ -196,6 +279,19 @@
+ const viewStage = computed(() => getIntakeViewStage({ state: state.value, loading: loading.value, saving: saving.value }))
+ const currentRound = computed(() => (state.value?.follow_up_count || 0) + 1)
+ const canSave = computed(() => canSaveIntakeRecord({ state: state.value, saved: saved.value, saving: saving.value }))
++const baselineValid = computed(() => {
++  const b = baseline.value
++  const age = Number(b.age)
++  const height = Number(b.height_cm)
++  const weight = Number(b.weight_kg)
++  return (
++    Number.isFinite(age) && age >= 18 &&
++    (b.sex === 'male' || b.sex === 'female') &&
++    Number.isFinite(height) && height >= 100 && height <= 250 &&
++    Number.isFinite(weight) && weight >= 20 && weight <= 500 &&
++    !!b.measured_at
++  )
++})
+ const saveLabel = computed(() => saved.value ? '已保存' : '保存档案')
+ const flowStages = computed(() => {
+   const phase = state.value?.phase || 'open_intake'
+@@ -238,6 +334,18 @@
+   try {
+     state.value = await request(`/api/intake/session/${sessionId.value}`)
+     openAnswer.value = state.value.open_answer || ''
++    if (state.value.baseline) {
++      const b = state.value.baseline
++      baseline.value = {
++        age: b.age ?? '',
++        sex: b.sex ?? '',
++        height_cm: b.height_cm ?? '',
++        weight_kg: b.weight_kg ?? '',
++        waist_cm: b.waist_cm ?? '',
++        hip_cm: b.hip_cm ?? '',
++        measured_at: b.measured_at ?? '',
++      }
++    }
+     syncUrl()
+     await loadDoctorSummary()
+   } catch (error) {
+@@ -247,6 +355,33 @@
+   }
+ }
+ 
++async function submitBaseline() {
++  if (!baselineValid.value || saving.value) return
++  saving.value = true
++  formError.value = ''
++  const optionalNumber = (value) => (value === '' || value === null || value === undefined ? null : Number(value))
++  try {
++    state.value = await request(`/api/intake/session/${sessionId.value}/baseline`, {
++      method: 'POST',
++      headers: { 'Content-Type': 'application/json' },
++      body: JSON.stringify({
++        age: Number(baseline.value.age),
++        sex: baseline.value.sex,
++        height_cm: Number(baseline.value.height_cm),
++        weight_kg: Number(baseline.value.weight_kg),
++        waist_cm: optionalNumber(baseline.value.waist_cm),
++        hip_cm: optionalNumber(baseline.value.hip_cm),
++        measured_at: baseline.value.measured_at,
++      }),
++    })
++    saved.value = false
++  } catch (error) {
++    formError.value = error.message
++  } finally {
++    saving.value = false
++  }
++}
++
+ async function submitOpenAnswer() {
+   const answer = openAnswer.value.trim()
+   if (!answer || saving.value) return
+
+===== DIFF frontend/src/style.css =====
+--- .superpowers/sdd/task-6-before/style.css	2026-08-18 22:01:16.483544600 +0800
++++ frontend/src/style.css	2026-08-18 22:16:07.325031700 +0800
+@@ -151,6 +151,38 @@
+ .secondary-button { color: #38423c; background: #fff; border: 1px solid #cfd7d1; }
+ .primary-button:disabled, .secondary-button:disabled { opacity: 0.5; cursor: not-allowed; }
+ 
++.baseline-form { padding: 36px 40px; }
++.baseline-body { padding-top: 26px; }
++.baseline-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 20px; }
++.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
++.field > span { font-size: 13px; font-weight: 800; color: var(--text); }
++.field input {
++  width: 100%;
++  min-height: 44px;
++  padding: 10px 14px;
++  border: 1px solid #cfd8d1;
++  border-radius: 7px;
++  outline: 0;
++  background: #fcfdfc;
++  color: var(--text);
++  font-size: 15px;
++}
++.field input:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(47, 138, 73, 0.12); }
++.field small { color: var(--muted); font-size: 12px; line-height: 1.5; }
++.segmented { display: inline-flex; align-self: flex-start; border: 1px solid #cfd8d1; border-radius: 7px; overflow: hidden; }
++.segmented button { min-height: 44px; padding: 0 28px; background: #fff; color: #455049; font-weight: 800; cursor: pointer; }
++.segmented button + button { border-left: 1px solid #cfd8d1; }
++.segmented button.active { background: var(--green); color: #fff; }
++.baseline-optional { margin-top: 20px; padding-top: 18px; border-top: 1px dashed var(--line); }
++.baseline-optional > strong { display: block; margin-bottom: 14px; font-size: 13px; color: var(--muted); }
++.baseline-form .composer-actions { margin-top: 24px; }
++
++.bmi-card { margin-top: 24px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 8px; background: #fbfcfb; }
++.bmi-row { display: flex; align-items: baseline; gap: 14px; }
++.bmi-row strong { font-size: 30px; color: var(--green-dark); }
++.bmi-row span:last-child { color: var(--muted); font-weight: 700; }
++.diagnosis-copy { margin: 12px 0 0; color: var(--green-dark); font-weight: 800; }
++
+ .chat-section { display: flex; flex-direction: column; min-height: 650px; }
+ .chat-head { justify-content: space-between; align-items: flex-start; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+ .round-label { padding: 7px 10px; border-radius: 6px; color: var(--green-dark); background: var(--surface-soft); font-size: 12px; font-weight: 800; }
+@@ -255,13 +287,13 @@
+   .workspace, .workspace.doctor-workspace { grid-template-columns: 1fr; padding: 12px; }
+   .left-panel { position: static; display: none; }
+   .main-panel, .doctor-panel { grid-column: 1; width: 100%; max-width: 100%; }
+-  .open-intake, .chat-section, .result-section { padding: 24px 18px; }
++  .open-intake, .chat-section, .result-section, .baseline-form { padding: 24px 18px; }
+   .assistant-intro { gap: 12px; }
+   .assistant-avatar { width: 46px; height: 46px; flex-basis: 46px; }
+   .assistant-intro h2, .chat-head h2, .result-section h2 { font-size: 20px; }
+   .open-question h3 { font-size: 18px; }
+   .message-row p { max-width: 86%; }
+-  .exam-grid, .score-grid { grid-template-columns: 1fr; }
++  .exam-grid, .score-grid, .baseline-grid { grid-template-columns: 1fr; }
+   .composer-actions, .result-actions { align-items: stretch; flex-direction: column; }
+   .primary-button, .secondary-button { width: 100%; }
+   .disclaimer { margin: auto 18px 18px; }
+
+===== DIFF frontend/src/follow-up-stage.js =====
+--- .superpowers/sdd/task-6-before/follow-up-stage.js	2026-08-18 22:01:16.508761800 +0800
++++ frontend/src/follow-up-stage.js	2026-08-18 22:15:23.533750300 +0800
+@@ -1,6 +1,7 @@
+ export function getIntakeViewStage({ state, loading = false, saving = false } = {}) {
+   if (!state || loading) return 'analyzing'
+   if (saving || state.phase === 'processing') return 'analyzing'
++  if (state.phase === 'baseline_collection') return 'baseline_collection'
+   if (state.phase === 'open_intake') return 'open_intake'
+   if (state.phase === 'follow_up') return 'follow_up_chat'
+   if (state.phase === 'escalated') return 'escalated'
+
+===== DIFF frontend/tests/patient-visibility.test.mjs =====
+--- .superpowers/sdd/task-6-before/patient-visibility.test.mjs	2026-08-18 22:01:16.548387500 +0800
++++ frontend/tests/patient-visibility.test.mjs	2026-08-18 22:14:57.803695900 +0800
+@@ -76,3 +76,25 @@
+   assert.match(styleSource, /grid-template-columns:\s*1fr/)
+   assert.match(styleSource, /max-width:\s*100%/)
+ })
++
++test('患者模板展示基础资料输入（年龄/性别/身高/体重/腰围/臀围/测量日期）', () => {
++  assert.match(template, /baseline\.age/)
++  assert.match(template, /baseline\.sex/)
++  assert.match(template, /baseline\.height_cm/)
++  assert.match(template, /baseline\.weight_kg/)
++  assert.match(template, /baseline\.waist_cm/)
++  assert.match(template, /baseline\.hip_cm/)
++  assert.match(template, /baseline\.measured_at/)
++})
++
++test('患者模板不出现确诊肥胖症表述', () => {
++  assert.doesNotMatch(template, /确诊/)
++  assert.doesNotMatch(template, /肥胖症/)
++})
++
++test('结果区展示 BMI 与医生确认文案', () => {
++  const result = template.match(/viewStage === 'result'[\s\S]*?(?=<p class="disclaimer")/)?.[0] || ''
++  assert.match(result, /state\.bmi_assessment\.bmi/)
++  assert.match(result, /state\.bmi_assessment\.diagnosis_copy/)
++  assert.match(result, /达到成人肥胖范围，待医生确认/)
++})
+
+===== DIFF frontend/tests/follow-up-stage.test.mjs =====
+--- .superpowers/sdd/task-6-before/follow-up-stage.test.mjs	2026-08-18 22:01:16.575008300 +0800
++++ frontend/tests/follow-up-stage.test.mjs	2026-08-18 22:14:54.285639600 +0800
+@@ -25,6 +25,10 @@
+   assert.equal(getIntakeViewStage({ state: { phase: 'escalated' } }), 'escalated')
+ })
+ 
++test('新会话首先进入基础资料收集阶段', () => {
++  assert.equal(getIntakeViewStage({ state: { phase: 'baseline_collection' } }), 'baseline_collection')
++})
++
+ test('只有完整结束阶段可以保存档案', () => {
+   assert.equal(canSaveIntakeRecord({ state: { phase: 'completed' } }), true)
+   assert.equal(canSaveIntakeRecord({ state: { phase: 'escalated' } }), false)
+
+===== DIFF backend/intake_views.py =====
+--- .superpowers/sdd/task-6-before/intake_views.py	2026-08-18 22:09:35.717428500 +0800
++++ backend/intake_views.py	2026-08-18 22:15:22.576841400 +0800
+@@ -32,6 +32,8 @@
+     return {
+         "session_id": internal_state.get("session_id", ""),
+         "phase": phase,
++        "baseline": internal_state.get("baseline"),
++        "bmi_assessment": internal_state.get("bmi_assessment"),
+         "open_question": internal_state.get("open_question", ""),
+         "open_answer": internal_state.get("open_answer", ""),
+         "follow_up_answers": history,
+
+===== DIFF backend/tests/test_intake_views.py =====
+--- .superpowers/sdd/task-6-before/test_intake_views.py	2026-08-18 22:09:35.755423500 +0800
++++ backend/tests/test_intake_views.py	2026-08-18 22:15:00.711629600 +0800
+@@ -21,6 +21,24 @@
+         self.assertNotIn("blocking_keys", encoded)
+         self.assertNotIn("question_key", encoded)
+ 
++    def test_patient_state_exposes_baseline_and_bmi_assessment(self):
++        state = get_intake_state("session-a")
++        state["baseline"] = {"age": 32, "sex": "female", "height_cm": 170.0, "weight_kg": 81.0}
++        state["bmi_assessment"] = {
++            "bmi": 28.0,
++            "bmi_grade": "轻度肥胖范围",
++            "diagnosis_copy": "达到成人肥胖范围，待医生确认",
++        }
++
++        public = build_patient_state(state)
++
++        self.assertEqual(public["baseline"], state["baseline"])
++        self.assertEqual(public["bmi_assessment"]["bmi"], 28.0)
++        self.assertEqual(public["bmi_assessment"]["diagnosis_copy"], "达到成人肥胖范围，待医生确认")
++        self.assertNotIn("execution", public)
++        self.assertNotIn("field_states", public)
++        self.assertNotIn("blocking_keys", public)
++
+     def test_patient_state_uses_public_stop_reason(self):
+         state = get_intake_state("session-a")
+         state.update({"phase": "completed", "stop_reason": "safety_limit"})

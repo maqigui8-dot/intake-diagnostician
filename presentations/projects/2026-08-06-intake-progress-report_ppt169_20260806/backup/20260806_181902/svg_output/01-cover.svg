@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="screenClip"><rect x="744" y="118" width="456" height="450" rx="16"/></clipPath>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F7F9F5"/>
+    <rect x="0" y="0" width="36" height="720" fill="#2F6B4F"/>
+    <circle cx="1160" cy="76" r="48" fill="#D6A84B" fill-opacity="0.14"/>
+    <path d="M80 624 H680" fill="none" stroke="#DCE5DC" stroke-width="2"/>
+  </g>
+  <g id="title-block">
+    <rect x="82" y="112" width="160" height="34" rx="17" fill="#EAF2E8"/>
+    <text x="162" y="136" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2F6B4F">项目进展汇报</text>
+    <text x="82" y="236" font-family="Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="bold" fill="#1F2A24">中医诊前问诊系统</text>
+    <text x="82" y="296" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" fill="#2F6B4F">从固定问卷走向动态信息闭环</text>
+    <text x="82" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#657269">本轮迭代：完整度判断 · 动态补问 · 检查建议</text>
+  </g>
+  <g id="progress-tags">
+    <rect x="82" y="442" width="168" height="48" rx="14" fill="#FFFFFF" stroke="#DCE5DC"/>
+    <use data-icon="tabler-outline/clipboard-check" x="100" y="454" width="24" height="24" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="136" y="474" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">完整度规则</text>
+    <rect x="266" y="442" width="168" height="48" rx="14" fill="#FFFFFF" stroke="#DCE5DC"/>
+    <use data-icon="tabler-outline/message-question" x="284" y="454" width="24" height="24" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="320" y="474" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">动态追问</text>
+    <rect x="450" y="442" width="168" height="48" rx="14" fill="#FFFFFF" stroke="#DCE5DC"/>
+    <use data-icon="tabler-outline/flask" x="468" y="454" width="24" height="24" fill="none" stroke="#D6A84B" stroke-width="2"/>
+    <text x="504" y="474" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">检查建议</text>
+  </g>
+  <g id="product-preview">
+    <rect x="724" y="98" width="496" height="490" rx="20" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2"/>
+    <image href="../images/project-home.png" x="744" y="118" width="456" height="450" clip-path="url(#screenClip)" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="754" y="536" width="134" height="30" rx="15" fill="#2F6B4F"/>
+    <text x="821" y="557" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">当前系统界面</text>
+  </g>
+  <g id="footer">
+    <text x="82" y="666" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#657269">2026.08 · 阶段进展</text>
+    <text x="1200" y="666" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">01</text>
+  </g>
+</svg>

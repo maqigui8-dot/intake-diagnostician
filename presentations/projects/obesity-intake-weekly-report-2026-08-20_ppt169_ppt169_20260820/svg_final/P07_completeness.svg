@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6" />
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#155E47">06 / 核心机制</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">完整度模型：四层门槛共同决定何时问够</text>
+    <text x="64" y="184" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#5E6D65">系统不依赖固定轮次，而是依据资料层级、字段证据与安全条件持续判断。</text>
+  </g>
+  <g id="layer-one">
+    <path fill="#155E47" d="M70,238 H1210 A6,6 0 0 1 1216,244 V304 A6,6 0 0 1 1210,310 H70 A6,6 0 0 1 64,304 V244 A6,6 0 0 1 70,238 Z" />
+    <text x="96" y="284" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#F7F9F6">1　基础资料</text>
+    <text x="370" y="284" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#F7F9F6">年龄、性别、身高、体重与 BMI 已校验</text>
+    <text x="1176" y="284" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#F7F9F6">硬性前提</text>
+  </g>
+  <g id="layer-two">
+    <path fill="#EAF2EB" stroke="#C9D7CE" stroke-width="1" d="M70,324 H1210 A6,6 0 0 1 1216,330 V390 A6,6 0 0 1 1210,396 H70 A6,6 0 0 1 64,390 V330 A6,6 0 0 1 70,324 Z" />
+    <text x="96" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#155E47">2　病因与风险</text>
+    <text x="370" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#15221C">体重变化、诱因、既往减重、代谢风险和继发性线索</text>
+    <text x="1176" y="370" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#4C8C7B">按分层阈值</text>
+  </g>
+  <g id="layer-three">
+    <path fill="#EAF2EB" stroke="#C9D7CE" stroke-width="1" d="M70,410 H1210 A6,6 0 0 1 1216,416 V476 A6,6 0 0 1 1210,482 H70 A6,6 0 0 1 64,476 V416 A6,6 0 0 1 70,410 Z" />
+    <text x="96" y="456" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#155E47">3　中医资料</text>
+    <text x="370" y="456" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#15221C">寒热汗出、二便、睡眠、情绪、乏力、浮肿与舌象</text>
+    <text x="1176" y="456" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#4C8C7B">按分层阈值</text>
+  </g>
+  <g id="layer-four">
+    <path fill="#EAF2EB" stroke="#C9D7CE" stroke-width="1" d="M70,496 H1210 A6,6 0 0 1 1216,502 V562 A6,6 0 0 1 1210,568 H70 A6,6 0 0 1 64,562 V502 A6,6 0 0 1 70,496 Z" />
+    <text x="96" y="542" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#155E47">4　安全信息</text>
+    <text x="370" y="542" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#15221C">危险信号、当前用药、过敏史和妊娠生育相关情况</text>
+    <text x="1176" y="542" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#C94A3D">持续提示</text>
+  </g>
+  <g id="decision">
+    <text x="640" y="627" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#15221C">只有四层均达到要求，系统才生成“正常完成”的诊前档案。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">07</text>
+  </g>
+</svg>

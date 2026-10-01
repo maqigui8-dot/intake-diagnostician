@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9" /></g>
+  <g id="header"><text x="64" y="76" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">整体系统架构</text><text x="64" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">患者自然交互、规则与模型协同、医生保留最终判断权</text></g>
+  <g id="patient-side">
+    <path fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2" d="M72,166 H376 A8,8 0 0 1 384,174 V432 A8,8 0 0 1 376,440 H72 A8,8 0 0 1 64,432 V174 A8,8 0 0 1 72,166 Z" />
+    <circle cx="116" cy="218" r="28" fill="#F1F6EF" />
+    
+  <g transform="translate(96, 198) scale(1.66667)" fill="#236B45">
+    <path d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z" />
+    <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" />
+  </g>
+    <text x="158" y="226" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="bold" fill="#24332B">患者端</text>
+    <text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="96" y="286">基础资料与主要诉求</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="96" y="324">开放描述与对话追问</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="96" y="362">个人历史档案回看</text></g>
+  <g id="arrow-left"><polygon points="406,292 440,272 440,282 468,282 468,302 440,302 440,312" fill="#72A984" /></g>
+  <g id="decision-engine">
+    <path fill="#236B45" d="M494,146 H798 A8,8 0 0 1 806,154 V452 A8,8 0 0 1 798,460 H494 A8,8 0 0 1 486,452 V154 A8,8 0 0 1 494,146 Z" />
+    <circle cx="538" cy="202" r="28" fill="#FCFDF9" />
+    
+  <g transform="translate(518, 182) scale(1.66667)" fill="#236B45">
+    <path d="M3 15.731c1.968 1.507 5.234 2.269 9 2.269c3.76 0 7.025 -.76 9 -2.252v2.252c0 2.425 -3.895 3.936 -8.693 3.998l-.307 .002c-4.938 0 -9 -1.523 -9 -4z" />
+    <path d="M3 9.731c1.968 1.507 5.234 2.269 9 2.269c3.76 0 7.025 -.76 9 -2.252v2.252c0 2.477 -4.062 4 -9 4c-4.798 0 -8.77 -1.438 -8.979 -3.795l-.016 -.101l-.005 -.104z" />
+    <path d="M12 2c1.041 0 2.044 .068 2.977 .198l.469 .071q .84 .14 1.586 .348l.44 .131l.075 .024a11 11 0 0 1 .805 .3l.199 .086q .535 .242 .967 .53q .165 .11 .313 .225a3.8 3.8 0 0 1 .669 .668l.091 .128q .07 .105 .129 .211l.07 .139q .163 .35 .2 .73l.01 .211c0 2.477 -4.062 4 -9 4c-4.798 0 -8.77 -1.438 -8.979 -3.795a1 1 0 0 1 -.021 -.205l.005 -.104l.016 -.1c.205 -2.306 4.01 -3.733 8.667 -3.794z" />
+  </g>
+    <text x="580" y="210" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">问诊决策引擎</text>
+    <text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#F1F6EF" x="518" y="274">核心字段状态与完整度</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#F1F6EF" x="518" y="312">问题优先级与冲突检查</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#F1F6EF" x="518" y="350">大模型生成 + 确定性规则</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#F1F6EF" x="518" y="388">档案整理与检查建议触发</text></g>
+  <g id="arrow-right"><polygon points="828,292 862,272 862,282 890,282 890,302 862,302 862,312" fill="#72A984" /></g>
+  <g id="doctor-side">
+    <path fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2" d="M916,166 H1208 A8,8 0 0 1 1216,174 V432 A8,8 0 0 1 1208,440 H916 A8,8 0 0 1 908,432 V174 A8,8 0 0 1 916,166 Z" />
+    <circle cx="960" cy="218" r="28" fill="#F1F6EF" />
+    
+  <g transform="translate(940, 198) scale(1.66667)" fill="#236B45">
+    <path d="M11 2l-.15 .005a2 2 0 0 0 -1.85 1.995v2.803l-2.428 -1.401a2 2 0 0 0 -2.732 .732l-1 1.732l-.073 .138a2 2 0 0 0 .805 2.594l2.427 1.402l-2.427 1.402a2 2 0 0 0 -.732 2.732l1 1.732l.083 .132a2 2 0 0 0 2.649 .6l2.428 -1.402v2.804a2 2 0 0 0 2 2h2l.15 -.005a2 2 0 0 0 1.85 -1.995v-2.804l2.428 1.403a2 2 0 0 0 2.732 -.732l1 -1.732l.073 -.138a2 2 0 0 0 -.805 -2.594l-2.428 -1.403l2.428 -1.402a2 2 0 0 0 .732 -2.732l-1 -1.732l-.083 -.132a2 2 0 0 0 -2.649 -.6l-2.428 1.4v-2.802a2 2 0 0 0 -2 -2h-2z" />
+  </g>
+    <text x="1002" y="226" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="bold" fill="#24332B">医生端</text>
+    <text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="940" y="286">结构化诊前档案</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="940" y="324">完整度明细与待确认项</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="940" y="362">推荐检查项目与注意事项</text></g>
+  <g id="output-rails">
+    <line x1="646" y1="460" x2="646" y2="500" stroke="#72A984" stroke-width="3" />
+    <line x1="240" y1="500" x2="1040" y2="500" stroke="#72A984" stroke-width="3" />
+    <line x1="240" y1="500" x2="240" y2="530" stroke="#72A984" stroke-width="3" />
+    <line x1="1040" y1="500" x2="1040" y2="530" stroke="#72A984" stroke-width="3" />
+    <path fill="#F1F6EF" d="M116,530 H460 A8,8 0 0 1 468,538 V604 A8,8 0 0 1 460,612 H116 A8,8 0 0 1 108,604 V538 A8,8 0 0 1 116,530 Z" />
+    
+  <g transform="translate(140, 551) scale(1.66667)" fill="#236B45">
+    <path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm3 14h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m0 -4h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2" />
+    <path d="M19 7h-4l-.001 -4.001z" />
+  </g>
+    <text x="202" y="568" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">诊前档案</text>
+    <text x="202" y="594" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#68756D">结构化资料与完整问答记录</text>
+    <path fill="#F1F6EF" d="M820,530 H1164 A8,8 0 0 1 1172,538 V604 A8,8 0 0 1 1164,612 H820 A8,8 0 0 1 812,604 V538 A8,8 0 0 1 820,530 Z" />
+    
+  <g transform="translate(844, 551) scale(1.66667)" fill="#236B45">
+    <path d="M17.997 4.17a3 3 0 0 1 2.003 2.83v12a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 2.003 -2.83a4 4 0 0 0 3.997 3.83h4a4 4 0 0 0 3.98 -3.597zm-8.997 6.83a1 1 0 0 0 -1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0 -1 -1m3 4a1 1 0 0 0 -1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0 -1 -1m3 -2a1 1 0 0 0 -1 1v3a1 1 0 0 0 2 0v-3a1 1 0 0 0 -1 -1m-1 -11a2 2 0 1 1 0 4h-4a2 2 0 1 1 0 -4z" />
+  </g>
+    <text x="906" y="568" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">检查准备</text>
+    <text x="906" y="594" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#68756D">结合已收集信息生成建议</text>
+  </g>
+  <g id="tech-footer"><text x="64" y="667" font-family="Consolas, Courier New, monospace" font-size="14" fill="#68756D">Vue 3 + Vite  ·  FastAPI  ·  LLM + Rules</text><text x="1216" y="667" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">04</text></g>
+</svg>

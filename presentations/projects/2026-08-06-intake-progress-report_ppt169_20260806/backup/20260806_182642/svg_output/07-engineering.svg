@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#F7F9F5"/>
+  </g>
+
+  <g id="header">
+    <text x="68" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1F2A24">工程实现与稳定性</text>
+    <text x="68" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">分析链路解耦、单次模型调用、超时重试、结构化存储</text>
+    <rect x="68" y="132" width="1144" height="3" rx="1.5" fill="#DCE5DC"/>
+  </g>
+
+  <!-- Architecture strip: Analysis chain -->
+  <g id="arch-strip">
+    <rect x="68" y="156" width="1144" height="82" rx="16" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5"/>
+
+    <!-- Step 1 -->
+    <rect x="88" y="177" width="190" height="42" rx="14" fill="#EAF2E8"/>
+    <text x="183" y="204" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2F6B4F">问诊完成触发</text>
+
+    <text x="296" y="204" font-family="Arial, sans-serif" font-size="20" fill="#4C8C7A">→</text>
+
+    <!-- Step 2 -->
+    <rect x="320" y="177" width="190" height="42" rx="14" fill="#F6EFD9"/>
+    <text x="415" y="204" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#D6A84B">后台线程启动</text>
+
+    <text x="528" y="204" font-family="Arial, sans-serif" font-size="20" fill="#4C8C7A">→</text>
+
+    <!-- Step 3 -->
+    <rect x="552" y="177" width="220" height="42" rx="14" fill="#2F6B4F"/>
+    <text x="662" y="204" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">两个 Skill 合并注入</text>
+
+    <text x="790" y="204" font-family="Arial, sans-serif" font-size="20" fill="#4C8C7A">→</text>
+
+    <!-- Step 4 -->
+    <rect x="814" y="177" width="190" height="42" rx="14" fill="#EAF2E8"/>
+    <text x="909" y="204" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2F6B4F">千问单次调用</text>
+
+    <text x="1022" y="204" font-family="Arial, sans-serif" font-size="20" fill="#4C8C7A">→</text>
+
+    <!-- Step 5 -->
+    <rect x="1044" y="177" width="148" height="42" rx="14" fill="#FFFFFF" stroke="#DCE5DC"/>
+    <text x="1118" y="204" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1F2A24">结构化结果</text>
+  </g>
+
+  <!-- Four implementation detail cards -->
+  <!-- Card 1: Thread & Timeout -->
+  <g id="card-timeout">
+    <rect x="68" y="262" width="264" height="200" rx="16" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5"/>
+    <circle cx="108" cy="302" r="22" fill="#EAF2E8"/>
+    <use data-icon="tabler-outline/clock" x="96" y="290" width="24" height="24" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="142" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2A24">超时保护</text>
+
+    <text x="92" y="346" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">后台线程执行分析</text>
+    <text x="92" y="376" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">超时时间</text>
+    <text x="92" y="408" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#D6A84B">45 秒</text>
+    <text x="176" y="408" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">自动返回</text>
+    <text x="92" y="442" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">超时返回可重试结果</text>
+  </g>
+
+  <!-- Card 2: Retry -->
+  <g id="card-retry">
+    <rect x="352" y="262" width="264" height="200" rx="16" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5"/>
+    <circle cx="392" cy="302" r="22" fill="#EAF2E8"/>
+    <use data-icon="tabler-outline/refresh" x="380" y="290" width="24" height="24" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="426" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2A24">失败重试</text>
+
+    <text x="376" y="346" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">分析不可用时前端显示</text>
+    <text x="376" y="376" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1F2A24">「重新分析」按钮</text>
+
+    <rect x="376" y="398" width="216" height="40" rx="12" fill="#2F6B4F"/>
+    <text x="484" y="425" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">重新分析</text>
+  </g>
+
+  <!-- Card 3: Structured Save -->
+  <g id="card-storage">
+    <rect x="636" y="262" width="264" height="200" rx="16" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5"/>
+    <circle cx="676" cy="302" r="22" fill="#EAF2E8"/>
+    <use data-icon="tabler-outline/database" x="664" y="290" width="24" height="24" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="710" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2A24">结构化存储</text>
+
+    <text x="660" y="348" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">三部分独立保存：</text>
+
+    <rect x="660" y="366" width="216" height="26" rx="6" fill="#EAF2E8"/>
+    <text x="674" y="384" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#2F6B4F">structured_answers</text>
+
+    <rect x="660" y="399" width="216" height="26" rx="6" fill="#EAF2E8"/>
+    <text x="674" y="417" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#2F6B4F">follow_up_answers</text>
+
+    <rect x="660" y="432" width="216" height="26" rx="6" fill="#F6EFD9"/>
+    <text x="674" y="450" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#D6A84B">skill_analysis</text>
+  </g>
+
+  <!-- Card 4: Separate Agents -->
+  <g id="card-separation">
+    <rect x="920" y="262" width="292" height="200" rx="16" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5"/>
+    <circle cx="960" cy="302" r="22" fill="#EAF2E8"/>
+    <use data-icon="tabler-outline/adjustments-check" x="948" y="290" width="24" height="24" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="994" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2A24">Agent 职责分离</text>
+
+    <text x="944" y="346" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">对话 Agent：驱动问诊流程</text>
+    <text x="944" y="376" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">分析 Agent：仅执行完整度</text>
+    <text x="944" y="396" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">判断和检查建议</text>
+
+    <rect x="944" y="416" width="248" height="30" rx="8" fill="#EAF2E8"/>
+    <text x="1068" y="437" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#2F6B4F">独立 thread_id 隔离上下文</text>
+  </g>
+
+  <!-- Verification data cards row -->
+  <g id="verification-title">
+    <text x="68" y="510" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">验证结果</text>
+  </g>
+
+  <!-- KPI cards -->
+  <g id="kpi-backend">
+    <rect x="68" y="528" width="264" height="108" rx="16" fill="#2F6B4F"/>
+    <text x="200" y="568" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">22</text>
+    <text x="200" y="605" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" fill-opacity="0.85">后端测试全部通过</text>
+    <text x="200" y="626" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.60">pytest test_intake_flow + test_skill_analysis</text>
+  </g>
+
+  <g id="kpi-frontend-build">
+    <rect x="352" y="528" width="264" height="108" rx="16" fill="#4C8C7A"/>
+    <text x="484" y="568" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">OK</text>
+    <text x="484" y="605" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" fill-opacity="0.85">前端生产构建通过</text>
+    <text x="484" y="626" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.60">npm run build 无错误</text>
+  </g>
+
+  <g id="kpi-health">
+    <rect x="636" y="528" width="264" height="108" rx="16" fill="#4C8C7A"/>
+    <text x="768" y="568" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">OK</text>
+    <text x="768" y="605" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" fill-opacity="0.85">前后端健康检查通过</text>
+    <text x="768" y="626" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.60">API 连通性与服务状态正常</text>
+  </g>
+
+  <!-- UI cleanup card -->
+  <g id="kpi-ui">
+    <rect x="920" y="528" width="292" height="108" rx="16" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2"/>
+    <text x="1066" y="568" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2F6B4F">UI 清理</text>
+    <text x="1066" y="605" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1F2A24">删除右侧基础问项列表</text>
+    <text x="1066" y="626" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#657269">panel.required-card 已移除</text>
+  </g>
+
+  <g id="footer">
+    <text x="1212" y="682" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">07</text>
+  </g>
+</svg>

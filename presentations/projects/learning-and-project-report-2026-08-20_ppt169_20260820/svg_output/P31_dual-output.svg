@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6"/>
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#155E47">10 / 结果输出</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">双端结果：患者可理解，医生可追溯</text>
+    <text x="64" y="184" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#5E6D65">同一份问诊数据，按使用者的任务分成不同信息层次。</text>
+  </g>
+  <g id="patient-output">
+    <text x="64" y="228" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#155E47">患者端</text>
+    <rect x="64" y="246" width="544" height="238" rx="6" fill="#EAF2EB" stroke="#C9D7CE" stroke-width="2"/>
+    <image href="../images/shot-result.png" x="64" y="246" width="544" height="238" preserveAspectRatio="xMidYMid meet"/>
+    <text x="64" y="534" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#15221C">安全文案、BMI 提示、诊前档案与检查建议</text>
+    <text x="64" y="565" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">不展示内部完整度、字段优先级和医学判断过程</text>
+  </g>
+  <g id="doctor-output">
+    <text x="672" y="228" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#155E47">医生端</text>
+    <rect x="672" y="246" width="544" height="238" rx="6" fill="#EAF2EB" stroke="#C9D7CE" stroke-width="2"/>
+    <image href="../images/shot-doctor.png" x="672" y="246" width="544" height="238" preserveAspectRatio="xMidYMid meet"/>
+    <text x="672" y="534" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#15221C">分层执行度、字段证据、冲突和检查候选</text>
+    <text x="672" y="565" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">帮助医生在诊中快速核对资料，而非替代医生判断</text>
+  </g>
+  <g id="footer">
+    <line x1="64" y1="622" x2="1216" y2="622" stroke="#C9D7CE" stroke-width="1"/>
+    <text x="64" y="667" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#15221C">核心结果：数据采集、完整度判断与医生核对形成一条闭环。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">31</text>
+  </g>
+</svg>

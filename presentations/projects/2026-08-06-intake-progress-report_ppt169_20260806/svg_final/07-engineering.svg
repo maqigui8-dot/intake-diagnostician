@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#F7F9F5" />
+  </g>
+
+  <g id="header">
+    <text x="68" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1F2A24">工程实现与稳定性</text>
+    <text x="68" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">分析链路解耦、单次模型调用、超时重试、结构化存储</text>
+    <path fill="#DCE5DC" d="M69.50,132 H1210.50 A1.50,1.50 0 0 1 1212,133.50 V133.50 A1.50,1.50 0 0 1 1210.50,135 H69.50 A1.50,1.50 0 0 1 68,133.50 V133.50 A1.50,1.50 0 0 1 69.50,132 Z" />
+  </g>
+
+  
+  <g id="arch-strip">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5" d="M84,156 H1196 A16,16 0 0 1 1212,172 V222 A16,16 0 0 1 1196,238 H84 A16,16 0 0 1 68,222 V172 A16,16 0 0 1 84,156 Z" />
+
+    
+    <path fill="#EAF2E8" d="M102,177 H264 A14,14 0 0 1 278,191 V205 A14,14 0 0 1 264,219 H102 A14,14 0 0 1 88,205 V191 A14,14 0 0 1 102,177 Z" />
+    <text x="183" y="204" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2F6B4F">问诊完成触发</text>
+
+    <text x="296" y="204" font-family="Arial, sans-serif" font-size="20" fill="#4C8C7A">→</text>
+
+    
+    <path fill="#F6EFD9" d="M334,177 H496 A14,14 0 0 1 510,191 V205 A14,14 0 0 1 496,219 H334 A14,14 0 0 1 320,205 V191 A14,14 0 0 1 334,177 Z" />
+    <text x="415" y="204" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#D6A84B">后台线程启动</text>
+
+    <text x="528" y="204" font-family="Arial, sans-serif" font-size="20" fill="#4C8C7A">→</text>
+
+    
+    <path fill="#2F6B4F" d="M566,177 H758 A14,14 0 0 1 772,191 V205 A14,14 0 0 1 758,219 H566 A14,14 0 0 1 552,205 V191 A14,14 0 0 1 566,177 Z" />
+    <text x="662" y="204" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">两个 Skill 合并注入</text>
+
+    <text x="790" y="204" font-family="Arial, sans-serif" font-size="20" fill="#4C8C7A">→</text>
+
+    
+    <path fill="#EAF2E8" d="M828,177 H990 A14,14 0 0 1 1004,191 V205 A14,14 0 0 1 990,219 H828 A14,14 0 0 1 814,205 V191 A14,14 0 0 1 828,177 Z" />
+    <text x="909" y="204" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2F6B4F">千问单次调用</text>
+
+    <text x="1022" y="204" font-family="Arial, sans-serif" font-size="20" fill="#4C8C7A">→</text>
+
+    
+    <path fill="#FFFFFF" stroke="#DCE5DC" d="M1058,177 H1178 A14,14 0 0 1 1192,191 V205 A14,14 0 0 1 1178,219 H1058 A14,14 0 0 1 1044,205 V191 A14,14 0 0 1 1058,177 Z" />
+    <text x="1118" y="204" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1F2A24">结构化结果</text>
+  </g>
+
+  
+  
+  <g id="card-timeout">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5" d="M84,262 H316 A16,16 0 0 1 332,278 V446 A16,16 0 0 1 316,462 H84 A16,16 0 0 1 68,446 V278 A16,16 0 0 1 84,262 Z" />
+    <circle cx="108" cy="302" r="22" fill="#EAF2E8" />
+    
+  <g transform="translate(96, 290)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 7v5l3 3" />
+  </g>
+    <text x="142" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2A24">超时保护</text>
+
+    <text x="92" y="346" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">后台线程执行分析</text>
+    <text x="92" y="376" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">超时时间</text>
+    <text x="92" y="408" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#D6A84B">45 秒</text>
+    <text x="176" y="408" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">自动返回</text>
+    <text x="92" y="442" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">超时返回可重试结果</text>
+  </g>
+
+  
+  <g id="card-retry">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5" d="M368,262 H600 A16,16 0 0 1 616,278 V446 A16,16 0 0 1 600,462 H368 A16,16 0 0 1 352,446 V278 A16,16 0 0 1 368,262 Z" />
+    <circle cx="392" cy="302" r="22" fill="#EAF2E8" />
+    
+  <g transform="translate(380, 290)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+    <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+  </g>
+    <text x="426" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2A24">失败重试</text>
+
+    <text x="376" y="346" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">分析不可用时前端显示</text>
+    <text x="376" y="376" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1F2A24">「重新分析」按钮</text>
+
+    <path fill="#2F6B4F" d="M388,398 H580 A12,12 0 0 1 592,410 V426 A12,12 0 0 1 580,438 H388 A12,12 0 0 1 376,426 V410 A12,12 0 0 1 388,398 Z" />
+    <text x="484" y="425" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">重新分析</text>
+  </g>
+
+  
+  <g id="card-storage">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5" d="M652,262 H884 A16,16 0 0 1 900,278 V446 A16,16 0 0 1 884,462 H652 A16,16 0 0 1 636,446 V278 A16,16 0 0 1 652,262 Z" />
+    <circle cx="676" cy="302" r="22" fill="#EAF2E8" />
+    
+  <g transform="translate(664, 290)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+    <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+    <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+  </g>
+    <text x="710" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2A24">结构化存储</text>
+
+    <text x="660" y="348" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">三部分独立保存：</text>
+
+    <path fill="#EAF2E8" d="M666,366 H870 A6,6 0 0 1 876,372 V386 A6,6 0 0 1 870,392 H666 A6,6 0 0 1 660,386 V372 A6,6 0 0 1 666,366 Z" />
+    <text x="674" y="384" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#2F6B4F">structured_answers</text>
+
+    <path fill="#EAF2E8" d="M666,399 H870 A6,6 0 0 1 876,405 V419 A6,6 0 0 1 870,425 H666 A6,6 0 0 1 660,419 V405 A6,6 0 0 1 666,399 Z" />
+    <text x="674" y="417" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#2F6B4F">follow_up_answers</text>
+
+    <path fill="#F6EFD9" d="M666,432 H870 A6,6 0 0 1 876,438 V452 A6,6 0 0 1 870,458 H666 A6,6 0 0 1 660,452 V438 A6,6 0 0 1 666,432 Z" />
+    <text x="674" y="450" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#D6A84B">skill_analysis</text>
+  </g>
+
+  
+  <g id="card-separation">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="1.5" d="M936,262 H1196 A16,16 0 0 1 1212,278 V446 A16,16 0 0 1 1196,462 H936 A16,16 0 0 1 920,446 V278 A16,16 0 0 1 936,262 Z" />
+    <circle cx="960" cy="302" r="22" fill="#EAF2E8" />
+    
+  <g transform="translate(948, 290)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M4 10a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M6 4v4" />
+    <path d="M6 12v8" />
+    <path d="M13.823 15.176a2 2 0 1 0 -2.638 2.651" />
+    <path d="M12 4v10" />
+    <path d="M16 7a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M18 4v1" />
+    <path d="M18 9v5" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="994" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2A24">Agent 职责分离</text>
+
+    <text x="944" y="346" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">对话 Agent：驱动问诊流程</text>
+    <text x="944" y="376" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">分析 Agent：仅执行完整度</text>
+    <text x="944" y="396" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">判断和检查建议</text>
+
+    <path fill="#EAF2E8" d="M952,416 H1184 A8,8 0 0 1 1192,424 V438 A8,8 0 0 1 1184,446 H952 A8,8 0 0 1 944,438 V424 A8,8 0 0 1 952,416 Z" />
+    <text x="1068" y="437" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#2F6B4F">独立 thread_id 隔离上下文</text>
+  </g>
+
+  
+  <g id="verification-title">
+    <text x="68" y="510" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">验证结果</text>
+  </g>
+
+  
+  <g id="kpi-backend">
+    <path fill="#2F6B4F" d="M84,528 H316 A16,16 0 0 1 332,544 V620 A16,16 0 0 1 316,636 H84 A16,16 0 0 1 68,620 V544 A16,16 0 0 1 84,528 Z" />
+    <text x="200" y="568" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">22</text>
+    <text x="200" y="605" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" fill-opacity="0.85">后端测试全部通过</text>
+    <text x="200" y="626" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.60">pytest test_intake_flow + test_skill_analysis</text>
+  </g>
+
+  <g id="kpi-frontend-build">
+    <path fill="#4C8C7A" d="M368,528 H600 A16,16 0 0 1 616,544 V620 A16,16 0 0 1 600,636 H368 A16,16 0 0 1 352,620 V544 A16,16 0 0 1 368,528 Z" />
+    <text x="484" y="568" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">OK</text>
+    <text x="484" y="605" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" fill-opacity="0.85">前端生产构建通过</text>
+    <text x="484" y="626" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.60">npm run build 无错误</text>
+  </g>
+
+  <g id="kpi-health">
+    <path fill="#4C8C7A" d="M652,528 H884 A16,16 0 0 1 900,544 V620 A16,16 0 0 1 884,636 H652 A16,16 0 0 1 636,620 V544 A16,16 0 0 1 652,528 Z" />
+    <text x="768" y="568" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">OK</text>
+    <text x="768" y="605" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" fill-opacity="0.85">前后端健康检查通过</text>
+    <text x="768" y="626" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.60">API 连通性与服务状态正常</text>
+  </g>
+
+  
+  <g id="kpi-ui">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2" d="M936,528 H1196 A16,16 0 0 1 1212,544 V620 A16,16 0 0 1 1196,636 H936 A16,16 0 0 1 920,620 V544 A16,16 0 0 1 936,528 Z" />
+    <text x="1066" y="568" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2F6B4F">UI 清理</text>
+    <text x="1066" y="605" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1F2A24">删除右侧基础问项列表</text>
+    <text x="1066" y="626" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#657269">panel.required-card 已移除</text>
+  </g>
+
+  <g id="footer">
+    <text x="1212" y="682" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">07</text>
+  </g>
+</svg>

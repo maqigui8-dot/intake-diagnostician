@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9"/></g>
+  <g id="header"><text x="64" y="76" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">整体系统架构</text><text x="64" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">患者自然交互、规则与模型协同、医生保留最终判断权</text></g>
+  <g id="patient-side">
+    <rect x="64" y="166" width="320" height="274" rx="8" fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2"/>
+    <circle cx="116" cy="218" r="28" fill="#F1F6EF"/>
+    <use data-icon="tabler-filled/user" x="96" y="198" width="40" height="40" fill="#236B45"/>
+    <text x="158" y="226" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="bold" fill="#24332B">患者端</text>
+    <text x="96" y="286" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#68756D">
+      <tspan x="96" dy="0">基础资料与主要诉求</tspan>
+      <tspan x="96" dy="38">开放描述与对话追问</tspan>
+      <tspan x="96" dy="38">个人历史档案回看</tspan>
+    </text>
+  </g>
+  <g id="arrow-left"><polygon points="406,292 440,272 440,282 468,282 468,302 440,302 440,312" fill="#72A984"/></g>
+  <g id="decision-engine">
+    <rect x="486" y="146" width="320" height="314" rx="8" fill="#236B45"/>
+    <circle cx="538" cy="202" r="28" fill="#FCFDF9"/>
+    <use data-icon="tabler-filled/database" x="518" y="182" width="40" height="40" fill="#236B45"/>
+    <text x="580" y="210" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">问诊决策引擎</text>
+    <text x="518" y="274" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#F1F6EF">
+      <tspan x="518" dy="0">核心字段状态与完整度</tspan>
+      <tspan x="518" dy="38">问题优先级与冲突检查</tspan>
+      <tspan x="518" dy="38">大模型生成 + 确定性规则</tspan>
+      <tspan x="518" dy="38">档案整理与检查建议触发</tspan>
+    </text>
+  </g>
+  <g id="arrow-right"><polygon points="828,292 862,272 862,282 890,282 890,302 862,302 862,312" fill="#72A984"/></g>
+  <g id="doctor-side">
+    <rect x="908" y="166" width="308" height="274" rx="8" fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2"/>
+    <circle cx="960" cy="218" r="28" fill="#F1F6EF"/>
+    <use data-icon="tabler-filled/medical-cross" x="940" y="198" width="40" height="40" fill="#236B45"/>
+    <text x="1002" y="226" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="bold" fill="#24332B">医生端</text>
+    <text x="940" y="286" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#68756D">
+      <tspan x="940" dy="0">结构化诊前档案</tspan>
+      <tspan x="940" dy="38">完整度明细与待确认项</tspan>
+      <tspan x="940" dy="38">推荐检查项目与注意事项</tspan>
+    </text>
+  </g>
+  <g id="output-rails">
+    <line x1="646" y1="460" x2="646" y2="500" stroke="#72A984" stroke-width="3"/>
+    <line x1="240" y1="500" x2="1040" y2="500" stroke="#72A984" stroke-width="3"/>
+    <line x1="240" y1="500" x2="240" y2="530" stroke="#72A984" stroke-width="3"/>
+    <line x1="1040" y1="500" x2="1040" y2="530" stroke="#72A984" stroke-width="3"/>
+    <rect x="108" y="530" width="360" height="82" rx="8" fill="#F1F6EF"/>
+    <use data-icon="tabler-filled/file-description" x="140" y="551" width="40" height="40" fill="#236B45"/>
+    <text x="202" y="568" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">诊前档案</text>
+    <text x="202" y="594" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#68756D">结构化资料与完整问答记录</text>
+    <rect x="812" y="530" width="360" height="82" rx="8" fill="#F1F6EF"/>
+    <use data-icon="tabler-filled/report-analytics" x="844" y="551" width="40" height="40" fill="#236B45"/>
+    <text x="906" y="568" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">检查准备</text>
+    <text x="906" y="594" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#68756D">结合已收集信息生成建议</text>
+  </g>
+  <g id="tech-footer"><text x="64" y="667" font-family="Consolas, Courier New, monospace" font-size="14" fill="#68756D">Vue 3 + Vite  ·  FastAPI  ·  LLM + Rules</text><text x="1216" y="667" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">04</text></g>
+</svg>

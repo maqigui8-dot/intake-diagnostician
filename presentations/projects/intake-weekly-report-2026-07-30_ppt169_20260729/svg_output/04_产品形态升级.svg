@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <clipPath id="uiClip">
+      <rect x="706" y="112" width="526" height="542" rx="12"/>
+    </clipPath>
+  </defs>
+  <g id="background">
+    <rect width="1280" height="720" fill="#F7FAF7"/>
+    <rect x="670" y="0" width="610" height="720" fill="#EEF6EF"/>
+  </g>
+  <g id="header">
+    <text x="56" y="76" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#1F2A24">产品形态升级</text>
+  </g>
+  <g id="before-after">
+    <text x="56" y="174" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#8A978E">旧版</text>
+    <text x="56" y="226" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#5F6F64">聊天窗口</text>
+    <text x="56" y="270" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#8A978E">主要依赖用户自己输入和组织症状</text>
+    <path d="M 56 318 H 500" fill="none" stroke="#D8E4DA" stroke-width="3"/>
+    <polygon points="522,318 500,306 500,330" fill="#65B66C"/>
+    <text x="56" y="378" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#2F7D4A">新版</text>
+    <text x="56" y="430" font-family="Microsoft YaHei, Arial, sans-serif" font-size="40" font-weight="700" fill="#1F2A24">结构化问诊工作台</text>
+    <text x="56" y="482" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">
+      <tspan x="56" dy="0">流程可见、问题可选、答案可改，</tspan>
+      <tspan x="56" dy="32">用户不打字也能完成问诊。</tspan>
+    </text>
+    <rect x="56" y="558" width="474" height="54" rx="12" fill="#2F7D4A"/>
+    <text x="293" y="593" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">连续任务，而不是一次性对话</text>
+  </g>
+  <g id="product-image">
+    <rect x="694" y="100" width="550" height="566" rx="12" fill="#FFFFFF" stroke="#65B66C" stroke-width="2"/>
+    <image href="../images/current-ui.png" x="706" y="112" width="526" height="542" preserveAspectRatio="xMidYMid meet" clip-path="url(#uiClip)"/>
+    <rect x="716" y="124" width="128" height="34" rx="17" fill="#2F7D4A"/>
+    <text x="780" y="147" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">当前版本</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="680" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#8A978E">AI 老中医问诊系统｜本周工作汇报</text>
+    <text x="1224" y="680" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#8A978E">04</text>
+  </g>
+</svg>

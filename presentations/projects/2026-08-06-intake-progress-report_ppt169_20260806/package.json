@@ -1,0 +1,16 @@
+{
+  "name": "2026-08-06-intake-progress-report_ppt169_20260806",
+  "version": "1.0.0",
+  "description": "- Canvas format: ppt169\r - Created: 20260806",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sharp": "^0.35.3"
+  }
+}

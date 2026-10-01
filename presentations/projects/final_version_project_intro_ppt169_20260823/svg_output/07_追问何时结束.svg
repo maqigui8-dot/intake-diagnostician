@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9"/></g>
+  <g id="header"><text x="64" y="74" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">追问何时结束：核心资料闭环</text><text x="64" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">不以固定轮数结束，而以核心资料是否可用、回答是否一致作为判断依据</text></g>
+  <g id="readiness-core">
+    <rect x="380" y="158" width="520" height="142" rx="8" fill="#236B45"/>
+    <use data-icon="tabler-filled/circle-check" x="422" y="198" width="56" height="56" fill="#FFFFFF"/>
+    <text x="506" y="212" font-family="KaiTi, Georgia, serif" font-size="34" font-weight="bold" fill="#FFFFFF">核心资料闭环</text>
+    <text x="506" y="252" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#F1F6EF">核心字段形成可用答案，关键回答之间没有未解决冲突</text>
+  </g>
+  <g id="decision-lines">
+    <line x1="640" y1="300" x2="640" y2="352" stroke="#D7E2D8" stroke-width="3"/>
+    <line x1="206" y1="352" x2="1074" y2="352" stroke="#D7E2D8" stroke-width="3"/>
+    <line x1="206" y1="352" x2="206" y2="390" stroke="#D7E2D8" stroke-width="3"/>
+    <line x1="640" y1="352" x2="640" y2="390" stroke="#D7E2D8" stroke-width="3"/>
+    <line x1="1074" y1="352" x2="1074" y2="390" stroke="#D7E2D8" stroke-width="3"/>
+  </g>
+  <g id="branch-complete">
+    <circle cx="206" cy="420" r="30" fill="#236B45"/>
+    <use data-icon="tabler-filled/circle-check" x="186" y="400" width="40" height="40" fill="#FFFFFF"/>
+    <text x="206" y="477" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#236B45">可以结束</text>
+    <text x="206" y="512" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">
+      <tspan x="206" dy="0">核心资料可用于诊中接续</tspan>
+      <tspan x="206" dy="29">生成诊前档案</tspan>
+    </text>
+  </g>
+  <g id="branch-continue">
+    <circle cx="640" cy="420" r="30" fill="#C68A3A"/>
+    <use data-icon="tabler-filled/search" x="620" y="400" width="40" height="40" fill="#FFFFFF"/>
+    <text x="640" y="477" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#C68A3A">继续追问</text>
+    <text x="640" y="512" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">
+      <tspan x="640" dy="0">仍缺少影响判断或用药安全的</tspan>
+      <tspan x="640" dy="29">核心信息</tspan>
+    </text>
+  </g>
+  <g id="branch-doctor">
+    <circle cx="1074" cy="420" r="30" fill="#B44A45"/>
+    <use data-icon="tabler-filled/medical-cross" x="1054" y="400" width="40" height="40" fill="#FFFFFF"/>
+    <text x="1074" y="477" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#B44A45">转交医生</text>
+    <text x="1074" y="512" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">
+      <tspan x="1074" dy="0">冲突、不确定或可选细节</tspan>
+      <tspan x="1074" dy="29">留待诊中确认</tspan>
+    </text>
+  </g>
+  <g id="interaction-rule">
+    <line x1="140" y1="590" x2="1140" y2="590" stroke="#E8EFE8" stroke-width="2"/>
+    <text x="640" y="632" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332B">一次只问一个重点 · “不知道/拒答”最多友好澄清一次 · 可选细节不阻塞患者端完成</text>
+  </g>
+  <g id="footer"><text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text><text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">07</text></g>
+</svg>

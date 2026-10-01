@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="74" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">13 · 操作展示</text>
+  <text x="64" y="120" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="700" fill="#174C43">项目操作展示（三）：生成并保存诊前档案</text>
+  <text x="64" y="154" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#62716B">核心信息达到可用状态后，系统停止在线追问、自动保存档案，并生成患者端和医生端视图。</text>
+  <rect x="64" y="194" width="548" height="356" fill="#FFFFFF" stroke="#6E9184" stroke-width="2" stroke-dasharray="8,4"/>
+  <rect x="668" y="194" width="548" height="356" fill="#FFFFFF" stroke="#6E9184" stroke-width="2" stroke-dasharray="8,4"/>
+  <!-- icon: tabler-outline/user -->
+  <g transform="translate(300, 298) scale(3.16667)" fill="none" stroke="#6E9184" stroke-width="2">
+    <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+  </g>
+  <!-- icon: tabler-outline/stethoscope -->
+  <g transform="translate(904, 298) scale(3.16667)" fill="none" stroke="#C76B3C" stroke-width="2">
+    <path d="M6 4h-1a2 2 0 0 0 -2 2v3.5a5.5 5.5 0 0 0 11 0v-3.5a2 2 0 0 0 -2 -2h-1" />
+    <path d="M8 15a6 6 0 1 0 12 0v-3" />
+    <path d="M11 3v2" />
+    <path d="M6 3v2" />
+    <path d="M18 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  </g>
+  <text x="338" y="414" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#174C43">插入：患者端结果页面截图</text>
+  <text x="942" y="414" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#174C43">插入：医生端档案页面截图</text>
+  <text x="338" y="456" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#62716B">整理结果 · 检查准备 · 历史档案</text>
+  <text x="942" y="456" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#62716B">字段证据 · 待确认项 · 冲突与风险</text>
+  <rect x="114" y="586" width="1052" height="64" fill="#E8EFEA"/>
+  <text x="640" y="626" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174C43">同一份问诊数据：患者易理解，医生可追溯、可继续确认</text>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">14</text>
+</svg>

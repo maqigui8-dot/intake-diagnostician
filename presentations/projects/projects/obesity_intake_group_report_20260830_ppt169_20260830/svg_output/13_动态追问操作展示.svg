@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="74" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">12 · 操作展示</text>
+  <text x="64" y="120" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="700" fill="#174C43">项目操作展示（二）：根据核心信息缺口动态追问</text>
+  <text x="64" y="154" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#62716B">系统从患者自由描述中提取已有信息，并围绕尚未完成的核心字段继续追问。</text>
+  <rect x="64" y="194" width="548" height="396" fill="#FFFFFF" stroke="#6E9184" stroke-width="2" stroke-dasharray="8,4"/>
+  <rect x="668" y="194" width="548" height="396" fill="#FFFFFF" stroke="#6E9184" stroke-width="2" stroke-dasharray="8,4"/>
+  <use data-icon="tabler-outline/message-chatbot" x="296" y="316" width="84" height="84" fill="#6E9184" stroke-width="2"/>
+  <use data-icon="tabler-outline/search" x="900" y="316" width="84" height="84" fill="#6E9184" stroke-width="2"/>
+  <text x="338" y="438" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#174C43">插入：患者自由描述页面截图</text>
+  <text x="942" y="438" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#174C43">插入：系统动态追问页面截图</text>
+  <text x="338" y="478" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#62716B">突出自然语言输入与已有信息</text>
+  <text x="942" y="478" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#62716B">突出连续对话与下一项核心问题</text>
+  <path d="M620 386 H660" fill="none" stroke="#C76B3C" stroke-width="4"/>
+  <polygon points="666,386 652,378 652,394" fill="#C76B3C"/>
+  <text x="640" y="364" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#C76B3C">缺口判断</text>
+  <text x="338" y="640" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#174C43">患者可以一次描述多项情况</text>
+  <text x="942" y="640" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#174C43">已获得的信息不再重复询问</text>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">13</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">06 · 核心机制</text>
+  <text x="64" y="126" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174C43">信息完整度如何判断？</text>
+  <line x1="64" y1="148" x2="1216" y2="148" stroke="#CDD8D2" stroke-width="2"/>
+  <text x="76" y="196" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#62716B">四层核心信息</text>
+  <rect x="74" y="220" width="670" height="84" fill="#174C43"/>
+  <rect x="104" y="318" width="640" height="84" fill="#6E9184"/>
+  <rect x="134" y="416" width="610" height="84" fill="#DCEAE4"/>
+  <rect x="164" y="514" width="580" height="84" fill="#F7E7DE"/>
+  <!-- icon: tabler-outline/forms -->
+  <g transform="translate(96, 242) scale(1.58333)" fill="none" stroke="#F7F5EF" stroke-width="2">
+    <path d="M12 3a3 3 0 0 0 -3 3v12a3 3 0 0 0 3 3" />
+    <path d="M6 3a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3" />
+    <path d="M13 7h7a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-7" />
+    <path d="M5 7h-1a1 1 0 0 0 -1 1v8a1 1 0 0 0 1 1h1" />
+    <path d="M17 12h.01" />
+    <path d="M13 12h.01" />
+  </g>
+  <!-- icon: tabler-outline/history -->
+  <g transform="translate(126, 340) scale(1.58333)" fill="none" stroke="#F7F5EF" stroke-width="2">
+    <path d="M12 8l0 4l2 2" />
+    <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5" />
+  </g>
+  <!-- icon: tabler-outline/message-chatbot -->
+  <g transform="translate(156, 438) scale(1.58333)" fill="none" stroke="#174C43" stroke-width="2">
+    <path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12" />
+    <path d="M9.5 9h.01" />
+    <path d="M14.5 9h.01" />
+    <path d="M9.5 13a3.5 3.5 0 0 0 5 0" />
+  </g>
+  <!-- icon: tabler-outline/shield-check -->
+  <g transform="translate(186, 536) scale(1.58333)" fill="none" stroke="#C76B3C" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+  <text x="150" y="257" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#F7F5EF">基础资料</text>
+  <text x="150" y="285" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F7F5EF">年龄、性别、身高体重、主要诉求</text>
+  <text x="180" y="355" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#F7F5EF">病程与风险</text>
+  <text x="180" y="383" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F7F5EF">体重变化、起病经过、诱因、减重经历、重要病史</text>
+  <text x="210" y="453" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#174C43">核心中医症状</text>
+  <text x="210" y="481" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#24332E">食欲口渴、二便、睡眠情绪、疲劳与活动耐力</text>
+  <text x="240" y="551" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#C76B3C">安全信息</text>
+  <text x="240" y="579" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#24332E">用药、过敏、危险信号、适用时的妊娠信息</text>
+  <rect x="800" y="220" width="380" height="378" fill="#FFFFFF" stroke="#CDD8D2" stroke-width="2"/>
+  <text x="840" y="267" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#174C43">仍会阻塞正常完成</text>
+  <line x1="840" y1="288" x2="1140" y2="288" stroke="#CDD8D2"/>
+  <!-- icon: tabler-outline/alert-triangle -->
+  <g transform="translate(840, 320) scale(1.25)" fill="none" stroke="#C76B3C" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+  <text x="888" y="343" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332E">核心字段仍然缺失</text>
+  <!-- icon: tabler-outline/alert-triangle -->
+  <g transform="translate(840, 382) scale(1.25)" fill="none" stroke="#C76B3C" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+  <text x="888" y="405" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332E">回答只形成部分信息</text>
+  <!-- icon: tabler-outline/alert-triangle -->
+  <g transform="translate(840, 444) scale(1.25)" fill="none" stroke="#C76B3C" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+  <text x="888" y="467" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332E">关键回答前后矛盾</text>
+  <!-- icon: tabler-outline/alert-triangle -->
+  <g transform="translate(840, 506) scale(1.25)" fill="none" stroke="#C76B3C" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+  <text x="888" y="529" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332E">安全信息尚未确认</text>
+  <text x="800" y="642" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#174C43">完整度 ≠ 已回答题数</text>
+  <text x="1032" y="642" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#62716B">核心信息是否可用</text>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">07</text>
+</svg>

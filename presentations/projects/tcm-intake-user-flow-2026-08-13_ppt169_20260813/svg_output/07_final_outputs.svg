@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="recordShot"><rect x="390" y="156" width="826" height="402" rx="12"/></clipPath>
+    <clipPath id="examShot"><rect x="390" y="592" width="826" height="100" rx="12"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="64" y="55" width="8" height="44" rx="4" fill="#2F8F4E"/>
+  <text x="92" y="88" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#21352A">最终形成诊前档案与检查建议</text>
+  <text x="92" y="122" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#6C7A70">把问诊内容整理为可继续使用的结构化结果，为后续诊中决策提供信息基础</text>
+
+  <rect x="64" y="156" width="294" height="536" rx="20" fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="108" cy="207" r="24" fill="#2F8F4E"/>
+  <text x="108" y="215" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="146" y="213" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">完整诊前档案</text>
+  <text x="92" y="258" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#6C7A70">汇总十个必问项和全部</text>
+  <text x="92" y="286" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#6C7A70">补充追问，按问诊维度</text>
+  <text x="92" y="314" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#6C7A70">形成结构化记录。</text>
+
+  <line x1="92" y1="350" x2="330" y2="350" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="108" cy="397" r="24" fill="#D6A74B"/>
+  <text x="108" y="405" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="146" y="403" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">建议检查项目</text>
+  <text x="92" y="448" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#6C7A70">根据已采集症状和风险</text>
+  <text x="92" y="476" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#6C7A70">信息推荐相关检查，并</text>
+  <text x="92" y="504" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#6C7A70">说明临床意义与注意事项。</text>
+
+  <rect x="88" y="556" width="246" height="104" rx="14" fill="#E6F4E8"/>
+  <text x="108" y="588" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#1D5732">使用边界</text>
+  <text x="108" y="617" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#21352A">结果用于诊前整理和检查参考，</text>
+  <text x="108" y="642" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#21352A">不能替代医生诊断。</text>
+
+  <rect x="378" y="144" width="850" height="426" rx="20" fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2"/>
+  <rect x="390" y="156" width="826" height="402" rx="12" fill="#FFFFFF"/>
+  <image x="390" y="156" width="826" height="402" href="../images/04_final_record.png" preserveAspectRatio="xMidYMid meet" clip-path="url(#recordShot)"/>
+  <rect x="398" y="162" width="112" height="28" rx="14" fill="#2F8F4E"/>
+  <text x="454" y="181" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">诊前档案</text>
+
+  <rect x="378" y="580" width="850" height="124" rx="18" fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2"/>
+  <rect x="390" y="592" width="826" height="100" rx="12" fill="#FFFFFF"/>
+  <image x="390" y="592" width="826" height="100" href="../images/05_exam_recommendations.png" preserveAspectRatio="xMidYMid meet" clip-path="url(#examShot)"/>
+  <rect x="398" y="598" width="112" height="28" rx="14" fill="#D6A74B"/>
+  <text x="454" y="617" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">检查建议</text>
+  <text x="1204" y="714" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#A5B0A8">07 / 07</text>
+</svg>

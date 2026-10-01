@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F3F7F5"/>
+
+  <g id="page-header">
+    <text x="52" y="68" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">INTERACTION CHANGE</text>
+    <text x="52" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174B39">对话式追问改造</text>
+  </g>
+
+  <g id="before-summary">
+    <text x="52" y="188" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#E45B4B">原来</text>
+    <text x="52" y="225" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="700" fill="#1E2A25">一张问题卡</text>
+    <text x="52" y="263" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#617068">
+      <tspan x="52" dy="0">用户只关注当前题，</tspan>
+      <tspan x="52" dy="31">前后回答不容易连起来看。</tspan>
+    </text>
+    <rect x="52" y="328" width="220" height="126" rx="14" fill="#FFFFFF" stroke="#D9E4DE" stroke-width="2"/>
+    <text x="72" y="360" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#E45B4B">补充问题 3</text>
+    <text x="72" y="398" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1E2A25">胃胀何时更明显？</text>
+    <rect x="72" y="419" width="90" height="22" rx="11" fill="#FBE9E6"/>
+    <text x="117" y="435" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#E45B4B">单点展示</text>
+    <line x1="52" y1="502" x2="276" y2="502" stroke="#D9E4DE" stroke-width="2"/>
+    <text x="52" y="545" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">现在</text>
+    <text x="52" y="580" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174B39">连续聊天 · 上下文可见</text>
+    <text x="52" y="614" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">患者只看到自然问题</text>
+  </g>
+
+  <g id="chat-window">
+    <rect x="334" y="142" width="894" height="500" rx="22" fill="#FFFFFF" stroke="#D9E4DE" stroke-width="2"/>
+    <rect x="334" y="142" width="894" height="74" rx="22" fill="#174B39"/>
+    <rect x="334" y="194" width="894" height="22" fill="#174B39"/>
+    <circle cx="378" cy="178" r="21" fill="#237A57"/>
+    <use data-icon="tabler-outline/message-circle" x="365" y="165" width="26" height="26" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="414" y="174" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">小郎中继续了解您的情况</text>
+    <text x="414" y="199" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#DDEEE6">每次只问一个问题 · 第 4 问</text>
+    <rect x="1070" y="161" width="122" height="34" rx="17" fill="#DDEEE6"/>
+    <text x="1131" y="184" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#174B39">对话式追问</text>
+
+    <g id="history-one">
+      <circle cx="378" cy="260" r="17" fill="#DDEEE6"/>
+      <text x="378" y="266" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">医</text>
+      <rect x="410" y="238" width="376" height="54" rx="14" fill="#F3F7F5"/>
+      <text x="432" y="271" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1E2A25">您的反酸通常在饭前还是饭后更明显？</text>
+      <rect x="842" y="304" width="302" height="50" rx="14" fill="#237A57"/>
+      <text x="993" y="335" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF">通常是饭后半小时更明显</text>
+    </g>
+
+    <g id="history-two">
+      <circle cx="378" cy="400" r="17" fill="#DDEEE6"/>
+      <text x="378" y="406" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">医</text>
+      <rect x="410" y="378" width="448" height="54" rx="14" fill="#F3F7F5"/>
+      <text x="432" y="411" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1E2A25">出现胃胀时，休息以后会不会有所缓解？</text>
+      <rect x="934" y="444" width="210" height="50" rx="14" fill="#237A57"/>
+      <text x="1039" y="475" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF">休息后会好一些</text>
+    </g>
+
+    <g id="current-question">
+      <circle cx="378" cy="542" r="17" fill="#237A57"/>
+      <text x="378" y="548" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">医</text>
+      <rect x="410" y="516" width="492" height="58" rx="14" fill="#DDEEE6" stroke="#237A57" stroke-width="2"/>
+      <text x="432" y="552" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#174B39">最近有没有出现黑便或呕血的情况？</text>
+      <rect x="410" y="592" width="690" height="30" rx="15" fill="#FFFFFF" stroke="#D9E4DE"/>
+      <text x="430" y="613" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#A7B3AD">请在这里回答，系统会根据您的回答重新判断……</text>
+      <circle cx="1174" cy="607" r="18" fill="#237A57"/>
+      <polygon points="1168,600 1182,607 1168,614" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <g id="privacy-note">
+    <rect x="950" y="662" width="278" height="28" rx="14" fill="#DDEEE6"/>
+    <text x="1089" y="681" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#174B39">缺失必问项和建议选问项仅供系统内部判断</text>
+  </g>
+
+  <g id="footer">
+    <text x="52" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#A7B3AD">中医诊前问诊系统 · 对话式追问</text>
+    <text x="1228" y="710" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#617068">03 / 06</text>
+  </g>
+</svg>

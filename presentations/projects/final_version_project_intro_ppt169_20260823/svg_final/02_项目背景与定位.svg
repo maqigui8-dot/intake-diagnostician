@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9" /></g>
+  <g id="header">
+    <text x="64" y="78" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">项目背景与定位</text>
+    <rect x="64" y="96" width="1152" height="2" fill="#E8EFE8" />
+  </g>
+  <g id="main-statement">
+    <text font-weight="bold" font-size="44" font-family="KaiTi, Georgia, serif" fill="#236B45" x="72" y="192">诊前先把信息整理好，</text><text font-weight="bold" font-size="44" font-family="KaiTi, Georgia, serif" fill="#236B45" x="72" y="254">诊中才能把时间用在判断上。</text><text font-size="20" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="74" y="350">系统面向成人肥胖患者，在就诊前收集和整理信息，</text><text font-size="20" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="74" y="384">帮助医生更快进入辨证、风险核查与治疗决策。</text><path fill="#F1F6EF" d="M82,456 H486 A8,8 0 0 1 494,464 V550 A8,8 0 0 1 486,558 H82 A8,8 0 0 1 74,550 V464 A8,8 0 0 1 82,456 Z" />
+    <text x="98" y="492" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="bold" fill="#236B45">使用时点</text>
+    <text x="98" y="526" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#24332B">患者诊前完成，医生诊中继续确认</text>
+  </g>
+  <g id="role-boundary">
+    <path fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2" d="M670,154 H1164 A8,8 0 0 1 1172,162 V574 A8,8 0 0 1 1164,582 H670 A8,8 0 0 1 662,574 V162 A8,8 0 0 1 670,154 Z" />
+    <text x="706" y="207" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#68756D">系统职责边界</text>
+    <line x1="706" y1="230" x2="1128" y2="230" stroke="#E8EFE8" stroke-width="2" />
+    
+  <g transform="translate(710, 270) scale(1.91667)" fill="#236B45">
+    <path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm3 14h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m0 -4h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2" />
+    <path d="M19 7h-4l-.001 -4.001z" />
+  </g>
+    <text x="784" y="287" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#24332B">整理资料</text>
+    <text x="784" y="319" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">结构化患者描述和问答记录</text>
+    
+  <g transform="translate(710, 365) scale(1.91667)" fill="#236B45">
+    <path d="M14 3.072a8 8 0 0 1 2.32 11.834l5.387 5.387a1 1 0 0 1 -1.414 1.414l-5.388 -5.387a8 8 0 1 1 -.905 -13.249" />
+  </g>
+    <text x="784" y="382" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#24332B">提示缺口</text>
+    <text x="784" y="414" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">标记待确认信息和相关检查准备</text>
+    
+  <g transform="translate(710, 460) scale(1.91667)" fill="#C68A3A">
+    <path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+    <text x="784" y="477" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#24332B">保留医生判断权</text>
+    <text x="784" y="509" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">不替代诊断，不直接开方</text>
+  </g>
+  <g id="footer">
+    <text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text>
+    <text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">02</text>
+  </g>
+</svg>

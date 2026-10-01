@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">04 · 内容依据</text>
+  <text x="64" y="126" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174C43">问诊问题从哪里来？</text>
+  <line x1="64" y1="148" x2="1216" y2="148" stroke="#CDD8D2" stroke-width="2"/>
+  <line x1="244" y1="492" x2="640" y2="580" stroke="#6E9184" stroke-width="3"/>
+  <line x1="640" y1="492" x2="640" y2="580" stroke="#6E9184" stroke-width="3"/>
+  <line x1="1036" y1="492" x2="640" y2="580" stroke="#6E9184" stroke-width="3"/>
+  <rect x="70" y="198" width="348" height="292" fill="#FFFFFF" stroke="#CDD8D2" stroke-width="2"/>
+  <rect x="466" y="198" width="348" height="292" fill="#FFFFFF" stroke="#CDD8D2" stroke-width="2"/>
+  <rect x="862" y="198" width="348" height="292" fill="#FFFFFF" stroke="#CDD8D2" stroke-width="2"/>
+  <rect x="70" y="198" width="348" height="8" fill="#174C43"/>
+  <rect x="466" y="198" width="348" height="8" fill="#6E9184"/>
+  <rect x="862" y="198" width="348" height="8" fill="#C76B3C"/>
+  <use data-icon="tabler-outline/list-details" x="98" y="232" width="38" height="38" fill="#174C43" stroke-width="2"/>
+  <use data-icon="tabler-outline/message-chatbot" x="494" y="232" width="38" height="38" fill="#174C43" stroke-width="2"/>
+  <use data-icon="tabler-outline/shield-check" x="890" y="232" width="38" height="38" fill="#C76B3C" stroke-width="2"/>
+  <text x="150" y="260" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#174C43">成人肥胖评估</text>
+  <text x="546" y="260" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#174C43">中医问诊框架</text>
+  <text x="942" y="260" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#C76B3C">医疗安全要求</text>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332E">
+    <text x="100" y="316">体重变化与起病经过</text><text x="100" y="354">相关诱因与既往减重</text><text x="100" y="392">代谢风险与近期检查</text><text x="100" y="430">饮食、运动和生活方式</text>
+    <text x="496" y="316">食欲口渴与寒热汗出</text><text x="496" y="354">二便、睡眠与情绪</text><text x="496" y="392">疲劳和活动耐力</text><text x="496" y="430">浮肿、胸腹不适与舌象</text>
+    <text x="892" y="316">当前用药与过敏史</text><text x="892" y="354">重要既往疾病</text><text x="892" y="392">妊娠、备孕与哺乳</text><text x="892" y="430">胸痛、呼吸困难、晕厥</text>
+  </g>
+  <rect x="316" y="566" width="648" height="72" fill="#E8EFEA"/>
+  <text x="640" y="595" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174C43">统一的临床信息字段体系</text>
+  <text x="640" y="623" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#62716B">大模型负责理解表达，不自由决定医疗采集范围</text>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">05</text>
+</svg>

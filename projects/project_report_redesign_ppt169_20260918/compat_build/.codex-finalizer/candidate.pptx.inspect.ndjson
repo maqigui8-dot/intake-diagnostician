@@ -1,0 +1,45 @@
+{"kind":"deck","id":"pr/p17hd3","name":"Deck"}
+{"kind":"layout","layoutId":"064f8402-6691-43af-acfd-e1cb07384297","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"e11a8c7b-4c30-49db-8604-83064639ce75","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/wj70f9","slide":1,"title":"Slide 1","textShapes":0}
+{"kind":"image","id":"im/qxwbihsn","slide":1,"name":"","alt":"01_cover.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/wj70f9","slide":1,"text":"各位老师好，我汇报的项目是中医诊前信息采集与整理系统。项目关注患者见到医生之前，如何把零散描述整理成医生能够快速查看的结构化资料。"}
+{"kind":"slide","id":"sl/xv7c5s","slide":2,"title":"Slide 2","textShapes":0}
+{"kind":"image","id":"im/b6xwbuto","slide":2,"name":"","alt":"02_background.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/xv7c5s","slide":2,"text":"患者已经表达了很多，但医生往往仍需重新确认。原因包括描述零散、同一信息重复询问、结束条件不清，以及医生看不到系统为什么问和为什么停。"}
+{"kind":"slide","id":"sl/zn6qdq","slide":3,"title":"Slide 3","textShapes":0}
+{"kind":"image","id":"im/1wr2dcj6","slide":3,"name":"","alt":"03_goal.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/zn6qdq","slide":3,"text":"项目希望实现自然语言结构化、有限追问、停止判断和结果可追溯。系统只负责诊前资料整理，不承担自动诊断、患病概率预测或自动开方。"}
+{"kind":"slide","id":"sl/aptagc","slide":4,"title":"Slide 4","textShapes":0}
+{"kind":"image","id":"im/vi50jelo","slide":4,"name":"","alt":"04_architecture.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/aptagc","slide":4,"text":"系统分为交互、接口、决策和数据四层。Vue 3 提供患者端与医生工作台，FastAPI 提供接口，MySQL 完整保存业务数据。决策层中，Agent 负责理解与表达，规则负责确定性决策。"}
+{"kind":"slide","id":"sl/rj1fb5","slide":5,"title":"Slide 5","textShapes":0}
+{"kind":"image","id":"im/9cnitove","slide":5,"name":"","alt":"05_roles.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/rj1fb5","slide":5,"text":"患者端负责提供信息，系统负责整理，医生端负责查看与理解。所有会话和档案绑定 patient_id，跨患者读取会被拒绝。医生端当前保持只读。"}
+{"kind":"slide","id":"sl/bi7b0u","slide":6,"title":"Slide 6","textShapes":0}
+{"kind":"image","id":"im/ydkru1sn","slide":6,"name":"","alt":"06_flow.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/bi7b0u","slide":6,"text":"患者依次完成身份选择、基础资料和开放描述。Agent 提取信息后更新字段，系统重新计算完整度，再选择下一问或生成档案。每次回答都会重新触发判断。"}
+{"kind":"slide","id":"sl/8o0rju","slide":7,"title":"Slide 7","textShapes":0}
+{"kind":"image","id":"im/p8vytonu","slide":7,"name":"","alt":"07_fields.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/8o0rju","slide":7,"text":"系统采集基础测量、病程、中医症状、生活方式和安全信息。每个问题来自字段定义；Agent 提取值和证据，规则更新状态并选择目标字段，所以问题来源可追踪。"}
+{"kind":"slide","id":"sl/l8ox58","slide":8,"title":"Slide 8","textShapes":0}
+{"kind":"image","id":"im/lgjypw3y","slide":8,"name":"","alt":"08_completeness.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/l8ox58","slide":8,"text":"完整度不是简单统计填写数量。系统结合字段状态、核心缺口、安全信息和冲突进行判断，输出继续追问、正常结束或保护性结束。可选字段不会无限阻塞。"}
+{"kind":"slide","id":"sl/apwyug","slide":9,"title":"Slide 9","textShapes":0}
+{"kind":"image","id":"im/w7i5kbyx","slide":9,"name":"","alt":"09_priority.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/apwyug","slide":9,"text":"追问按危险信号、核心字段、冲突、高优先普通字段和可选信息排序。规则决定问什么，Agent 负责把目标字段组织成自然问题。"}
+{"kind":"slide","id":"sl/spxc6j","slide":10,"title":"Slide 10","textShapes":0}
+{"kind":"image","id":"im/dknmxc72","slide":10,"name":"","alt":"10_stop.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/spxc6j","slide":10,"text":"系统不使用固定轮数。核心信息可用且无安全缺口和冲突时正常结束；多次无法回答、问题重复或内容不宜在线采集时保护性结束。保护性结束不代表资料完整。"}
+{"kind":"slide","id":"sl/qbsbcg","slide":11,"title":"Slide 11","textShapes":0}
+{"kind":"image","id":"im/jq147u94","slide":11,"name":"","alt":"11_challenges.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/qbsbcg","slide":11,"text":"当前版本已经实现核心字段驱动停止、规则约束 Agent、尝试次数防止重复和 patient_id 数据隔离。演示身份还不等于正式鉴权，临床效果和规则覆盖范围仍需验证。"}
+{"kind":"slide","id":"sl/c7w15x","slide":12,"title":"Slide 12","textShapes":0}
+{"kind":"image","id":"im/214n21cr","slide":12,"name":"","alt":"12_demo_patient.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/c7w15x","slide":12,"text":"这一页放身份选择、基础资料和侧栏记录截图。演示时说明三位患者数据相互隔离，侧栏可以折叠，未完成问诊可以恢复。"}
+{"kind":"slide","id":"sl/lhrre5","slide":13,"title":"Slide 13","textShapes":0}
+{"kind":"image","id":"im/dcvuhcz6","slide":13,"name":"","alt":"13_demo_flow.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/lhrre5","slide":13,"text":"按开放描述、逐项追问和生成档案三个阶段展示。建议选一个具体字段，说明回答如何改变字段状态、下一问和完整度。"}
+{"kind":"slide","id":"sl/kgmqfd","slide":14,"title":"Slide 14","textShapes":0}
+{"kind":"image","id":"im/d0nu1sz6","slide":14,"name":"","alt":"14_demo_doctor.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/kgmqfd","slide":14,"text":"医生工作台集中展示患者列表、问诊详情和决策解释。医生不仅能查看结果，也能看到关键缺口、问题来源和停止原因。"}

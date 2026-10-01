@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="64" y="55" width="8" height="44" rx="4" fill="#D95D4F"/>
+  <text x="92" y="88" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#21352A">原来存在的问题</text>
+  <text x="92" y="122" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#6C7A70">流程能完成基础采集，但连续性、信息呈现和结束机制仍不够成熟</text>
+
+  <rect x="64" y="164" width="554" height="188" rx="16" fill="#FCEDEA" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="110" cy="210" r="24" fill="#D95D4F"/>
+  <text x="110" y="218" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">01</text>
+  <text x="150" y="215" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#21352A">追问不像聊天</text>
+  <text x="92" y="264" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#6C7A70">以单题切换或静态展示为主，患者难以感受到</text>
+  <text x="92" y="296" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#6C7A70">“回答后继续追问”的自然问诊节奏。</text>
+  <rect x="92" y="318" width="194" height="5" rx="2.5" fill="#D95D4F"/>
+
+  <rect x="662" y="164" width="554" height="188" rx="16" fill="#FCEDEA" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="708" cy="210" r="24" fill="#D95D4F"/>
+  <text x="708" y="218" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">02</text>
+  <text x="748" y="215" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#21352A">需要刷新或重新进入</text>
+  <text x="690" y="264" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#6C7A70">状态衔接不稳定，继续问诊时可能需要刷新页面，</text>
+  <text x="690" y="296" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#6C7A70">中断了已经建立的问诊上下文。</text>
+  <rect x="690" y="318" width="222" height="5" rx="2.5" fill="#D95D4F"/>
+
+  <rect x="64" y="376" width="554" height="188" rx="16" fill="#FCEDEA" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="110" cy="422" r="24" fill="#D95D4F"/>
+  <text x="110" y="430" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">03</text>
+  <text x="150" y="427" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#21352A">内部判断直接展示</text>
+  <text x="92" y="473" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6C7A70">“信息完整度、缺失必问项、建议选问项”属于</text>
+  <text x="92" y="505" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6C7A70">系统决策信息，不应增加患者理解负担。</text>
+  <rect x="92" y="528" width="248" height="5" rx="2.5" fill="#D95D4F"/>
+
+  <rect x="662" y="376" width="554" height="188" rx="16" fill="#FCEDEA" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="708" cy="422" r="24" fill="#D95D4F"/>
+  <text x="708" y="430" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">04</text>
+  <text x="748" y="427" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#21352A">追问缺少结束机制</text>
+  <text x="690" y="473" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#6C7A70">缺少轮次上限、重复判断和信息收益判断，</text>
+  <text x="690" y="505" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#6C7A70">极端情况下连续追问 30 轮仍未结束。</text>
+  <rect x="690" y="528" width="276" height="5" rx="2.5" fill="#D95D4F"/>
+
+  <rect x="64" y="602" width="1152" height="66" rx="14" fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2"/>
+  <text x="92" y="643" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1D5732">改进目标：</text>
+  <text x="196" y="643" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#21352A">让系统内部完成判断，让用户只看到自然、连续、能够适时结束的问诊对话。</text>
+  <text x="1204" y="695" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#A5B0A8">02 / 07</text>
+</svg>

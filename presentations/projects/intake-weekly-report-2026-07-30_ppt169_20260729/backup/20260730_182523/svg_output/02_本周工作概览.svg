@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#F7FAF7"/>
+  </g>
+  <g id="header">
+    <text x="56" y="72" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#1F2A24">本周工作概览</text>
+    <text x="56" y="108" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">完成了一次从交互到数据的产品化升级</text>
+    <rect x="1120" y="48" width="104" height="34" rx="17" fill="#EEF6EF"/>
+    <text x="1172" y="71" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#2F7D4A">4 项成果</text>
+  </g>
+  <g id="card-product">
+    <rect x="56" y="148" width="562" height="216" rx="12" fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1"/>
+    <rect x="82" y="174" width="58" height="58" rx="12" fill="#EEF6EF"/>
+    <use data-icon="tabler-outline/layout-dashboard" x="95" y="187" width="32" height="32" fill="#2F7D4A" stroke-width="2"/>
+    <text x="166" y="199" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">产品形态</text>
+    <text x="166" y="230" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#2F7D4A">聊天式问诊 → 引导式预问诊</text>
+    <line x1="82" y1="258" x2="588" y2="258" stroke="#E8F0E9" stroke-width="1"/>
+    <text x="82" y="296" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">
+      <tspan x="82" dy="0">用户可以通过选项逐步完成问诊，</tspan>
+      <tspan x="82" dy="30">同时保留补充描述。</tspan>
+    </text>
+  </g>
+  <g id="card-frontend">
+    <rect x="642" y="148" width="582" height="216" rx="12" fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1"/>
+    <rect x="668" y="174" width="58" height="58" rx="12" fill="#EEF6EF"/>
+    <use data-icon="tabler-outline/route-square" x="681" y="187" width="32" height="32" fill="#2F7D4A" stroke-width="2"/>
+    <text x="752" y="199" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">前端体验</text>
+    <text x="752" y="230" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#2F7D4A">三栏工作台 + 实时进度反馈</text>
+    <line x1="668" y1="258" x2="1194" y2="258" stroke="#E8F0E9" stroke-width="1"/>
+    <text x="668" y="296" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">
+      <tspan x="668" dy="0">流程、当前问题和已收集信息</tspan>
+      <tspan x="668" dy="30">在一个页面同步呈现。</tspan>
+    </text>
+  </g>
+  <g id="card-backend">
+    <rect x="56" y="388" width="562" height="216" rx="12" fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1"/>
+    <rect x="82" y="414" width="58" height="58" rx="12" fill="#EEF6EF"/>
+    <use data-icon="tabler-outline/server-cog" x="95" y="427" width="32" height="32" fill="#2F7D4A" stroke-width="2"/>
+    <text x="166" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">后端能力</text>
+    <text x="166" y="470" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#2F7D4A">10 题状态流程 + 4 类接口</text>
+    <line x1="82" y1="498" x2="588" y2="498" stroke="#E8F0E9" stroke-width="1"/>
+    <text x="82" y="536" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">
+      <tspan x="82" dy="0">支持读取、答题、回退和完成，</tspan>
+      <tspan x="82" dy="30">问诊会话可以持续推进。</tspan>
+    </text>
+  </g>
+  <g id="card-quality">
+    <rect x="642" y="388" width="582" height="216" rx="12" fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1"/>
+    <rect x="668" y="414" width="58" height="58" rx="12" fill="#EEF6EF"/>
+    <use data-icon="tabler-outline/test-pipe" x="681" y="427" width="32" height="32" fill="#2F7D4A" stroke-width="2"/>
+    <text x="752" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">工程质量</text>
+    <text x="752" y="470" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#2F7D4A">测试 + 构建 + 浏览器验证</text>
+    <line x1="668" y1="498" x2="1194" y2="498" stroke="#E8F0E9" stroke-width="1"/>
+    <text x="668" y="536" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">
+      <tspan x="668" dy="0">后端测试全部通过，前端完成构建，</tspan>
+      <tspan x="668" dy="30">核心交互链路已实际验证。</tspan>
+    </text>
+  </g>
+  <g id="footer">
+    <text x="56" y="682" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#8A978E">AI 老中医问诊系统｜本周工作汇报</text>
+    <text x="1224" y="682" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#8A978E">02</text>
+  </g>
+</svg>

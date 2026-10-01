@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#F7F9F5"/>
+    <rect x="0" y="0" width="36" height="720" fill="#2F6B4F"/>
+    <circle cx="1160" cy="76" r="48" fill="#D6A84B" fill-opacity="0.14"/>
+  </g>
+
+  <g id="header">
+    <text x="68" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1F2A24">当前结论与下一步</text>
+    <text x="68" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">核心改造已完成，下一阶段进入规则细化和真实场景验证</text>
+    <rect x="68" y="132" width="1144" height="3" rx="1.5" fill="#DCE5DC"/>
+  </g>
+
+  <!-- LEFT: 已完成 -->
+  <g id="completed-section">
+    <rect x="68" y="160" width="560" height="420" rx="16" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2"/>
+    <rect x="68" y="160" width="560" height="60" rx="16" fill="#EAF2E8"/>
+    <rect x="68" y="204" width="560" height="16" fill="#EAF2E8"/>
+    <use data-icon="tabler-outline/circle-check" x="96" y="176" width="32" height="32" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="142" y="198" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#2F6B4F">已完成</text>
+
+    <!-- Item 1 -->
+    <g id="done-1">
+      <rect x="96" y="236" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="120" cy="258" r="8" fill="#2F6B4F"/>
+      <text x="120" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+      <text x="142" y="264" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">完整度判断逻辑重构 — 从题目计数到十问歌框架评估</text>
+    </g>
+
+    <!-- Item 2 -->
+    <g id="done-2">
+      <rect x="96" y="290" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="120" cy="312" r="8" fill="#2F6B4F"/>
+      <text x="120" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+      <text x="142" y="318" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">两个 Skill 职责拆分 — tcm-intake-checklist + tcm-questioning-guide</text>
+    </g>
+
+    <!-- Item 3 -->
+    <g id="done-3">
+      <rect x="96" y="344" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="120" cy="366" r="8" fill="#2F6B4F"/>
+      <text x="120" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+      <text x="142" y="372" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">动态补问闭环 — 回答后重新评估，最多 5 轮</text>
+    </g>
+
+    <!-- Item 4 -->
+    <g id="done-4">
+      <rect x="96" y="398" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="120" cy="420" r="8" fill="#2F6B4F"/>
+      <text x="120" y="426" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">4</text>
+      <text x="142" y="426" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">智能分析范围收敛 — 删除辨证参考，保留完整度和检查建议</text>
+    </g>
+
+    <!-- Item 5 -->
+    <g id="done-5">
+      <rect x="96" y="452" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="120" cy="474" r="8" fill="#2F6B4F"/>
+      <text x="120" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">5</text>
+      <text x="142" y="480" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">检查建议结构化 — 6 个字段标准化输出</text>
+    </g>
+
+    <!-- Item 6 -->
+    <g id="done-6">
+      <rect x="96" y="506" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="120" cy="528" r="8" fill="#2F6B4F"/>
+      <text x="120" y="534" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">6</text>
+      <text x="142" y="534" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">稳定性优化与测试 — 45s 超时、重试、22 项测试通过</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: 下一步 -->
+  <g id="next-section">
+    <rect x="652" y="160" width="560" height="420" rx="16" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2"/>
+    <rect x="652" y="160" width="560" height="60" rx="16" fill="#F6EFD9"/>
+    <rect x="652" y="204" width="560" height="16" fill="#F6EFD9"/>
+    <use data-icon="tabler-outline/route" x="680" y="176" width="32" height="32" fill="none" stroke="#D6A84B" stroke-width="2"/>
+    <text x="726" y="198" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#1F2A24">下一步</text>
+
+    <g id="next-1">
+      <rect x="680" y="236" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="704" cy="258" r="8" fill="#D6A84B"/>
+      <text x="726" y="264" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">继续细化必问项、选问项和判断规则</text>
+    </g>
+
+    <g id="next-2">
+      <rect x="680" y="290" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="704" cy="312" r="8" fill="#D6A84B"/>
+      <text x="726" y="318" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">补充年龄、过敏史、症状严重程度等采集字段</text>
+    </g>
+
+    <g id="next-3">
+      <rect x="680" y="344" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="704" cy="366" r="8" fill="#D6A84B"/>
+      <text x="726" y="372" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">由临床人员审核检查推荐规则</text>
+    </g>
+
+    <g id="next-4">
+      <rect x="680" y="398" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="704" cy="420" r="8" fill="#D6A84B"/>
+      <text x="726" y="426" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">删除遗留且未使用的辨证代码（tcm-zhengxing skill）</text>
+    </g>
+
+    <g id="next-5">
+      <rect x="680" y="452" width="504" height="44" rx="12" fill="#F7F9F5"/>
+      <circle cx="704" cy="474" r="8" fill="#D6A84B"/>
+      <text x="726" y="480" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">使用更多真实问诊场景进行测试</text>
+    </g>
+  </g>
+
+  <!-- Bottom conclusion -->
+  <g id="conclusion-bar">
+    <rect x="68" y="600" width="1144" height="58" rx="16" fill="#2F6B4F"/>
+    <text x="640" y="636" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">系统已从固定问卷升级为可动态补齐关键缺口的诊前信息工具</text>
+  </g>
+
+  <g id="footer">
+    <text x="82" y="682" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#657269">中医诊前问诊系统 · 2026.08</text>
+    <text x="1212" y="682" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">08</text>
+  </g>
+</svg>

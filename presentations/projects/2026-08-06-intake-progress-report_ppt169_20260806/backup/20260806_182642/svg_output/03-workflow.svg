@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arrowHead" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#4C8C7A"/></marker>
+    <marker id="arrowGold" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#D6A84B"/></marker>
+  </defs>
+  <g id="background"><rect width="1280" height="720" fill="#F7F9F5"/></g>
+  <g id="header">
+    <text x="68" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1F2A24">新的诊前问诊流程</text>
+    <text x="68" y="116" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">固定问卷负责起点，Skill 负责判断缺口与动态补问</text>
+  </g>
+  <g id="flow-line">
+    <line x1="162" y1="332" x2="1118" y2="332" stroke="#4C8C7A" stroke-width="4" marker-end="url(#arrowHead)"/>
+  </g>
+  <g id="step-basic">
+    <circle cx="162" cy="332" r="62" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2"/>
+    <use data-icon="tabler-outline/clipboard-check" x="138" y="308" width="48" height="48" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="162" y="426" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="bold" fill="#1F2A24">基础问诊</text>
+    <text x="162" y="458" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">采集主诉与基础信息</text>
+  </g>
+  <g id="step-check">
+    <circle cx="402" cy="332" r="62" fill="#EAF2E8" stroke="#2F6B4F" stroke-width="2"/>
+    <use data-icon="tabler-outline/list-check" x="378" y="308" width="48" height="48" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="402" y="426" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="bold" fill="#1F2A24">完整度 Skill</text>
+    <text x="402" y="458" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">识别必问与选问缺口</text>
+  </g>
+  <g id="step-followup">
+    <circle cx="642" cy="332" r="70" fill="#2F6B4F"/>
+    <use data-icon="tabler-outline/message-question" x="614" y="304" width="56" height="56" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="642" y="434" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#2F6B4F">动态补问</text>
+    <text x="642" y="468" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">每轮一个关键问题</text>
+  </g>
+  <g id="step-guide">
+    <circle cx="882" cy="332" r="62" fill="#F6EFD9" stroke="#D6A84B" stroke-width="2"/>
+    <use data-icon="tabler-outline/brain" x="858" y="308" width="48" height="48" fill="none" stroke="#D6A84B" stroke-width="2"/>
+    <text x="882" y="426" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="bold" fill="#1F2A24">追问 Skill</text>
+    <text x="882" y="458" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">控制语气、顺序与安全</text>
+  </g>
+  <g id="step-output">
+    <circle cx="1118" cy="332" r="62" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2"/>
+    <use data-icon="tabler-outline/file-description" x="1094" y="308" width="48" height="48" fill="none" stroke="#4C8C7A" stroke-width="2"/>
+    <text x="1118" y="426" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="bold" fill="#1F2A24">档案与建议</text>
+    <text x="1118" y="458" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">供后续诊中参考</text>
+  </g>
+  <g id="loop-note">
+    <path d="M882 246 C840 162 684 156 642 244" fill="none" stroke="#D6A84B" stroke-width="3" stroke-dasharray="8,4" marker-end="url(#arrowGold)"/>
+    <rect x="683" y="154" width="170" height="42" rx="12" fill="#FFFFFF" stroke="#DCE5DC"/>
+    <text x="768" y="181" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#D6A84B">回答后重新评估</text>
+  </g>
+  <g id="summary">
+    <rect x="216" y="548" width="848" height="64" rx="16" fill="#EAF2E8"/>
+    <text x="640" y="588" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="bold" fill="#2F6B4F">流程升级重点：不是增加问题数量，而是优先补齐关键缺口</text>
+  </g>
+  <g id="footer"><text x="1212" y="682" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">03</text></g>
+</svg>

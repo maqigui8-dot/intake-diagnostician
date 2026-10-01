@@ -1,0 +1,165 @@
+{
+  "lang": "zh",
+  "recommend": {
+    "canvas": "ppt169",
+    "mode": "briefing",
+    "visual_style": "soft-rounded",
+    "icons": "tabler-outline",
+    "image_usage": "provided",
+    "formula_policy": "text-only",
+    "generation_mode": "continuous"
+  },
+  "page_count": {
+    "value": "10"
+  },
+  "audience": {
+    "value": "导师、同事或项目负责人；用于周工作汇报和现场演示"
+  },
+  "content_divergence": {
+    "value": ""
+  },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "中医清润绿",
+        "name_en": "TCM Fresh Green",
+        "note_zh": "与当前产品界面一致，专业、温和、适合医疗问诊汇报",
+        "note_en": "Professional and reassuring, aligned with the current product UI",
+        "palette": {
+          "background": "#F7FAF7",
+          "secondary_bg": "#EEF6EF",
+          "primary": "#2F7D4A",
+          "accent": "#65B66C",
+          "secondary_accent": "#D9A441",
+          "body_text": "#1F2A24"
+        }
+      },
+      {
+        "name_zh": "医疗青绿",
+        "name_en": "Clinical Teal",
+        "note_zh": "更偏医疗科技，清爽理性，适合强调系统能力",
+        "note_en": "A cleaner health-tech palette for emphasizing system capability",
+        "palette": {
+          "background": "#F7FAFA",
+          "secondary_bg": "#EAF4F2",
+          "primary": "#16776E",
+          "accent": "#45A89A",
+          "secondary_accent": "#E3A52D",
+          "body_text": "#1C2A29"
+        }
+      },
+      {
+        "name_zh": "水墨朱砂",
+        "name_en": "Ink and Cinnabar",
+        "note_zh": "中医文化感更强，沉静雅致，适合偏传统文化的汇报场景",
+        "note_en": "A restrained Chinese cultural palette with stronger TCM character",
+        "palette": {
+          "background": "#FAF8F3",
+          "secondary_bg": "#F0ECE2",
+          "primary": "#28342E",
+          "accent": "#A84035",
+          "secondary_accent": "#8BA58D",
+          "body_text": "#242824"
+        }
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "清晰友好",
+        "name_en": "Clear and Friendly",
+        "note_zh": "标题和正文统一使用微软雅黑，现场投屏最稳妥",
+        "note_en": "Microsoft YaHei throughout for reliable projection",
+        "heading": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "\"Microsoft YaHei\", Arial, sans-serif",
+          "sample_cjk": "结构化问诊产品升级",
+          "sample_latin": "Weekly Product Update"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "\"Microsoft YaHei\", Arial, sans-serif",
+          "sample_cjk": "本周完成前后端结构化问诊改造",
+          "sample_latin": "Frontend and backend progress",
+          "body_size": 20
+        },
+        "body_size": 20
+      },
+      {
+        "name_zh": "标题更有力量",
+        "name_en": "Stronger Headings",
+        "note_zh": "黑体标题配微软雅黑正文，层级更鲜明",
+        "note_en": "SimHei headings with Microsoft YaHei body",
+        "heading": {
+          "cjk": "SimHei",
+          "latin": "Arial Black",
+          "css": "SimHei, \"Arial Black\", sans-serif",
+          "sample_cjk": "结构化问诊产品升级",
+          "sample_latin": "Weekly Product Update"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "\"Microsoft YaHei\", Arial, sans-serif",
+          "sample_cjk": "本周完成前后端结构化问诊改造",
+          "sample_latin": "Frontend and backend progress",
+          "body_size": 20
+        },
+        "body_size": 20
+      },
+      {
+        "name_zh": "中式文雅",
+        "name_en": "Chinese Editorial",
+        "note_zh": "楷体标题配微软雅黑正文，中医气质更明显",
+        "note_en": "KaiTi headings with a clean Microsoft YaHei body",
+        "heading": {
+          "cjk": "KaiTi",
+          "latin": "Georgia",
+          "css": "KaiTi, Georgia, serif",
+          "sample_cjk": "结构化问诊产品升级",
+          "sample_latin": "Weekly Product Update"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "\"Microsoft YaHei\", Arial, sans-serif",
+          "sample_cjk": "本周完成前后端结构化问诊改造",
+          "sample_latin": "Frontend and backend progress",
+          "body_size": 20
+        },
+        "body_size": 20
+      }
+    ]
+  },
+  "visual_style_spectrum": [
+    {
+      "id": "soft-rounded",
+      "tag_zh": "稳妥亲和",
+      "tag_en": "Safe and approachable",
+      "note_zh": "像成熟医疗 SaaS 的产品汇报",
+      "note_en": "Like a mature healthcare SaaS product update"
+    },
+    {
+      "id": "editorial",
+      "tag_zh": "理性编辑感",
+      "tag_en": "Editorial clarity",
+      "note_zh": "像产品研究报告，信息层次更强",
+      "note_en": "Like a concise product research report"
+    },
+    {
+      "id": "ink-wash",
+      "tag_zh": "东方文化感",
+      "tag_en": "Eastern character",
+      "note_zh": "像现代中医文化展陈，留白更多",
+      "note_en": "Like a modern TCM cultural exhibition"
+    }
+  ],
+  "refine_spec": {
+    "value": false
+  }
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">07 · 完成策略</text>
+  <text x="64" y="126" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174C43">为什么不要求患者回答所有问题？</text>
+  <line x1="64" y1="148" x2="1216" y2="148" stroke="#CDD8D2" stroke-width="2"/>
+  <rect x="70" y="204" width="500" height="380" fill="#174C43"/>
+  <rect x="710" y="204" width="500" height="380" fill="#FFFFFF" stroke="#CDD8D2" stroke-width="2"/>
+  <!-- icon: tabler-outline/circle-check -->
+  <g transform="translate(104, 238) scale(1.75)" fill="none" stroke="#F7F5EF" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+  <text x="166" y="267" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#F7F5EF">患者完成线</text>
+  <text x="104" y="320" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#E8EFEA">在线问诊必须形成可用答案</text>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#F7F5EF">
+    <text x="106" y="370">基础资料与主要诉求</text><text x="106" y="410">核心病程与相关诱因</text><text x="106" y="450">核心中医症状</text><text x="106" y="490">用药、过敏、病史与危险信号</text><text x="106" y="530">不存在未解决的关键冲突</text>
+  </g>
+  <!-- icon: tabler-outline/stethoscope -->
+  <g transform="translate(744, 238) scale(1.75)" fill="none" stroke="#C76B3C" stroke-width="2">
+    <path d="M6 4h-1a2 2 0 0 0 -2 2v3.5a5.5 5.5 0 0 0 11 0v-3.5a2 2 0 0 0 -2 -2h-1" />
+    <path d="M8 15a6 6 0 1 0 12 0v-3" />
+    <path d="M11 3v2" />
+    <path d="M6 3v2" />
+    <path d="M18 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  </g>
+  <text x="806" y="267" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#174C43">医生完善线</text>
+  <text x="744" y="320" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#62716B">允许在诊中继续补充</text>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332E">
+    <text x="746" y="370">舌象等四诊细节</text><text x="746" y="410">饮食和运动的具体频率</text><text x="746" y="450">吸烟饮酒细节</text><text x="746" y="490">既往检查具体数值</text><text x="746" y="530">其他个体化非核心信息</text>
+  </g>
+  <path d="M584 352 H696" fill="none" stroke="#C76B3C" stroke-width="5"/>
+  <polygon points="704,352 686,341 686,363" fill="#C76B3C"/>
+  <text x="640" y="322" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#C76B3C">在线完成</text>
+  <text x="640" y="390" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#62716B">诊中补充</text>
+  <rect x="232" y="616" width="816" height="46" fill="#E8EFEA"/>
+  <text x="640" y="646" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="700" fill="#174C43">核心资料可用即可结束，可选细节不再阻塞患者</text>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">08</text>
+</svg>

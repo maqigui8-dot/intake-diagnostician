@@ -1,0 +1,271 @@
+Task 6 FIX review package
+Base: post-Task-6 pre-fix snapshot (.superpowers/sdd/task-6-fix-before/)
+Head: current workspace after fix
+
+===== DIFF frontend/src/App.vue =====
+--- .superpowers/sdd/task-6-fix-before/App.vue	2026-08-18 22:22:28.464559000 +0800
++++ frontend/src/App.vue	2026-08-18 22:25:46.622087700 +0800
+@@ -28,6 +28,7 @@
+             <span v-if="stage.status === 'completed'" class="stage-done">✓</span>
+           </li>
+         </ol>
++        <button v-if="canEditBaseline" type="button" class="edit-baseline-link left-panel-edit" @click="startEditBaseline">编辑基础资料</button>
+         <div class="privacy-note">
+           <strong>安心问诊</strong>
+           <p>资料仅用于本次诊前整理，并由医生在诊中进一步确认。</p>
+@@ -37,7 +38,7 @@
+       <section class="main-panel">
+         <div v-if="loading && !state" class="loading-state">正在准备问诊...</div>
+ 
+-        <section v-else-if="state && viewStage === 'baseline_collection'" class="baseline-form">
++        <section v-else-if="state && (viewStage === 'baseline_collection' || editingBaseline)" class="baseline-form">
+           <div class="assistant-intro">
+             <span class="assistant-avatar">医</span>
+             <div>
+@@ -51,7 +52,7 @@
+               <label class="field">
+                 <span>年龄</span>
+                 <input type="number" min="18" max="120" step="1" v-model.number="baseline.age" placeholder="例如 32" />
+-                <small>岁 · 仅限18岁及以上</small>
++                <small>岁 · 18–120</small>
+               </label>
+               <div class="field">
+                 <span>生理性别</span>
+@@ -96,8 +97,9 @@
+             <div class="composer-actions">
+               <p v-if="formError" class="form-error">{{ formError }}</p>
+               <small>提交后即可开始描述您的困扰</small>
++              <button v-if="editingBaseline" class="secondary-button" type="button" :disabled="saving" @click="cancelEditBaseline">取消</button>
+               <button class="primary-button" type="submit" :disabled="!baselineValid || saving">
+-                {{ saving ? '正在提交...' : '确认并继续' }}
++                {{ saving ? '正在提交...' : (editingBaseline ? '保存修改' : '确认并继续') }}
+               </button>
+             </div>
+           </form>
+@@ -213,6 +215,7 @@
+               <span>{{ state.bmi_assessment.bmi_grade }}</span>
+             </div>
+             <p v-if="state.bmi_assessment.diagnosis_copy" class="diagnosis-copy">达到成人肥胖范围，待医生确认</p>
++            <button v-if="canEditBaseline" type="button" class="edit-baseline-link" @click="startEditBaseline">编辑基础资料</button>
+           </div>
+           <div v-if="state.safety_alerts?.length" class="safety-alert persistent-alert result-safety-alert">
+             <strong>发现需要优先线下确认的情况</strong>
+@@ -261,6 +264,7 @@
+ const saving = ref(false)
+ const saved = ref(false)
+ const formError = ref('')
++const editingBaseline = ref(false)
+ const baseline = ref({
+   age: '',
+   sex: '',
+@@ -276,6 +280,10 @@
+ const doctorError = ref('')
+ const md = new MarkdownIt({ html: false, linkify: false, typographer: true })
+ 
++function _optionalNumber(value) {
++  return value === '' || value === null || value === undefined ? null : Number(value)
++}
++
+ const viewStage = computed(() => getIntakeViewStage({ state: state.value, loading: loading.value, saving: saving.value }))
+ const currentRound = computed(() => (state.value?.follow_up_count || 0) + 1)
+ const canSave = computed(() => canSaveIntakeRecord({ state: state.value, saved: saved.value, saving: saving.value }))
+@@ -284,21 +292,31 @@
+   const age = Number(b.age)
+   const height = Number(b.height_cm)
+   const weight = Number(b.weight_kg)
++  const waist = _optionalNumber(b.waist_cm)
++  const hip = _optionalNumber(b.hip_cm)
++  const optionalPositive = (value) => value === null || (Number.isFinite(value) && value > 0)
+   return (
+-    Number.isFinite(age) && age >= 18 &&
++    Number.isInteger(age) && age >= 18 && age <= 120 &&
+     (b.sex === 'male' || b.sex === 'female') &&
+     Number.isFinite(height) && height >= 100 && height <= 250 &&
+     Number.isFinite(weight) && weight >= 20 && weight <= 500 &&
++    optionalPositive(waist) && optionalPositive(hip) &&
+     !!b.measured_at
+   )
+ })
+ const saveLabel = computed(() => saved.value ? '已保存' : '保存档案')
++const canEditBaseline = computed(() => {
++  const phase = state.value?.phase
++  return !editingBaseline.value && !!phase && !['baseline_collection', 'completed', 'escalated'].includes(phase)
++})
+ const flowStages = computed(() => {
+   const phase = state.value?.phase || 'open_intake'
++  const terminal = ['completed', 'incomplete', 'escalated'].includes(phase)
+   return [
+-    { label: '开放描述', description: '说明主要困扰与变化', status: phase === 'open_intake' ? 'current' : 'completed' },
+-    { label: '补充问诊', description: '逐项确认关键资料', status: ['processing', 'follow_up'].includes(phase) ? 'current' : (['completed', 'incomplete', 'escalated'].includes(phase) ? 'completed' : 'pending') },
+-    { label: '诊前档案', description: '整理资料与检查建议', status: ['completed', 'incomplete', 'escalated'].includes(phase) ? 'current' : 'pending' },
++    { label: '基础资料', description: '填写年龄、身高与体重', status: phase === 'baseline_collection' ? 'current' : 'completed' },
++    { label: '开放描述', description: '说明主要困扰与变化', status: phase === 'baseline_collection' ? 'pending' : (phase === 'open_intake' ? 'current' : 'completed') },
++    { label: '补充问诊', description: '逐项确认关键资料', status: ['processing', 'follow_up'].includes(phase) ? 'current' : (terminal ? 'completed' : 'pending') },
++    { label: '诊前档案', description: '整理资料与检查建议', status: terminal ? 'current' : 'pending' },
+   ]
+ })
+ 
+@@ -334,18 +352,7 @@
+   try {
+     state.value = await request(`/api/intake/session/${sessionId.value}`)
+     openAnswer.value = state.value.open_answer || ''
+-    if (state.value.baseline) {
+-      const b = state.value.baseline
+-      baseline.value = {
+-        age: b.age ?? '',
+-        sex: b.sex ?? '',
+-        height_cm: b.height_cm ?? '',
+-        weight_kg: b.weight_kg ?? '',
+-        waist_cm: b.waist_cm ?? '',
+-        hip_cm: b.hip_cm ?? '',
+-        measured_at: b.measured_at ?? '',
+-      }
+-    }
++    fillBaselineForm()
+     syncUrl()
+     await loadDoctorSummary()
+   } catch (error) {
+@@ -355,11 +362,35 @@
+   }
+ }
+ 
++function fillBaselineForm() {
++  const b = state.value?.baseline
++  if (!b) return
++  baseline.value = {
++    age: b.age ?? '',
++    sex: b.sex ?? '',
++    height_cm: b.height_cm ?? '',
++    weight_kg: b.weight_kg ?? '',
++    waist_cm: b.waist_cm ?? '',
++    hip_cm: b.hip_cm ?? '',
++    measured_at: b.measured_at ?? '',
++  }
++}
++
++function startEditBaseline() {
++  fillBaselineForm()
++  formError.value = ''
++  editingBaseline.value = true
++}
++
++function cancelEditBaseline() {
++  editingBaseline.value = false
++  formError.value = ''
++}
++
+ async function submitBaseline() {
+   if (!baselineValid.value || saving.value) return
+   saving.value = true
+   formError.value = ''
+-  const optionalNumber = (value) => (value === '' || value === null || value === undefined ? null : Number(value))
+   try {
+     state.value = await request(`/api/intake/session/${sessionId.value}/baseline`, {
+       method: 'POST',
+@@ -369,12 +400,13 @@
+         sex: baseline.value.sex,
+         height_cm: Number(baseline.value.height_cm),
+         weight_kg: Number(baseline.value.weight_kg),
+-        waist_cm: optionalNumber(baseline.value.waist_cm),
+-        hip_cm: optionalNumber(baseline.value.hip_cm),
++        waist_cm: _optionalNumber(baseline.value.waist_cm),
++        hip_cm: _optionalNumber(baseline.value.hip_cm),
+         measured_at: baseline.value.measured_at,
+       }),
+     })
+     saved.value = false
++    editingBaseline.value = false
+   } catch (error) {
+     formError.value = error.message
+   } finally {
+@@ -474,6 +506,7 @@
+   followUpAnswer.value = ''
+   formError.value = ''
+   saved.value = false
++  editingBaseline.value = false
+   loadState()
+ }
+ 
+
+===== DIFF frontend/src/follow-up-stage.js =====
+--- .superpowers/sdd/task-6-fix-before/follow-up-stage.js	2026-08-18 22:22:28.491921400 +0800
++++ frontend/src/follow-up-stage.js	2026-08-18 22:24:53.979302200 +0800
+@@ -1,7 +1,7 @@
+ export function getIntakeViewStage({ state, loading = false, saving = false } = {}) {
+   if (!state || loading) return 'analyzing'
+-  if (saving || state.phase === 'processing') return 'analyzing'
+   if (state.phase === 'baseline_collection') return 'baseline_collection'
++  if (saving || state.phase === 'processing') return 'analyzing'
+   if (state.phase === 'open_intake') return 'open_intake'
+   if (state.phase === 'follow_up') return 'follow_up_chat'
+   if (state.phase === 'escalated') return 'escalated'
+
+===== DIFF frontend/src/style.css =====
+--- .superpowers/sdd/task-6-fix-before/style.css	2026-08-18 22:22:28.518021000 +0800
++++ frontend/src/style.css	2026-08-18 22:25:50.279669800 +0800
+@@ -182,6 +182,8 @@
+ .bmi-row strong { font-size: 30px; color: var(--green-dark); }
+ .bmi-row span:last-child { color: var(--muted); font-weight: 700; }
+ .diagnosis-copy { margin: 12px 0 0; color: var(--green-dark); font-weight: 800; }
++.edit-baseline-link { display: inline-block; margin: 12px 0 0; padding: 0; border: 0; background: none; color: var(--green-dark); font-size: 13px; font-weight: 800; cursor: pointer; text-decoration: underline; }
++.left-panel-edit { margin: 4px 6px 0; align-self: flex-start; }
+ 
+ .chat-section { display: flex; flex-direction: column; min-height: 650px; }
+ .chat-head { justify-content: space-between; align-items: flex-start; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+
+===== DIFF frontend/tests/patient-visibility.test.mjs =====
+--- .superpowers/sdd/task-6-fix-before/patient-visibility.test.mjs	2026-08-18 22:22:28.551435100 +0800
++++ frontend/tests/patient-visibility.test.mjs	2026-08-18 22:26:16.581896600 +0800
+@@ -98,3 +98,25 @@
+   assert.match(result, /state\.bmi_assessment\.diagnosis_copy/)
+   assert.match(result, /达到成人肥胖范围，待医生确认/)
+ })
++
++test('基础资料提交后仍可编辑（编辑入口 + editingBaseline 可达）', () => {
++  assert.match(template, /编辑基础资料/)
++  assert.match(template, /viewStage === 'baseline_collection' \|\| editingBaseline/)
++  assert.match(appSource, /function startEditBaseline/)
++  assert.match(appSource, /function cancelEditBaseline/)
++  assert.match(appSource, /editingBaseline\.value = false/)
++  assert.match(appSource, /function fillBaselineForm/)
++})
++
++test('基础资料校验与后端规则一致（年龄整数18–120、腰臀围大于0）', () => {
++  assert.match(appSource, /Number\.isInteger\(age\)\s*&&\s*age >= 18\s*&&\s*age <= 120/)
++  assert.match(appSource, /Number\.isFinite\(height\)\s*&&\s*height >= 100\s*&&\s*height <= 250/)
++  assert.match(appSource, /Number\.isFinite\(weight\)\s*&&\s*weight >= 20\s*&&\s*weight <= 500/)
++  assert.match(appSource, /optionalPositive\(waist\)\s*&&\s*optionalPositive\(hip\)/)
++  assert.match(appSource, /Number\.isFinite\(value\)\s*&&\s*value > 0/)
++})
++
++test('流程进度为基础资料阶段给出正确状态', () => {
++  assert.match(appSource, /phase === 'baseline_collection' \? 'current' : 'completed'/)
++  assert.match(appSource, /phase === 'baseline_collection' \? 'pending'/)
++})
+
+===== DIFF frontend/tests/follow-up-stage.test.mjs =====
+--- .superpowers/sdd/task-6-fix-before/follow-up-stage.test.mjs	2026-08-18 22:22:28.577940400 +0800
++++ frontend/tests/follow-up-stage.test.mjs	2026-08-18 22:26:11.265811200 +0800
+@@ -29,6 +29,10 @@
+   assert.equal(getIntakeViewStage({ state: { phase: 'baseline_collection' } }), 'baseline_collection')
+ })
+ 
++test('基础资料提交中保持基础资料阶段而不是闪到整理中', () => {
++  assert.equal(getIntakeViewStage({ state: { phase: 'baseline_collection' }, saving: true }), 'baseline_collection')
++})
++
+ test('只有完整结束阶段可以保存档案', () => {
+   assert.equal(canSaveIntakeRecord({ state: { phase: 'completed' } }), true)
+   assert.equal(canSaveIntakeRecord({ state: { phase: 'escalated' } }), false)
+
+===== DIFF backend/tests/test_intake_views.py =====
+--- .superpowers/sdd/task-6-fix-before/test_intake_views.py	2026-08-18 22:22:28.604323600 +0800
++++ backend/tests/test_intake_views.py	2026-08-18 22:25:53.608723100 +0800
+@@ -38,6 +38,7 @@
+         self.assertNotIn("execution", public)
+         self.assertNotIn("field_states", public)
+         self.assertNotIn("blocking_keys", public)
++        self.assertNotIn("context", public)
+ 
+     def test_patient_state_uses_public_stop_reason(self):
+         state = get_intake_state("session-a")

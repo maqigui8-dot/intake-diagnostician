@@ -1,0 +1,45 @@
+{"kind":"deck","id":"pr/r0su8o","name":"Deck"}
+{"kind":"layout","layoutId":"cd958b22-a62f-464a-a78d-6b7984d047a8","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"6808d499-2979-41e7-9795-8131740faff3","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/x700n5","slide":1,"title":"Slide 1","textShapes":0}
+{"kind":"image","id":"im/zmx0n6dc","slide":1,"name":"","alt":"01_cover","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/x700n5","slide":1,"text":"各位老师好，我汇报的项目是“中医诊前信息采集与整理系统”。这个项目关注的不是自动诊断，而是患者见到医生之前，如何把零散的自然描述整理成医生能够快速查看的结构化资料。"}
+{"kind":"slide","id":"sl/1s3ou5","slide":2,"title":"Slide 2","textShapes":0}
+{"kind":"image","id":"im/761wralc","slide":2,"name":"","alt":"02_background","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/1s3ou5","slide":2,"text":"患者通常按自己的感受表达，信息自然但比较零散。医生需要反复确认病程、生活方式和安全信息。普通聊天式问诊还容易不停追问，而且医生不知道系统为什么问、为什么停。因此项目聚焦四个要求：结构化采集、有限追问、及时停止和过程可解释。"}
+{"kind":"slide","id":"sl/jurep9","slide":3,"title":"Slide 3","textShapes":0}
+{"kind":"image","id":"im/m94jelof","slide":3,"name":"","alt":"03_goal","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/jurep9","slide":3,"text":"项目的目标是把患者自然语言整理为结构化资料，根据缺口选择下一问，并用核心完整度决定停止时机。系统只辅助资料整理，不自动诊断、不输出患病概率、不自动开方，也不能替代医生面诊。"}
+{"kind":"slide","id":"sl/i0oaa0","slide":4,"title":"Slide 4","textShapes":0}
+{"kind":"image","id":"im/f6hgj654","slide":4,"name":"","alt":"04_architecture","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/i0oaa0","slide":4,"text":"系统分为四层。Vue 3 提供患者端和医生端；FastAPI 提供接口；决策层由 Agent 和规则系统协作；MySQL 保存完整业务数据。这里最重要的分工是：大模型负责理解和表达，确定性规则负责优先级、完整度和停止边界。"}
+{"kind":"slide","id":"sl/knivhr","slide":5,"title":"Slide 5","textShapes":0}
+{"kind":"image","id":"im/nex0ve1g","slide":5,"name":"","alt":"05_roles","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/knivhr","slide":5,"text":"患者端负责提供信息，医生端负责查看和理解信息。每个会话与档案都绑定 patient_id，避免不同患者的数据混在一起。医生端当前保持只读，不能改变患者原始回答。"}
+{"kind":"slide","id":"sl/g5w3uy","slide":6,"title":"Slide 6","textShapes":0}
+{"kind":"image","id":"im/jed4vits","slide":6,"name":"","alt":"06_flow","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/g5w3uy","slide":6,"text":"患者先选择身份并填写基础资料，然后进行开放描述。Agent 抽取信息后，系统更新字段状态、重新计算完整度，再决定继续追问还是生成档案。这个判断在每次回答后都会发生，所以问诊不是固定轮数。"}
+{"kind":"slide","id":"sl/lah80b","slide":7,"title":"Slide 7","textShapes":0}
+{"kind":"image","id":"im/cb694fml","slide":7,"name":"","alt":"07_fields","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/lah80b","slide":7,"text":"系统将信息分为基础测量、病程、中医症状、生活方式和安全信息。每个字段都有标准问题、优先级、核心属性、尝试次数和适用条件。Agent 提取字段值和原文证据，规则判断是否确认，因此每个问题都有明确来源。"}
+{"kind":"slide","id":"sl/i3dghr","slide":8,"title":"Slide 8","textShapes":0}
+{"kind":"image","id":"im/i54j61o3","slide":8,"name":"","alt":"08_completeness","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/i3dghr","slide":8,"text":"完整度不是简单统计填了多少字段。系统区分尚未询问、部分获取、已确认、无法提供和不适用。真正阻塞结束的是核心字段、安全缺口和未解决冲突；可选字段不会无限阻塞。"}
+{"kind":"slide","id":"sl/fpnidd","slide":9,"title":"Slide 9","textShapes":0}
+{"kind":"image","id":"im/ihczutg7","slide":9,"name":"","alt":"09_priority","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/fpnidd","slide":9,"text":"下一问按照五级优先序选择：危险信号、核心缺口、冲突字段、高优先级普通字段、可选信息。规则先选目标字段，Agent 再把它表达成自然问题。已确认、不适用或达到尝试上限的字段不再重复询问。"}
+{"kind":"slide","id":"sl/9vvtun","slide":10,"title":"Slide 10","textShapes":0}
+{"kind":"image","id":"im/lk3ypcvq","slide":10,"name":"","alt":"10_stop","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/9vvtun","slide":10,"text":"系统不依赖固定轮数。核心信息满足且没有安全缺口、没有冲突时正常结束；多次无法回答、问题重复或剩余信息不适合在线采集时保护性结束。保护性结束只表示停止继续询问，不代表资料完整。"}
+{"kind":"slide","id":"sl/4rlcyg","slide":11,"title":"Slide 11","textShapes":0}
+{"kind":"image","id":"im/2tw3ydcz","slide":11,"name":"","alt":"11_challenges","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/4rlcyg","slide":11,"text":"四项主要难点都已经在当前版本实现：核心字段驱动停止、规则约束 Agent、尝试次数防止重复，以及 patient_id 数据隔离。仍需说明边界：演示身份不是正式鉴权，真实临床效果和规则覆盖范围还需要进一步验证。"}
+{"kind":"slide","id":"sl/xgshe7","slide":12,"title":"Slide 12","textShapes":0}
+{"kind":"image","id":"im/lo7ed4ju","slide":12,"name":"","alt":"12_demo_patient","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/xgshe7","slide":12,"text":"这一页放身份选择、基础资料和侧栏历史记录截图。演示时说明系统预置三位患者用于展示，多患者数据相互隔离；左侧栏可以折叠，未完成的问诊也可以继续恢复。"}
+{"kind":"slide","id":"sl/o66v9g","slide":13,"title":"Slide 13","textShapes":0}
+{"kind":"image","id":"im/wrq5sjit","slide":13,"name":"","alt":"13_demo_flow","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/o66v9g","slide":13,"text":"这一页按顺序展示开放描述、逐项追问和完成档案。建议现场选一个具体字段，说明患者回答后该字段怎样从缺失变成确认，以及这一步如何影响下一问和完整度。"}
+{"kind":"slide","id":"sl/3xyx6p","slide":14,"title":"Slide 14","textShapes":0}
+{"kind":"image","id":"im/vulgzup4","slide":14,"name":"","alt":"14_demo_doctor","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/3xyx6p","slide":14,"text":"医生工作台分为患者列表、问诊详情和决策解释三部分。医生不仅能看结果，也能看到关键缺口、问题来源和停止原因。项目最终实现的是用规则约束 Agent，形成安全、可追踪、可解释的诊前资料整理流程。"}

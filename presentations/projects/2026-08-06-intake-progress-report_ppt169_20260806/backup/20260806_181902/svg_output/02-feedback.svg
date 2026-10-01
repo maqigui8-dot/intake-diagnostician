@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect width="1280" height="720" fill="#F7F9F5"/></g>
+  <g id="header">
+    <text x="68" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1F2A24">组会反馈与目标调整</text>
+    <text x="68" y="111" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">从“答完题”转向“能否支撑后续诊中信息使用”</text>
+    <rect x="68" y="132" width="1144" height="3" rx="1.5" fill="#DCE5DC"/>
+  </g>
+  <g id="card-standard">
+    <rect x="68" y="168" width="548" height="188" rx="16" fill="#FFFFFF" stroke="#DCE5DC"/>
+    <circle cx="112" cy="214" r="24" fill="#EAF2E8"/>
+    <use data-icon="tabler-outline/list-check" x="100" y="202" width="24" height="24" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="150" y="220" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#1F2A24">完整度判断标准</text>
+    <text x="92" y="272" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#657269">不再仅判断固定题目是否完成</text>
+    <text x="92" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#1F2A24">结合<tspan fill="#2F6B4F" font-weight="bold">十问歌框架</tspan>与临床问诊经验评估缺口</text>
+  </g>
+  <g id="card-goal">
+    <rect x="636" y="168" width="576" height="188" rx="16" fill="#FFFFFF" stroke="#DCE5DC"/>
+    <circle cx="680" cy="214" r="24" fill="#EAF2E8"/>
+    <use data-icon="tabler-outline/route" x="668" y="202" width="24" height="24" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="718" y="220" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#1F2A24">面向后续诊中</text>
+    <text x="660" y="272" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#657269">诊前问诊的结果不是终点</text>
+    <text x="660" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#1F2A24">目标是形成<tspan fill="#2F6B4F" font-weight="bold">可继续使用的信息档案</tspan></text>
+  </g>
+  <g id="card-scope">
+    <rect x="68" y="380" width="548" height="188" rx="16" fill="#FFFFFF" stroke="#DCE5DC"/>
+    <circle cx="112" cy="426" r="24" fill="#F6EFD9"/>
+    <use data-icon="tabler-outline/shield-check" x="100" y="414" width="24" height="24" fill="none" stroke="#D6A84B" stroke-width="2"/>
+    <text x="150" y="432" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#1F2A24">分析边界收敛</text>
+    <text x="92" y="484" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#657269">删除辨证参考相关展示</text>
+    <text x="92" y="520" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#1F2A24">只保留<tspan fill="#D6A84B" font-weight="bold">信息完整度</tspan>与<tspan fill="#D6A84B" font-weight="bold">推荐检查项目</tspan></text>
+  </g>
+  <g id="card-skills">
+    <rect x="636" y="380" width="576" height="188" rx="16" fill="#2F6B4F"/>
+    <circle cx="680" cy="426" r="24" fill="#FFFFFF" fill-opacity="0.16"/>
+    <use data-icon="tabler-outline/adjustments-check" x="668" y="414" width="24" height="24" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="718" y="432" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#FFFFFF">两个 Skill 明确分工</text>
+    <text x="660" y="484" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.78">Skill 1：确认必问项与选问项</text>
+    <text x="660" y="520" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#FFFFFF">Skill 2：决定追问表达与顺序</text>
+  </g>
+  <g id="bottom-summary">
+    <rect x="68" y="594" width="1144" height="58" rx="14" fill="#EAF2E8"/>
+    <text x="92" y="631" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#2F6B4F">本轮改造主线：标准重定义、流程闭环、能力拆分、边界收敛</text>
+  </g>
+  <g id="footer"><text x="1212" y="682" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">02</text></g>
+</svg>

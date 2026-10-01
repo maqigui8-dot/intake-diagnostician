@@ -1,0 +1,67 @@
+﻿{
+  "lang": "zh",
+  "recommend": {
+    "canvas": "ppt169",
+    "mode": "briefing",
+    "visual_style": "soft-rounded",
+    "icons": "tabler-outline",
+    "image_usage": "provided",
+    "formula_policy": "text-only",
+    "generation_mode": "continuous"
+  },
+  "page_count": { "value": "8" },
+  "audience": { "value": "课题组学长与项目组成员，用于组会汇报本周项目进展" },
+  "content_divergence": { "value": "围绕学长上次提出的修改意见重组内容，突出已完成改造、验证结果和下一步计划" },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "中医青绿",
+        "note_zh": "延续项目界面，青绿体现医疗可信，金色用于关键进展",
+        "palette": {"background":"#F7F9F5","secondary_bg":"#EAF2E8","primary":"#2F6B4F","accent":"#D6A84B","secondary_accent":"#4C8C7A","body_text":"#1F2A24"}
+      },
+      {
+        "name_zh": "临床青蓝",
+        "note_zh": "更偏现代医疗科技，适合技术汇报和架构说明",
+        "palette": {"background":"#F7FAFA","secondary_bg":"#E6F1F0","primary":"#176B6B","accent":"#E2A23A","secondary_accent":"#4E78A0","body_text":"#1C292D"}
+      },
+      {
+        "name_zh": "墨色朱印",
+        "note_zh": "传统中医气质更强，深墨为主，朱红用于结论强调",
+        "palette": {"background":"#FAF9F6","secondary_bg":"#ECEBE5","primary":"#29352F","accent":"#B84A3A","secondary_accent":"#70826F","body_text":"#202522"}
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "稳健黑体",
+        "note_zh": "适合组会投屏，中文清楚，数字和英文简洁",
+        "heading":{"cjk":"Microsoft YaHei","latin":"Arial","css":"'Microsoft YaHei', Arial, sans-serif","sample_cjk":"诊前问诊系统进展","sample_latin":"Progress Update"},
+        "body":{"cjk":"Microsoft YaHei","latin":"Arial","css":"'Microsoft YaHei', Arial, sans-serif","sample_cjk":"完整度判断与动态补问","sample_latin":"Completeness & Follow-up"},
+        "body_size":20
+      },
+      {
+        "name_zh": "标题有力",
+        "note_zh": "标题使用黑体增强结论感，正文保持易读",
+        "heading":{"cjk":"SimHei","latin":"Arial","css":"SimHei, Arial, sans-serif","sample_cjk":"诊前问诊系统进展","sample_latin":"Progress Update"},
+        "body":{"cjk":"Microsoft YaHei","latin":"Arial","css":"'Microsoft YaHei', Arial, sans-serif","sample_cjk":"完整度判断与动态补问","sample_latin":"Completeness & Follow-up"},
+        "body_size":20
+      },
+      {
+        "name_zh": "新中式宋黑",
+        "note_zh": "标题带传统书卷感，正文仍采用现代黑体",
+        "heading":{"cjk":"SimSun","latin":"Georgia","css":"SimSun, Georgia, serif","sample_cjk":"诊前问诊系统进展","sample_latin":"Progress Update"},
+        "body":{"cjk":"Microsoft YaHei","latin":"Arial","css":"'Microsoft YaHei', Arial, sans-serif","sample_cjk":"完整度判断与动态补问","sample_latin":"Completeness & Follow-up"},
+        "body_size":20
+      }
+    ]
+  },
+  "visual_style_spectrum": [
+    {"id":"soft-rounded","tag_zh":"稳妥专业","note_zh":"像成熟医疗产品的内部汇报，亲和但不花哨"},
+    {"id":"swiss-minimal","tag_zh":"理性克制","note_zh":"像咨询项目复盘，强调结构和结论"},
+    {"id":"ink-wash","tag_zh":"中医辨识度","note_zh":"像新中式研究汇报，留白和文化气质更强"}
+  ],
+  "refine_spec": { "value": false }
+}

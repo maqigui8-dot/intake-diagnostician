@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#F7F9F5" />
+  </g>
+
+  <g id="header">
+    <text x="68" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1F2A24">智能分析内容收敛</text>
+    <text x="68" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">明确边界：只输出信息完整度与检查建议，不做辨证诊断</text>
+    <path fill="#DCE5DC" d="M69.50,132 H1210.50 A1.50,1.50 0 0 1 1212,133.50 V133.50 A1.50,1.50 0 0 1 1210.50,135 H69.50 A1.50,1.50 0 0 1 68,133.50 V133.50 A1.50,1.50 0 0 1 69.50,132 Z" />
+  </g>
+
+  
+  <g id="keep-section">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2" d="M84,160 H572 A16,16 0 0 1 588,176 V584 A16,16 0 0 1 572,600 H84 A16,16 0 0 1 68,584 V176 A16,16 0 0 1 84,160 Z" />
+    <path fill="#EAF2E8" d="M84,160 H572 A16,16 0 0 1 588,176 V200 A16,16 0 0 1 572,216 H84 A16,16 0 0 1 68,200 V176 A16,16 0 0 1 84,160 Z" />
+    <rect x="68" y="200" width="520" height="16" fill="#EAF2E8" />
+    
+  <g transform="translate(96, 172) scale(1.33333)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="142" y="196" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#2F6B4F">保留内容</text>
+
+    
+    <g id="keep-items">
+      <path fill="#F7F9F5" d="M108,236 H548 A12,12 0 0 1 560,248 V270 A12,12 0 0 1 548,282 H108 A12,12 0 0 1 96,270 V248 A12,12 0 0 1 108,236 Z" />
+      
+  <g transform="translate(114, 248) scale(0.916667)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M9 14l2 2l4 -4" />
+  </g>
+      <text x="148" y="266" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">信息完整度状态与摘要</text>
+
+      <path fill="#F7F9F5" d="M108,294 H548 A12,12 0 0 1 560,306 V328 A12,12 0 0 1 548,340 H108 A12,12 0 0 1 96,328 V306 A12,12 0 0 1 108,294 Z" />
+      
+  <g transform="translate(114, 306) scale(0.916667)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M3.5 5.5l1.5 1.5l2.5 -2.5" />
+    <path d="M3.5 11.5l1.5 1.5l2.5 -2.5" />
+    <path d="M3.5 17.5l1.5 1.5l2.5 -2.5" />
+    <path d="M11 6l9 0" />
+    <path d="M11 12l9 0" />
+    <path d="M11 18l9 0" />
+  </g>
+      <text x="148" y="324" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">缺失必问项列表</text>
+
+      <path fill="#F7F9F5" d="M108,352 H548 A12,12 0 0 1 560,364 V386 A12,12 0 0 1 548,398 H108 A12,12 0 0 1 96,386 V364 A12,12 0 0 1 108,352 Z" />
+      
+  <g transform="translate(114, 364) scale(0.916667)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M8 9h8" />
+    <path d="M8 13h6" />
+    <path d="M14 18h-1l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5" />
+    <path d="M19 22v.01" />
+    <path d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+  </g>
+      <text x="148" y="382" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">可选补充项建议</text>
+
+      <path fill="#F7F9F5" d="M108,410 H548 A12,12 0 0 1 560,422 V444 A12,12 0 0 1 548,456 H108 A12,12 0 0 1 96,444 V422 A12,12 0 0 1 108,410 Z" />
+      
+  <g transform="translate(114, 422) scale(0.916667)" fill="none" stroke="#D6A84B" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+      <text x="148" y="440" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">安全提示（红旗信号）</text>
+    </g>
+
+    
+    <g id="exam-highlight">
+      <path fill="#F6EFD9" stroke="#D6A84B" stroke-width="1.5" d="M108,472 H548 A12,12 0 0 1 560,484 V570 A12,12 0 0 1 548,582 H108 A12,12 0 0 1 96,570 V484 A12,12 0 0 1 108,472 Z" />
+      
+  <g transform="translate(120, 490) scale(1.08333)" fill="none" stroke="#D6A84B" stroke-width="2">
+    <path d="M6 4h-1a2 2 0 0 0 -2 2v3.5a5.5 5.5 0 0 0 11 0v-3.5a2 2 0 0 0 -2 -2h-1" />
+    <path d="M8 15a6 6 0 1 0 12 0v-3" />
+    <path d="M11 3v2" />
+    <path d="M6 3v2" />
+    <path d="M18 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  </g>
+      <text x="156" y="510" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2A24">推荐检查项目</text>
+      <text x="156" y="536" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">项目名称 | 检查类型 | 推荐科室</text>
+      <text x="156" y="560" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">临床意义 | 推荐优先级 | 检查前注意事项</text>
+    </g>
+  </g>
+
+  
+  <g id="remove-section">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2" d="M628,160 H1196 A16,16 0 0 1 1212,176 V584 A16,16 0 0 1 1196,600 H628 A16,16 0 0 1 612,584 V176 A16,16 0 0 1 628,160 Z" />
+    <path fill="#F7F9F5" d="M628,160 H1196 A16,16 0 0 1 1212,176 V200 A16,16 0 0 1 1196,216 H628 A16,16 0 0 1 612,200 V176 A16,16 0 0 1 628,160 Z" />
+    <rect x="612" y="200" width="600" height="16" fill="#F7F9F5" />
+    
+  <g transform="translate(640, 172) scale(1.33333)" fill="none" stroke="#B65A4A" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="686" y="196" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#B65A4A">已删除内容</text>
+
+    <g id="remove-items">
+      <path fill="#F7F9F5" stroke="#DCE5DC" stroke-width="1" d="M650,236 H1174 A10,10 0 0 1 1184,246 V268 A10,10 0 0 1 1174,278 H650 A10,10 0 0 1 640,268 V246 A10,10 0 0 1 650,236 Z" />
+      <text x="668" y="263" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#B65A4A" text-decoration="line-through">辨证参考 / 证型推断</text>
+
+      <path fill="#F7F9F5" stroke="#DCE5DC" stroke-width="1" d="M650,288 H1174 A10,10 0 0 1 1184,298 V320 A10,10 0 0 1 1174,330 H650 A10,10 0 0 1 640,320 V298 A10,10 0 0 1 650,288 Z" />
+      <text x="668" y="315" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#B65A4A" text-decoration="line-through">疾病诊断结论</text>
+
+      <path fill="#F7F9F5" stroke="#DCE5DC" stroke-width="1" d="M650,340 H1174 A10,10 0 0 1 1184,350 V372 A10,10 0 0 1 1174,382 H650 A10,10 0 0 1 640,372 V350 A10,10 0 0 1 650,340 Z" />
+      <text x="668" y="367" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#B65A4A" text-decoration="line-through">处方建议 / 用药推荐</text>
+
+      <path fill="#F7F9F5" stroke="#DCE5DC" stroke-width="1" d="M650,392 H1174 A10,10 0 0 1 1184,402 V424 A10,10 0 0 1 1174,434 H650 A10,10 0 0 1 640,424 V402 A10,10 0 0 1 650,392 Z" />
+      <text x="668" y="419" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#B65A4A" text-decoration="line-through">检查项目价格信息</text>
+    </g>
+
+    
+    <path fill="#EAF2E8" d="M654,458 H1170 A14,14 0 0 1 1184,472 V568 A14,14 0 0 1 1170,582 H654 A14,14 0 0 1 640,568 V472 A14,14 0 0 1 654,458 Z" />
+    <text x="668" y="488" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="bold" fill="#2F6B4F">删除原因</text>
+    <text x="668" y="518" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">诊前问诊阶段信息不完整，无法做出可靠的辨证诊断。</text>
+    <text x="668" y="544" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">将诊断和处方统一留给诊中环节，避免过早给出结论。</text>
+    <text x="668" y="572" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">价格信息随医院和地区变化，不属于系统输出范围。</text>
+  </g>
+
+  
+  <g id="disclaimer">
+    <path fill="#F6EFD9" d="M82,618 H1198 A14,14 0 0 1 1212,632 V650 A14,14 0 0 1 1198,664 H82 A14,14 0 0 1 68,650 V632 A14,14 0 0 1 82,618 Z" />
+    <text x="640" y="648" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="bold" fill="#D6A84B">免责声明：分析结果仅供参考，不能替代执业医师的诊断和临床判断</text>
+  </g>
+
+  <g id="footer">
+    <text x="1212" y="682" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">06</text>
+  </g>
+</svg>

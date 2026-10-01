@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#F7F9F5"/>
+  </g>
+
+  <g id="header">
+    <text x="68" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1F2A24">智能分析内容收敛</text>
+    <text x="68" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">明确边界：只输出信息完整度与检查建议，不做辨证诊断</text>
+    <rect x="68" y="132" width="1144" height="3" rx="1.5" fill="#DCE5DC"/>
+  </g>
+
+  <!-- LEFT: 保留 (keep) -->
+  <g id="keep-section">
+    <rect x="68" y="160" width="520" height="440" rx="16" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2"/>
+    <rect x="68" y="160" width="520" height="56" rx="16" fill="#EAF2E8"/>
+    <rect x="68" y="200" width="520" height="16" fill="#EAF2E8"/>
+    <use data-icon="tabler-outline/circle-check" x="96" y="172" width="32" height="32" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="142" y="196" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#2F6B4F">保留内容</text>
+
+    <!-- Items -->
+    <g id="keep-items">
+      <rect x="96" y="236" width="464" height="46" rx="12" fill="#F7F9F5"/>
+      <use data-icon="tabler-outline/clipboard-check" x="114" y="248" width="22" height="22" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+      <text x="148" y="266" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">信息完整度状态与摘要</text>
+
+      <rect x="96" y="294" width="464" height="46" rx="12" fill="#F7F9F5"/>
+      <use data-icon="tabler-outline/list-check" x="114" y="306" width="22" height="22" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+      <text x="148" y="324" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">缺失必问项列表</text>
+
+      <rect x="96" y="352" width="464" height="46" rx="12" fill="#F7F9F5"/>
+      <use data-icon="tabler-outline/message-question" x="114" y="364" width="22" height="22" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+      <text x="148" y="382" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">可选补充项建议</text>
+
+      <rect x="96" y="410" width="464" height="46" rx="12" fill="#F7F9F5"/>
+      <use data-icon="tabler-outline/shield-check" x="114" y="422" width="22" height="22" fill="none" stroke="#D6A84B" stroke-width="2"/>
+      <text x="148" y="440" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">安全提示（红旗信号）</text>
+    </g>
+
+    <!-- Exam card highlight -->
+    <g id="exam-highlight">
+      <rect x="96" y="472" width="464" height="110" rx="12" fill="#F6EFD9" stroke="#D6A84B" stroke-width="1.5"/>
+      <use data-icon="tabler-outline/stethoscope" x="120" y="490" width="26" height="26" fill="none" stroke="#D6A84B" stroke-width="2"/>
+      <text x="156" y="510" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2A24">推荐检查项目</text>
+      <text x="156" y="536" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">项目名称 | 检查类型 | 推荐科室</text>
+      <text x="156" y="560" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">临床意义 | 推荐优先级 | 检查前注意事项</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: 删除 (removed) -->
+  <g id="remove-section">
+    <rect x="612" y="160" width="600" height="440" rx="16" fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2"/>
+    <rect x="612" y="160" width="600" height="56" rx="16" fill="#F7F9F5"/>
+    <rect x="612" y="200" width="600" height="16" fill="#F7F9F5"/>
+    <use data-icon="tabler-outline/shield-check" x="640" y="172" width="32" height="32" fill="none" stroke="#B65A4A" stroke-width="2"/>
+    <text x="686" y="196" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="bold" fill="#B65A4A">已删除内容</text>
+
+    <g id="remove-items">
+      <rect x="640" y="236" width="544" height="42" rx="10" fill="#F7F9F5" stroke="#DCE5DC" stroke-width="1"/>
+      <text x="668" y="263" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#B65A4A" text-decoration="line-through">辨证参考 / 证型推断</text>
+
+      <rect x="640" y="288" width="544" height="42" rx="10" fill="#F7F9F5" stroke="#DCE5DC" stroke-width="1"/>
+      <text x="668" y="315" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#B65A4A" text-decoration="line-through">疾病诊断结论</text>
+
+      <rect x="640" y="340" width="544" height="42" rx="10" fill="#F7F9F5" stroke="#DCE5DC" stroke-width="1"/>
+      <text x="668" y="367" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#B65A4A" text-decoration="line-through">处方建议 / 用药推荐</text>
+
+      <rect x="640" y="392" width="544" height="42" rx="10" fill="#F7F9F5" stroke="#DCE5DC" stroke-width="1"/>
+      <text x="668" y="419" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#B65A4A" text-decoration="line-through">检查项目价格信息</text>
+    </g>
+
+    <!-- Reason box -->
+    <rect x="640" y="458" width="544" height="124" rx="14" fill="#EAF2E8"/>
+    <text x="668" y="488" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="bold" fill="#2F6B4F">删除原因</text>
+    <text x="668" y="518" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">诊前问诊阶段信息不完整，无法做出可靠的辨证诊断。</text>
+    <text x="668" y="544" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">将诊断和处方统一留给诊中环节，避免过早给出结论。</text>
+    <text x="668" y="572" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#657269">价格信息随医院和地区变化，不属于系统输出范围。</text>
+  </g>
+
+  <!-- Bottom disclaimer -->
+  <g id="disclaimer">
+    <rect x="68" y="618" width="1144" height="46" rx="14" fill="#F6EFD9"/>
+    <text x="640" y="648" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="bold" fill="#D6A84B">免责声明：分析结果仅供参考，不能替代执业医师的诊断和临床判断</text>
+  </g>
+
+  <g id="footer">
+    <text x="1212" y="682" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">06</text>
+  </g>
+</svg>

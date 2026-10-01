@@ -1,0 +1,1 @@
+Function Calling 和 MCP 让我理解 Agent 如何按需调用外部工具。

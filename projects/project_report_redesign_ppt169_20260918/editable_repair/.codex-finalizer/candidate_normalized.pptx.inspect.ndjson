@@ -1,0 +1,386 @@
+{"kind":"deck","id":"pr/pnd6jf","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"subtitle","type":"subtitle","textPreview":"Click to edit Master subtitle style"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Title and Content","type":"obj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Section Header","type":"secHead","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Two Content","type":"twoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Comparison","type":"twoTxTwoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 5","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"Title Only","type":"titleOnly","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"Blank","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"Content with Caption","type":"objTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout9.xml","name":"Picture with Caption","type":"picTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"picture","type":"picture"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout10.xml","name":"Title and Vertical Text","type":"vertTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout11.xml","name":"Vertical Title and Text","type":"vertTitleAndTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"中医诊前信息采集与整理系统","textShapes":4}
+{"kind":"shape","id":"sh/547294r6","slide":1,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"TextBox 3","text":"中医诊前信息采集与整理系统","textPreview":"中医诊前信息采集与整理系统","textChars":13,"textLines":1,"bbox":[218.56,236.7,842.89,92.8]}
+{"kind":"shape","id":"sh/7qp4be9c","slide":1,"name":"Line 4","bbox":[474,326,332,1]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"name":"TextBox 5","text":"项目汇报","textPreview":"项目汇报","textChars":4,"textLines":1,"bbox":[596,380,88,32]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"name":"TextBox 6","text":"汇报人：________ 日期：________","textPreview":"汇报人：________ 日期：________","textChars":24,"textLines":1,"bbox":[511.71,435.25,256.58,24]}
+{"kind":"shape","id":"sh/fu94fe98","slide":1,"name":"Line 8","bbox":[172,610,936,1]}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"name":"TextBox 9","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"各位老师好，我汇报的项目是中医诊前信息采集与整理系统。项目关注患者见到医生之前，如何把零散描述整理成医生能够快速查看的结构化资料。"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"项目背景与问题","textShapes":14}
+{"kind":"shape","id":"sh/9072xkry","slide":2,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"name":"TextBox 3","text":"项目背景与问题","textPreview":"项目背景与问题","textChars":7,"textLines":1,"bbox":[64.6,49.1,269.19,54.4]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"name":"TextBox 4","text":"WHY","textPreview":"WHY","textChars":3,"textLines":1,"bbox":[1129.36,63.25,32.14,24]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"name":"TextBox 6","text":"患者已经说了很多，为什么医生仍要重新问？","textPreview":"患者已经说了很多，为什么医生仍要重新问？","textChars":20,"textLines":1,"bbox":[64.6,181.1,399.5,106.4]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"name":"Line 7","bbox":[68,338,324,1]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"name":"TextBox 8","text":"自然表达适合交流，却不天然等于可直接使用的诊前资料。","textPreview":"自然表达适合交流，却不天然等于可直接使用的诊前资料。","textChars":26,"textLines":1,"bbox":[66.2,374.7,273.6,58.8]}
+{"kind":"shape","id":"sh/ove9o7yd","slide":2,"name":"Line 10","bbox":[650,150,1,405]}
+{"kind":"shape","id":"sh/9wnqhczy","slide":2,"name":"Ellipse 11","bbox":[642,182,16,16]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"name":"TextBox 12","text":"描述零散","textPreview":"描述零散","textChars":4,"textLines":1,"bbox":[687.8,165.3,101.42,35.2]}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"name":"TextBox 13","text":"时间、程度和关联因素分散在多轮回答中","textPreview":"时间、程度和关联因素分散在多轮回答中","textChars":18,"textLines":1,"bbox":[688.4,199.4,305.6,25.6]}
+{"kind":"shape","id":"sh/wjy9sry9","slide":2,"name":"Ellipse 14","bbox":[642,292,16,16]}
+{"kind":"textbox","id":"sh/xk7qlczu","slide":2,"name":"TextBox 15","text":"重复询问","textPreview":"重复询问","textChars":4,"textLines":1,"bbox":[687.8,275.3,101.42,35.2]}
+{"kind":"textbox","id":"sh/ahwrqhgj","slide":2,"name":"TextBox 16","text":"缺少字段状态时，同一信息可能被反复确认","textPreview":"缺少字段状态时，同一信息可能被反复确认","textChars":19,"textLines":1,"bbox":[688.4,309.4,322.4,25.6]}
+{"kind":"shape","id":"sh/bip8jmho","slide":2,"name":"Ellipse 17","bbox":[642,402,16,16]}
+{"kind":"textbox","id":"sh/cnupgny5","slide":2,"name":"TextBox 18","text":"停止条件不清","textPreview":"停止条件不清","textChars":6,"textLines":1,"bbox":[687.8,385.3,149.93,35.2]}
+{"kind":"textbox","id":"sh/do3q9szq","slide":2,"name":"TextBox 19","text":"可选细节持续阻塞结束，问诊轮数不断增加","textPreview":"可选细节持续阻塞结束，问诊轮数不断增加","textChars":19,"textLines":1,"bbox":[688.4,419.4,322.4,25.6]}
+{"kind":"shape","id":"sh/t8byxkn2","slide":2,"name":"Ellipse 20","bbox":[642,512,16,16]}
+{"kind":"textbox","id":"sh/s72xofmh","slide":2,"name":"TextBox 21","text":"决策难以解释","textPreview":"决策难以解释","textChars":6,"textLines":1,"bbox":[687.8,495.3,149.93,35.2]}
+{"kind":"textbox","id":"sh/76twva5c","slide":2,"name":"TextBox 22","text":"医生看不到当前问题来源和停止原因","textPreview":"医生看不到当前问题来源和停止原因","textChars":16,"textLines":1,"bbox":[688.4,529.4,272,25.6]}
+{"kind":"textbox","id":"sh/hcvy14ne","slide":2,"name":"TextBox 24","text":"项目需要解决：如何把自由描述转化为有限、可追踪、能及时结束的诊前采集过程","textPreview":"项目需要解决：如何把自由描述转化为有限、可追踪、能及时结束的诊前采集过程","textChars":36,"textLines":1,"bbox":[66.2,608.7,718.02,28.8]}
+{"kind":"textbox","id":"sh/gbmxszmt","slide":2,"name":"TextBox 25","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"患者已经表达了很多，但医生往往仍需重新确认。原因包括描述零散、同一信息重复询问、结束条件不清，以及医生看不到系统为什么问和为什么停。"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"项目目标与定位","textShapes":19}
+{"kind":"shape","id":"sh/cza94vmx","slide":3,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"name":"TextBox 3","text":"项目目标与定位","textPreview":"项目目标与定位","textChars":7,"textLines":1,"bbox":[64.6,49.1,269.19,54.4]}
+{"kind":"shape","id":"sh/298ryl4v","slide":3,"name":"Ellipse 4","bbox":[528,208,224,224]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"name":"TextBox 5","text":"诊前资料","textPreview":"诊前资料","textChars":4,"textLines":1,"bbox":[582.38,286.75,115.25,40]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"name":"TextBox 6","text":"整理","textPreview":"整理","textChars":2,"textLines":1,"bbox":[609.94,322.75,60.13,40]}
+{"kind":"shape","id":"sh/pcjqtg36","slide":3,"name":"Line 7","bbox":[382,215,146,55]}
+{"kind":"shape","id":"sh/m5cra54z","slide":3,"name":"Line 8","bbox":[752,215,146,55]}
+{"kind":"shape","id":"sh/n6ls3alk","slide":3,"name":"Line 9","bbox":[382,370,146,55]}
+{"kind":"shape","id":"sh/n2l4fq98","slide":3,"name":"Line 10","bbox":[752,370,146,55]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"name":"TextBox 11","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[88.5,177.25,21.19,24]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"name":"TextBox 12","text":"自然语言结构化","textPreview":"自然语言结构化","textChars":7,"textLines":1,"bbox":[127.8,171.3,174.18,35.2]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"name":"TextBox 13","text":"把患者表达映射到明确字段","textPreview":"把患者表达映射到明确字段","textChars":12,"textLines":1,"bbox":[128.4,206.4,204.8,25.6]}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"name":"TextBox 14","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[918.5,177.25,21.19,24]}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"name":"TextBox 15","text":"有限追问","textPreview":"有限追问","textChars":4,"textLines":1,"bbox":[957.8,171.3,101.42,35.2]}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"name":"TextBox 16","text":"只询问仍有价值的缺口","textPreview":"只询问仍有价值的缺口","textChars":10,"textLines":1,"bbox":[958.4,206.4,171.2,25.6]}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"name":"TextBox 17","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[88.5,417.25,21.19,24]}
+{"kind":"textbox","id":"sh/ja54na9g","slide":3,"name":"TextBox 18","text":"停止判断","textPreview":"停止判断","textChars":4,"textLines":1,"bbox":[127.8,411.3,101.42,35.2]}
+{"kind":"textbox","id":"sh/i9w3u58v","slide":3,"name":"TextBox 19","text":"根据核心完整度及时结束","textPreview":"根据核心完整度及时结束","textChars":11,"textLines":1,"bbox":[128.4,446.4,188,25.6]}
+{"kind":"textbox","id":"sh/e10f2twf","slide":3,"name":"TextBox 20","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[918.5,417.25,21.19,24]}
+{"kind":"textbox","id":"sh/f29gbyx0","slide":3,"name":"TextBox 21","text":"结果可追溯","textPreview":"结果可追溯","textChars":5,"textLines":1,"bbox":[957.8,411.3,125.67,35.2]}
+{"kind":"textbox","id":"sh/03ix43e5","slide":3,"name":"TextBox 22","text":"向医生解释来源与原因","textPreview":"向医生解释来源与原因","textChars":10,"textLines":1,"bbox":[958.4,446.4,171.2,25.6]}
+{"kind":"shape","id":"sh/6d0fytg3","slide":3,"name":"Line 24","bbox":[68,548,1092,1]}
+{"kind":"textbox","id":"sh/re9g7yxo","slide":3,"name":"TextBox 25","text":"能力边界","textPreview":"能力边界","textChars":4,"textLines":1,"bbox":[66.3,569.55,78.37,27.2]}
+{"kind":"textbox","id":"sh/sfix03y9","slide":3,"name":"TextBox 26","text":"不自动诊断 不输出患病概率 不自动开方 不替代医生面诊","textPreview":"不自动诊断 不输出患病概率 不自动开方 不替代医生面诊","textChars":27,"textLines":1,"bbox":[188.3,569.55,447.86,27.2]}
+{"kind":"textbox","id":"sh/tgry9ofu","slide":3,"name":"TextBox 27","text":"定位：为医生提供更完整的诊前资料，而不是给患者提供最终医疗结论。","textPreview":"定位：为医生提供更完整的诊前资料，而不是给患者提供最终医疗结论。","textChars":32,"textLines":1,"bbox":[66.4,608.4,540.8,25.6]}
+{"kind":"textbox","id":"sh/batgjixs","slide":3,"name":"TextBox 29","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"项目希望实现自然语言结构化、有限追问、停止判断和结果可追溯。系统只负责诊前资料整理，不承担自动诊断、患病概率预测或自动开方。"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"系统整体架构","textShapes":21}
+{"kind":"shape","id":"sh/1cj2d8b6","slide":4,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"name":"TextBox 3","text":"系统整体架构","textPreview":"系统整体架构","textChars":6,"textLines":1,"bbox":[64.6,49.1,231.71,54.4]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"name":"TextBox 4","text":"01 交互层","textPreview":"01 交互层","textChars":6,"textLines":1,"bbox":[66.6,155.1,70.71,22.4]}
+{"kind":"shape","id":"sh/ql8jytsj","slide":4,"name":"Rectangle 5","bbox":[210,130,950,72]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"name":"TextBox 6","text":"患者端","textPreview":"患者端","textChars":3,"textLines":1,"bbox":[238,143,70.15,32]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"name":"TextBox 7","text":"医生工作台","textPreview":"医生工作台","textChars":5,"textLines":1,"bbox":[443,143,114.25,32]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"name":"TextBox 8","text":"问诊交互与档案","textPreview":"问诊交互与档案","textChars":7,"textLines":1,"bbox":[238.6,172.1,105.7,22.4]}
+{"kind":"textbox","id":"sh/ih8ju9sn","slide":4,"name":"TextBox 9","text":"多患者只读查看","textPreview":"多患者只读查看","textChars":7,"textLines":1,"bbox":[443.6,172.1,105.7,22.4]}
+{"kind":"shape","id":"sh/kbm987y5","slide":4,"name":"Line 10","bbox":[685,202,1,23]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"name":"TextBox 11","text":"02 接口层","textPreview":"02 接口层","textChars":6,"textLines":1,"bbox":[66.6,253.1,70.71,22.4]}
+{"kind":"shape","id":"sh/i94r6xgz","slide":4,"name":"Rectangle 12","bbox":[210,225,950,72]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"name":"TextBox 13","text":"FastAPI","textPreview":"FastAPI","textChars":7,"textLines":1,"bbox":[238,239,83.38,32]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"name":"TextBox 14","text":"患者隔离接口 会话接口 医生查询接口 档案归档接口","textPreview":"患者隔离接口 会话接口 医生查询接口 档案归档接口","textChars":25,"textLines":1,"bbox":[368.4,242.4,387.92,25.6]}
+{"kind":"textbox","id":"sh/x8vaxsfe","slide":4,"name":"TextBox 15","text":"统一请求校验与 patient_id 资源归属检查","textPreview":"统一请求校验与 patient_id 资源归属检查","textChars":25,"textLines":1,"bbox":[238.6,268.1,276.22,22.4]}
+{"kind":"shape","id":"sh/a5kr2xg3","slide":4,"name":"Line 16","bbox":[685,297,1,23]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"name":"TextBox 17","text":"03 决策层","textPreview":"03 决策层","textChars":6,"textLines":1,"bbox":[66.6,370.1,70.71,22.4]}
+{"kind":"shape","id":"sh/g36tgryd","slide":4,"name":"Rectangle 18","bbox":[210,320,950,124]}
+{"kind":"textbox","id":"sh/h4fa9wfy","slide":4,"name":"TextBox 19","text":"Agent","textPreview":"Agent","textChars":5,"textLines":1,"bbox":[247.7,340.45,74.33,36.8]}
+{"kind":"textbox","id":"sh/p0batw72","slide":4,"name":"TextBox 20","text":"理解回答、抽取字段、保存原文证据、组织自然问题","textPreview":"理解回答、抽取字段、保存原文证据、组织自然问题","textChars":23,"textLines":1,"bbox":[248.4,377.4,389.6,25.6]}
+{"kind":"shape","id":"sh/oz29krqh","slide":4,"name":"Line 21","bbox":[640,342,1,80]}
+{"kind":"textbox","id":"sh/3ytsrmpw","slide":4,"name":"TextBox 22","text":"规则系统","textPreview":"规则系统","textChars":4,"textLines":1,"bbox":[687.7,340.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/2xkrih8b","slide":4,"name":"TextBox 23","text":"判断状态、计算完整度、选择下一问、决定何时停止","textPreview":"判断状态、计算完整度、选择下一问、决定何时停止","textChars":23,"textLines":1,"bbox":[688.4,377.4,389.6,25.6]}
+{"kind":"textbox","id":"sh/1wbapc7q","slide":4,"name":"TextBox 24","text":"确定性边界约束模型不确定性","textPreview":"确定性边界约束模型不确定性","textChars":13,"textLines":1,"bbox":[688.6,405.1,193.9,22.4]}
+{"kind":"shape","id":"sh/gv29g7q5","slide":4,"name":"Line 25","bbox":[685,444,1,23]}
+{"kind":"textbox","id":"sh/fu9sn2p0","slide":4,"name":"TextBox 26","text":"04 数据层","textPreview":"04 数据层","textChars":6,"textLines":1,"bbox":[66.6,500.1,70.71,22.4]}
+{"kind":"shape","id":"sh/et0reh8f","slide":4,"name":"Rectangle 27","bbox":[210,467,950,92]}
+{"kind":"textbox","id":"sh/tsrqlc7u","slide":4,"name":"TextBox 28","text":"MySQL 完整持久化","textPreview":"MySQL 完整持久化","textChars":11,"textLines":1,"bbox":[238,486,190.32,32]}
+{"kind":"textbox","id":"sh/sri9s7q9","slide":4,"name":"TextBox 29","text":"患者 会话 字段状态 问答记录 诊前档案 归档状态 审计记录","textPreview":"患者 会话 字段状态 问答记录 诊前档案 归档状态 审计记录","textChars":30,"textLines":1,"bbox":[238.5,521.25,409.35,24]}
+{"kind":"textbox","id":"sh/jm5gze1g","slide":4,"name":"TextBox 31","text":"关键设计：模型负责“理解”，规则负责“决定”。","textPreview":"关键设计：模型负责“理解”，规则负责“决定”。","textChars":23,"textLines":1,"bbox":[66.3,605.55,400.74,27.2]}
+{"kind":"textbox","id":"sh/knex8j21","slide":4,"name":"TextBox 32","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"系统分为交互、接口、决策和数据四层。Vue 3 提供患者端与医生工作台，FastAPI 提供接口，MySQL 完整保存业务数据。决策层中，Agent 负责理解与表达，规则负责确定性决策。"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"系统角色与主要功能","textShapes":16}
+{"kind":"shape","id":"sh/dgbulwnm","slide":5,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"name":"TextBox 3","text":"系统角色与主要功能","textPreview":"系统角色与主要功能","textChars":9,"textLines":1,"bbox":[64.6,49.1,344.17,54.4]}
+{"kind":"shape","id":"sh/z2tcnm5s","slide":5,"name":"Ellipse 4","bbox":[128,208,184,184]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"name":"TextBox 5","text":"患者端","textPreview":"患者端","textChars":3,"textLines":1,"bbox":[172.65,271.05,94.7,43.2]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"name":"TextBox 6","text":"提供信息","textPreview":"提供信息","textChars":4,"textLines":1,"bbox":[187,315.25,66,24]}
+{"kind":"shape","id":"sh/032tgr6d","slide":5,"name":"Line 7","bbox":[312,300,182,1]}
+{"kind":"shape","id":"sh/n6dcr65o","slide":5,"name":"Polygon 8","bbox":[478,292,16,16]}
+{"kind":"shape","id":"sh/m5kbi1oj","slide":5,"name":"Rectangle 9","bbox":[494,218,292,164]}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"name":"TextBox 10","text":"系统整理","textPreview":"系统整理","textChars":4,"textLines":1,"bbox":[589.29,239.3,101.42,35.2]}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"name":"TextBox 11","text":"字段状态与原文证据","textPreview":"字段状态与原文证据","textChars":9,"textLines":1,"bbox":[562.8,279.4,154.4,25.6]}
+{"kind":"textbox","id":"sh/ahkvi1cb","slide":5,"name":"TextBox 12","text":"完整度、缺口与停止原因","textPreview":"完整度、缺口与停止原因","textChars":11,"textLines":1,"bbox":[546,309.4,188,25.6]}
+{"kind":"textbox","id":"sh/v2twb6dw","slide":5,"name":"TextBox 13","text":"结构化诊前档案","textPreview":"结构化诊前档案","textChars":7,"textLines":1,"bbox":[579.6,339.4,120.8,25.6]}
+{"kind":"shape","id":"sh/k7mxovud","slide":5,"name":"Line 14","bbox":[786,300,182,1]}
+{"kind":"shape","id":"sh/58vehgvy","slide":5,"name":"Polygon 15","bbox":[952,292,16,16]}
+{"kind":"shape","id":"sh/i54fmlc7","slide":5,"name":"Ellipse 16","bbox":[968,208,184,184]}
+{"kind":"textbox","id":"sh/j6dwfqds","slide":5,"name":"TextBox 17","text":"医生端","textPreview":"医生端","textChars":3,"textLines":1,"bbox":[1012.65,271.05,94.7,43.2]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"name":"TextBox 18","text":"查看与理解","textPreview":"查看与理解","textChars":5,"textLines":1,"bbox":[1019.13,315.25,81.75,24]}
+{"kind":"textbox","id":"sh/tcfel0vu","slide":5,"name":"TextBox 19","text":"身份选择 基础资料 开放描述","textPreview":"身份选择 基础资料 开放描述","textChars":14,"textLines":1,"bbox":[92.2,442.7,253.65,28.8]}
+{"kind":"textbox","id":"sh/hgrmpwj2","slide":5,"name":"TextBox 20","text":"逐项回答、恢复未完成问诊、查看历史档案","textPreview":"逐项回答、恢复未完成问诊、查看历史档案","textChars":19,"textLines":1,"bbox":[92.4,475.4,322.4,25.6]}
+{"kind":"textbox","id":"sh/gfi5grih","slide":5,"name":"TextBox 21","text":"患者列表 历史问诊 问答详情","textPreview":"患者列表 历史问诊 问答详情","textChars":14,"textLines":1,"bbox":[822.2,442.7,253.65,28.8]}
+{"kind":"textbox","id":"sh/fe94nm1w","slide":5,"name":"TextBox 22","text":"查看关键缺口、追问来源、完整度和停止原因","textPreview":"查看关键缺口、追问来源、完整度和停止原因","textChars":20,"textLines":1,"bbox":[822.4,475.4,339.2,25.6]}
+{"kind":"shape","id":"sh/pkr6tgjy","slide":5,"name":"Line 24","bbox":[68,552,1092,1]}
+{"kind":"textbox","id":"sh/4ji5kbid","slide":5,"name":"TextBox 25","text":"数据边界","textPreview":"数据边界","textChars":4,"textLines":1,"bbox":[66.4,576.4,73.76,25.6]}
+{"kind":"textbox","id":"sh/3i94r61s","slide":5,"name":"TextBox 26","text":"会话和档案显式绑定 patient_id；跨患者读取返回 404；医生端当前保持只读。","textPreview":"会话和档案显式绑定 patient_id；跨患者读取返回 404；医生端当前保持只读。","textChars":43,"textLines":1,"bbox":[166.4,576.4,595.4,25.6]}
+{"kind":"textbox","id":"sh/5o7mhcju","slide":5,"name":"TextBox 28","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"患者端负责提供信息，系统负责整理，医生端负责查看与理解。所有会话和档案绑定 patient_id，跨患者读取会被拒绝。医生端当前保持只读。"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"完整问诊流程","textShapes":22}
+{"kind":"shape","id":"sh/yhg7epsj","slide":6,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"name":"TextBox 3","text":"完整问诊流程","textPreview":"完整问诊流程","textChars":6,"textLines":1,"bbox":[64.6,49.1,231.71,54.4]}
+{"kind":"shape","id":"sh/87ipkzal","slide":6,"name":"Freeform 4","bbox":[145,205,895,215]}
+{"kind":"shape","id":"sh/98rqt4r6","slide":6,"name":"Ellipse 5","bbox":[115,175,60,60]}
+{"kind":"shape","id":"sh/ml07i9sv","slide":6,"name":"Ellipse 6","bbox":[295,175,60,60]}
+{"kind":"shape","id":"sh/7m98ru9g","slide":6,"name":"Ellipse 7","bbox":[475,175,60,60]}
+{"kind":"shape","id":"sh/oryp8fah","slide":6,"name":"Ellipse 8","bbox":[655,175,60,60]}
+{"kind":"shape","id":"sh/pc76hkr2","slide":6,"name":"Ellipse 9","bbox":[835,175,60,60]}
+{"kind":"shape","id":"sh/h4bupgn6","slide":6,"name":"Ellipse 10","bbox":[1010,270,60,60]}
+{"kind":"shape","id":"sh/w32twb6l","slide":6,"name":"Ellipse 11","bbox":[835,390,60,60]}
+{"kind":"shape","id":"sh/v2tcn650","slide":6,"name":"Ellipse 12","bbox":[595,390,60,60]}
+{"kind":"shape","id":"sh/u1kbu1ov","slide":6,"name":"Ellipse 13","bbox":[280,390,60,60]}
+{"kind":"textbox","id":"sh/5svutgni","slide":6,"name":"TextBox 14","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[134.4,199.25,21.19,24]}
+{"kind":"textbox","id":"sh/47mt0b6x","slide":6,"name":"TextBox 15","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[314.4,199.25,21.19,24]}
+{"kind":"textbox","id":"sh/j6dcr65c","slide":6,"name":"TextBox 16","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[494.4,199.25,21.19,24]}
+{"kind":"textbox","id":"sh/i54bylor","slide":6,"name":"TextBox 17","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[674.4,199.25,21.19,24]}
+{"kind":"textbox","id":"sh/twfux0ne","slide":6,"name":"TextBox 18","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[854.4,199.25,21.19,24]}
+{"kind":"textbox","id":"sh/svmt4v6t","slide":6,"name":"TextBox 19","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1029.4,294.25,21.19,24]}
+{"kind":"textbox","id":"sh/cbe5g3ih","slide":6,"name":"TextBox 20","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[854.4,414.25,21.19,24]}
+{"kind":"textbox","id":"sh/dcnm98zm","slide":6,"name":"TextBox 21","text":"↻","textPreview":"↻","textChars":1,"textLines":1,"bbox":[618.95,414.25,12.1,24]}
+{"kind":"textbox","id":"sh/qpwnet0b","slide":6,"name":"TextBox 22","text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[303.95,414.25,12.1,24]}
+{"kind":"textbox","id":"sh/bq547yhw","slide":6,"name":"TextBox 23","text":"选择患者","textPreview":"选择患者","textChars":4,"textLines":1,"bbox":[105.82,139.55,78.37,27.2]}
+{"kind":"textbox","id":"sh/0fy5k3id","slide":6,"name":"TextBox 24","text":"基础资料","textPreview":"基础资料","textChars":4,"textLines":1,"bbox":[285.82,139.55,78.37,27.2]}
+{"kind":"textbox","id":"sh/lg76d8zy","slide":6,"name":"TextBox 25","text":"开放描述","textPreview":"开放描述","textChars":4,"textLines":1,"bbox":[465.82,139.55,78.37,27.2]}
+{"kind":"textbox","id":"sh/ydgnit07","slide":6,"name":"TextBox 26","text":"Agent 提取","textPreview":"Agent 提取","textChars":8,"textLines":1,"bbox":[635.98,139.55,98.05,27.2]}
+{"kind":"textbox","id":"sh/zep4byhs","slide":6,"name":"TextBox 27","text":"字段更新","textPreview":"字段更新","textChars":4,"textLines":1,"bbox":[825.82,139.55,78.37,27.2]}
+{"kind":"textbox","id":"sh/gju58ji9","slide":6,"name":"TextBox 28","text":"完整度判断","textPreview":"完整度判断","textChars":5,"textLines":1,"bbox":[1098.3,291.55,97.11,27.2]}
+{"kind":"textbox","id":"sh/1k3mhozu","slide":6,"name":"TextBox 29","text":"选择下一问","textPreview":"选择下一问","textChars":5,"textLines":1,"bbox":[816.44,463.55,97.11,27.2]}
+{"kind":"textbox","id":"sh/jet8nm1c","slide":6,"name":"TextBox 30","text":"回答后重算","textPreview":"回答后重算","textChars":5,"textLines":1,"bbox":[576.44,463.55,97.11,27.2]}
+{"kind":"textbox","id":"sh/idk7ehkr","slide":6,"name":"TextBox 31","text":"生成档案","textPreview":"生成档案","textChars":4,"textLines":1,"bbox":[270.82,463.55,78.37,27.2]}
+{"kind":"shape","id":"sh/4f2pgr2h","slide":6,"name":"Freeform 33","bbox":[625,330,135,60]}
+{"kind":"textbox","id":"sh/va98j210","slide":6,"name":"TextBox 34","text":"缺口仍可采集","textPreview":"缺口仍可采集","textChars":6,"textLines":1,"bbox":[644.5,333.1,91,22.4]}
+{"kind":"textbox","id":"sh/u907axkf","slide":6,"name":"TextBox 35","text":"流程不是固定轮数：每一次回答都会改变字段状态，也可能改变下一问和停止结果。","textPreview":"流程不是固定轮数：每一次回答都会改变字段状态，也可能改变下一问和停止结果。","textChars":37,"textLines":1,"bbox":[66.2,578.7,737.86,28.8]}
+{"kind":"textbox","id":"sh/wbipc72l","slide":6,"name":"TextBox 37","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"患者依次完成身份选择、基础资料和开放描述。Agent 提取信息后更新字段，系统重新计算完整度，再选择下一问或生成档案。每次回答都会重新触发判断。"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"结构化字段与信息来源","textShapes":23}
+{"kind":"shape","id":"sh/cb2tkvap","slide":7,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/dcbud0ra","slide":7,"name":"TextBox 3","text":"结构化字段与信息来源","textPreview":"结构化字段与信息来源","textChars":10,"textLines":1,"bbox":[64.6,49.1,381.65,54.4]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"name":"TextBox 4","text":"采集范围","textPreview":"采集范围","textChars":4,"textLines":1,"bbox":[66.5,137.25,69.15,24]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"name":"TextBox 5","text":"基础测量","textPreview":"基础测量","textChars":4,"textLines":1,"bbox":[65.7,182.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"name":"TextBox 6","text":"年龄、身高、体重、腰围","textPreview":"年龄、身高、体重、腰围","textChars":11,"textLines":1,"bbox":[66.5,217.25,176.25,24]}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"name":"TextBox 7","text":"病程信息","textPreview":"病程信息","textChars":4,"textLines":1,"bbox":[65.7,266.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"name":"TextBox 8","text":"变化经过、相关因素、管理经历","textPreview":"变化经过、相关因素、管理经历","textChars":14,"textLines":1,"bbox":[66.5,301.25,223.5,24]}
+{"kind":"textbox","id":"sh/fi9c369c","slide":7,"name":"TextBox 9","text":"中医症状","textPreview":"中医症状","textChars":4,"textLines":1,"bbox":[65.7,350.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"name":"TextBox 10","text":"食欲口渴、二便、睡眠情绪、疲劳","textPreview":"食欲口渴、二便、睡眠情绪、疲劳","textChars":15,"textLines":1,"bbox":[66.5,385.25,239.25,24]}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"name":"TextBox 11","text":"生活方式","textPreview":"生活方式","textChars":4,"textLines":1,"bbox":[65.7,434.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/xcz2l03q","slide":7,"name":"TextBox 12","text":"饮食、运动、作息、压力性进食","textPreview":"饮食、运动、作息、压力性进食","textChars":14,"textLines":1,"bbox":[66.5,469.25,223.5,24]}
+{"kind":"textbox","id":"sh/cbq1sv25","slide":7,"name":"TextBox 13","text":"安全信息","textPreview":"安全信息","textChars":4,"textLines":1,"bbox":[65.7,518.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/n6x0fqlo","slide":7,"name":"TextBox 14","text":"过敏、用药、病史、妊娠、危险信号","textPreview":"过敏、用药、病史、妊娠、危险信号","textChars":16,"textLines":1,"bbox":[66.5,553.25,255,24]}
+{"kind":"shape","id":"sh/p8fih03e","slide":7,"name":"Line 16","bbox":[495,140,1,440]}
+{"kind":"textbox","id":"sh/o761ov2t","slide":7,"name":"TextBox 17","text":"问题来源","textPreview":"问题来源","textChars":4,"textLines":1,"bbox":[548.5,137.25,69.15,24]}
+{"kind":"shape","id":"sh/f2d0b6lc","slide":7,"name":"Rectangle 18","bbox":[550,190,500,64]}
+{"kind":"textbox","id":"sh/eh4jil4r","slide":7,"name":"TextBox 19","text":"字段定义","textPreview":"字段定义","textChars":4,"textLines":1,"bbox":[573.1,202.85,87.59,30.4]}
+{"kind":"textbox","id":"sh/id4ju1oz","slide":7,"name":"TextBox 20","text":"标准问题、优先级、核心属性、最大尝试次数","textPreview":"标准问题、优先级、核心属性、最大尝试次数","textChars":20,"textLines":1,"bbox":[573.6,230.1,296.8,22.4]}
+{"kind":"shape","id":"sh/jedkn654","slide":7,"name":"Line 21","bbox":[800,254,1,32]}
+{"kind":"shape","id":"sh/4fm1wb6p","slide":7,"name":"Polygon 22","bbox":[792,270,16,16]}
+{"kind":"shape","id":"sh/50v2pgna","slide":7,"name":"Rectangle 23","bbox":[610,286,500,64]}
+{"kind":"textbox","id":"sh/q143ylov","slide":7,"name":"TextBox 24","text":"Agent 提取证据","textPreview":"Agent 提取证据","textChars":10,"textLines":1,"bbox":[633.1,298.85,151.48,30.4]}
+{"kind":"textbox","id":"sh/r2dkrq5g","slide":7,"name":"TextBox 25","text":"字段值、患者原文、信息来源、回答质量","textPreview":"字段值、患者原文、信息来源、回答质量","textChars":18,"textLines":1,"bbox":[633.6,326.1,267.4,22.4]}
+{"kind":"shape","id":"sh/s3ml0v61","slide":7,"name":"Line 26","bbox":[860,350,1,32]}
+{"kind":"shape","id":"sh/d4f2t0nm","slide":7,"name":"Polygon 27","bbox":[852,366,16,16]}
+{"kind":"shape","id":"sh/e5o32lor","slide":7,"name":"Rectangle 28","bbox":[670,382,500,64]}
+{"kind":"textbox","id":"sh/f6xkvq5c","slide":7,"name":"TextBox 29","text":"规则更新状态","textPreview":"规则更新状态","textChars":6,"textLines":1,"bbox":[693.1,394.85,129.49,30.4]}
+{"kind":"textbox","id":"sh/p0zmlk7u","slide":7,"name":"TextBox 30","text":"确认、部分获取、无法提供、不适用或冲突","textPreview":"确认、部分获取、无法提供、不适用或冲突","textChars":19,"textLines":1,"bbox":[693.6,422.1,282.1,22.4]}
+{"kind":"shape","id":"sh/ozq5szq9","slide":7,"name":"Line 31","bbox":[920,446,1,32]}
+{"kind":"shape","id":"sh/nyh4jupo","slide":7,"name":"Polygon 32","bbox":[912,462,16,16]}
+{"kind":"shape","id":"sh/2x8nqp83","slide":7,"name":"Rectangle 33","bbox":[730,478,440,76]}
+{"kind":"textbox","id":"sh/x4j6p47q","slide":7,"name":"TextBox 34","text":"规则选择目标字段","textPreview":"规则选择目标字段","textChars":8,"textLines":1,"bbox":[753,492,180.4,32]}
+{"kind":"textbox","id":"sh/c3a5wzq5","slide":7,"name":"TextBox 35","text":"Agent 只把目标字段表达成自然问题","textPreview":"Agent 只把目标字段表达成自然问题","textChars":19,"textLines":1,"bbox":[753.5,522.25,255.79,24]}
+{"kind":"textbox","id":"sh/a18nup8z","slide":7,"name":"TextBox 37","text":"问题顺序可以变化，但每个问题的目标和来源始终可追踪。","textPreview":"问题顺序可以变化，但每个问题的目标和来源始终可追踪。","textChars":26,"textLines":1,"bbox":[548.4,592.4,461.84,25.6]}
+{"kind":"textbox","id":"sh/lsj6t47m","slide":7,"name":"TextBox 38","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"系统采集基础测量、病程、中医症状、生活方式和安全信息。每个问题来自字段定义；Agent 提取值和证据，规则更新状态并选择目标字段，所以问题来源可追踪。"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"资料完整度如何判断","textShapes":19}
+{"kind":"shape","id":"sh/18byd4zy","slide":8,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/g72x4zyd","slide":8,"name":"TextBox 3","text":"资料完整度如何判断","textPreview":"资料完整度如何判断","textChars":9,"textLines":1,"bbox":[64.6,49.1,344.17,54.4]}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"name":"TextBox 4","text":"字段状态输入","textPreview":"字段状态输入","textChars":6,"textLines":1,"bbox":[66.5,147.25,102.22,24]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"name":"TextBox 5","text":"尚未询问","textPreview":"尚未询问","textChars":4,"textLines":1,"bbox":[66.2,196.7,79.2,28.8]}
+{"kind":"textbox","id":"sh/tkby9kzm","slide":8,"name":"TextBox 6","text":"部分获取","textPreview":"部分获取","textChars":4,"textLines":1,"bbox":[66.2,254.7,79.2,28.8]}
+{"kind":"textbox","id":"sh/sjix0zy1","slide":8,"name":"TextBox 7","text":"已经确认","textPreview":"已经确认","textChars":4,"textLines":1,"bbox":[66.2,312.7,82.98,28.8]}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"name":"TextBox 8","text":"无法提供","textPreview":"无法提供","textChars":4,"textLines":1,"bbox":[66.2,370.7,79.2,28.8]}
+{"kind":"textbox","id":"sh/id0fu50z","slide":8,"name":"TextBox 9","text":"不适用","textPreview":"不适用","textChars":3,"textLines":1,"bbox":[66.2,428.7,60.3,28.8]}
+{"kind":"shape","id":"sh/o7ydoret","slide":8,"name":"Line 10","bbox":[230,205,210,105]}
+{"kind":"shape","id":"sh/98rehwve","slide":8,"name":"Line 11","bbox":[230,263,210,57]}
+{"kind":"shape","id":"sh/m5gvmhwn","slide":8,"name":"Line 12","bbox":[230,321,210,9]}
+{"kind":"shape","id":"sh/n6pwfmd8","slide":8,"name":"Line 13","bbox":[230,340,210,39]}
+{"kind":"shape","id":"sh/0jydkreh","slide":8,"name":"Line 14","bbox":[230,350,210,87]}
+{"kind":"shape","id":"sh/ehgvihwr","slide":8,"name":"Ellipse 16","bbox":[440,185,290,290]}
+{"kind":"textbox","id":"sh/zipwbmdc","slide":8,"name":"TextBox 17","text":"完整度判断器","textPreview":"完整度判断器","textChars":6,"textLines":1,"bbox":[499.81,260.75,170.38,40]}
+{"kind":"shape","id":"sh/kfixwbe1","slide":8,"name":"Line 18","bbox":[505,306,160,1]}
+{"kind":"textbox","id":"sh/lgbepgvm","slide":8,"name":"TextBox 19","text":"基础测量是否完成","textPreview":"基础测量是否完成","textChars":8,"textLines":1,"bbox":[516.2,326.4,137.6,25.6]}
+{"kind":"textbox","id":"sh/tw7e9gnq","slide":8,"name":"TextBox 20","text":"核心与安全字段是否缺失","textPreview":"核心与安全字段是否缺失","textChars":11,"textLines":1,"bbox":[491,356.4,188,25.6]}
+{"kind":"textbox","id":"sh/svydgb65","slide":8,"name":"TextBox 21","text":"是否存在未解决冲突","textPreview":"是否存在未解决冲突","textChars":9,"textLines":1,"bbox":[507.8,386.4,154.4,25.6]}
+{"kind":"shape","id":"sh/6twve1oz","slide":8,"name":"Line 23","bbox":[730,205,100,125]}
+{"kind":"shape","id":"sh/5sne5wne","slide":8,"name":"Line 24","bbox":[730,330,100,1]}
+{"kind":"shape","id":"sh/kredcr6t","slide":8,"name":"Line 25","bbox":[730,330,100,125]}
+{"kind":"shape","id":"sh/jq5w365o","slide":8,"name":"Rectangle 26","bbox":[830,160,330,90]}
+{"kind":"textbox","id":"sh/i5wva1o3","slide":8,"name":"TextBox 27","text":"继续追问","textPreview":"继续追问","textChars":4,"textLines":1,"bbox":[852.9,178.15,96.81,33.6]}
+{"kind":"textbox","id":"sh/x4ne1wni","slide":8,"name":"TextBox 28","text":"关键缺口仍存在且可以继续采集","textPreview":"关键缺口仍存在且可以继续采集","textChars":14,"textLines":1,"bbox":[853.5,211.25,223.5,24]}
+{"kind":"shape","id":"sh/w3ed8r6x","slide":8,"name":"Rectangle 29","bbox":[830,285,330,90]}
+{"kind":"textbox","id":"sh/m9sb2x4v","slide":8,"name":"TextBox 30","text":"正常结束","textPreview":"正常结束","textChars":4,"textLines":1,"bbox":[852.9,303.15,96.81,33.6]}
+{"kind":"textbox","id":"sh/na1sb2lg","slide":8,"name":"TextBox 31","text":"核心信息可用、无安全缺口与冲突","textPreview":"核心信息可用、无安全缺口与冲突","textChars":15,"textLines":1,"bbox":[853.5,336.25,239.25,24]}
+{"kind":"shape","id":"sh/8bat47ml","slide":8,"name":"Rectangle 32","bbox":[830,410,330,90]}
+{"kind":"textbox","id":"sh/9w3uds36","slide":8,"name":"TextBox 33","text":"保护性结束","textPreview":"保护性结束","textChars":5,"textLines":1,"bbox":[852.9,428.15,119.96,33.6]}
+{"kind":"textbox","id":"sh/y5sbed4j","slide":8,"name":"TextBox 34","text":"在线采集失效，保存结果交由医生补充","textPreview":"在线采集失效，保存结果交由医生补充","textChars":17,"textLines":1,"bbox":[853.5,461.25,270.75,24]}
+{"kind":"shape","id":"sh/07atgnmp","slide":8,"name":"Rectangle 36","bbox":[68,560,1092,64]}
+{"kind":"textbox","id":"sh/l8ja9s3a","slide":8,"name":"TextBox 37","text":"完整不等于“所有字段填满”，而是核心信息可用、安全缺口已处理、没有阻塞性冲突。","textPreview":"完整不等于“所有字段填满”，而是核心信息可用、安全缺口已处理、没有阻塞性冲突。","textChars":39,"textLines":1,"bbox":[90.2,583.7,759.69,28.8]}
+{"kind":"textbox","id":"sh/b2hs3il8","slide":8,"name":"TextBox 39","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"完整度不是简单统计填写数量。系统结合字段状态、核心缺口、安全信息和冲突进行判断，输出继续追问、正常结束或保护性结束。可选字段不会无限阻塞。"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"追问优先级与决策机制","textShapes":15}
+{"kind":"shape","id":"sh/1cfmhgne","slide":9,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/0b65obm9","slide":9,"name":"TextBox 3","text":"追问优先级与决策机制","textPreview":"追问优先级与决策机制","textChars":10,"textLines":1,"bbox":[64.6,49.1,381.65,54.4]}
+{"kind":"shape","id":"sh/nex4jq5k","slide":9,"name":"Rectangle 4","bbox":[68,470,480,76]}
+{"kind":"shape","id":"sh/mdonql4z","slide":9,"name":"Rectangle 5","bbox":[128,394,420,76]}
+{"kind":"shape","id":"sh/9gzml0nq","slide":9,"name":"Rectangle 6","bbox":[188,318,360,76]}
+{"kind":"shape","id":"sh/ofq5svm5","slide":9,"name":"Rectangle 7","bbox":[248,242,300,76]}
+{"kind":"shape","id":"sh/bih4na5w","slide":9,"name":"Rectangle 8","bbox":[308,166,240,76]}
+{"kind":"textbox","id":"sh/ah8nu54b","slide":9,"name":"TextBox 9","text":"05 可选补充信息","textPreview":"05 可选补充信息","textChars":9,"textLines":1,"bbox":[90.2,499.7,150.45,28.8]}
+{"kind":"textbox","id":"sh/oza1gfyh","slide":9,"name":"TextBox 10","text":"04 高优先级普通字段","textPreview":"04 高优先级普通字段","textChars":11,"textLines":1,"bbox":[150.2,423.7,190.14,28.8]}
+{"kind":"textbox","id":"sh/p0ji9kf2","slide":9,"name":"TextBox 11","text":"03 冲突与澄清字段","textPreview":"03 冲突与澄清字段","textChars":10,"textLines":1,"bbox":[210.2,347.7,170.3,28.8]}
+{"kind":"textbox","id":"sh/2xsjepgb","slide":9,"name":"TextBox 12","text":"02 未完成核心字段","textPreview":"02 未完成核心字段","textChars":10,"textLines":1,"bbox":[270.2,271.7,170.3,28.8]}
+{"kind":"textbox","id":"sh/3y107axw","slide":9,"name":"TextBox 13","text":"01 危险信号","textPreview":"01 危险信号","textChars":7,"textLines":1,"bbox":[326.2,195.7,110.76,28.8]}
+{"kind":"textbox","id":"sh/cnu1kzyd","slide":9,"name":"TextBox 14","text":"已确认、不适用或达到尝试上限的字段不再进入候选集合。","textPreview":"已确认、不适用或达到尝试上限的字段不再进入候选集合。","textChars":26,"textLines":1,"bbox":[66.5,571.25,412.5,24]}
+{"kind":"textbox","id":"sh/qlcjipgn","slide":9,"name":"TextBox 16","text":"选择示例","textPreview":"选择示例","textChars":4,"textLines":1,"bbox":[648.5,153.25,69.15,24]}
+{"kind":"textbox","id":"sh/bml0buxs","slide":9,"name":"TextBox 17","text":"“用药信息”和“运动情况”同时缺失时，先问什么？","textPreview":"“用药信息”和“运动情况”同时缺失时，先问什么？","textChars":24,"textLines":1,"bbox":[647.4,192.9,310.96,81.6]}
+{"kind":"shape","id":"sh/0ru1ozyp","slide":9,"name":"Line 18","bbox":[650,290,510,1]}
+{"kind":"textbox","id":"sh/lsn2h4fa","slide":9,"name":"TextBox 19","text":"规则比较安全属性、核心属性和优先级","textPreview":"规则比较安全属性、核心属性和优先级","textChars":17,"textLines":1,"bbox":[648.3,322.55,306.85,27.2]}
+{"kind":"textbox","id":"sh/98ji147e","slide":9,"name":"TextBox 20","text":"目标字段：用药信息","textPreview":"目标字段：用药信息","textChars":9,"textLines":1,"bbox":[648.2,366.7,182.21,28.8]}
+{"kind":"shape","id":"sh/87a18zqt","slide":9,"name":"Line 21","bbox":[650,410,510,1]}
+{"kind":"textbox","id":"sh/76h0zup8","slide":9,"name":"TextBox 22","text":"Agent 将目标字段组织成自然问题","textPreview":"Agent 将目标字段组织成自然问题","textChars":18,"textLines":1,"bbox":[648.3,440.55,272.04,27.2]}
+{"kind":"textbox","id":"sh/ml8j6p8n","slide":9,"name":"TextBox 23","text":"“您目前有长期服用的药物吗？”","textPreview":"“您目前有长期服用的药物吗？”","textChars":15,"textLines":1,"bbox":[647.7,484.45,362.14,36.8]}
+{"kind":"textbox","id":"sh/hcji5o7a","slide":9,"name":"TextBox 24","text":"规则决定问什么，Agent 决定怎么问。","textPreview":"规则决定问什么，Agent 决定怎么问。","textChars":20,"textLines":1,"bbox":[648.5,545.25,271.54,24]}
+{"kind":"textbox","id":"sh/va103ep4","slide":9,"name":"TextBox 26","text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"追问按危险信号、核心字段、冲突、高优先普通字段和可选信息排序。规则决定问什么，Agent 负责把目标字段组织成自然问题。"}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"何时停止追问","textShapes":21}
+{"kind":"shape","id":"sh/xc3mho32","slide":10,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/cbu58j2h","slide":10,"name":"TextBox 3","text":"何时停止追问","textPreview":"何时停止追问","textChars":6,"textLines":1,"bbox":[64.6,49.1,231.71,54.4]}
+{"kind":"shape","id":"sh/zelojyl8","slide":10,"name":"Rectangle 4","bbox":[420,132,440,88]}
+{"kind":"textbox","id":"sh/ydcnatkn","slide":10,"name":"TextBox 5","text":"当前信息是否仍需要并适合在线追问？","textPreview":"当前信息是否仍需要并适合在线追问？","textChars":17,"textLines":1,"bbox":[431.63,150.3,416.74,35.2]}
+{"kind":"textbox","id":"sh/l036l83y","slide":10,"name":"TextBox 6","text":"核心字段 安全缺口 冲突 尝试次数 回答质量","textPreview":"核心字段 安全缺口 冲突 尝试次数 回答质量","textChars":22,"textLines":1,"bbox":[497.48,185.1,285.04,22.4]}
+{"kind":"shape","id":"sh/kzu5c32t","slide":10,"name":"Line 7","bbox":[640,220,1,46]}
+{"kind":"shape","id":"sh/725onyl4","slide":10,"name":"Line 8","bbox":[212,266,856,1]}
+{"kind":"shape","id":"sh/m1cnetkj","slide":10,"name":"Line 9","bbox":[212,266,1,46]}
+{"kind":"shape","id":"sh/s7yt4b21","slide":10,"name":"Line 10","bbox":[640,266,1,46]}
+{"kind":"shape","id":"sh/d87uxg3m","slide":10,"name":"Line 11","bbox":[1068,266,1,46]}
+{"kind":"textbox","id":"sh/q5gb21kb","slide":10,"name":"TextBox 12","text":"仍有关键缺口","textPreview":"仍有关键缺口","textChars":6,"textLines":1,"bbox":[166.5,280.1,91,22.4]}
+{"kind":"textbox","id":"sh/r6pcv6lw","slide":10,"name":"TextBox 13","text":"核心信息满足","textPreview":"核心信息满足","textChars":6,"textLines":1,"bbox":[594.5,280.1,91,22.4]}
+{"kind":"textbox","id":"sh/0bit8b2d","slide":10,"name":"TextBox 14","text":"在线采集失效","textPreview":"在线采集失效","textChars":6,"textLines":1,"bbox":[1022.5,280.1,91,22.4]}
+{"kind":"shape","id":"sh/1cru1g3y","slide":10,"name":"Rectangle 15","bbox":[68,312,288,220]}
+{"kind":"textbox","id":"sh/e9gb61k7","slide":10,"name":"TextBox 16","text":"继续追问","textPreview":"继续追问","textChars":4,"textLines":1,"bbox":[89.7,334.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/fapcz6ls","slide":10,"name":"TextBox 17","text":"核心字段仍缺失","textPreview":"核心字段仍缺失","textChars":7,"textLines":1,"bbox":[90.4,383.4,120.8,25.6]}
+{"kind":"textbox","id":"sh/ozitcv29","slide":10,"name":"TextBox 18","text":"安全信息尚未确认","textPreview":"安全信息尚未确认","textChars":8,"textLines":1,"bbox":[90.4,417.4,137.6,25.6]}
+{"kind":"textbox","id":"sh/p0ru503u","slide":10,"name":"TextBox 19","text":"冲突仍可在线澄清","textPreview":"冲突仍可在线澄清","textChars":8,"textLines":1,"bbox":[90.4,451.4,137.6,25.6]}
+{"kind":"shape","id":"sh/xwnupgvy","slide":10,"name":"Rectangle 20","bbox":[496,312,288,220]}
+{"kind":"textbox","id":"sh/wvetgbud","slide":10,"name":"TextBox 21","text":"正常结束","textPreview":"正常结束","textChars":4,"textLines":1,"bbox":[517.7,334.45,106.03,36.8]}
+{"kind":"textbox","id":"sh/bu5cnqd8","slide":10,"name":"TextBox 22","text":"核心字段已经完整","textPreview":"核心字段已经完整","textChars":8,"textLines":1,"bbox":[518.4,383.4,137.6,25.6]}
+{"kind":"textbox","id":"sh/atwbelcn","slide":10,"name":"TextBox 23","text":"无关键安全缺口","textPreview":"无关键安全缺口","textChars":7,"textLines":1,"bbox":[518.4,417.4,120.8,25.6]}
+{"kind":"textbox","id":"sh/lk7ut0va","slide":10,"name":"TextBox 24","text":"无未解决冲突","textPreview":"无未解决冲突","textChars":6,"textLines":1,"bbox":[518.4,451.4,104,25.6]}
+{"kind":"shape","id":"sh/kjytkvup","slide":10,"name":"Rectangle 25","bbox":[924,312,288,220]}
+{"kind":"textbox","id":"sh/jypcrqd4","slide":10,"name":"TextBox 26","text":"保护性结束","textPreview":"保护性结束","textChars":5,"textLines":1,"bbox":[945.7,334.45,131.39,36.8]}
+{"kind":"textbox","id":"sh/yxgbilcj","slide":10,"name":"TextBox 27","text":"多次无法回答或问题重复","textPreview":"多次无法回答或问题重复","textChars":11,"textLines":1,"bbox":[946.4,383.4,188,25.6]}
+{"kind":"textbox","id":"sh/1o3ahwvq","slide":10,"name":"TextBox 28","text":"剩余内容不宜在线采集","textPreview":"剩余内容不宜在线采集","textChars":10,"textLines":1,"bbox":[946.4,417.4,171.2,25.6]}
+{"kind":"textbox","id":"sh/0nut8rul","slide":10,"name":"TextBox 29","text":"AI 暂不可用或出现风险","textPreview":"AI 暂不可用或出现风险","textChars":12,"textLines":1,"bbox":[946.4,451.4,173.72,25.6]}
+{"kind":"textbox","id":"sh/q9srixs3","slide":10,"name":"TextBox 30","text":"停止追问 ≠ 资料完整","textPreview":"停止追问 ≠ 资料完整","textChars":11,"textLines":1,"bbox":[946.6,493.1,144.03,22.4]}
+{"kind":"textbox","id":"sh/cva9k7a9","slide":10,"name":"TextBox 32","text":"系统不依赖固定轮数，而是依据核心完整度和在线可采集性决定结束时机。","textPreview":"系统不依赖固定轮数，而是依据核心完整度和在线可采集性决定结束时机。","textChars":33,"textLines":1,"bbox":[66.3,579.55,621.9,27.2]}
+{"kind":"textbox","id":"sh/dwjqtcbu","slide":10,"name":"TextBox 33","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"系统不使用固定轮数。核心信息可用且无安全缺口和冲突时正常结束；多次无法回答、问题重复或内容不宜在线采集时保护性结束。保护性结束不代表资料完整。"}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"项目实现中的关键难点","textShapes":20}
+{"kind":"shape","id":"sh/xcryxg7y","slide":11,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/wbih4b6d","slide":11,"name":"TextBox 3","text":"项目实现中的关键难点","textPreview":"项目实现中的关键难点","textChars":10,"textLines":1,"bbox":[64.6,49.1,381.65,54.4]}
+{"kind":"textbox","id":"sh/n69grmpw","slide":11,"name":"TextBox 4","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[66.5,141.25,21.19,24]}
+{"kind":"textbox","id":"sh/250zy18b","slide":11,"name":"TextBox 5","text":"追问轮数过多","textPreview":"追问轮数过多","textChars":6,"textLines":1,"bbox":[109.9,136.15,143.11,33.6]}
+{"kind":"textbox","id":"sh/98rytw72","slide":11,"name":"TextBox 6","text":"核心字段驱动停止，可选字段不再无限阻塞结束","textPreview":"核心字段驱动停止，可选字段不再无限阻塞结束","textChars":21,"textLines":1,"bbox":[358.4,140.4,356,25.6]}
+{"kind":"textbox","id":"sh/o7ih0r6h","slide":11,"name":"TextBox 7","text":"已实现","textPreview":"已实现","textChars":3,"textLines":1,"bbox":[1078.5,141.25,52.61,24]}
+{"kind":"shape","id":"sh/72t03qp0","slide":11,"name":"Line 8","bbox":[68,184,1092,1]}
+{"kind":"textbox","id":"sh/61kzalof","slide":11,"name":"TextBox 9","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[66.5,225.25,21.19,24]}
+{"kind":"textbox","id":"sh/ofqtgnyt","slide":11,"name":"TextBox 10","text":"Agent 输出不稳定","textPreview":"Agent 输出不稳定","textChars":11,"textLines":1,"bbox":[109.9,220.15,190.58,33.6]}
+{"kind":"textbox","id":"sh/9gza9sze","slide":11,"name":"TextBox 11","text":"Agent 提供字段与证据，确定性规则负责决策","textPreview":"Agent 提供字段与证据，确定性规则负责决策","textChars":23,"textLines":1,"bbox":[358.4,224.4,340.04,25.6]}
+{"kind":"textbox","id":"sh/mdobedg3","slide":11,"name":"TextBox 12","text":"已实现","textPreview":"已实现","textChars":3,"textLines":1,"bbox":[1078.5,225.25,52.61,24]}
+{"kind":"shape","id":"sh/nehs7iho","slide":11,"name":"Line 13","bbox":[68,268,1092,1]}
+{"kind":"textbox","id":"sh/0b6tc3yx","slide":11,"name":"TextBox 14","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[66.5,309.25,21.19,24]}
+{"kind":"textbox","id":"sh/1cfa58zi","slide":11,"name":"TextBox 15","text":"“不知道”导致重复","textPreview":"“不知道”导致重复","textChars":9,"textLines":1,"bbox":[109.9,304.15,191.74,33.6]}
+{"kind":"textbox","id":"sh/epobatgr","slide":11,"name":"TextBox 16","text":"记录尝试次数与回答质量，到达上限后转医生补充","textPreview":"记录尝试次数与回答质量，到达上限后转医生补充","textChars":22,"textLines":1,"bbox":[358.4,308.4,372.8,25.6]}
+{"kind":"textbox","id":"sh/zaxs3yhc","slide":11,"name":"TextBox 17","text":"已实现","textPreview":"已实现","textChars":3,"textLines":1,"bbox":[1078.5,309.25,52.61,24]}
+{"kind":"shape","id":"sh/cn6t83y1","slide":11,"name":"Line 18","bbox":[68,352,1092,1]}
+{"kind":"textbox","id":"sh/dofa18z6","slide":11,"name":"TextBox 19","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[66.5,393.25,21.19,24]}
+{"kind":"textbox","id":"sh/tsnip0ny","slide":11,"name":"TextBox 20","text":"多患者数据隔离","textPreview":"多患者数据隔离","textChars":7,"textLines":1,"bbox":[109.9,388.15,166.27,33.6]}
+{"kind":"textbox","id":"sh/87ehgv6d","slide":11,"name":"TextBox 21","text":"显式 patient_id 和资源归属校验，跨患者访问返回 404","textPreview":"显式 patient_id 和资源归属校验，跨患者访问返回 404","textChars":33,"textLines":1,"bbox":[358.4,392.4,415.64,25.6]}
+{"kind":"textbox","id":"sh/7650nq5s","slide":11,"name":"TextBox 22","text":"已实现","textPreview":"已实现","textChars":3,"textLines":1,"bbox":[1078.5,393.25,52.61,24]}
+{"kind":"shape","id":"sh/65wzelo7","slide":11,"name":"Line 23","bbox":[68,436,1092,1]}
+{"kind":"shape","id":"sh/l43ilgn2","slide":11,"name":"Rectangle 24","bbox":[68,492,1092,112]}
+{"kind":"textbox","id":"sh/k3uhcb6h","slide":11,"name":"TextBox 25","text":"当前边界","textPreview":"当前边界","textChars":4,"textLines":1,"bbox":[92.4,517.4,73.76,25.6]}
+{"kind":"textbox","id":"sh/j2lgjq5w","slide":11,"name":"TextBox 26","text":"演示身份不等于正式鉴权；真实临床效果、规则覆盖范围和权限体系仍需进一步验证。","textPreview":"演示身份不等于正式鉴权；真实临床效果、规则覆盖范围和权限体系仍需进一步验证。","textChars":38,"textLines":1,"bbox":[92.3,553.55,681.7,27.2]}
+{"kind":"textbox","id":"sh/p07ixkn6","slide":11,"name":"TextBox 28","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":"当前版本已经实现核心字段驱动停止、规则约束 Agent、尝试次数防止重复和 patient_id 数据隔离。演示身份还不等于正式鉴权，临床效果和规则覆盖范围仍需验证。"}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"项目操作展示：身份选择与患者端","textShapes":10}
+{"kind":"shape","id":"sh/1gbm9s3a","slide":12,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/0f2lgnmp","slide":12,"name":"TextBox 3","text":"项目操作展示：身份选择与患者端","textPreview":"项目操作展示：身份选择与患者端","textChars":15,"textLines":1,"bbox":[64.6,49.1,569.07,54.4]}
+{"kind":"shape","id":"sh/ra943il8","slide":12,"name":"Rectangle 4","bbox":[68,138,690,392]}
+{"kind":"textbox","id":"sh/q903ad4n","slide":12,"name":"TextBox 5","text":"01 / 主界面","textPreview":"01 / 主界面","textChars":8,"textLines":1,"bbox":[92.6,162.1,83.83,22.4]}
+{"kind":"textbox","id":"sh/dcbm583y","slide":12,"name":"TextBox 6","text":"放置截图：身份选择首页","textPreview":"放置截图：身份选择首页","textChars":11,"textLines":1,"bbox":[277.4,303.3,271.21,35.2]}
+{"kind":"textbox","id":"sh/sb2lcnmd","slide":12,"name":"TextBox 7","text":"展示三位患者和医生端入口","textPreview":"展示三位患者和医生端入口","textChars":12,"textLines":1,"bbox":[317,341.25,192,24]}
+{"kind":"shape","id":"sh/b6d4f2lc","slide":12,"name":"Rectangle 8","bbox":[806,138,354,180]}
+{"kind":"textbox","id":"sh/a543mx4r","slide":12,"name":"TextBox 9","text":"02 / 基础资料","textPreview":"02 / 基础资料","textChars":9,"textLines":1,"bbox":[828.6,158.1,99.27,22.4]}
+{"kind":"textbox","id":"sh/wvupgz6t","slide":12,"name":"TextBox 10","text":"放置局部截图","textPreview":"放置局部截图","textChars":6,"textLines":1,"bbox":[921.66,222.7,122.67,28.8]}
+{"kind":"shape","id":"sh/xw3q94ne","slide":12,"name":"Rectangle 11","bbox":[806,350,354,180]}
+{"kind":"textbox","id":"sh/atc7epon","slide":12,"name":"TextBox 12","text":"03 / 侧栏记录","textPreview":"03 / 侧栏记录","textChars":9,"textLines":1,"bbox":[828.6,370.1,99.27,22.4]}
+{"kind":"textbox","id":"sh/bulo7u58","slide":12,"name":"TextBox 13","text":"放置局部截图","textPreview":"放置局部截图","textChars":6,"textLines":1,"bbox":[921.66,434.7,122.67,28.8]}
+{"kind":"shape","id":"sh/9sj65kn2","slide":12,"name":"Line 15","bbox":[68,575,1092,1]}
+{"kind":"textbox","id":"sh/mps7a5or","slide":12,"name":"TextBox 16","text":"演示重点：多患者入口 数据隔离 侧栏折叠 未完成问诊恢复 独立历史记录","textPreview":"演示重点：多患者入口 数据隔离 侧栏折叠 未完成问诊恢复 独立历史记录","textChars":35,"textLines":1,"bbox":[66.4,598.4,544.16,25.6]}
+{"kind":"textbox","id":"sh/0nap8f6l","slide":12,"name":"TextBox 18","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":"这一页放身份选择、基础资料和侧栏记录截图。演示时说明三位患者数据相互隔离，侧栏可以折叠，未完成问诊可以恢复。"}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"项目操作展示：问诊过程","textShapes":12}
+{"kind":"shape","id":"sh/q50nydsj","slide":13,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/bq9orito","slide":13,"name":"TextBox 3","text":"项目操作展示：问诊过程","textPreview":"项目操作展示：问诊过程","textChars":11,"textLines":1,"bbox":[64.6,49.1,419.14,54.4]}
+{"kind":"shape","id":"sh/o3i5w3ad","slide":13,"name":"Rectangle 4","bbox":[68,150,310,348]}
+{"kind":"textbox","id":"sh/p4r6p8by","slide":13,"name":"TextBox 5","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[88.6,172.1,19.78,22.4]}
+{"kind":"textbox","id":"sh/21gnuts7","slide":13,"name":"TextBox 6","text":"开放描述","textPreview":"开放描述","textChars":4,"textLines":1,"bbox":[176.9,286,92.2,32]}
+{"kind":"textbox","id":"sh/32ponyts","slide":13,"name":"TextBox 7","text":"放置截图","textPreview":"放置截图","textChars":4,"textLines":1,"bbox":[192.2,323.1,61.6,22.4]}
+{"kind":"shape","id":"sh/gzy5s3a1","slide":13,"name":"Rectangle 8","bbox":[418,126,390,396]}
+{"kind":"textbox","id":"sh/1076lobm","slide":13,"name":"TextBox 9","text":"02 / 核心操作","textPreview":"02 / 核心操作","textChars":9,"textLines":1,"bbox":[440.6,150.1,99.27,22.4]}
+{"kind":"textbox","id":"sh/hcfy9k3u","slide":13,"name":"TextBox 10","text":"逐项补充追问","textPreview":"逐项补充追问","textChars":6,"textLines":1,"bbox":[538.03,284.3,149.93,35.2]}
+{"kind":"textbox","id":"sh/gb6x0zm9","slide":13,"name":"TextBox 11","text":"放置主截图","textPreview":"放置主截图","textChars":5,"textLines":1,"bbox":[572.13,324.25,81.75,24]}
+{"kind":"shape","id":"sh/vaxg7ulo","slide":13,"name":"Rectangle 12","bbox":[848,150,364,348]}
+{"kind":"textbox","id":"sh/u9ofyp43","slide":13,"name":"TextBox 13","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[870.6,172.1,19.78,22.4]}
+{"kind":"textbox","id":"sh/t8fy5k3i","slide":13,"name":"TextBox 14","text":"诊前档案","textPreview":"诊前档案","textChars":4,"textLines":1,"bbox":[983.9,286,92.2,32]}
+{"kind":"textbox","id":"sh/876xwfmx","slide":13,"name":"TextBox 15","text":"放置截图","textPreview":"放置截图","textChars":4,"textLines":1,"bbox":[999.2,323.1,61.6,22.4]}
+{"kind":"shape","id":"sh/6l4fu547","slide":13,"name":"Line 17","bbox":[68,566,1144,1]}
+{"kind":"shape","id":"sh/lkvy103m","slide":13,"name":"Ellipse 18","bbox":[216,559,14,14]}
+{"kind":"shape","id":"sh/kjmxsfm1","slide":13,"name":"Ellipse 19","bbox":[606,559,14,14]}
+{"kind":"shape","id":"sh/cnqh8fux","slide":13,"name":"Ellipse 20","bbox":[1023,559,14,14]}
+{"kind":"textbox","id":"sh/xozyhkbi","slide":13,"name":"TextBox 21","text":"自由描述 → 信息抽取 → 单项追问 → 完整度更新 → 生成档案","textPreview":"自由描述 → 信息抽取 → 单项追问 → 完整度更新 → 生成档案","textChars":33,"textLines":1,"bbox":[412.61,598.4,454.78,25.6]}
+{"kind":"textbox","id":"sh/bmhgfatc","slide":13,"name":"TextBox 23","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":"按开放描述、逐项追问和生成档案三个阶段展示。建议选一个具体字段，说明回答如何改变字段状态、下一问和完整度。"}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"项目操作展示：医生工作台与总结","textShapes":15}
+{"kind":"shape","id":"sh/xc7eds76","slide":14,"name":"Rectangle 2","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/wbydknq1","slide":14,"name":"TextBox 3","text":"项目操作展示：医生工作台与总结","textPreview":"项目操作展示：医生工作台与总结","textChars":15,"textLines":1,"bbox":[64.6,49.1,569.07,54.4]}
+{"kind":"shape","id":"sh/jepwf2pc","slide":14,"name":"Rectangle 4","bbox":[68,132,1092,360]}
+{"kind":"textbox","id":"sh/idgvmx8r","slide":14,"name":"TextBox 5","text":"医生三栏工作台 / 放置完整截图","textPreview":"医生三栏工作台 / 放置完整截图","textChars":16,"textLines":1,"bbox":[92.6,156.1,221.21,22.4]}
+{"kind":"textbox","id":"sh/5grehs7i","slide":14,"name":"TextBox 6","text":"患者列表 · 问诊详情 · 决策解释","textPreview":"患者列表 · 问诊详情 · 决策解释","textChars":18,"textLines":1,"bbox":[430.39,282.45,367.21,36.8]}
+{"kind":"textbox","id":"sh/kfidonqx","slide":14,"name":"TextBox 7","text":"建议截图同时包含多个患者和一次完整问诊详情","textPreview":"建议截图同时包含多个患者和一次完整问诊详情","textChars":21,"textLines":1,"bbox":[447.13,325.25,333.75,24]}
+{"kind":"shape","id":"sh/ehwvat8n","slide":14,"name":"Line 9","bbox":[68,528,1092,1]}
+{"kind":"textbox","id":"sh/c3e1gjyd","slide":14,"name":"TextBox 10","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[66.5,552.25,21.19,24]}
+{"kind":"textbox","id":"sh/x4ni9ofy","slide":14,"name":"TextBox 11","text":"患者列表","textPreview":"患者列表","textChars":4,"textLines":1,"bbox":[102.2,549.7,82.98,28.8]}
+{"kind":"textbox","id":"sh/a1wze9g7","slide":14,"name":"TextBox 12","text":"档案数量与快速切换","textPreview":"档案数量与快速切换","textChars":9,"textLines":1,"bbox":[102.6,581.1,135.1,22.4]}
+{"kind":"textbox","id":"sh/b2507exs","slide":14,"name":"TextBox 13","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[428.5,552.25,21.19,24]}
+{"kind":"textbox","id":"sh/kre1k3y9","slide":14,"name":"TextBox 14","text":"问诊详情","textPreview":"问诊详情","textChars":4,"textLines":1,"bbox":[464.2,549.7,82.98,28.8]}
+{"kind":"textbox","id":"sh/ls7idofu","slide":14,"name":"TextBox 15","text":"基础资料、描述和逐轮问答","textPreview":"基础资料、描述和逐轮问答","textChars":12,"textLines":1,"bbox":[464.6,581.1,179.2,22.4]}
+{"kind":"textbox","id":"sh/y5wjitgj","slide":14,"name":"TextBox 16","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[800.5,552.25,21.19,24]}
+{"kind":"textbox","id":"sh/z650byxo","slide":14,"name":"TextBox 17","text":"决策解释","textPreview":"决策解释","textChars":4,"textLines":1,"bbox":[836.2,549.7,82.98,28.8]}
+{"kind":"textbox","id":"sh/0buh8zy5","slide":14,"name":"TextBox 18","text":"完整度、关键缺口、来源和停止原因","textPreview":"完整度、关键缺口、来源和停止原因","textChars":16,"textLines":1,"bbox":[836.6,581.1,238,22.4]}
+{"kind":"textbox","id":"sh/hsvy50re","slide":14,"name":"TextBox 20","text":"规则约束 Agent，使诊前信息整理过程更安全、更可追踪，也更容易被医生理解。","textPreview":"规则约束 Agent，使诊前信息整理过程更安全、更可追踪，也更容易被医生理解。","textChars":39,"textLines":1,"bbox":[66.2,626.7,719.01,28.8]}
+{"kind":"textbox","id":"sh/grmxwvqt","slide":14,"name":"TextBox 21","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1120.94,659.8,16.26,19.2]}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":"医生工作台集中展示患者列表、问诊详情和决策解释。医生不仅能查看结果，也能看到关键缺口、问题来源和停止原因。"}

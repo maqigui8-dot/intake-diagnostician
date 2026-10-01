@@ -1,0 +1,605 @@
+{
+  "record_id": "6e2a4831-0c10-4729-8b27-5f3ce87f1d7b",
+  "patient_name": "匿名患者",
+  "created_at": "2026-08-15T19:37:41.781513",
+  "collected_info": {
+    "开放描述": "最近半年体重增加二十公斤，而且有胸痛"
+  },
+  "structured_answers": {},
+  "follow_up_answers": [
+    {
+      "question": "为了后续用药安全，想先了解一下：您以前有没有对什么药物、食物或其他东西过敏的情况？",
+      "answer": "没有明确的药物或食物过敏。目前没有服用药物、保健品或减重产品。以前没有确诊高血压、糖尿病、甲状腺疾病、肝病或肾病，近期没有做过血糖、血脂、肝肾功能或甲状腺检查。目前没有怀孕、备孕或哺乳。身高165厘米，体重85公斤，腰围约92厘米，最近半年增加了20公斤，主要想控制体重。体重增加与工作久坐、运动减少和经常熬夜有关，以前尝试过少吃晚饭，效果不明显。平时食欲较好，喜欢甜食和油腻食物，口渴不明显；比较怕冷，容易出汗；大便每天一次、成形，小便正常；睡眠较差、容易醒，工作压力较大；平时容易疲乏，上楼有些气短；身体偶尔困重，但没有浮肿；胸痛偶尔一阵一阵出现，目前没有明显呼吸困难、晕厥或意识异常，腹部偶尔饭后胀。三餐不太规律，偶尔吃夜宵，每周运动一到两次，经常晚上十二点后睡，压力大时会多吃零食。现在不方便提供舌头照片。",
+      "question_key": "allergies",
+      "question_kind": "required",
+      "attempt_number": 1,
+      "answer_quality": "unavailable",
+      "created_at": "2026-08-15T19:29:55"
+    },
+    {
+      "question": "过敏史很重要，您能否确认一下：有明确过敏，还是目前没有发现？",
+      "answer": "目前没有发现任何药物、食物或其他过敏",
+      "question_key": "allergies",
+      "question_kind": "required",
+      "attempt_number": 2,
+      "answer_quality": "provided",
+      "created_at": "2026-08-15T19:34:31"
+    }
+  ],
+  "markdown_table": "## 成人肥胖诊前资料\n\n**开放描述：** 最近半年体重增加二十公斤，而且有胸痛\n\n| 资料项目 | 已收集内容 |\n| --- | --- |\n| 肥胖情况与主要诉求 | 主要想控制体重；身高165厘米，体重85公斤；腰围约92厘米；最近半年体重增加二十公斤；最近半年体重增加二十公斤/最近半年增加了20公斤 |\n| 起病经过与相关因素 | 最近半年体重增加二十公斤；体重增加与工作久坐、运动减少和经常熬夜有关；以前尝试过少吃晚饭，效果不明显 |\n| 中医症状资料 | 平时食欲较好，喜欢甜食和油腻食物，口渴不明显；比较怕冷，容易出汗；大便每天一次、成形，小便正常；睡眠较差、容易醒，工作压力较大；平时容易疲乏，上楼有些气短；身体偶尔困重，但没有浮肿；有胸痛；胸痛偶尔一阵一阵出现，腹部偶尔饭后胀 |\n| 舌象 | 现在不方便提供舌头照片 |\n| 生活方式与心理因素 | 三餐不太规律，偶尔吃夜宵；每周运动一到两次；经常晚上十二点后睡；压力大时会多吃零食 |\n| 过敏史 | 目前没有发现任何药物、食物或其他过敏 |\n| 当前用药与保健品 | 目前没有服用药物、保健品或减重产品 |\n| 既往疾病与继发性肥胖线索 | 以前没有确诊高血压、糖尿病、甲状腺疾病、肝病或肾病 |\n| 肝肾功能、代谢风险和近期检查 | 近期没有做过血糖、血脂、肝肾功能或甲状腺检查 |\n| 妊娠与生育相关情况 | 目前没有怀孕、备孕或哺乳 |\n| 危险信号 | 胸痛；晕厥、意识异常 |\n\n### 完整问答记录\n1. 问：为了后续用药安全，想先了解一下：您以前有没有对什么药物、食物或其他东西过敏的情况？  答：没有明确的药物或食物过敏。目前没有服用药物、保健品或减重产品。以前没有确诊高血压、糖尿病、甲状腺疾病、肝病或肾病，近期没有做过血糖、血脂、肝肾功能或甲状腺检查。目前没有怀孕、备孕或哺乳。身高165厘米，体重85公斤，腰围约92厘米，最近半年增加了20公斤，主要想控制体重。体重增加与工作久坐、运动减少和经常熬夜有关，以前尝试过少吃晚饭，效果不明显。平时食欲较好，喜欢甜食和油腻食物，口渴不明显；比较怕冷，容易出汗；大便每天一次、成形，小便正常；睡眠较差、容易醒，工作压力较大；平时容易疲乏，上楼有些气短；身体偶尔困重，但没有浮肿；胸痛偶尔一阵一阵出现，目前没有明显呼吸困难、晕厥或意识异常，腹部偶尔饭后胀。三餐不太规律，偶尔吃夜宵，每周运动一到两次，经常晚上十二点后睡，压力大时会多吃零食。现在不方便提供舌头照片。\n2. 问：过敏史很重要，您能否确认一下：有明确过敏，还是目前没有发现？  答：目前没有发现任何药物、食物或其他过敏\n\n**舌象与脉象：** 舌照可选；脉象待医生诊中采集。\n\n本档案仅用于诊前资料整理和检查准备，不能替代医生诊断或治疗。",
+  "skill_analysis": {
+    "status": "superseded_by_rule_execution"
+  },
+  "stop_reason": "threshold_reached",
+  "rule_version": "adult-obesity-intake-v1",
+  "doctor_summary": {
+    "access_scope": "prototype_doctor_view",
+    "session_id": "18d5ada0-0743-403f-b1a9-460ac4e51258",
+    "phase": "completed",
+    "execution": {
+      "total_score": 95.5,
+      "differentiation_score": 65.5,
+      "safety_score": 30.0,
+      "raw_points": {
+        "main_goal": 4.0,
+        "height_weight": 5.0,
+        "waist": 2.0,
+        "weight_change": 4.0,
+        "onset_course": 2.0,
+        "related_factors": 3.0,
+        "previous_weight_management": 3.0,
+        "appetite_thirst": 6.0,
+        "cold_heat_sweat": 5.0,
+        "stool_urine": 5.0,
+        "sleep_emotion": 5.0,
+        "fatigue_activity": 5.0,
+        "edema_heaviness": 5.0,
+        "chest_abdomen": 4.0,
+        "tongue": 2.5,
+        "diet_pattern": 2.0,
+        "exercise": 1.0,
+        "sleep_schedule": 1.0,
+        "stress_eating": 1.0,
+        "allergies": 6.0,
+        "medications": 6.0,
+        "important_history": 7.0,
+        "metabolic_tests": 5.0,
+        "pregnancy": 3.0,
+        "red_flags": 3.0
+      },
+      "section_raw": {
+        "differentiation": 65.5,
+        "safety": 30.0
+      },
+      "section_max": {
+        "differentiation": 70.0,
+        "safety": 30.0
+      },
+      "rule_version": "adult-obesity-intake-v1"
+    },
+    "threshold_reached": true,
+    "stop_reason": "threshold_reached",
+    "rule_version": "adult-obesity-intake-v1",
+    "field_groups": {
+      "confirmed": [
+        {
+          "field_key": "main_goal",
+          "group": "肥胖情况与主要诉求",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 4,
+          "evidence": [
+            "主要想控制体重"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "height_weight",
+          "group": "肥胖情况与主要诉求",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 5,
+          "evidence": [
+            "身高165厘米，体重85公斤"
+          ],
+          "confidence": 0.95,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "waist",
+          "group": "肥胖情况与主要诉求",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 2,
+          "evidence": [
+            "腰围约92厘米"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "weight_change",
+          "group": "肥胖情况与主要诉求",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 4,
+          "evidence": [
+            "最近半年体重增加二十公斤",
+            "最近半年体重增加二十公斤/最近半年增加了20公斤"
+          ],
+          "confidence": 0.95,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "related_factors",
+          "group": "起病经过与相关因素",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 3,
+          "evidence": [
+            "体重增加与工作久坐、运动减少和经常熬夜有关"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "previous_weight_management",
+          "group": "起病经过与相关因素",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 3,
+          "evidence": [
+            "以前尝试过少吃晚饭，效果不明显"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "appetite_thirst",
+          "group": "中医症状资料",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 6,
+          "evidence": [
+            "平时食欲较好，喜欢甜食和油腻食物，口渴不明显"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "十问歌与中医问诊经验"
+        },
+        {
+          "field_key": "cold_heat_sweat",
+          "group": "中医症状资料",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 5,
+          "evidence": [
+            "比较怕冷，容易出汗"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "十问歌与中医问诊经验"
+        },
+        {
+          "field_key": "stool_urine",
+          "group": "中医症状资料",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 5,
+          "evidence": [
+            "大便每天一次、成形，小便正常"
+          ],
+          "confidence": 0.95,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "十问歌与中医问诊经验"
+        },
+        {
+          "field_key": "sleep_emotion",
+          "group": "中医症状资料",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 5,
+          "evidence": [
+            "睡眠较差、容易醒，工作压力较大"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "十问歌与中医问诊经验"
+        },
+        {
+          "field_key": "fatigue_activity",
+          "group": "中医症状资料",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 5,
+          "evidence": [
+            "平时容易疲乏，上楼有些气短"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "十问歌与中医问诊经验"
+        },
+        {
+          "field_key": "edema_heaviness",
+          "group": "中医症状资料",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 5,
+          "evidence": [
+            "身体偶尔困重，但没有浮肿"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "十问歌与中医问诊经验"
+        },
+        {
+          "field_key": "chest_abdomen",
+          "group": "中医症状资料",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 4,
+          "evidence": [
+            "有胸痛",
+            "胸痛偶尔一阵一阵出现，腹部偶尔饭后胀"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "十问歌与中医问诊经验"
+        },
+        {
+          "field_key": "diet_pattern",
+          "group": "生活方式与心理因素",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 2,
+          "evidence": [
+            "三餐不太规律，偶尔吃夜宵"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "exercise",
+          "group": "生活方式与心理因素",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 1,
+          "evidence": [
+            "每周运动一到两次"
+          ],
+          "confidence": 0.95,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "sleep_schedule",
+          "group": "生活方式与心理因素",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 1,
+          "evidence": [
+            "经常晚上十二点后睡"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "stress_eating",
+          "group": "生活方式与心理因素",
+          "section": "differentiation",
+          "status": "confirmed",
+          "weight": 1,
+          "evidence": [
+            "压力大时会多吃零食"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "allergies",
+          "group": "过敏史",
+          "section": "safety",
+          "status": "confirmed",
+          "weight": 6,
+          "evidence": [
+            "目前没有发现任何药物、食物或其他过敏"
+          ],
+          "confidence": 0.95,
+          "attempts": 2,
+          "conflicts": [],
+          "source": "医生开方前安全核查"
+        },
+        {
+          "field_key": "medications",
+          "group": "当前用药与保健品",
+          "section": "safety",
+          "status": "confirmed",
+          "weight": 6,
+          "evidence": [
+            "目前没有服用药物、保健品或减重产品"
+          ],
+          "confidence": 0.95,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "医生开方前安全核查"
+        },
+        {
+          "field_key": "important_history",
+          "group": "既往疾病与继发性肥胖线索",
+          "section": "safety",
+          "status": "confirmed",
+          "weight": 7,
+          "evidence": [
+            "以前没有确诊高血压、糖尿病、甲状腺疾病、肝病或肾病"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "医生开方前安全核查"
+        },
+        {
+          "field_key": "metabolic_tests",
+          "group": "肝肾功能、代谢风险和近期检查",
+          "section": "safety",
+          "status": "confirmed",
+          "weight": 5,
+          "evidence": [
+            "近期没有做过血糖、血脂、肝肾功能或甲状腺检查"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "医生开方前安全核查"
+        },
+        {
+          "field_key": "pregnancy",
+          "group": "妊娠与生育相关情况",
+          "section": "safety",
+          "status": "confirmed",
+          "weight": 3,
+          "evidence": [
+            "目前没有怀孕、备孕或哺乳"
+          ],
+          "confidence": 0.9,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "医生开方前安全核查"
+        },
+        {
+          "field_key": "red_flags",
+          "group": "危险信号",
+          "section": "safety",
+          "status": "confirmed",
+          "weight": 3,
+          "evidence": [
+            "胸痛",
+            "晕厥、意识异常"
+          ],
+          "confidence": 0.99,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "医生开方前安全核查"
+        }
+      ],
+      "partial": [
+        {
+          "field_key": "onset_course",
+          "group": "起病经过与相关因素",
+          "section": "differentiation",
+          "status": "partial",
+          "weight": 4,
+          "evidence": [
+            "最近半年体重增加二十公斤"
+          ],
+          "confidence": 0.8,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "国家卫生健康委《肥胖症诊疗指南（2024年版）》"
+        },
+        {
+          "field_key": "tongue",
+          "group": "舌象",
+          "section": "differentiation",
+          "status": "partial",
+          "weight": 5,
+          "evidence": [
+            "现在不方便提供舌头照片"
+          ],
+          "confidence": 1.0,
+          "attempts": 0,
+          "conflicts": [],
+          "source": "十问歌与中医问诊经验"
+        }
+      ],
+      "unavailable": [],
+      "not_asked": [],
+      "not_applicable": []
+    },
+    "safety_fields": [
+      {
+        "field_key": "allergies",
+        "group": "过敏史",
+        "section": "safety",
+        "status": "confirmed",
+        "weight": 6,
+        "evidence": [
+          "目前没有发现任何药物、食物或其他过敏"
+        ],
+        "confidence": 0.95,
+        "attempts": 2,
+        "conflicts": [],
+        "source": "医生开方前安全核查"
+      },
+      {
+        "field_key": "medications",
+        "group": "当前用药与保健品",
+        "section": "safety",
+        "status": "confirmed",
+        "weight": 6,
+        "evidence": [
+          "目前没有服用药物、保健品或减重产品"
+        ],
+        "confidence": 0.95,
+        "attempts": 0,
+        "conflicts": [],
+        "source": "医生开方前安全核查"
+      },
+      {
+        "field_key": "important_history",
+        "group": "既往疾病与继发性肥胖线索",
+        "section": "safety",
+        "status": "confirmed",
+        "weight": 7,
+        "evidence": [
+          "以前没有确诊高血压、糖尿病、甲状腺疾病、肝病或肾病"
+        ],
+        "confidence": 0.9,
+        "attempts": 0,
+        "conflicts": [],
+        "source": "医生开方前安全核查"
+      },
+      {
+        "field_key": "metabolic_tests",
+        "group": "肝肾功能、代谢风险和近期检查",
+        "section": "safety",
+        "status": "confirmed",
+        "weight": 5,
+        "evidence": [
+          "近期没有做过血糖、血脂、肝肾功能或甲状腺检查"
+        ],
+        "confidence": 0.9,
+        "attempts": 0,
+        "conflicts": [],
+        "source": "医生开方前安全核查"
+      },
+      {
+        "field_key": "pregnancy",
+        "group": "妊娠与生育相关情况",
+        "section": "safety",
+        "status": "confirmed",
+        "weight": 3,
+        "evidence": [
+          "目前没有怀孕、备孕或哺乳"
+        ],
+        "confidence": 0.9,
+        "attempts": 0,
+        "conflicts": [],
+        "source": "医生开方前安全核查"
+      },
+      {
+        "field_key": "red_flags",
+        "group": "危险信号",
+        "section": "safety",
+        "status": "confirmed",
+        "weight": 3,
+        "evidence": [
+          "胸痛",
+          "晕厥、意识异常"
+        ],
+        "confidence": 0.99,
+        "attempts": 0,
+        "conflicts": [],
+        "source": "医生开方前安全核查"
+      }
+    ],
+    "blocking_keys": [],
+    "conflicts": [],
+    "safety_alerts": [
+      "胸痛",
+      "晕厥",
+      "意识异常"
+    ],
+    "open_answer": "最近半年体重增加二十公斤，而且有胸痛",
+    "follow_up_answers": [
+      {
+        "question": "为了后续用药安全，想先了解一下：您以前有没有对什么药物、食物或其他东西过敏的情况？",
+        "answer": "没有明确的药物或食物过敏。目前没有服用药物、保健品或减重产品。以前没有确诊高血压、糖尿病、甲状腺疾病、肝病或肾病，近期没有做过血糖、血脂、肝肾功能或甲状腺检查。目前没有怀孕、备孕或哺乳。身高165厘米，体重85公斤，腰围约92厘米，最近半年增加了20公斤，主要想控制体重。体重增加与工作久坐、运动减少和经常熬夜有关，以前尝试过少吃晚饭，效果不明显。平时食欲较好，喜欢甜食和油腻食物，口渴不明显；比较怕冷，容易出汗；大便每天一次、成形，小便正常；睡眠较差、容易醒，工作压力较大；平时容易疲乏，上楼有些气短；身体偶尔困重，但没有浮肿；胸痛偶尔一阵一阵出现，目前没有明显呼吸困难、晕厥或意识异常，腹部偶尔饭后胀。三餐不太规律，偶尔吃夜宵，每周运动一到两次，经常晚上十二点后睡，压力大时会多吃零食。现在不方便提供舌头照片。",
+        "question_key": "allergies",
+        "question_kind": "required",
+        "attempt_number": 1,
+        "answer_quality": "unavailable",
+        "created_at": "2026-08-15T19:29:55"
+      },
+      {
+        "question": "过敏史很重要，您能否确认一下：有明确过敏，还是目前没有发现？",
+        "answer": "目前没有发现任何药物、食物或其他过敏",
+        "question_key": "allergies",
+        "question_kind": "required",
+        "attempt_number": 2,
+        "answer_quality": "provided",
+        "created_at": "2026-08-15T19:34:31"
+      }
+    ],
+    "audit": [
+      {
+        "event": "session_created",
+        "turn": 0,
+        "rule_version": "adult-obesity-intake-v1"
+      },
+      {
+        "event": "open_answer_submitted",
+        "turn": 1
+      },
+      {
+        "event": "analysis_applied",
+        "turn": 1,
+        "decision": "continue_collecting",
+        "rule_version": "adult-obesity-intake-v1"
+      },
+      {
+        "event": "follow_up_answer_submitted",
+        "turn": 2,
+        "field_key": "allergies",
+        "attempt_number": 1,
+        "answer_quality": "unavailable"
+      },
+      {
+        "event": "analysis_applied",
+        "turn": 2,
+        "decision": "continue_collecting",
+        "rule_version": "adult-obesity-intake-v1"
+      },
+      {
+        "event": "follow_up_answer_submitted",
+        "turn": 3,
+        "field_key": "allergies",
+        "attempt_number": 2,
+        "answer_quality": "provided"
+      },
+      {
+        "event": "analysis_applied",
+        "turn": 3,
+        "decision": "threshold_reached",
+        "rule_version": "adult-obesity-intake-v1"
+      }
+    ],
+    "recommended_exams": []
+  }
+}

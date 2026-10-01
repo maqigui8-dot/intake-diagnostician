@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9" /></g>
+  <g id="header"><text x="64" y="74" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">患者端界面与交互</text><text x="64" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">患者看到连续的对话体验，内部判断逻辑留在医生端</text></g>
+  <g id="annotation-rail">
+    <line x1="92" y1="178" x2="92" y2="566" stroke="#D7E2D8" stroke-width="3" />
+    <circle cx="92" cy="206" r="22" fill="#236B45" />
+    
+  <g transform="translate(78, 192) scale(1.16667)" fill="#FFFFFF">
+    <path d="M18 3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-4.724l-4.762 2.857a1 1 0 0 1 -1.508 -.743l-.006 -.114v-2h-1a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-8a4 4 0 0 1 4 -4zm-2.8 9.286a1 1 0 0 0 -1.414 .014a2.5 2.5 0 0 1 -3.572 0a1 1 0 0 0 -1.428 1.4a4.5 4.5 0 0 0 6.428 0a1 1 0 0 0 -.014 -1.414m-5.69 -4.286h-.01a1 1 0 1 0 0 2h.01a1 1 0 0 0 0 -2m5 0h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2" />
+  </g>
+    <text x="132" y="201" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">对话式追问</text>
+    <text x="132" y="230" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">一次聚焦一个问题</text>
+    <circle cx="92" cy="320" r="22" fill="#72A984" />
+    
+  <g transform="translate(78, 306) scale(1.16667)" fill="#FFFFFF">
+    <path d="M17.997 4.17a3 3 0 0 1 2.003 2.83v12a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 2.003 -2.83a4 4 0 0 0 3.997 3.83h4a4 4 0 0 0 3.98 -3.597zm-8.987 10.83h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m5.99 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0 -2m-5.99 -4h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m5.99 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0 -2m-1 -9a2 2 0 1 1 0 4h-4a2 2 0 1 1 0 -4z" />
+  </g>
+    <text x="132" y="315" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">历史完整保留</text>
+    <text x="132" y="344" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">固定区域滚动查看</text>
+    <circle cx="92" cy="434" r="22" fill="#C68A3A" />
+    
+  <g transform="translate(78, 420) scale(1.16667)" fill="#FFFFFF">
+    <path d="M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
+    <path d="M19 9c.513 0 .936 .463 .993 1.06l.007 .14v7.2c0 1.917 -1.249 3.484 -2.824 3.594l-.176 .006h-10c-1.598 0 -2.904 -1.499 -2.995 -3.388l-.005 -.212v-7.2c0 -.663 .448 -1.2 1 -1.2h14zm-5 2h-4l-.117 .007a1 1 0 0 0 0 1.986l.117 .007h4l.117 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z" />
+  </g>
+    <text x="132" y="429" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">个人档案回看</text>
+    <text x="132" y="458" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">仅查看自己的记录</text>
+    <circle cx="92" cy="548" r="22" fill="#236B45" />
+    
+  <g transform="translate(78, 534) scale(1.16667)" fill="#FFFFFF">
+    <path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+    <text x="132" y="543" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">信息边界清楚</text>
+    <text x="132" y="572" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">内部缺失项不展示</text>
+  </g>
+  <g id="patient-screenshot-placeholder">
+    <path fill="#FFFFFF" stroke="#72A984" stroke-width="2" stroke-dasharray="8,4" d="M446,154 H1208 A8,8 0 0 1 1216,162 V626 A8,8 0 0 1 1208,634 H446 A8,8 0 0 1 438,626 V162 A8,8 0 0 1 446,154 Z" />
+    <path fill="#F1F6EF" d="M446,154 H1208 A8,8 0 0 1 1216,162 V190 A8,8 0 0 1 1208,198 H446 A8,8 0 0 1 438,190 V162 A8,8 0 0 1 446,154 Z" />
+    <rect x="438" y="188" width="778" height="10" fill="#F1F6EF" />
+    <circle cx="468" cy="176" r="5" fill="#C68A3A" /><circle cx="486" cy="176" r="5" fill="#72A984" /><circle cx="504" cy="176" r="5" fill="#D7E2D8" />
+    
+  <g transform="translate(754, 314) scale(4.66667)" fill="#D7E2D8">
+    <path d="M18 3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-4.724l-4.762 2.857a1 1 0 0 1 -1.508 -.743l-.006 -.114v-2h-1a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-8a4 4 0 0 1 4 -4zm-2.8 9.286a1 1 0 0 0 -1.414 .014a2.5 2.5 0 0 1 -3.572 0a1 1 0 0 0 -1.428 1.4a4.5 4.5 0 0 0 6.428 0a1 1 0 0 0 -.014 -1.414m-5.69 -4.286h-.01a1 1 0 1 0 0 2h.01a1 1 0 0 0 0 -2m5 0h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2" />
+  </g>
+    <text x="827" y="463" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#236B45">患者端页面截图</text>
+    <text x="827" y="504" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">请放入当前对话问诊界面，保留聊天记录与输入区域</text>
+    <path fill="#F1F6EF" d="M684,542 H970 A8,8 0 0 1 978,550 V574 A8,8 0 0 1 970,582 H684 A8,8 0 0 1 676,574 V550 A8,8 0 0 1 684,542 Z" />
+    <text x="827" y="568" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#236B45">建议裁掉浏览器多余边框</text>
+  </g>
+  <g id="footer"><text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text><text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">08</text></g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="coverShot"><rect x="716" y="100" width="500" height="420" rx="18"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="18" height="720" fill="#2F8F4E"/>
+  <circle cx="108" cy="102" r="32" fill="#E6F4E8"/>
+  <text x="108" y="113" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" fill="#2F8F4E">中</text>
+  <text x="156" y="96" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#21352A">中医智能助手</text>
+  <text x="156" y="124" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#6C7A70">诊前问诊流程改进汇报</text>
+
+  <rect x="76" y="194" width="94" height="34" rx="17" fill="#E6F4E8"/>
+  <text x="123" y="216" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#2F8F4E">阶段进展</text>
+  <text x="76" y="300" font-family="Microsoft YaHei, Arial, sans-serif" font-size="60" font-weight="700" fill="#1D5732">中医诊前</text>
+  <text x="76" y="374" font-family="Microsoft YaHei, Arial, sans-serif" font-size="60" font-weight="700" fill="#1D5732">问诊系统</text>
+  <text x="76" y="430" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="600" fill="#2F8F4E">问题改进与当前完整使用流程</text>
+  <line x1="76" y1="470" x2="580" y2="470" stroke="#DCE5DD" stroke-width="2"/>
+  <text x="76" y="513" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#6C7A70">从固定追问，升级为连续的对话式信息采集</text>
+  <text x="76" y="548" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#6C7A70">形成诊前档案，并给出建议检查项目</text>
+
+  <rect x="686" y="70" width="560" height="500" rx="24" fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2"/>
+  <rect x="716" y="100" width="500" height="420" rx="18" fill="#FFFFFF"/>
+  <image x="716" y="100" width="500" height="420" href="../images/01_dialogue_current.png" preserveAspectRatio="xMidYMid meet" clip-path="url(#coverShot)"/>
+  <circle cx="748" cy="546" r="6" fill="#2F8F4E"/>
+  <text x="764" y="552" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#6C7A70">当前对话式追问界面</text>
+
+  <rect x="76" y="628" width="1128" height="1" fill="#DCE5DD"/>
+  <text x="76" y="665" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#6C7A70">工作进展汇报</text>
+  <text x="1204" y="665" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#6C7A70">2026.08.14</text>
+</svg>

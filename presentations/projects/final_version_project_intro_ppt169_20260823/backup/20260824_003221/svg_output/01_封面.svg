@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#FCFDF9"/>
+    <rect x="780" y="0" width="500" height="720" fill="#236B45"/>
+    <rect x="56" y="54" width="118" height="32" rx="16" fill="#F1F6EF"/>
+    <text x="115" y="76" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#236B45">项目介绍</text>
+  </g>
+  <g id="title-block">
+    <text x="70" y="210" font-family="KaiTi, Georgia, serif" font-size="68" font-weight="bold" fill="#24332B">
+      <tspan x="70" dy="0">成人肥胖中医</tspan>
+      <tspan x="70" dy="82">诊前问诊系统</tspan>
+    </text>
+    <rect x="70" y="400" width="84" height="5" rx="2" fill="#C68A3A"/>
+    <text x="70" y="452" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" fill="#236B45">面向诊中决策的智能诊前资料整理</text>
+    <text x="70" y="512" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#68756D">
+      <tspan x="70" dy="0">把零散描述，整理成诊中可用资料</tspan>
+    </text>
+  </g>
+  <g id="workflow-spine">
+    <line x1="902" y1="150" x2="902" y2="565" stroke="#72A984" stroke-width="4"/>
+    <circle cx="902" cy="160" r="38" fill="#FCFDF9"/>
+    <circle cx="902" cy="295" r="38" fill="#FCFDF9"/>
+    <circle cx="902" cy="430" r="38" fill="#FCFDF9"/>
+    <circle cx="902" cy="565" r="38" fill="#FCFDF9"/>
+    <text x="902" y="169" text-anchor="middle" font-family="KaiTi, Georgia, serif" font-size="28" font-weight="bold" fill="#236B45">收</text>
+    <text x="902" y="304" text-anchor="middle" font-family="KaiTi, Georgia, serif" font-size="28" font-weight="bold" fill="#236B45">问</text>
+    <text x="902" y="439" text-anchor="middle" font-family="KaiTi, Georgia, serif" font-size="28" font-weight="bold" fill="#236B45">整</text>
+    <text x="902" y="574" text-anchor="middle" font-family="KaiTi, Georgia, serif" font-size="28" font-weight="bold" fill="#236B45">备</text>
+  </g>
+  <g id="workflow-labels">
+    <text x="978" y="153" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">收集</text>
+    <text x="978" y="182" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F1F6EF">基础资料与开放描述</text>
+    <text x="978" y="288" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">追问</text>
+    <text x="978" y="317" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F1F6EF">围绕核心缺口对话</text>
+    <text x="978" y="423" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">整理</text>
+    <text x="978" y="452" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F1F6EF">形成结构化诊前档案</text>
+    <text x="978" y="558" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">准备</text>
+    <text x="978" y="587" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F1F6EF">辅助医生诊中确认</text>
+  </g>
+  <g id="cover-footer">
+    <text x="70" y="666" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#68756D">最终版本 · 项目介绍</text>
+  </g>
+</svg>

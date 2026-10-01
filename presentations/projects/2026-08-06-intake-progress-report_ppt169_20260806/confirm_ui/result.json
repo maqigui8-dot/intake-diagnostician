@@ -1,0 +1,40 @@
+{
+  "canvas": "ppt169",
+  "content_divergence": "????????,??????????????????",
+  "color": {
+    "palette": {
+      "accent": "#D6A84B",
+      "background": "#F7F9F5",
+      "secondary_accent": "#4C8C7A",
+      "primary": "#2F6B4F",
+      "body_text": "#1F2A24",
+      "secondary_bg": "#EAF2E8"
+    },
+    "name": "????"
+  },
+  "refine_spec": false,
+  "audience": "?????????,??????????",
+  "formula_policy": "text-only",
+  "page_count": "8",
+  "visual_style": "soft-rounded",
+  "generation_mode": "continuous",
+  "image_usage": "provided",
+  "mode": "briefing",
+  "icons": "tabler-outline",
+  "typography": {
+    "body_size": 20,
+    "body": {
+      "latin": "Arial",
+      "css": "'Microsoft YaHei', Arial, sans-serif",
+      "cjk": "Microsoft YaHei"
+    },
+    "name": "????",
+    "heading": {
+      "latin": "Arial",
+      "css": "'Microsoft YaHei', Arial, sans-serif",
+      "cjk": "Microsoft YaHei"
+    }
+  },
+  "status": "confirmed",
+  "confirmed_at": "2026-08-06T15:01:48"
+}

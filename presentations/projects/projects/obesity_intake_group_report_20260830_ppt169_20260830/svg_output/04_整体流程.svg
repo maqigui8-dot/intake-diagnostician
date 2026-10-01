@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">03 · 系统流程</text>
+  <text x="64" y="126" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174C43">从患者填写到医生查看的完整流程</text>
+  <line x1="64" y1="148" x2="1216" y2="148" stroke="#CDD8D2" stroke-width="2"/>
+  <rect x="72" y="190" width="366" height="42" fill="#E8EFEA"/>
+  <rect x="456" y="190" width="482" height="42" fill="#DCEAE4"/>
+  <rect x="956" y="190" width="252" height="42" fill="#F7E7DE"/>
+  <text x="255" y="218" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="700" fill="#174C43">患者端</text>
+  <text x="697" y="218" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="700" fill="#174C43">问诊决策引擎</text>
+  <text x="1082" y="218" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="700" fill="#C76B3C">医生端</text>
+  <line x1="120" y1="356" x2="1150" y2="356" stroke="#6E9184" stroke-width="5"/>
+  <polygon points="1162,356 1142,344 1142,368" fill="#6E9184"/>
+  <circle cx="130" cy="356" r="34" fill="#FFFFFF" stroke="#174C43" stroke-width="3"/>
+  <circle cx="274" cy="356" r="34" fill="#FFFFFF" stroke="#174C43" stroke-width="3"/>
+  <circle cx="418" cy="356" r="34" fill="#FFFFFF" stroke="#174C43" stroke-width="3"/>
+  <circle cx="562" cy="356" r="34" fill="#FFFFFF" stroke="#174C43" stroke-width="3"/>
+  <circle cx="706" cy="356" r="34" fill="#FFFFFF" stroke="#174C43" stroke-width="3"/>
+  <circle cx="850" cy="356" r="34" fill="#FFFFFF" stroke="#174C43" stroke-width="3"/>
+  <circle cx="994" cy="356" r="34" fill="#FFFFFF" stroke="#C76B3C" stroke-width="3"/>
+  <circle cx="1138" cy="356" r="34" fill="#FFFFFF" stroke="#C76B3C" stroke-width="3"/>
+  <text x="130" y="364" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174C43">1</text>
+  <text x="274" y="364" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174C43">2</text>
+  <text x="418" y="364" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174C43">3</text>
+  <text x="562" y="364" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174C43">4</text>
+  <text x="706" y="364" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174C43">5</text>
+  <text x="850" y="364" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174C43">6</text>
+  <text x="994" y="364" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#C76B3C">7</text>
+  <text x="1138" y="364" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#C76B3C">8</text>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#24332E" text-anchor="middle">
+    <text x="130" y="430">基础资料</text><text x="130" y="456">填写</text>
+    <text x="274" y="430">主要诉求</text><text x="274" y="456">描述</text>
+    <text x="418" y="430">提取已有</text><text x="418" y="456">信息</text>
+    <text x="562" y="430">更新字段</text><text x="562" y="456">状态</text>
+    <text x="706" y="430">判断核心</text><text x="706" y="456">完整度</text>
+    <text x="850" y="430">继续追问</text><text x="850" y="456">或停止</text>
+    <text x="994" y="430">生成保存</text><text x="994" y="456">档案</text>
+    <text x="1138" y="430">医生查看</text><text x="1138" y="456">确认</text>
+  </g>
+  <rect x="216" y="530" width="848" height="74" fill="#FFFFFF" stroke="#CDD8D2" stroke-width="2"/>
+  <use data-icon="tabler-outline/arrows-split" x="250" y="547" width="40" height="40" fill="#174C43" stroke-width="2"/>
+  <text x="318" y="565" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174C43">关键区别</text>
+  <text x="318" y="594" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#62716B">不是固定题库顺序：每轮回答后重新提取信息、更新状态并判断下一步。</text>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">04</text>
+</svg>

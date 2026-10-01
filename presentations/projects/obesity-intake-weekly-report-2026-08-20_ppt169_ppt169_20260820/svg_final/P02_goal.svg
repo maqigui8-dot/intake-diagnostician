@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6" />
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#155E47">01 / 项目定位</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">为诊中服务，而不是在线确诊</text>
+    <line x1="64" y1="172" x2="1216" y2="172" stroke="#C9D7CE" stroke-width="1" />
+  </g>
+  <g id="patient-stage">
+    <circle cx="206" cy="330" r="55" fill="#EAF2EB" />
+    <text x="206" y="340" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="29" font-weight="700" fill="#155E47">患</text>
+    <text x="206" y="424" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#15221C">患者表达</text>
+    <text x="206" y="456" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5E6D65">主诉、体重变化、</text>
+    <text x="206" y="482" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5E6D65">症状与生活方式</text>
+  </g>
+  <g id="system-stage">
+    <line x1="301" y1="330" x2="464" y2="330" stroke="#4C8C7B" stroke-width="3" />
+    <polygon points="464,330 447,320 447,340" fill="#4C8C7B" />
+    <circle cx="601" cy="330" r="70" fill="#155E47" />
+    <text x="601" y="324" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="27" font-weight="700" fill="#F7F9F6">结构化</text>
+    <text x="601" y="358" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="27" font-weight="700" fill="#F7F9F6">诊前资料</text>
+    <text x="601" y="434" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5E6D65">规则校验 · 对话追问 · 完整度判断</text>
+  </g>
+  <g id="doctor-stage">
+    <line x1="675" y1="330" x2="838" y2="330" stroke="#4C8C7B" stroke-width="3" />
+    <polygon points="838,330 821,320 821,340" fill="#4C8C7B" />
+    <circle cx="972" cy="330" r="55" fill="#EAF2EB" />
+    <text x="972" y="340" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="29" font-weight="700" fill="#155E47">医</text>
+    <text x="972" y="424" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#15221C">医生确认</text>
+    <text x="972" y="456" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5E6D65">诊中辨证、风险判断、</text>
+    <text x="972" y="482" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5E6D65">检查与治疗决策</text>
+  </g>
+  <g id="statement">
+    <path fill="#EAF2EB" d="M70,564 H1210 A6,6 0 0 1 1216,570 V634 A6,6 0 0 1 1210,640 H70 A6,6 0 0 1 64,634 V570 A6,6 0 0 1 70,564 Z" />
+    <rect x="64" y="564" width="7" height="76" fill="#E07A5F" />
+    <text x="96" y="611" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#155E47">患者端只呈现安全结果，最终判断由医生确认。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">02</text>
+  </g>
+</svg>

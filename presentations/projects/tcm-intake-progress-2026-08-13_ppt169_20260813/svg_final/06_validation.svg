@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#174B39" />
+
+  <g id="page-header">
+    <path fill="#DDEEE6" d="M67,46 H151 A15,15 0 0 1 166,61 V61 A15,15 0 0 1 151,76 H67 A15,15 0 0 1 52,61 V61 A15,15 0 0 1 67,46 Z" />
+    <text x="109" y="67" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#174B39">验证结果</text>
+    <text x="52" y="124" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF">修复结果与验证</text>
+    <text x="52" y="158" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#DDEEE6">无限追问已从“依赖模型停止”改为“流程级保证结束”</text>
+    
+  <g transform="translate(1178, 64) scale(1.75)" fill="none" stroke="#DDEEE6" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M9 14l2 2l4 -4" />
+  </g>
+  </g>
+
+  <g id="metric-12">
+    <path fill="#FFFFFF" d="M70,202 H310 A18,18 0 0 1 328,220 V444 A18,18 0 0 1 310,462 H70 A18,18 0 0 1 52,444 V220 A18,18 0 0 1 70,202 Z" />
+    <text x="82" y="250" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">允许正常高轮次</text>
+    <text x="82" y="330" font-family="Microsoft YaHei, Arial, sans-serif" font-size="56" font-weight="700" fill="#237A57">12</text>
+    <text x="82" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E2A25">第 12 个回答正常保存</text>
+    <text x="82" y="408" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">不再固定限制为 5 轮</text>
+    <path fill="#DDEEE6" d="M93,428 H163 A11,11 0 0 1 174,439 V439 A11,11 0 0 1 163,450 H93 A11,11 0 0 1 82,439 V439 A11,11 0 0 1 93,428 Z" />
+    <text x="128" y="444" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#174B39">验证通过</text>
+  </g>
+
+  <g id="metric-13">
+    <path fill="#FFFFFF" d="M370,202 H610 A18,18 0 0 1 628,220 V444 A18,18 0 0 1 610,462 H370 A18,18 0 0 1 352,444 V220 A18,18 0 0 1 370,202 Z" />
+    <text x="382" y="250" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#E45B4B">安全边界生效</text>
+    <text x="382" y="330" font-family="Microsoft YaHei, Arial, sans-serif" font-size="56" font-weight="700" fill="#E45B4B">13</text>
+    <text x="382" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E2A25">第 13 次提交直接拒绝</text>
+    <text x="382" y="408" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">不会再继续到 30 轮</text>
+    <path fill="#FBE9E6" d="M393,428 H463 A11,11 0 0 1 474,439 V439 A11,11 0 0 1 463,450 H393 A11,11 0 0 1 382,439 V439 A11,11 0 0 1 393,428 Z" />
+    <text x="428" y="444" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#E45B4B">返回 400</text>
+  </g>
+
+  <g id="metric-backend">
+    <path fill="#FFFFFF" d="M670,202 H910 A18,18 0 0 1 928,220 V444 A18,18 0 0 1 910,462 H670 A18,18 0 0 1 652,444 V220 A18,18 0 0 1 670,202 Z" />
+    <text x="682" y="250" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#D6A83B">后端验证</text>
+    <text x="682" y="330" font-family="Microsoft YaHei, Arial, sans-serif" font-size="56" font-weight="700" fill="#D6A83B">31</text>
+    <text x="682" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E2A25">后端测试全部通过</text>
+    <text x="682" y="408" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">策略、接口、Skill 分析</text>
+    <path fill="#FBF4DD" d="M693,428 H763 A11,11 0 0 1 774,439 V439 A11,11 0 0 1 763,450 H693 A11,11 0 0 1 682,439 V439 A11,11 0 0 1 693,428 Z" />
+    <text x="728" y="444" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#174B39">31 / 31</text>
+  </g>
+
+  <g id="metric-frontend">
+    <path fill="#FFFFFF" d="M970,202 H1210 A18,18 0 0 1 1228,220 V444 A18,18 0 0 1 1210,462 H970 A18,18 0 0 1 952,444 V220 A18,18 0 0 1 970,202 Z" />
+    <text x="982" y="250" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">前端验证</text>
+    <text x="982" y="330" font-family="Microsoft YaHei, Arial, sans-serif" font-size="56" font-weight="700" fill="#237A57">15</text>
+    <text x="982" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E2A25">前端测试全部通过</text>
+    <text x="982" y="408" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">阶段判断与患者可见内容</text>
+    <path fill="#DDEEE6" d="M993,428 H1063 A11,11 0 0 1 1074,439 V439 A11,11 0 0 1 1063,450 H993 A11,11 0 0 1 982,439 V439 A11,11 0 0 1 993,428 Z" />
+    <text x="1028" y="444" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#174B39">15 / 15</text>
+  </g>
+
+  <g id="final-status">
+    <path fill="#DDEEE6" d="M70,500 H1210 A18,18 0 0 1 1228,518 V608 A18,18 0 0 1 1210,626 H70 A18,18 0 0 1 52,608 V518 A18,18 0 0 1 70,500 Z" />
+    <circle cx="98" cy="545" r="24" fill="#237A57" />
+    
+  <g transform="translate(83, 530) scale(1.25)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M7 12l5 5l10 -10" />
+    <path d="M2 12l5 5m5 -5l5 -5" />
+  </g>
+    <text x="138" y="550" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="700" fill="#174B39">当前状态：对话式追问可以继续，也一定能够结束</text>
+    <text x="138" y="590" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#617068">重复缺口被拦截 · 选问项不再阻塞 · 生产构建通过 · 页面无控制台错误</text>
+  </g>
+
+  <g id="footer">
+    <text x="52" y="684" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#DDEEE6">中医诊前问诊系统 · 今日修改验证完成</text>
+    <text x="1228" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#DDEEE6">06 / 06</text>
+  </g>
+</svg>

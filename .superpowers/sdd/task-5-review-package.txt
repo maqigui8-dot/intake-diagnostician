@@ -1,0 +1,165 @@
+Task 5 review package
+Base: pre-task snapshot (.superpowers/sdd/task-5-before/)
+Head: current workspace
+
+===== DIFF backend/skills/tcm-intake-checklist/SKILL.md =====
+--- .superpowers/sdd/task-5-before/SKILL-checklist.md	2026-08-18 21:59:56.222037400 +0800
++++ backend/skills/tcm-intake-checklist/SKILL.md	2026-08-18 22:04:14.221048700 +0800
+@@ -1,27 +1,37 @@
+ ---
+ name: tcm-intake-checklist
+-description: 用于成人单纯性肥胖诊前资料的字段证据提取，区分辨证资料与开方安全资料，不直接计算执行度。
++description: 用于成人单纯性肥胖诊前资料的四层字段证据提取，AI 只提取字段证据，不直接计算执行度或停止条件。
+ ---
+ 
+ # 成人单纯性肥胖诊前资料检查
+ 
+ ## 适用范围
+ 
+-仅用于 18 岁及以上、以体重管理或肥胖相关困扰为主要诉求的成人诊前采集。儿童、已知妊娠、明确继发性肥胖和急症不进入普通问诊路径，应提示医生另行处理。
++仅用于 18 岁及以上、以体重管理或肥胖相关困扰为主要诉求的成人诊前采集。儿童、已知妊娠、明确继发性肥胖和急症不进入普通问诊路径，应提示医生另行处理。患者端只能显示“达到成人肥胖范围，待医生确认”，不直接确诊。
+ 
+-## 两部分资料
++## 四层字段
+ 
+-### 辨证资料执行度字段
++### 基础诊断硬性字段（baseline）
+ 
+-提取肥胖情况与主要诉求、身高体重和腰围、体重变化、起病经过、相关因素、既往体重管理、中医症状、舌象、饮食运动、作息和情绪性进食等患者原话证据。
++年龄、生理性别、身高、体重、BMI。年龄、生理性别、身高、体重和 BMI 计算成功是正常完成的硬性条件；未满 18 岁不得套用成人 BMI 规则。
+ 
+-中医症状资料参考十问歌和《肥胖症诊疗指南（2024年版）》中常见肥胖证候表现，但这里只整理症状，不输出证型或患病概率。
++### 病因与风险资料（risk）
+ 
+-### 开方安全执行度字段
++肥胖情况与主要诉求、体重变化、起病经过、相关因素、家族史、既往体重管理、生活方式、饮食运动、近期检查等患者原话证据。该层阈值为 80%。
+ 
+-提取过敏史、当前用药和保健品、重要既往病史与继发性肥胖线索、肝肾和代谢检查、适用人群的妊娠生育信息，以及危险信号。
++### 中医诊前资料（tcm）
+ 
+-过敏、用药、重要病史和危险信号是开方前硬必问项。危险信号优先于普通资料采集。
++食欲口渴、寒热汗出、二便、睡眠情绪、疲乏气短、身体困重、胸腹不适、舌象等中医症状资料。参考十问歌和《肥胖症诊疗指南（2024年版）》中的常见肥胖证候表现，只整理症状，不输出证型或患病概率。该层阈值为 70%。
++
++### 安全硬性字段（safety）
++
++危险信号、过敏史、当前用药、重要既往疾病。过敏、用药、重要病史和危险信号是开方前硬必问项，该层阈值为 100%。危险信号优先于普通资料采集。
++
++## 字段分类
++
++- 必问（required）：基础诊断硬性字段与安全硬性字段，缺失即无法完成。
++- 条件（conditional）：妊娠与生育信息仅对适用人群询问，不适用时跳过。
++- 选问（optional）：舌象、生活方式与近期检查等，不阻断流程结束。
+ 
+ ## 字段状态
+ 
+@@ -31,9 +41,9 @@
+ - 每个状态必须附带简短患者原话和理解可信度。
+ - 不允许根据常识补全患者没有说过的信息。
+ 
+-## 计分边界
++## 计分与停止归属
+ 
+-AI 不直接计分，不给出总执行度、分项执行度或停止结论。AI 只提交字段状态、患者原话、可信度、矛盾和危险信号；最终分数与停止规则由程序中的固定字段库和计分器完成。
++AI 不直接计分，不给出总执行度、分项执行度或停止结论。AI 只提交字段状态、患者原话、可信度、矛盾和危险信号；最终分数与停止规则由程序中的固定字段库和计分器完成。AI不得修改停止条件，即不得修改硬性字段、权重、阈值或停止规则。
+ 
+ ## 禁止事项
+ 
+
+===== DIFF backend/skills/tcm-questioning-guide/SKILL.md =====
+--- .superpowers/sdd/task-5-before/SKILL-questioning-guide.md	2026-08-18 21:59:56.247271500 +0800
++++ backend/skills/tcm-questioning-guide/SKILL.md	2026-08-18 22:04:21.386374900 +0800
+@@ -1,6 +1,6 @@
+ ---
+ name: tcm-questioning-guide
+-description: 将程序选定的一个成人肥胖诊前字段改写为自然、温和、可回答的患者问题，并处理一次委婉重问。
++description: 将程序选定的一个成人肥胖诊前字段改写为自然、温和、可回答的患者问题，并处理澄清、拒绝、矛盾与委婉重问。
+ ---
+ 
+ # 成人肥胖诊前追问表达指南
+@@ -15,12 +15,31 @@
+ 
+ 程序会给出唯一的目标字段。每轮一个信息点，只围绕该字段生成一个问题，不同时追问时间、程度、诱因和伴随症状。问题使用日常语言，不直接抛出证型、专业字段名或内部判断。
+ 
+-## 友好重问
++## 日常解释用词
++
++解释专业概念时使用日常语言，一次只解释当前概念：
++- BMI：由身高和体重算出的一个数值，用来判断体重是否在偏重范围。
++- 腰围：用软尺绕肚脐一周量出的长度，反映腹部脂肪多少。
++- 过敏：身体对某种药物、食物或其他东西出现的异常反应，如起疹、瘙痒、呼吸困难。
++- 既往疾病：以前被医生确诊过、需要长期注意的疾病。
++- 检查项目：如血糖、血脂、肝功能等抽血或仪器检查，患者只需说明是否做过、有无异常。
++- 中医症状：如怕冷怕热、出汗、食欲、二便、睡眠情绪等身体感觉，用“有没有、更像哪种”的口吻询问。
++
++## 澄清请求
++
++“这是什么”“什么意思”“没听懂”等澄清请求不作为医学证据，也不增加完整度。遇到澄清请求，先解释再重新询问同一个字段，且不消耗追问次数。
++
++## 友好重问与拒绝
+ 
+ - 第一次提问尽量开放、简短，并承接患者原话。
+ - 患者回答“不知道”、答非所问或信息不足时，只允许委婉重问一次。
+ - 第二次用更具体、更容易理解的说法，提供少量清晰选项，同时允许自由补充。
+ - 第二次仍无法回答时停止询问该字段，不换 key 或换说法继续追问。
++- 患者明确表示不清楚或不愿回答时，记录“无法提供”，最多委婉确认一次。
++
++## 矛盾处理
++
++前后矛盾时标记为 partial，交由医生核实，不自行判断对错。
+ 
+ ## 敏感与安全信息
+ 
+@@ -28,7 +47,7 @@
+ 
+ ## 患者可见性
+ 
+-不得向患者展示执行度、分项分数、缺失必问项、建议选问项、内部字段 key、候选证型或停止算法。只输出当前自然问题。
++不得向患者展示执行度、分项分数、缺失必问项、建议选问项、内部字段 key、候选证型或停止条件。只输出当前自然问题。
+ 
+ ## 输出要求
+ 
+
+===== DIFF backend/tests/test_skill_analysis.py =====
+--- .superpowers/sdd/task-5-before/test_skill_analysis.py	2026-08-18 21:59:56.273660000 +0800
++++ backend/tests/test_skill_analysis.py	2026-08-18 22:03:44.570117800 +0800
+@@ -685,7 +685,7 @@
+         backend_dir = Path(__file__).resolve().parents[1]
+         checklist = (backend_dir / "skills" / "tcm-intake-checklist" / "SKILL.md").read_text(encoding="utf-8")
+         questioning = (backend_dir / "skills" / "tcm-questioning-guide" / "SKILL.md").read_text(encoding="utf-8")
+-        for phrase in ("成人单纯性肥胖", "辨证资料执行度", "开方安全执行度", "AI 不直接计分"):
++        for phrase in ("成人单纯性肥胖", "安全硬性字段", "AI 不直接计分"):
+             self.assertIn(phrase, checklist)
+         for phrase in ("开放式首问", "每轮一个信息点", "只允许委婉重问一次", "不得向患者展示"):
+             self.assertIn(phrase, questioning)
+@@ -741,6 +741,25 @@
+         self.assertNotIn('str(_skills_dir / "tcm-zhengxing")', agent_source)
+ 
+ 
++class SkillSourceContractTests(unittest.TestCase):
++    """任务5：两个 Skill 的源文本合同——四层字段模型与确定性完成权威。"""
++
++    @staticmethod
++    def _read_skill(relative_dir: str) -> str:
++        backend_dir = Path(__file__).resolve().parents[1]
++        return (backend_dir / "skills" / relative_dir / "SKILL.md").read_text(encoding="utf-8")
++
++    def test_checklist_describes_four_layers_and_deterministic_authority(self):
++        checklist = self._read_skill("tcm-intake-checklist")
++        for phrase in ("基础诊断硬性字段", "病因与风险资料", "中医诊前资料", "AI不得修改停止条件"):
++            self.assertIn(phrase, checklist)
++
++    def test_questioning_guide_documents_clarification_rules(self):
++        questioning = self._read_skill("tcm-questioning-guide")
++        for phrase in ("澄清请求不作为医学证据", "先解释再重新询问", "不消耗追问次数"):
++            self.assertIn(phrase, questioning)
++
++
+ class ModelConfigurationTests(unittest.TestCase):
+     def test_deepseek_key_selects_v4_flash(self):
+         with patch.dict(os.environ, {"DEEPSEEK_API_KEY": "test-deepseek-key"}, clear=True):
+@@ -758,4 +777,4 @@
+ 
+ 
+ if __name__ == "__main__":
+-    unittest.main()
++    unittest.main()

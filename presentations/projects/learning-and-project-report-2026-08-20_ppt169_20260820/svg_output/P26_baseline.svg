@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6"/>
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#155E47">05 / 当前页面</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">基础资料：先把客观起点问清楚</text>
+    <text x="64" y="184" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#5E6D65">将年龄、性别、身高和体重作为成人肥胖问诊的前置资料。</text>
+  </g>
+  <g id="screenshot">
+    <rect x="64" y="232" width="720" height="316" rx="6" fill="#EAF2EB" stroke="#C9D7CE" stroke-width="2"/>
+    <image href="../images/shot-baseline.png" x="64" y="232" width="720" height="316" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="82" y="505" width="154" height="27" rx="13.5" fill="#155E47"/>
+    <text x="159" y="524" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#F7F9F6">真实系统页面</text>
+  </g>
+  <g id="rules">
+    <text x="858" y="274" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#155E47">前置采集规则</text>
+    <line x1="858" y1="298" x2="1178" y2="298" stroke="#C9D7CE" stroke-width="1"/>
+    <text x="858" y="355" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#E07A5F">01</text>
+    <text x="910" y="355" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#15221C">仅进入成人肥胖流程</text>
+    <text x="910" y="385" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">年龄条件先校验，再进入后续问诊</text>
+    <text x="858" y="445" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#E07A5F">02</text>
+    <text x="910" y="445" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#15221C">四项基础资料必填</text>
+    <text x="910" y="475" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">年龄、性别、身高、体重缺一不可</text>
+    <text x="858" y="535" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#E07A5F">03</text>
+    <text x="910" y="535" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#15221C">BMI 和腰围由服务端计算</text>
+    <text x="910" y="565" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">避免由模型对数值做不确定推断</text>
+  </g>
+  <g id="footer">
+    <text x="64" y="629" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">页面支持自然语言主诉输入，为后续分层追问提供上下文。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">26</text>
+  </g>
+</svg>

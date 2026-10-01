@@ -1,0 +1,14 @@
+Communication job: By the end, the project group should understand that today's work replaced a fixed-round follow-up flow with a conversational, dynamically terminating information-collection loop, supported by two specialized Skills and verified in code and browser.
+
+Narrative: problem with fixed rounds -> conversational experience -> dynamic completion rule -> Skill responsibilities -> before/after evidence -> complete information loop.
+
+Visual direction: Chinese medical product internal briefing; pale clinical green, white, charcoal, muted gold accent; screenshots are primary evidence; flat compositions with restrained rounded surfaces; no external imagery.
+
+Slide roster:
+1. Cover
+2. Why fixed five rounds was wrong
+3. Conversational follow-up experience
+4. Dynamic completion decision
+5. Two Skill responsibilities
+6. Before/after and validation evidence
+7. End-to-end information loop

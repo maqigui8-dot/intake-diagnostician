@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect width="1280" height="720" fill="#F7F9F5"/></g>
+  <g id="header">
+    <text x="68" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1F2A24">两个 Skill 如何分工</text>
+    <text x="68" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">一个定义内容范围，一个控制提问方式</text>
+  </g>
+  <g id="skill-one">
+    <rect x="68" y="154" width="548" height="450" rx="16" fill="#FFFFFF" stroke="#DCE5DC"/>
+    <rect x="68" y="154" width="548" height="88" rx="16" fill="#EAF2E8"/>
+    <circle cx="118" cy="198" r="28" fill="#2F6B4F"/>
+    <text x="118" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">1</text>
+    <text x="162" y="191" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#1F2A24">必问项与选问项确认</text>
+    <text x="162" y="221" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#2F6B4F">回答“应该问什么”</text>
+    <use data-icon="tabler-outline/list-check" x="96" y="282" width="28" height="28" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="142" y="304" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">依据</text>
+    <text x="142" y="339" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">十问歌框架、基础安全项、老中医问诊经验</text>
+    <use data-icon="tabler-outline/clipboard-check" x="96" y="382" width="28" height="28" fill="none" stroke="#2F6B4F" stroke-width="2"/>
+    <text x="142" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">输出</text>
+    <text x="142" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">缺失必问项、可选补充项、当前完整度状态</text>
+    <rect x="96" y="492" width="492" height="76" rx="14" fill="#EAF2E8"/>
+    <text x="118" y="523" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#2F6B4F">核心原则</text>
+    <text x="118" y="551" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1F2A24">缺什么，才问什么</text>
+  </g>
+  <g id="skill-two">
+    <rect x="636" y="154" width="576" height="450" rx="16" fill="#FFFFFF" stroke="#DCE5DC"/>
+    <rect x="636" y="154" width="576" height="88" rx="16" fill="#F6EFD9"/>
+    <circle cx="686" cy="198" r="28" fill="#D6A84B"/>
+    <text x="686" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">2</text>
+    <text x="730" y="191" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#1F2A24">问题表达与追问策略</text>
+    <text x="730" y="221" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#D6A84B">回答“应该怎么问”</text>
+    <use data-icon="tabler-outline/message-question" x="664" y="282" width="28" height="28" fill="none" stroke="#D6A84B" stroke-width="2"/>
+    <text x="710" y="304" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">策略</text>
+    <text x="710" y="339" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">一次一问、通俗表达、结合已知信息、避免诱导</text>
+    <use data-icon="tabler-outline/shield-check" x="664" y="382" width="28" height="28" fill="none" stroke="#D6A84B" stroke-width="2"/>
+    <text x="710" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">约束</text>
+    <text x="710" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">不重复已答内容，不做诊断，不暗示处方结论</text>
+    <rect x="664" y="492" width="520" height="76" rx="14" fill="#F6EFD9"/>
+    <text x="686" y="523" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#D6A84B">核心原则</text>
+    <text x="686" y="551" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1F2A24">问得自然、准确、可回答</text>
+  </g>
+  <g id="handoff">
+    <rect x="475" y="622" width="330" height="46" rx="23" fill="#2F6B4F"/>
+    <text x="640" y="652" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">内容判断 → 提问生成 → 回答回填</text>
+  </g>
+  <g id="footer"><text x="1212" y="682" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">04</text></g>
+</svg>

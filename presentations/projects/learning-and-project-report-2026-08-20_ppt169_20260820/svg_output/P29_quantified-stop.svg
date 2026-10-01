@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6"/>
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#155E47">08 / 量化判断</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">追问什么时候结束？用双指标做判断</text>
+    <text x="64" y="184" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#5E6D65">不是“问满多少轮”，而是核心资料是否已经足以交给医生在诊中核对。</text>
+  </g>
+  <g id="execution-score">
+    <rect x="64" y="228" width="370" height="310" rx="6" fill="#EAF2EB"/>
+    <text x="94" y="277" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#155E47">问诊执行度</text>
+    <text x="94" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">判断：该问的问题是否已完成询问</text>
+    <circle cx="104" cy="356" r="12" fill="#2E8B57"/>
+    <text x="130" y="363" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#15221C">已回答且表述明确</text>
+    <text x="392" y="363" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="700" fill="#155E47">100%</text>
+    <circle cx="104" cy="414" r="12" fill="#4C8C7B"/>
+    <text x="130" y="421" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#15221C">拒答或不知道，已澄清一次</text>
+    <text x="392" y="421" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="700" fill="#155E47">100%</text>
+    <circle cx="104" cy="472" r="12" fill="#C9D7CE"/>
+    <text x="130" y="479" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#15221C">尚未询问</text>
+    <text x="392" y="479" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="700" fill="#5E6D65">0%</text>
+  </g>
+  <g id="information-score">
+    <rect x="466" y="228" width="750" height="310" rx="6" fill="#FFFFFF" stroke="#C9D7CE" stroke-width="2"/>
+    <text x="496" y="277" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#155E47">信息完整度</text>
+    <text x="496" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">判断：医生可实际使用的资料获得了多少</text>
+    <rect x="496" y="341" width="136" height="42" rx="4" fill="#155E47"/>
+    <rect x="632" y="341" width="202" height="42" fill="#4C8C7B"/>
+    <rect x="834" y="341" width="136" height="42" fill="#E07A5F"/>
+    <rect x="970" y="341" width="136" height="42" fill="#2E8B57"/>
+    <rect x="1106" y="341" width="80" height="42" rx="4" fill="#C9D7CE"/>
+    <text x="564" y="368" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#F7F9F6">基础评估 20</text>
+    <text x="733" y="368" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#F7F9F6">病程与生活方式 30</text>
+    <text x="902" y="368" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#F7F9F6">中医症状 20</text>
+    <text x="1038" y="368" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#F7F9F6">安全信息 20</text>
+    <text x="1146" y="368" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#15221C">检查 10</text>
+    <text x="496" y="435" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#15221C">已回答明确：按模块占比计分</text>
+    <text x="496" y="472" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#15221C">不知道/拒答：记为“待诊中确认”，不计入临床信息得分</text>
+    <text x="496" y="509" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">核心安全项包括：既往病史、当前用药、过敏史、妊娠相关情况及重要症状。</text>
+  </g>
+  <g id="decision-rules">
+    <rect x="64" y="574" width="1152" height="78" rx="6" fill="#EAF2EB"/>
+    <text x="92" y="607" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#155E47">80%–84%</text>
+    <text x="204" y="607" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#15221C">生成基础诊前档案</text>
+    <line x1="388" y1="590" x2="388" y2="632" stroke="#C9D7CE" stroke-width="2"/>
+    <text x="418" y="607" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#155E47">≥85%</text>
+    <text x="514" y="607" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#15221C">且无关键安全项缺失，结束追问</text>
+    <line x1="842" y1="590" x2="842" y2="632" stroke="#C9D7CE" stroke-width="2"/>
+    <text x="872" y="607" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#E07A5F">未达标</text>
+    <text x="955" y="607" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#15221C">优先追问当前最关键的缺失项</text>
+    <text x="64" y="684" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">阈值为初始运行标准，后续应结合医生复核结果与真实病例数据持续校准。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">29</text>
+  </g>
+</svg>

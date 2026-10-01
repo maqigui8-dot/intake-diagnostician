@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="64" y="55" width="8" height="44" rx="4" fill="#2F8F4E"/>
+  <text x="92" y="88" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#21352A">当前完整使用流程</text>
+  <text x="92" y="122" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#6C7A70">先完成十个必问项，再按完整度动态追问，最终形成档案和检查建议</text>
+
+  <line x1="148" y1="300" x2="1134" y2="300" stroke="#DCE5DD" stroke-width="6"/>
+  <path d="M1124 289 L1142 300 L1124 311 Z" fill="#2F8F4E"/>
+
+  <rect x="64" y="188" width="205" height="224" rx="18" fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="166" cy="244" r="31" fill="#2F8F4E"/>
+  <text x="166" y="253" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">1</text>
+  <rect x="102" y="278" width="128" height="28" rx="14" fill="#E6F4E8"/>
+  <text x="166" y="297" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#2F8F4E">用户可见</text>
+  <text x="166" y="342" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">十个必问项</text>
+  <text x="166" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#6C7A70">采集基础病情信息</text>
+
+  <rect x="301" y="188" width="205" height="224" rx="18" fill="#E6F4E8" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="403" cy="244" r="31" fill="#1D5732"/>
+  <text x="403" y="253" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">2</text>
+  <rect x="339" y="278" width="128" height="28" rx="14" fill="#FFFFFF"/>
+  <text x="403" y="297" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#1D5732">后台判断</text>
+  <text x="403" y="342" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">完整度检查</text>
+  <text x="403" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#6C7A70">必问项确认技能</text>
+
+  <rect x="538" y="188" width="205" height="224" rx="18" fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="640" cy="244" r="31" fill="#2F8F4E"/>
+  <text x="640" y="253" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">3</text>
+  <rect x="576" y="278" width="128" height="28" rx="14" fill="#E6F4E8"/>
+  <text x="640" y="297" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#2F8F4E">用户可见</text>
+  <text x="640" y="342" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">对话式追问</text>
+  <text x="640" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#6C7A70">提问策略技能</text>
+
+  <rect x="775" y="188" width="205" height="224" rx="18" fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="877" cy="244" r="31" fill="#2F8F4E"/>
+  <text x="877" y="253" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">4</text>
+  <rect x="813" y="278" width="128" height="28" rx="14" fill="#E6F4E8"/>
+  <text x="877" y="297" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#2F8F4E">系统输出</text>
+  <text x="877" y="342" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">诊前档案</text>
+  <text x="877" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#6C7A70">结构化整理信息</text>
+
+  <rect x="1012" y="188" width="205" height="224" rx="18" fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2"/>
+  <circle cx="1114" cy="244" r="31" fill="#D6A74B"/>
+  <text x="1114" y="253" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">5</text>
+  <rect x="1050" y="278" width="128" height="28" rx="14" fill="#FBF4DF"/>
+  <text x="1114" y="297" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#1D5732">系统输出</text>
+  <text x="1114" y="342" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">检查建议</text>
+  <text x="1114" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#6C7A70">按病情推荐项目</text>
+
+  <path d="M638 429 C638 478 565 492 493 477 C451 468 429 447 429 421" fill="none" stroke="#D6A74B" stroke-width="3" stroke-dasharray="8 7"/>
+  <path d="M421 431 L429 413 L439 430 Z" fill="#D6A74B"/>
+  <rect x="472" y="452" width="158" height="30" rx="15" fill="#FBF4DF"/>
+  <text x="551" y="472" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#1D5732">信息不足，继续追问</text>
+
+  <rect x="64" y="526" width="1152" height="118" rx="18" fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2"/>
+  <text x="92" y="558" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1D5732">追问结束条件</text>
+  <circle cx="111" cy="598" r="7" fill="#2F8F4E"/>
+  <text x="130" y="605" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#21352A">关键信息达到完整度阈值</text>
+  <circle cx="436" cy="598" r="7" fill="#2F8F4E"/>
+  <text x="455" y="605" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#21352A">连续追问的信息增益较低</text>
+  <circle cx="778" cy="598" r="7" fill="#2F8F4E"/>
+  <text x="797" y="605" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#21352A">命中重复问题或达到最大轮次</text>
+  <text x="1204" y="695" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#A5B0A8">04 / 07</text>
+</svg>

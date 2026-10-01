@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect width="1280" height="720" fill="#F7F9F5" /></g>
+  <g id="header">
+    <text x="68" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1F2A24">两个 Skill 如何分工</text>
+    <text x="68" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">一个定义内容范围，一个控制提问方式</text>
+  </g>
+  <g id="skill-one">
+    <path fill="#FFFFFF" stroke="#DCE5DC" d="M84,154 H600 A16,16 0 0 1 616,170 V588 A16,16 0 0 1 600,604 H84 A16,16 0 0 1 68,588 V170 A16,16 0 0 1 84,154 Z" />
+    <path fill="#EAF2E8" d="M84,154 H600 A16,16 0 0 1 616,170 V226 A16,16 0 0 1 600,242 H84 A16,16 0 0 1 68,226 V170 A16,16 0 0 1 84,154 Z" />
+    <circle cx="118" cy="198" r="28" fill="#2F6B4F" />
+    <text x="118" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">1</text>
+    <text x="162" y="191" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#1F2A24">必问项与选问项确认</text>
+    <text x="162" y="221" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#2F6B4F">回答“应该问什么”</text>
+    
+  <g transform="translate(96, 282) scale(1.16667)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M3.5 5.5l1.5 1.5l2.5 -2.5" />
+    <path d="M3.5 11.5l1.5 1.5l2.5 -2.5" />
+    <path d="M3.5 17.5l1.5 1.5l2.5 -2.5" />
+    <path d="M11 6l9 0" />
+    <path d="M11 12l9 0" />
+    <path d="M11 18l9 0" />
+  </g>
+    <text x="142" y="304" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">依据</text>
+    <text x="142" y="339" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">十问歌框架、基础安全项、老中医问诊经验</text>
+    
+  <g transform="translate(96, 382) scale(1.16667)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M9 14l2 2l4 -4" />
+  </g>
+    <text x="142" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">输出</text>
+    <text x="142" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">缺失必问项、可选补充项、当前完整度状态</text>
+    <path fill="#EAF2E8" d="M110,492 H574 A14,14 0 0 1 588,506 V554 A14,14 0 0 1 574,568 H110 A14,14 0 0 1 96,554 V506 A14,14 0 0 1 110,492 Z" />
+    <text x="118" y="523" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#2F6B4F">核心原则</text>
+    <text x="118" y="551" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1F2A24">缺什么，才问什么</text>
+  </g>
+  <g id="skill-two">
+    <path fill="#FFFFFF" stroke="#DCE5DC" d="M652,154 H1196 A16,16 0 0 1 1212,170 V588 A16,16 0 0 1 1196,604 H652 A16,16 0 0 1 636,588 V170 A16,16 0 0 1 652,154 Z" />
+    <path fill="#F6EFD9" d="M652,154 H1196 A16,16 0 0 1 1212,170 V226 A16,16 0 0 1 1196,242 H652 A16,16 0 0 1 636,226 V170 A16,16 0 0 1 652,154 Z" />
+    <circle cx="686" cy="198" r="28" fill="#D6A84B" />
+    <text x="686" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">2</text>
+    <text x="730" y="191" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#1F2A24">问题表达与追问策略</text>
+    <text x="730" y="221" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#D6A84B">回答“应该怎么问”</text>
+    
+  <g transform="translate(664, 282) scale(1.16667)" fill="none" stroke="#D6A84B" stroke-width="2">
+    <path d="M8 9h8" />
+    <path d="M8 13h6" />
+    <path d="M14 18h-1l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5" />
+    <path d="M19 22v.01" />
+    <path d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+  </g>
+    <text x="710" y="304" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">策略</text>
+    <text x="710" y="339" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">一次一问、通俗表达、结合已知信息、避免诱导</text>
+    
+  <g transform="translate(664, 382) scale(1.16667)" fill="none" stroke="#D6A84B" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="710" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">约束</text>
+    <text x="710" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#657269">不重复已答内容，不做诊断，不暗示处方结论</text>
+    <path fill="#F6EFD9" d="M678,492 H1170 A14,14 0 0 1 1184,506 V554 A14,14 0 0 1 1170,568 H678 A14,14 0 0 1 664,554 V506 A14,14 0 0 1 678,492 Z" />
+    <text x="686" y="523" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#D6A84B">核心原则</text>
+    <text x="686" y="551" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1F2A24">问得自然、准确、可回答</text>
+  </g>
+  <g id="handoff">
+    <path fill="#2F6B4F" d="M498,622 H782 A23,23 0 0 1 805,645 V645 A23,23 0 0 1 782,668 H498 A23,23 0 0 1 475,645 V645 A23,23 0 0 1 498,622 Z" />
+    <text x="640" y="652" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">内容判断 → 提问生成 → 回答回填</text>
+  </g>
+  <g id="footer"><text x="1212" y="682" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">04</text></g>
+</svg>

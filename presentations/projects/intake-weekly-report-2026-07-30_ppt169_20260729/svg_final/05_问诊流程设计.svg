@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#F7FAF7" />
+  </g>
+  <g id="header">
+    <text x="56" y="70" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#1F2A24">问诊流程设计</text>
+    <text x="56" y="106" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">固定主流程保证完整，AI 保留温度与弹性</text>
+  </g>
+  <g id="flow-line">
+    <line x1="170" y1="258" x2="1110" y2="258" stroke="#D8E4DA" stroke-width="6" stroke-linecap="round" />
+    <line x1="170" y1="258" x2="1110" y2="258" stroke="#65B66C" stroke-width="2" stroke-dasharray="8,4" />
+  </g>
+  <g id="stage-guide">
+    <circle cx="170" cy="258" r="48" fill="#2F7D4A" />
+    <text x="170" y="266" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">01</text>
+    <text x="170" y="340" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">导诊</text>
+    <text x="170" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5F6F64">了解主要症状</text>
+  </g>
+  <g id="stage-intake">
+    <circle cx="480" cy="258" r="48" fill="#65B66C" />
+    <text x="480" y="266" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">02</text>
+    <text x="480" y="340" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">预问诊</text>
+    <text x="480" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5F6F64">完成 10 个核心问题</text>
+  </g>
+  <g id="stage-confirm">
+    <circle cx="790" cy="258" r="48" fill="#65B66C" />
+    <text x="790" y="266" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">03</text>
+    <text x="790" y="340" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">信息确认</text>
+    <text x="790" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5F6F64">回看并修正答案</text>
+  </g>
+  <g id="stage-suggest">
+    <circle cx="1110" cy="258" r="48" fill="#2F7D4A" />
+    <text x="1110" y="266" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">04</text>
+    <text x="1110" y="340" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">检查建议</text>
+    <text x="1110" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5F6F64">生成四诊档案</text>
+  </g>
+  <g id="question-scope">
+    <path fill="#FFFFFF" stroke="#D8E4DA" stroke-width="1" d="M68,440 H1212 A12,12 0 0 1 1224,452 V594 A12,12 0 0 1 1212,606 H68 A12,12 0 0 1 56,594 V452 A12,12 0 0 1 68,440 Z" />
+    
+  <g transform="translate(82, 468) scale(1.25)" fill="none" stroke="#2F7D4A" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M9 14l2 2l4 -4" />
+  </g>
+    <text x="128" y="492" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2A24">中医十问歌核心范围</text>
+    <text x="82" y="544" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5F6F64">主诉　病程　寒热　出汗　头身</text>
+    <text x="648" y="544" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5F6F64">二便　饮食　胸腹　睡眠　病史诱因</text>
+    <line x1="82" y1="570" x2="1198" y2="570" stroke="#E8F0E9" stroke-width="1" />
+    <text x="82" y="595" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#8A978E">流程控制顺序；AI 负责解释、必要追问和最终档案整理。</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="680" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#8A978E">AI 老中医问诊系统｜本周工作汇报</text>
+    <text x="1224" y="680" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#8A978E">05</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#F7FAF7"/>
+    <rect x="0" y="0" width="318" height="720" fill="#2F7D4A"/>
+  </g>
+  <g id="problem-count">
+    <text x="76" y="250" font-family="Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="700" fill="#FFFFFF">改版前</text>
+    <text x="76" y="360" font-family="Microsoft YaHei, Arial, sans-serif" font-size="96" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="76" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">个核心问题</text>
+    <text x="76" y="470" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#EEF6EF">
+      <tspan x="76" dy="0">能对话，</tspan>
+      <tspan x="76" dy="32">但还不像一个</tspan>
+      <tspan x="76" dy="32">完整产品。</tspan>
+    </text>
+  </g>
+  <g id="header">
+    <text x="382" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#1F2A24">改版前的问题</text>
+    <text x="382" y="118" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">自由聊天缺少稳定流程、可见进度和结构化数据</text>
+  </g>
+  <g id="problem-1">
+    <circle cx="420" cy="222" r="28" fill="#EEF6EF" stroke="#65B66C" stroke-width="2"/>
+    <text x="420" y="230" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#2F7D4A">01</text>
+    <text x="478" y="216" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">用户表达成本高</text>
+    <text x="478" y="253" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">需要自己组织症状，信息容易遗漏。</text>
+    <line x1="382" y1="292" x2="1190" y2="292" stroke="#D8E4DA" stroke-width="1"/>
+  </g>
+  <g id="problem-2">
+    <circle cx="420" cy="372" r="28" fill="#EEF6EF" stroke="#65B66C" stroke-width="2"/>
+    <text x="420" y="380" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#2F7D4A">02</text>
+    <text x="478" y="366" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">问诊过程不透明</text>
+    <text x="478" y="403" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">用户不知道问到哪里，也不知道还剩多少。</text>
+    <line x1="382" y1="442" x2="1190" y2="442" stroke="#D8E4DA" stroke-width="1"/>
+  </g>
+  <g id="problem-3">
+    <circle cx="420" cy="522" r="28" fill="#EEF6EF" stroke="#65B66C" stroke-width="2"/>
+    <text x="420" y="530" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#2F7D4A">03</text>
+    <text x="478" y="516" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2A24">数据难以沉淀</text>
+    <text x="478" y="553" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">回答偏自然语言，后续档案利用与扩展困难。</text>
+  </g>
+  <g id="footer">
+    <text x="382" y="672" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#8A978E">AI 老中医问诊系统｜本周工作汇报</text>
+    <text x="1224" y="672" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#8A978E">03</text>
+  </g>
+</svg>

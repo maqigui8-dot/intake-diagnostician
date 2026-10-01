@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6" />
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#155E47">07 / 结束判断</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">什么时候问够了？由停止条件决定</text>
+    <text x="64" y="184" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#5E6D65">不按固定轮次结束，而是判断当前资料是否已经可以交给医生核对。</text>
+  </g>
+  <g id="question-mark">
+    <circle cx="152" cy="380" r="63" fill="#155E47" />
+    <text x="152" y="404" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="74" font-weight="700" fill="#F7F9F6">?</text>
+    <text x="152" y="477" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#155E47">结束判断</text>
+  </g>
+  <g id="condition-one">
+    <line x1="238" y1="285" x2="332" y2="285" stroke="#C9D7CE" stroke-width="3" />
+    <circle cx="360" cy="285" r="23" fill="#155E47" />
+    <text x="360" y="293" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#F7F9F6">1</text>
+    <text x="402" y="278" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#15221C">必需字段齐全</text>
+    <text x="402" y="308" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">年龄、性别、身高、体重等硬性前提已完成</text>
+  </g>
+  <g id="condition-two">
+    <line x1="238" y1="375" x2="332" y2="375" stroke="#C9D7CE" stroke-width="3" />
+    <circle cx="360" cy="375" r="23" fill="#4C8C7B" />
+    <text x="360" y="383" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#F7F9F6">2</text>
+    <text x="402" y="368" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#15221C">当前场景的信息覆盖达到门槛</text>
+    <text x="402" y="398" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">病因风险、中医资料和安全信息已达到对应要求</text>
+  </g>
+  <g id="condition-three">
+    <line x1="238" y1="465" x2="332" y2="465" stroke="#C9D7CE" stroke-width="3" />
+    <circle cx="360" cy="465" r="23" fill="#E07A5F" />
+    <text x="360" y="473" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#F7F9F6">3</text>
+    <text x="402" y="458" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#15221C">没有未处理的关键风险或矛盾</text>
+    <text x="402" y="488" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">危险信号持续提示，关键冲突需要进一步核对</text>
+  </g>
+  <g id="condition-four">
+    <line x1="238" y1="555" x2="332" y2="555" stroke="#C9D7CE" stroke-width="3" />
+    <circle cx="360" cy="555" r="23" fill="#155E47" />
+    <text x="360" y="563" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#F7F9F6">4</text>
+    <text x="402" y="548" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#15221C">不知道或拒答已完成一次澄清</text>
+    <text x="402" y="578" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">记录真实状态，不为了凑完整度而无限重复提问</text>
+  </g>
+  <g id="decision">
+    <path fill="#EAF2EB" d="M854,257 H1210 A6,6 0 0 1 1216,263 V386 A6,6 0 0 1 1210,392 H854 A6,6 0 0 1 848,386 V263 A6,6 0 0 1 854,257 Z" />
+    <text x="882" y="306" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#155E47">四项全部满足</text>
+    <text x="882" y="346" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#15221C">结束追问</text>
+    <text x="882" y="374" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">生成可供诊中核对的档案</text>
+    <path fill="#EAF2EB" d="M854,426 H1210 A6,6 0 0 1 1216,432 V555 A6,6 0 0 1 1210,561 H854 A6,6 0 0 1 848,555 V432 A6,6 0 0 1 854,426 Z" />
+    <text x="882" y="475" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#E07A5F">任一条件尚未满足</text>
+    <text x="882" y="515" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#15221C">继续追问</text>
+    <text x="882" y="543" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">优先补当前最关键的缺失字段</text>
+  </g>
+  <g id="footer">
+    <text x="64" y="666" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="700" fill="#155E47">“问够”不是信息越多越好，而是足以让医生高效、安全地进入诊中。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">08</text>
+  </g>
+</svg>

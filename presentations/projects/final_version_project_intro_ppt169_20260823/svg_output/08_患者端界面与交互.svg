@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9"/></g>
+  <g id="header"><text x="64" y="74" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">患者端界面与交互</text><text x="64" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">患者看到连续的对话体验，内部判断逻辑留在医生端</text></g>
+  <g id="annotation-rail">
+    <line x1="92" y1="178" x2="92" y2="566" stroke="#D7E2D8" stroke-width="3"/>
+    <circle cx="92" cy="206" r="22" fill="#236B45"/>
+    <use data-icon="tabler-filled/message-chatbot" x="78" y="192" width="28" height="28" fill="#FFFFFF"/>
+    <text x="132" y="201" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">对话式追问</text>
+    <text x="132" y="230" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">一次聚焦一个问题</text>
+    <circle cx="92" cy="320" r="22" fill="#72A984"/>
+    <use data-icon="tabler-filled/clipboard-list" x="78" y="306" width="28" height="28" fill="#FFFFFF"/>
+    <text x="132" y="315" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">历史完整保留</text>
+    <text x="132" y="344" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">固定区域滚动查看</text>
+    <circle cx="92" cy="434" r="22" fill="#C68A3A"/>
+    <use data-icon="tabler-filled/archive" x="78" y="420" width="28" height="28" fill="#FFFFFF"/>
+    <text x="132" y="429" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">个人档案回看</text>
+    <text x="132" y="458" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">仅查看自己的记录</text>
+    <circle cx="92" cy="548" r="22" fill="#236B45"/>
+    <use data-icon="tabler-filled/shield-check" x="78" y="534" width="28" height="28" fill="#FFFFFF"/>
+    <text x="132" y="543" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#24332B">信息边界清楚</text>
+    <text x="132" y="572" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#68756D">内部缺失项不展示</text>
+  </g>
+  <g id="patient-screenshot-placeholder">
+    <rect x="438" y="154" width="778" height="480" rx="8" fill="#FFFFFF" stroke="#72A984" stroke-width="2" stroke-dasharray="8,4"/>
+    <rect x="438" y="154" width="778" height="44" rx="8" fill="#F1F6EF"/>
+    <rect x="438" y="188" width="778" height="10" fill="#F1F6EF"/>
+    <circle cx="468" cy="176" r="5" fill="#C68A3A"/><circle cx="486" cy="176" r="5" fill="#72A984"/><circle cx="504" cy="176" r="5" fill="#D7E2D8"/>
+    <use data-icon="tabler-filled/message-chatbot" x="754" y="314" width="112" height="112" fill="#D7E2D8"/>
+    <text x="827" y="463" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#236B45">患者端页面截图</text>
+    <text x="827" y="504" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">请放入当前对话问诊界面，保留聊天记录与输入区域</text>
+    <rect x="676" y="542" width="302" height="40" rx="8" fill="#F1F6EF"/>
+    <text x="827" y="568" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#236B45">建议裁掉浏览器多余边框</text>
+  </g>
+  <g id="footer"><text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text><text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">08</text></g>
+</svg>

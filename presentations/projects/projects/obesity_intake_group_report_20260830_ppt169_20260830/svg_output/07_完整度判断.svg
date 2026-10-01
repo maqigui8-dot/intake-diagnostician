@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">06 · 核心机制</text>
+  <text x="64" y="126" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174C43">信息完整度如何判断？</text>
+  <line x1="64" y1="148" x2="1216" y2="148" stroke="#CDD8D2" stroke-width="2"/>
+  <text x="76" y="196" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#62716B">四层核心信息</text>
+  <rect x="74" y="220" width="670" height="84" fill="#174C43"/>
+  <rect x="104" y="318" width="640" height="84" fill="#6E9184"/>
+  <rect x="134" y="416" width="610" height="84" fill="#DCEAE4"/>
+  <rect x="164" y="514" width="580" height="84" fill="#F7E7DE"/>
+  <use data-icon="tabler-outline/forms" x="96" y="242" width="38" height="38" fill="#F7F5EF" stroke-width="2"/>
+  <use data-icon="tabler-outline/history" x="126" y="340" width="38" height="38" fill="#F7F5EF" stroke-width="2"/>
+  <use data-icon="tabler-outline/message-chatbot" x="156" y="438" width="38" height="38" fill="#174C43" stroke-width="2"/>
+  <use data-icon="tabler-outline/shield-check" x="186" y="536" width="38" height="38" fill="#C76B3C" stroke-width="2"/>
+  <text x="150" y="257" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#F7F5EF">基础资料</text>
+  <text x="150" y="285" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F7F5EF">年龄、性别、身高体重、主要诉求</text>
+  <text x="180" y="355" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#F7F5EF">病程与风险</text>
+  <text x="180" y="383" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#F7F5EF">体重变化、起病经过、诱因、减重经历、重要病史</text>
+  <text x="210" y="453" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#174C43">核心中医症状</text>
+  <text x="210" y="481" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#24332E">食欲口渴、二便、睡眠情绪、疲劳与活动耐力</text>
+  <text x="240" y="551" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#C76B3C">安全信息</text>
+  <text x="240" y="579" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#24332E">用药、过敏、危险信号、适用时的妊娠信息</text>
+  <rect x="800" y="220" width="380" height="378" fill="#FFFFFF" stroke="#CDD8D2" stroke-width="2"/>
+  <text x="840" y="267" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#174C43">仍会阻塞正常完成</text>
+  <line x1="840" y1="288" x2="1140" y2="288" stroke="#CDD8D2"/>
+  <use data-icon="tabler-outline/alert-triangle" x="840" y="320" width="30" height="30" fill="#C76B3C" stroke-width="2"/>
+  <text x="888" y="343" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332E">核心字段仍然缺失</text>
+  <use data-icon="tabler-outline/alert-triangle" x="840" y="382" width="30" height="30" fill="#C76B3C" stroke-width="2"/>
+  <text x="888" y="405" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332E">回答只形成部分信息</text>
+  <use data-icon="tabler-outline/alert-triangle" x="840" y="444" width="30" height="30" fill="#C76B3C" stroke-width="2"/>
+  <text x="888" y="467" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332E">关键回答前后矛盾</text>
+  <use data-icon="tabler-outline/alert-triangle" x="840" y="506" width="30" height="30" fill="#C76B3C" stroke-width="2"/>
+  <text x="888" y="529" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332E">安全信息尚未确认</text>
+  <text x="800" y="642" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#174C43">完整度 ≠ 已回答题数</text>
+  <text x="1032" y="642" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#62716B">核心信息是否可用</text>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">07</text>
+</svg>

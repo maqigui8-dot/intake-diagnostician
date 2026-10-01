@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">09 · 停止规则</text>
+  <text x="64" y="126" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174C43">系统何时继续追问，何时停止？</text>
+  <line x1="64" y1="148" x2="1216" y2="148" stroke="#CDD8D2" stroke-width="2"/>
+  <rect x="64" y="194" width="338" height="412" fill="#FFFFFF" stroke="#CDD8D2" stroke-width="2"/>
+  <rect x="424" y="178" width="432" height="444" fill="#174C43"/>
+  <rect x="878" y="194" width="338" height="412" fill="#FFFFFF" stroke="#C76B3C" stroke-width="2"/>
+  <!-- icon: tabler-outline/message-chatbot -->
+  <g transform="translate(94, 224) scale(1.58333)" fill="none" stroke="#174C43" stroke-width="2">
+    <path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12" />
+    <path d="M9.5 9h.01" />
+    <path d="M14.5 9h.01" />
+    <path d="M9.5 13a3.5 3.5 0 0 0 5 0" />
+  </g>
+  <text x="148" y="253" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#174C43">继续追问</text>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#24332E">
+    <text x="96" y="316">核心字段尚未询问</text><text x="96" y="358">回答只覆盖部分内容</text><text x="96" y="400">安全信息仍未确认</text><text x="96" y="442">回答前后存在冲突</text><text x="96" y="484">患者未理解当前问题</text><text x="96" y="526">仍有一次合理澄清机会</text>
+  </g>
+  <!-- icon: tabler-outline/circle-check -->
+  <g transform="translate(458, 212) scale(1.75)" fill="none" stroke="#F7F5EF" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+  <text x="520" y="244" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700" fill="#F7F5EF">正常停止</text>
+  <text x="458" y="300" font-family="Consolas, Courier New, monospace" font-size="19" fill="#E8EFEA">基础资料已确认</text>
+  <text x="458" y="342" font-family="Consolas, Courier New, monospace" font-size="19" font-weight="700" fill="#F7F5EF">AND　核心病程信息可用</text>
+  <text x="458" y="384" font-family="Consolas, Courier New, monospace" font-size="19" font-weight="700" fill="#F7F5EF">AND　核心症状信息可用</text>
+  <text x="458" y="426" font-family="Consolas, Courier New, monospace" font-size="19" font-weight="700" fill="#F7F5EF">AND　安全信息已确认</text>
+  <text x="458" y="468" font-family="Consolas, Courier New, monospace" font-size="19" font-weight="700" fill="#F7F5EF">AND　无未解决关键冲突</text>
+  <line x1="458" y1="508" x2="820" y2="508" stroke="#6E9184" stroke-width="2"/>
+  <text x="458" y="552" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#E8EFEA">达到核心可用状态后立即结束，</text>
+  <text x="458" y="582" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#E8EFEA">不再为可选细节延长问诊。</text>
+  <!-- icon: tabler-outline/alert-triangle -->
+  <g transform="translate(908, 224) scale(1.58333)" fill="none" stroke="#C76B3C" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+  <text x="962" y="253" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#C76B3C">保护性停止</text>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#24332E">
+    <text x="910" y="316">连续表示不知道</text><text x="910" y="358">拒绝回答</text><text x="910" y="400">在线无法继续确认</text><text x="910" y="442">达到最大追问次数</text><text x="910" y="484">模型或服务不可用</text>
+  </g>
+  <rect x="910" y="526" width="274" height="54" fill="#F7E7DE"/>
+  <text x="1047" y="560" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="700" fill="#C76B3C">待医生诊中确认</text>
+  <text x="640" y="668" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#174C43">不草率完成，也不无限追问</text>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">10</text>
+</svg>

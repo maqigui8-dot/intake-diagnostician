@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F7FAF7" />
+    <circle cx="1110" cy="154" r="154" fill="#EEF6EF" />
+    <circle cx="1170" cy="48" r="48" fill="#D8E4DA" />
+  </g>
+  <g id="brand">
+    <circle cx="76" cy="62" r="24" fill="#2F7D4A" />
+    
+  <g transform="translate(62, 48) scale(1.16667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M10 14l4 0" />
+    <path d="M12 12l0 4" />
+  </g>
+    <text x="114" y="70" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#2F7D4A">中医智能助手</text>
+  </g>
+  <g id="cover-title">
+    <text font-family="Microsoft YaHei, Arial, sans-serif" font-weight="700" font-size="64" fill="#1F2A24" x="76" y="220">AI 老中医</text><text font-family="Microsoft YaHei, Arial, sans-serif" font-weight="700" font-size="64" fill="#1F2A24" x="76" y="302">问诊系统</text><path fill="#65B66C" d="M79,335 H167 A3,3 0 0 1 170,338 V338 A3,3 0 0 1 167,341 H79 A3,3 0 0 1 76,338 V338 A3,3 0 0 1 79,335 Z" />
+    <text x="76" y="390" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="600" fill="#2F7D4A">本周工作汇报</text>
+    <text x="76" y="432" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5F6F64">结构化问诊产品升级</text>
+  </g>
+  <g id="upgrade-route">
+    <path d="M 660 430 C 760 300 900 300 1030 210" fill="none" stroke="#D8E4DA" stroke-width="10" stroke-linecap="round" />
+    <path d="M 660 430 C 760 300 900 300 1030 210" fill="none" stroke="#65B66C" stroke-width="3" stroke-dasharray="8,4" stroke-linecap="round" />
+    <g id="step-chat">
+      <circle cx="660" cy="430" r="46" fill="#FFFFFF" stroke="#D8E4DA" stroke-width="2" />
+      <text x="660" y="438" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#5F6F64">聊天</text>
+    </g>
+    <g id="step-guide">
+      <circle cx="770" cy="330" r="46" fill="#FFFFFF" stroke="#65B66C" stroke-width="3" />
+      <text x="770" y="338" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#2F7D4A">引导</text>
+    </g>
+    <g id="step-structure">
+      <circle cx="900" cy="286" r="46" fill="#EEF6EF" stroke="#65B66C" stroke-width="3" />
+      <text x="900" y="294" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#2F7D4A">结构化</text>
+    </g>
+    <g id="step-record">
+      <circle cx="1030" cy="210" r="56" fill="#2F7D4A" />
+      
+  <g transform="translate(1006, 186) scale(2)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M4 6c0 1.657 3.582 3 8 3s8 -1.343 8 -3s-3.582 -3 -8 -3s-8 1.343 -8 3" />
+    <path d="M4 6v6c0 1.453 2.755 2.665 6.414 2.941" />
+    <path d="M20 11v-5" />
+    <path d="M4 12v6c0 1.579 3.253 2.873 7.383 2.991" />
+    <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296" />
+  </g>
+      <text x="1030" y="292" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#2F7D4A">四诊档案</text>
+    </g>
+  </g>
+  <g id="cover-footer">
+    <line x1="76" y1="638" x2="1204" y2="638" stroke="#D8E4DA" stroke-width="1" />
+    <text x="76" y="674" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#8A978E">2026.07.30</text>
+    <text x="1204" y="674" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#8A978E">从聊天 Demo 到结构化问诊产品</text>
+  </g>
+</svg>

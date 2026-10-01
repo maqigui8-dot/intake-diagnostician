@@ -1,0 +1,370 @@
+{"kind":"deck","id":"pr/6mtwlm","name":"Deck"}
+{"kind":"layout","layoutId":"6d6ada25-e90d-4c5b-96e6-c9994c3a205d","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"56ac74ff-999d-4bad-8d33-20a1005ba379","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/p2o75j","slide":1,"title":"中医诊前信息采集与整理系统","textShapes":4}
+{"kind":"textbox","id":"sh/fm9kfq58","slide":1,"text":"中医诊前信息采集与整理系统","textPreview":"中医诊前信息采集与整理系统","textChars":13,"textLines":1,"bbox":[140,240,1000,78]}
+{"kind":"shape","id":"sh/g7i18v6t","slide":1,"bbox":[500,334,280,4]}
+{"kind":"textbox","id":"sh/18r2h0ne","slide":1,"text":"项目汇报","textPreview":"项目汇报","textChars":4,"textLines":1,"bbox":[490,385,300,32]}
+{"kind":"textbox","id":"sh/6hgj21or","slide":1,"text":"汇报人：________　　日期：________","textPreview":"汇报人：________　　日期：________","textChars":25,"textLines":1,"bbox":[390,438,500,24]}
+{"kind":"shape","id":"sh/7ip0b65c","slide":1,"bbox":[172,610,936,1]}
+{"kind":"textbox","id":"sh/sjy14b6x","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"notes","id":"nt/p2o75j","slide":1,"text":"各位老师好，我汇报的项目是中医诊前信息采集与整理系统。项目关注诊前资料采集与整理，不承担自动诊断。"}
+{"kind":"slide","id":"sl/oaa3mw","slide":2,"title":"项目背景与问题","textShapes":17}
+{"kind":"textbox","id":"sh/m5k3m9g7","slide":2,"text":"项目背景与问题","textPreview":"项目背景与问题","textChars":7,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/98v2xofi","slide":2,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/o72lojyd","slide":2,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/zitkrexg","slide":2,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/ehk3i9gv","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"textbox","id":"sh/1kb2t4fm","slide":2,"text":"诊前信息采集的现实问题","textPreview":"诊前信息采集的现实问题","textChars":11,"textLines":1,"bbox":[68,150,500,36]}
+{"kind":"textbox","id":"sh/0j2lkzy1","slide":2,"text":"患者通常按照自己的感受自然表达，信息真实但零散。医生需要重新确认病程、安全信息和生活方式，才能形成可使用的诊前资料。","textPreview":"患者通常按照自己的感受自然表达，信息真实但零散。医生需要重新确认病程、安全信息和生活方式，才能形成可使用的诊前资料。","textChars":58,"textLines":1,"bbox":[68,206,500,150]}
+{"kind":"shape","id":"sh/re9knuxk","slide":2,"bbox":[610,150,1,420]}
+{"kind":"textbox","id":"sh/qd03epgz","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[654,160,34,24]}
+{"kind":"textbox","id":"sh/wj2tof61","slide":2,"text":"描述零散","textPreview":"描述零散","textChars":4,"textLines":1,"bbox":[698,158,462,28]}
+{"kind":"textbox","id":"sh/xkbuhk7m","slide":2,"text":"时间、程度和关联因素分散在多轮回答中","textPreview":"时间、程度和关联因素分散在多轮回答中","textChars":18,"textLines":1,"bbox":[698,194,438,28]}
+{"kind":"shape","id":"sh/ax0bmp8v","slide":2,"bbox":[654,236,506,1]}
+{"kind":"textbox","id":"sh/vytcfapg","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[654,258,34,24]}
+{"kind":"textbox","id":"sh/ovitkfq5","slide":2,"text":"重复询问","textPreview":"重复询问","textChars":4,"textLines":1,"bbox":[698,256,462,28]}
+{"kind":"textbox","id":"sh/9wrudk7q","slide":2,"text":"缺少字段状态时，同一信息可能反复确认","textPreview":"缺少字段状态时，同一信息可能反复确认","textChars":18,"textLines":1,"bbox":[698,292,438,28]}
+{"kind":"shape","id":"sh/mt0bi58z","slide":2,"bbox":[654,334,506,1]}
+{"kind":"textbox","id":"sh/nu9cbapk","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[654,356,34,24]}
+{"kind":"textbox","id":"sh/srmdwz69","slide":2,"text":"停止条件不清","textPreview":"停止条件不清","textChars":6,"textLines":1,"bbox":[698,354,462,28]}
+{"kind":"textbox","id":"sh/tsvup47u","slide":2,"text":"可选细节持续阻塞结束，问诊轮数过多","textPreview":"可选细节持续阻塞结束，问诊轮数过多","textChars":17,"textLines":1,"bbox":[698,390,438,28]}
+{"kind":"shape","id":"sh/hw72t0vm","slide":2,"bbox":[654,432,506,1]}
+{"kind":"textbox","id":"sh/gvylkfu1","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[654,454,34,24]}
+{"kind":"textbox","id":"sh/fupkradg","slide":2,"text":"决策难以解释","textPreview":"决策难以解释","textChars":6,"textLines":1,"bbox":[698,452,462,28]}
+{"kind":"textbox","id":"sh/utg3i5cb","slide":2,"text":"医生看不到问题来源和停止原因","textPreview":"医生看不到问题来源和停止原因","textChars":14,"textLines":1,"bbox":[698,488,438,28]}
+{"kind":"shape","id":"sh/t872p0vq","slide":2,"bbox":[68,568,1092,54]}
+{"kind":"textbox","id":"sh/s7ylgvu5","slide":2,"text":"项目需求：结构化采集、有限追问、及时停止、过程可解释","textPreview":"项目需求：结构化采集、有限追问、及时停止、过程可解释","textChars":26,"textLines":1,"bbox":[92,584,1044,24]}
+{"kind":"notes","id":"nt/oaa3mw","slide":2,"text":"患者自然表达往往零散，医生仍要重新确认；普通聊天式问诊还会重复追问，停止条件和决策原因也不清楚。"}
+{"kind":"slide","id":"sl/po3yl4","slide":3,"title":"项目目标与定位","textShapes":17}
+{"kind":"textbox","id":"sh/9cjm5wri","slide":3,"text":"项目目标与定位","textPreview":"项目目标与定位","textChars":7,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/mp83a1sr","slide":3,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/nqh4369c","slide":3,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/0nql8ra1","slide":3,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/1ozm1wr6","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"textbox","id":"sh/el836hsv","slide":3,"text":"系统定位","textPreview":"系统定位","textChars":4,"textLines":1,"bbox":[68,154,150,26]}
+{"kind":"textbox","id":"sh/zmh4zm9g","slide":3,"text":"面向成人肥胖诊前场景，帮助患者把情况说完整，帮助医生更快理解资料。","textPreview":"面向成人肥胖诊前场景，帮助患者把情况说完整，帮助医生更快理解资料。","textChars":33,"textLines":1,"bbox":[68,190,1092,38]}
+{"kind":"textbox","id":"sh/cjql4rap","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[68,272,44,26]}
+{"kind":"textbox","id":"sh/dkzmxcra","slide":3,"text":"信息结构化","textPreview":"信息结构化","textChars":5,"textLines":1,"bbox":[124,270,470,30]}
+{"kind":"textbox","id":"sh/xcru1gzm","slide":3,"text":"把患者的自然描述整理为症状、时间、生活方式和安全信息等明确字段。","textPreview":"把患者的自然描述整理为症状、时间、生活方式和安全信息等明确字段。","textChars":32,"textLines":1,"bbox":[124,314,470,68]}
+{"kind":"textbox","id":"sh/wrytsby1","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[650,272,44,26]}
+{"kind":"textbox","id":"sh/vqpcz6hg","slide":3,"text":"有目的追问","textPreview":"有目的追问","textChars":5,"textLines":1,"bbox":[706,270,470,30]}
+{"kind":"textbox","id":"sh/apgbq10v","slide":3,"text":"根据仍然缺失的核心信息选择下一项问题，减少无关提问和重复确认。","textPreview":"根据仍然缺失的核心信息选择下一项问题，减少无关提问和重复确认。","textChars":31,"textLines":1,"bbox":[706,314,470,68]}
+{"kind":"textbox","id":"sh/9o7uxgzq","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[68,416,44,26]}
+{"kind":"textbox","id":"sh/8nytobi5","slide":3,"text":"及时停止","textPreview":"及时停止","textChars":4,"textLines":1,"bbox":[124,414,470,30]}
+{"kind":"textbox","id":"sh/nmpcv6hk","slide":3,"text":"核心资料已经可用时正常结束；无法继续采集或出现风险时保护性结束。","textPreview":"核心资料已经可用时正常结束；无法继续采集或出现风险时保护性结束。","textChars":32,"textLines":1,"bbox":[124,458,470,68]}
+{"kind":"textbox","id":"sh/mlgbm10z","slide":3,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[650,416,44,26]}
+{"kind":"textbox","id":"sh/lknatwze","slide":3,"text":"结果可追溯","textPreview":"结果可追溯","textChars":5,"textLines":1,"bbox":[706,414,470,30]}
+{"kind":"textbox","id":"sh/0jetkrit","slide":3,"text":"保存患者原始回答、字段来源、判断依据和最终诊前档案，供医生查看。","textPreview":"保存患者原始回答、字段来源、判断依据和最终诊前档案，供医生查看。","textChars":32,"textLines":1,"bbox":[706,458,470,68]}
+{"kind":"shape","id":"sh/cf2lwvu1","slide":3,"bbox":[68,576,1092,46]}
+{"kind":"textbox","id":"sh/dgb2p0bm","slide":3,"text":"能力边界：系统不自动诊断、不输出患病概率、不自动开方，最终判断仍由医生完成。","textPreview":"能力边界：系统不自动诊断、不输出患病概率、不自动开方，最终判断仍由医生完成。","textChars":38,"textLines":1,"bbox":[92,589,1044,24]}
+{"kind":"notes","id":"nt/po3yl4","slide":3,"text":"项目目标包括自然语言结构化、有限追问、停止判断和结果可追溯。系统不自动诊断、不输出患病概率、不自动开方。"}
+{"kind":"slide","id":"sl/99lkbm","slide":4,"title":"系统整体架构","textShapes":15}
+{"kind":"textbox","id":"sh/grmh0be1","slide":4,"text":"系统整体架构","textPreview":"系统整体架构","textChars":6,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/fqtg76xw","slide":4,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/epkzylwb","slide":4,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/pwvid0fy","slide":4,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/ovmh4ved","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"textbox","id":"sh/3ud0bqxs","slide":4,"text":"01  交互层","textPreview":"01  交互层","textChars":7,"textLines":1,"bbox":[68,172,120,24]}
+{"kind":"shape","id":"sh/2t4z2lw7","slide":4,"bbox":[210,148,950,78]}
+{"kind":"textbox","id":"sh/d0fih0fu","slide":4,"text":"Vue 3 患者端　｜　独立医生工作台","textPreview":"Vue 3 患者端　｜　独立医生工作台","textChars":19,"textLines":1,"bbox":[240,163,880,28]}
+{"kind":"textbox","id":"sh/cz6h8ve9","slide":4,"text":"身份选择、问诊交互、历史档案与多患者查看","textPreview":"身份选择、问诊交互、历史档案与多患者查看","textChars":20,"textLines":1,"bbox":[240,195,880,34]}
+{"kind":"textbox","id":"sh/i9k72hsj","slide":4,"text":"02  接口层","textPreview":"02  接口层","textChars":7,"textLines":1,"bbox":[68,272,120,24]}
+{"kind":"shape","id":"sh/jatovm94","slide":4,"bbox":[210,248,950,78]}
+{"kind":"textbox","id":"sh/4b2p4rap","slide":4,"text":"FastAPI 服务","textPreview":"FastAPI 服务","textChars":10,"textLines":1,"bbox":[240,263,880,28]}
+{"kind":"textbox","id":"sh/5cv6xwra","slide":4,"text":"患者隔离接口、会话接口、医生查询接口与资源归属校验","textPreview":"患者隔离接口、会话接口、医生查询接口与资源归属校验","textChars":25,"textLines":1,"bbox":[240,295,880,34]}
+{"kind":"textbox","id":"sh/6d476hsv","slide":4,"text":"03  决策层","textPreview":"03  决策层","textChars":7,"textLines":1,"bbox":[68,372,120,24]}
+{"kind":"shape","id":"sh/redozm90","slide":4,"bbox":[210,348,950,102]}
+{"kind":"textbox","id":"sh/sfmp8rql","slide":4,"text":"Agent 信息抽取　｜　确定性规则引擎","textPreview":"Agent 信息抽取　｜　确定性规则引擎","textChars":20,"textLines":1,"bbox":[240,363,880,28]}
+{"kind":"textbox","id":"sh/tgv61wr6","slide":4,"text":"Agent负责理解与表达；规则负责字段状态、完整度、下一问和停止判断","textPreview":"Agent负责理解与表达；规则负责字段状态、完整度、下一问和停止判断","textChars":34,"textLines":1,"bbox":[240,395,880,34]}
+{"kind":"textbox","id":"sh/mh0nuxsb","slide":4,"text":"04  数据层","textPreview":"04  数据层","textChars":7,"textLines":1,"bbox":[68,496,120,24]}
+{"kind":"shape","id":"sh/7i9on29w","slide":4,"bbox":[210,472,950,88]}
+{"kind":"textbox","id":"sh/ba5cfulc","slide":4,"text":"MySQL 完整持久化","textPreview":"MySQL 完整持久化","textChars":11,"textLines":1,"bbox":[240,487,880,28]}
+{"kind":"textbox","id":"sh/q9wv6p4r","slide":4,"text":"患者、会话、字段、问答、档案、归档状态与审计记录","textPreview":"患者、会话、字段、问答、档案、归档状态与审计记录","textChars":24,"textLines":1,"bbox":[240,519,880,34]}
+{"kind":"textbox","id":"sh/dcnuh43i","slide":4,"text":"关键设计：模型负责“理解”，规则负责“决定”。","textPreview":"关键设计：模型负责“理解”，规则负责“决定”。","textChars":23,"textLines":1,"bbox":[68,598,800,24]}
+{"kind":"notes","id":"nt/99lkbm","slide":4,"text":"系统分为交互、接口、决策和数据四层。Agent负责理解和表达，确定性规则负责完整度、下一问和停止判断。"}
+{"kind":"slide","id":"sl/pvvnrn","slide":5,"title":"系统角色与主要功能","textShapes":27}
+{"kind":"textbox","id":"sh/0j6h4neh","slide":5,"text":"系统角色与主要功能","textPreview":"系统角色与主要功能","textChars":9,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/fix0vidc","slide":5,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/ehoz2dwr","slide":5,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/p8zi1cve","slide":5,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/o7q187et","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"shape","id":"sh/n6h0z2d8","slide":5,"bbox":[68,150,530,380]}
+{"kind":"shape","id":"sh/258j6xwn","slide":5,"bbox":[630,150,530,380]}
+{"kind":"textbox","id":"sh/5cvip8vu","slide":5,"text":"患者端","textPreview":"患者端","textChars":3,"textLines":1,"bbox":[96,176,474,34]}
+{"kind":"textbox","id":"sh/4bmhw3ep","slide":5,"text":"提供信息","textPreview":"提供信息","textChars":4,"textLines":1,"bbox":[96,216,474,22]}
+{"kind":"textbox","id":"sh/u5c3yhwv","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[96,260,32,24]}
+{"kind":"textbox","id":"sh/f6l47mxg","slide":5,"text":"身份选择与患者切换","textPreview":"身份选择与患者切换","textChars":9,"textLines":1,"bbox":[140,258,420,28]}
+{"kind":"textbox","id":"sh/g7ul07e1","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[96,308,32,24]}
+{"kind":"textbox","id":"sh/h83m9cfm","slide":5,"text":"基础资料与开放描述","textPreview":"基础资料与开放描述","textChars":9,"textLines":1,"bbox":[140,306,420,28]}
+{"kind":"textbox","id":"sh/29c32hw7","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[96,356,32,24]}
+{"kind":"textbox","id":"sh/3al4bmxc","slide":5,"text":"逐项追问与回答确认","textPreview":"逐项追问与回答确认","textChars":9,"textLines":1,"bbox":[140,354,420,28]}
+{"kind":"textbox","id":"sh/4bel4rex","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[96,404,32,24]}
+{"kind":"textbox","id":"sh/pcnmdwfi","slide":5,"text":"未完成问诊恢复","textPreview":"未完成问诊恢复","textChars":7,"textLines":1,"bbox":[140,402,420,28]}
+{"kind":"textbox","id":"sh/qdw361w3","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[96,452,32,24]}
+{"kind":"textbox","id":"sh/re54f6xo","slide":5,"text":"查看个人历史档案","textPreview":"查看个人历史档案","textChars":8,"textLines":1,"bbox":[140,450,420,28]}
+{"kind":"textbox","id":"sh/n25kn6tw","slide":5,"text":"医生端","textPreview":"医生端","textChars":3,"textLines":1,"bbox":[658,176,474,34]}
+{"kind":"textbox","id":"sh/m1w3u1cb","slide":5,"text":"查看与理解","textPreview":"查看与理解","textChars":5,"textLines":1,"bbox":[658,216,474,22]}
+{"kind":"textbox","id":"sh/9472pgbm","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[658,260,32,24]}
+{"kind":"textbox","id":"sh/o3ylwbu1","slide":5,"text":"患者列表与历史问诊","textPreview":"患者列表与历史问诊","textChars":9,"textLines":1,"bbox":[702,258,420,28]}
+{"kind":"textbox","id":"sh/ze5kjmdk","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[658,308,32,24]}
+{"kind":"textbox","id":"sh/edw3qhcz","slide":5,"text":"基础资料与问答详情","textPreview":"基础资料与问答详情","textChars":9,"textLines":1,"bbox":[702,306,420,28]}
+{"kind":"textbox","id":"sh/1gn2lwvq","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[658,356,32,24]}
+{"kind":"textbox","id":"sh/0felsru5","slide":5,"text":"完整度和关键缺口","textPreview":"完整度和关键缺口","textChars":8,"textLines":1,"bbox":[702,354,420,28]}
+{"kind":"textbox","id":"sh/ralkfmdo","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[658,404,32,24]}
+{"kind":"textbox","id":"sh/q9cjmhc3","slide":5,"text":"追问来源与停止原因","textPreview":"追问来源与停止原因","textChars":9,"textLines":1,"bbox":[702,402,420,28]}
+{"kind":"textbox","id":"sh/g3q90j6p","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[658,452,32,24]}
+{"kind":"textbox","id":"sh/h4zq9ona","slide":5,"text":"只读查看诊前档案","textPreview":"只读查看诊前档案","textChars":8,"textLines":1,"bbox":[702,450,420,28]}
+{"kind":"shape","id":"sh/u18ry9oj","slide":5,"bbox":[68,558,1092,60]}
+{"kind":"textbox","id":"sh/v2h87ep4","slide":5,"text":"数据边界：会话与档案绑定 patient_id；跨患者访问返回 404；医生端当前保持只读。","textPreview":"数据边界：会话与档案绑定 patient_id；跨患者访问返回 404；医生端当前保持只读。","textChars":46,"textLines":1,"bbox":[92,578,1044,24]}
+{"kind":"notes","id":"nt/pvvnrn","slide":5,"text":"患者端提供信息，医生端查看和理解信息。所有会话和档案绑定patient_id，医生端当前保持只读。"}
+{"kind":"slide","id":"sl/afoxp3","slide":6,"title":"完整问诊流程","textShapes":20}
+{"kind":"textbox","id":"sh/pw32pcbq","slide":6,"text":"完整问诊流程","textPreview":"完整问诊流程","textChars":6,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/2tsjexsz","slide":6,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/3ulkn2tk","slide":6,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/g7a1cna9","slide":6,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/1sj2lsbu","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"textbox","id":"sh/e5sjads3","slide":6,"text":"一次回答会触发一次新的判断，流程并不依赖固定追问轮数。","textPreview":"一次回答会触发一次新的判断，流程并不依赖固定追问轮数。","textChars":27,"textLines":1,"bbox":[68,148,1092,30]}
+{"kind":"shape","id":"sh/f61kjito","slide":6,"bbox":[76,228,52,52]}
+{"kind":"textbox","id":"sh/03elorad","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[76,241,52,22]}
+{"kind":"textbox","id":"sh/lon2xwby","slide":6,"text":"患者表达","textPreview":"患者表达","textChars":4,"textLines":1,"bbox":[142,224,198,30]}
+{"kind":"textbox","id":"sh/xg3ehsj2","slide":6,"text":"选择患者并补充基础资料\n用自己的语言描述最关心的问题","textPreview":"选择患者并补充基础资料 | 用自己的语言描述最关心的问题","textChars":26,"textLines":2,"bbox":[142,270,198,96]}
+{"kind":"shape","id":"sh/cfudon2h","slide":6,"bbox":[326,252,50,3]}
+{"kind":"shape","id":"sh/belwfi1c","slide":6,"bbox":[366,228,52,52]}
+{"kind":"textbox","id":"sh/adsvmdkr","slide":6,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[366,241,52,22]}
+{"kind":"textbox","id":"sh/pcjed8j6","slide":6,"text":"信息提取","textPreview":"信息提取","textChars":4,"textLines":1,"bbox":[432,224,198,30]}
+{"kind":"textbox","id":"sh/obadk32l","slide":6,"text":"Agent提取字段值与原文证据\n规则更新字段状态和信息来源","textPreview":"Agent提取字段值与原文证据 | 规则更新字段状态和信息来源","textChars":29,"textLines":2,"bbox":[432,270,198,96]}
+{"kind":"shape","id":"sh/na1wby10","slide":6,"bbox":[616,252,50,3]}
+{"kind":"shape","id":"sh/29svidkf","slide":6,"bbox":[656,228,52,52]}
+{"kind":"textbox","id":"sh/98nepcja","slide":6,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[656,241,52,22]}
+{"kind":"textbox","id":"sh/87exw72p","slide":6,"text":"完整度判断","textPreview":"完整度判断","textChars":5,"textLines":1,"bbox":[722,224,198,30]}
+{"kind":"textbox","id":"sh/sn6p8fud","slide":6,"text":"检查核心字段、安全缺口与冲突\n判断是否仍适合在线追问","textPreview":"检查核心字段、安全缺口与冲突 | 判断是否仍适合在线追问","textChars":26,"textLines":2,"bbox":[722,270,198,96]}
+{"kind":"shape","id":"sh/dofqhkvy","slide":6,"bbox":[960,206,200,72]}
+{"kind":"textbox","id":"sh/614765c7","slide":6,"text":"继续追问","textPreview":"继续追问","textChars":4,"textLines":1,"bbox":[976,225,168,28]}
+{"kind":"textbox","id":"sh/r2d8fads","slide":6,"text":"选择下一项有价值的问题","textPreview":"选择下一项有价值的问题","textChars":11,"textLines":1,"bbox":[960,294,200,48]}
+{"kind":"shape","id":"sh/4zmp4vu1","slide":6,"bbox":[960,388,200,72]}
+{"kind":"textbox","id":"sh/50v6d0vm","slide":6,"text":"生成诊前档案","textPreview":"生成诊前档案","textChars":6,"textLines":1,"bbox":[974,406,172,28]}
+{"kind":"textbox","id":"sh/ix472lcb","slide":6,"text":"正常结束或保护性结束","textPreview":"正常结束或保护性结束","textChars":10,"textLines":1,"bbox":[960,476,200,48]}
+{"kind":"shape","id":"sh/jydobqdg","slide":6,"bbox":[902,252,40,3]}
+{"kind":"shape","id":"sh/wvmp0vu5","slide":6,"bbox":[940,252,3,174]}
+{"kind":"shape","id":"sh/hwv690vq","slide":6,"bbox":[940,424,20,3]}
+{"kind":"textbox","id":"sh/zqt8jqxc","slide":6,"text":"仍需补充","textPreview":"仍需补充","textChars":4,"textLines":1,"bbox":[844,216,92,22]}
+{"kind":"textbox","id":"sh/y5k7algr","slide":6,"text":"可以结束","textPreview":"可以结束","textChars":4,"textLines":1,"bbox":[844,420,92,22]}
+{"kind":"shape","id":"sh/lsbqlgfi","slide":6,"bbox":[68,548,1092,74]}
+{"kind":"textbox","id":"sh/kr2pcvyx","slide":6,"text":"循环关系","textPreview":"循环关系","textChars":4,"textLines":1,"bbox":[92,566,120,24]}
+{"kind":"textbox","id":"sh/7ut8nqxo","slide":6,"text":"继续追问后，患者的新回答再次进入“信息提取—完整度判断”；满足结束条件后才生成档案。","textPreview":"继续追问后，患者的新回答再次进入“信息提取—完整度判断”；满足结束条件后才生成档案。","textChars":42,"textLines":1,"bbox":[214,564,922,40]}
+{"kind":"notes","id":"nt/afoxp3","slide":6,"text":"每次回答后，系统都会重新完成信息提取、字段更新、完整度判断和下一问选择，因此不依赖固定轮数。"}
+{"kind":"slide","id":"sl/roa4fv","slide":7,"title":"结构化字段与信息来源","textShapes":23}
+{"kind":"textbox","id":"sh/4vqt8fi5","slide":7,"text":"结构化字段与信息来源","textPreview":"结构化字段与信息来源","textChars":10,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/juhcza10","slide":7,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/it8b650f","slide":7,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/hszux0ju","slide":7,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/wrqt4vi9","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"shape","id":"sh/vqhcvq1o","slide":7,"bbox":[68,150,500,430]}
+{"kind":"textbox","id":"sh/up8b2503","slide":7,"text":"结构化字段","textPreview":"结构化字段","textChars":5,"textLines":1,"bbox":[92,176,440,30]}
+{"kind":"textbox","id":"sh/1o3u94jy","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,230,34,22]}
+{"kind":"textbox","id":"sh/gnadgzid","slide":7,"text":"基础测量：年龄、身高、体重、腰围","textPreview":"基础测量：年龄、身高、体重、腰围","textChars":16,"textLines":1,"bbox":[136,228,392,44]}
+{"kind":"textbox","id":"sh/ydkja1oj","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[92,292,34,22]}
+{"kind":"textbox","id":"sh/zet0365o","slide":7,"text":"病程信息：变化经过、相关因素、管理经历","textPreview":"病程信息：变化经过、相关因素、管理经历","textChars":19,"textLines":1,"bbox":[136,290,392,44]}
+{"kind":"textbox","id":"sh/kz21cb69","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[92,354,34,22]}
+{"kind":"textbox","id":"sh/l0bi5gnu","slide":7,"text":"中医症状：食欲口渴、二便、睡眠情绪","textPreview":"中医症状：食欲口渴、二便、睡眠情绪","textChars":17,"textLines":1,"bbox":[136,352,392,44]}
+{"kind":"textbox","id":"sh/a90j61o7","slide":7,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[92,416,34,22]}
+{"kind":"textbox","id":"sh/ba90z65s","slide":7,"text":"生活方式：饮食、运动、作息、压力进食","textPreview":"生活方式：饮食、运动、作息、压力进食","textChars":18,"textLines":1,"bbox":[136,414,392,44]}
+{"kind":"textbox","id":"sh/cbi18b6d","slide":7,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[92,478,34,22]}
+{"kind":"textbox","id":"sh/xcri1gny","slide":7,"text":"安全信息：过敏、用药、病史、危险信号","textPreview":"安全信息：过敏、用药、病史、危险信号","textChars":18,"textLines":1,"bbox":[136,476,392,44]}
+{"kind":"shape","id":"sh/u54ji5or","slide":7,"bbox":[600,150,560,430]}
+{"kind":"textbox","id":"sh/v6dkbq5w","slide":7,"text":"问题来源","textPreview":"问题来源","textChars":4,"textLines":1,"bbox":[624,176,500,30]}
+{"kind":"shape","id":"sh/rylonyhc","slide":7,"bbox":[624,226,512,58]}
+{"kind":"textbox","id":"sh/6dc7et0r","slide":7,"text":"字段预先定义","textPreview":"字段预先定义","textChars":6,"textLines":1,"bbox":[644,234,470,22]}
+{"kind":"textbox","id":"sh/t036p8zi","slide":7,"text":"标准问题、优先级、核心属性、尝试次数","textPreview":"标准问题、优先级、核心属性、尝试次数","textChars":18,"textLines":1,"bbox":[644,258,470,20]}
+{"kind":"shape","id":"sh/szupg3ix","slide":7,"bbox":[624,304,512,58]}
+{"kind":"textbox","id":"sh/f258ryh8","slide":7,"text":"Agent 提取证据","textPreview":"Agent 提取证据","textChars":10,"textLines":1,"bbox":[644,312,470,22]}
+{"kind":"textbox","id":"sh/e1w7id0n","slide":7,"text":"字段值、患者原文、信息来源、回答质量","textPreview":"字段值、患者原文、信息来源、回答质量","textChars":18,"textLines":1,"bbox":[644,336,470,20]}
+{"kind":"shape","id":"sh/14nqt8ze","slide":7,"bbox":[624,382,512,58]}
+{"kind":"textbox","id":"sh/g3epk3it","slide":7,"text":"规则更新状态","textPreview":"规则更新状态","textChars":6,"textLines":1,"bbox":[644,390,470,22]}
+{"kind":"textbox","id":"sh/3658vihk","slide":7,"text":"确认、部分获取、无法提供、不适用或冲突","textPreview":"确认、部分获取、无法提供、不适用或冲突","textChars":19,"textLines":1,"bbox":[644,414,470,20]}
+{"kind":"shape","id":"sh/25w7md0z","slide":7,"bbox":[624,460,512,58]}
+{"kind":"textbox","id":"sh/0vypcnex","slide":7,"text":"规则选择目标字段","textPreview":"规则选择目标字段","textChars":8,"textLines":1,"bbox":[644,468,470,22]}
+{"kind":"textbox","id":"sh/lw765sfi","slide":7,"text":"Agent只负责把目标字段表达成自然问题","textPreview":"Agent只负责把目标字段表达成自然问题","textChars":20,"textLines":1,"bbox":[644,492,470,20]}
+{"kind":"textbox","id":"sh/y9gnadw7","slide":7,"text":"问题顺序可以变化，但目标和来源始终可追踪。","textPreview":"问题顺序可以变化，但目标和来源始终可追踪。","textChars":21,"textLines":1,"bbox":[68,602,1092,22]}
+{"kind":"notes","id":"nt/roa4fv","slide":7,"text":"每个问题来自字段定义。Agent提取值、原文证据和来源，规则更新字段状态并选择下一目标。"}
+{"kind":"slide","id":"sl/hnvzbq","slide":8,"title":"资料完整度如何判断","textShapes":22}
+{"kind":"textbox","id":"sh/za5sb210","slide":8,"text":"资料完整度如何判断","textPreview":"资料完整度如何判断","textChars":9,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/0bet47il","slide":8,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/lcnadcj6","slide":8,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/qlcbyd0j","slide":8,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/rmls7i14","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"shape","id":"sh/c7ut0nip","slide":8,"bbox":[68,150,336,402]}
+{"kind":"shape","id":"sh/d83a9sju","slide":8,"bbox":[472,150,336,402]}
+{"kind":"shape","id":"sh/2hsrud07","slide":8,"bbox":[824,150,336,402]}
+{"kind":"textbox","id":"sh/3ils3i1s","slide":8,"text":"字段状态","textPreview":"字段状态","textChars":4,"textLines":1,"bbox":[92,176,288,28]}
+{"kind":"textbox","id":"sh/v2pwv2ps","slide":8,"text":"01　尚未询问","textPreview":"01　尚未询问","textChars":7,"textLines":1,"bbox":[92,230,288,26]}
+{"kind":"textbox","id":"sh/a1wfmx87","slide":8,"text":"02　部分获取","textPreview":"02　部分获取","textChars":7,"textLines":1,"bbox":[92,282,288,26]}
+{"kind":"textbox","id":"sh/xo7exc7y","slide":8,"text":"03　已经确认","textPreview":"03　已经确认","textChars":7,"textLines":1,"bbox":[92,334,288,26]}
+{"kind":"textbox","id":"sh/wnyxo7qd","slide":8,"text":"04　无法提供","textPreview":"04　无法提供","textChars":7,"textLines":1,"bbox":[92,386,288,26]}
+{"kind":"textbox","id":"sh/jqpwzmpo","slide":8,"text":"05　不适用","textPreview":"05　不适用","textChars":6,"textLines":1,"bbox":[92,438,288,26]}
+{"kind":"textbox","id":"sh/ipgfqh83","slide":8,"text":"判断条件","textPreview":"判断条件","textChars":4,"textLines":1,"bbox":[496,176,288,28]}
+{"kind":"textbox","id":"sh/5s7e1c7u","slide":8,"text":"• 基础测量是否完成","textPreview":"• 基础测量是否完成","textChars":10,"textLines":1,"bbox":[496,230,288,26]}
+{"kind":"textbox","id":"sh/kryxs7q9","slide":8,"text":"• 核心字段是否缺失","textPreview":"• 核心字段是否缺失","textChars":10,"textLines":1,"bbox":[496,282,288,26]}
+{"kind":"textbox","id":"sh/zu5wni9k","slide":8,"text":"• 安全信息是否确认","textPreview":"• 安全信息是否确认","textChars":10,"textLines":1,"bbox":[496,334,288,26]}
+{"kind":"textbox","id":"sh/ytcved8z","slide":8,"text":"• 冲突是否已经解决","textPreview":"• 冲突是否已经解决","textChars":10,"textLines":1,"bbox":[496,386,288,26]}
+{"kind":"textbox","id":"sh/214ripwz","slide":8,"text":"• 剩余信息是否适合在线采集","textPreview":"• 剩余信息是否适合在线采集","textChars":14,"textLines":1,"bbox":[496,438,288,26]}
+{"kind":"textbox","id":"sh/n2d8badk","slide":8,"text":"判断结果","textPreview":"判断结果","textChars":4,"textLines":1,"bbox":[848,176,288,28]}
+{"kind":"shape","id":"sh/o3m9kfep","slide":8,"bbox":[848,228,288,72]}
+{"kind":"textbox","id":"sh/povqdkva","slide":8,"text":"继续追问","textPreview":"继续追问","textChars":4,"textLines":1,"bbox":[864,240,256,24]}
+{"kind":"textbox","id":"sh/exk7e5wn","slide":8,"text":"关键缺口仍可采集","textPreview":"关键缺口仍可采集","textChars":8,"textLines":1,"bbox":[864,270,256,20]}
+{"kind":"shape","id":"sh/fyd87ad8","slide":8,"bbox":[848,324,288,72]}
+{"kind":"textbox","id":"sh/0zmpgfet","slide":8,"text":"正常结束","textPreview":"正常结束","textChars":4,"textLines":1,"bbox":[864,336,256,24]}
+{"kind":"textbox","id":"sh/10vq9kve","slide":8,"text":"核心信息可用且无阻塞项","textPreview":"核心信息可用且无阻塞项","textChars":11,"textLines":1,"bbox":[864,366,256,20]}
+{"kind":"shape","id":"sh/6tk7a5wr","slide":8,"bbox":[848,420,288,72]}
+{"kind":"textbox","id":"sh/rut83qxc","slide":8,"text":"保护性结束","textPreview":"保护性结束","textChars":5,"textLines":1,"bbox":[864,432,256,24]}
+{"kind":"textbox","id":"sh/9ozu98fu","slide":8,"text":"在线采集失效，交由医生补充","textPreview":"在线采集失效，交由医生补充","textChars":13,"textLines":1,"bbox":[864,462,256,20]}
+{"kind":"shape","id":"sh/8nqtg3y9","slide":8,"bbox":[68,576,1092,48]}
+{"kind":"textbox","id":"sh/7mhs7yxo","slide":8,"text":"完整不等于所有字段填满，而是核心信息可用、安全缺口已处理、没有阻塞性冲突。","textPreview":"完整不等于所有字段填满，而是核心信息可用、安全缺口已处理、没有阻塞性冲突。","textChars":37,"textLines":1,"bbox":[92,590,1044,22]}
+{"kind":"notes","id":"nt/hnvzbq","slide":8,"text":"完整度由核心字段、安全缺口和冲突共同决定，不要求所有可选字段全部填写。"}
+{"kind":"slide","id":"sl/abd7va","slide":9,"title":"追问优先级与决策机制","textShapes":21}
+{"kind":"textbox","id":"sh/nqx0fe5g","slide":9,"text":"追问优先级与决策机制","textPreview":"追问优先级与决策机制","textChars":10,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/8b6hoj61","slide":9,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/9cfihonm","slide":9,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/yl4zi9oz","slide":9,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/zmd0be5k","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"textbox","id":"sh/0nmhkj65","slide":9,"text":"优先级","textPreview":"优先级","textChars":3,"textLines":1,"bbox":[68,148,160,28]}
+{"kind":"textbox","id":"sh/lovid4nq","slide":9,"text":"目标字段","textPreview":"目标字段","textChars":4,"textLines":1,"bbox":[258,148,350,28]}
+{"kind":"textbox","id":"sh/ihozuto3","slide":9,"text":"选择依据","textPreview":"选择依据","textChars":4,"textLines":1,"bbox":[650,148,510,28]}
+{"kind":"shape","id":"sh/jih0ny5o","slide":9,"bbox":[68,196,1092,54]}
+{"kind":"textbox","id":"sh/rytcrixs","slide":9,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[88,212,40,20]}
+{"kind":"textbox","id":"sh/qxkvydw7","slide":9,"text":"危险信号与安全字段","textPreview":"危险信号与安全字段","textChars":9,"textLines":1,"bbox":[258,209,350,26]}
+{"kind":"textbox","id":"sh/d0vetsfy","slide":9,"text":"优先处理安全边界","textPreview":"优先处理安全边界","textChars":8,"textLines":1,"bbox":[650,209,470,26]}
+{"kind":"shape","id":"sh/cz2d0ned","slide":9,"bbox":[68,262,1092,54]}
+{"kind":"textbox","id":"sh/zmdwv2x4","slide":9,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[88,278,40,20]}
+{"kind":"textbox","id":"sh/el4v2xwj","slide":9,"text":"尚未完成的核心字段","textPreview":"尚未完成的核心字段","textChars":9,"textLines":1,"bbox":[258,275,350,26]}
+{"kind":"textbox","id":"sh/1ovexsfu","slide":9,"text":"决定档案基本使用价值","textPreview":"决定档案基本使用价值","textChars":10,"textLines":1,"bbox":[650,275,470,26]}
+{"kind":"shape","id":"sh/0nmd47ep","slide":9,"bbox":[68,328,1092,54]}
+{"kind":"textbox","id":"sh/nqdwz2d0","slide":9,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[88,344,40,20]}
+{"kind":"textbox","id":"sh/mp4v6xwf","slide":9,"text":"存在冲突的字段","textPreview":"存在冲突的字段","textChars":7,"textLines":1,"bbox":[258,341,350,26]}
+{"kind":"textbox","id":"sh/ixs7e5kz","slide":9,"text":"先澄清前后不一致","textPreview":"先澄清前后不一致","textChars":8,"textLines":1,"bbox":[650,341,470,26]}
+{"kind":"shape","id":"sh/jy1onalk","slide":9,"bbox":[68,394,1092,54]}
+{"kind":"textbox","id":"sh/4zapgv25","slide":9,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[88,410,40,20]}
+{"kind":"textbox","id":"sh/50jqp03q","slide":9,"text":"高优先级普通字段","textPreview":"高优先级普通字段","textChars":8,"textLines":1,"bbox":[258,407,350,26]}
+{"kind":"textbox","id":"sh/at87alk3","slide":9,"text":"补充医生常用信息","textPreview":"补充医生常用信息","textChars":8,"textLines":1,"bbox":[650,407,470,26]}
+{"kind":"shape","id":"sh/vuhojqlo","slide":9,"bbox":[68,460,1092,54]}
+{"kind":"textbox","id":"sh/wvqpcv2t","slide":9,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[88,476,40,20]}
+{"kind":"textbox","id":"sh/hwj6l03e","slide":9,"text":"可选补充信息","textPreview":"可选补充信息","textChars":6,"textLines":1,"bbox":[258,473,350,26]}
+{"kind":"textbox","id":"sh/epc7mpk7","slide":9,"text":"轮数允许时继续采集","textPreview":"轮数允许时继续采集","textChars":9,"textLines":1,"bbox":[650,473,470,26]}
+{"kind":"shape","id":"sh/fql8vu1s","slide":9,"bbox":[68,548,1092,76]}
+{"kind":"textbox","id":"sh/pknalonu","slide":9,"text":"示例：用药信息与运动情况同时缺失时，规则先选择安全相关的“用药信息”；Agent再生成自然问题。","textPreview":"示例：用药信息与运动情况同时缺失时，规则先选择安全相关的“用药信息”；Agent再生成自然问题。","textChars":48,"textLines":1,"bbox":[92,566,1044,42]}
+{"kind":"notes","id":"nt/abd7va","slide":9,"text":"追问优先处理危险信号和核心字段。规则决定问什么，Agent负责把目标字段表达成自然问题。"}
+{"kind":"slide","id":"sl/67bgem","slide":10,"title":"何时停止追问","textShapes":17}
+{"kind":"textbox","id":"sh/0zm18z6d","slide":10,"text":"何时停止追问","textPreview":"何时停止追问","textChars":6,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/zyd0zu5s","slide":10,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/yx4z6po7","slide":10,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/9ovi5onu","slide":10,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/8nm1cj69","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"shape","id":"sh/nmd03e5o","slide":10,"bbox":[352,150,576,72]}
+{"kind":"textbox","id":"sh/ml4ja9o3","slide":10,"text":"当前信息是否仍需要并适合在线追问？","textPreview":"当前信息是否仍需要并适合在线追问？","textChars":17,"textLines":1,"bbox":[376,170,528,30]}
+{"kind":"shape","id":"sh/xsfi9onq","slide":10,"bbox":[640,222,1,40]}
+{"kind":"shape","id":"sh/wr610j65","slide":10,"bbox":[238,262,804,1]}
+{"kind":"shape","id":"sh/u54f6xg7","slide":10,"bbox":[210,262,1,38]}
+{"kind":"shape","id":"sh/v6dwfihs","slide":10,"bbox":[68,300,284,230]}
+{"kind":"textbox","id":"sh/w7mx8nyd","slide":10,"text":"继续追问","textPreview":"继续追问","textChars":4,"textLines":1,"bbox":[88,326,244,30]}
+{"kind":"textbox","id":"sh/h8vehsfy","slide":10,"text":"• 核心字段仍缺失","textPreview":"• 核心字段仍缺失","textChars":9,"textLines":1,"bbox":[92,382,236,26]}
+{"kind":"textbox","id":"sh/i9ofaxgj","slide":10,"text":"• 安全信息尚未确认","textPreview":"• 安全信息尚未确认","textChars":10,"textLines":1,"bbox":[92,422,236,26]}
+{"kind":"textbox","id":"sh/jaxwj2x4","slide":10,"text":"• 冲突仍可在线澄清","textPreview":"• 冲突仍可在线澄清","textChars":10,"textLines":1,"bbox":[92,462,236,26]}
+{"kind":"shape","id":"sh/4b6xc7yp","slide":10,"bbox":[614,262,1,38]}
+{"kind":"shape","id":"sh/5wfylcfu","slide":10,"bbox":[472,300,284,230]}
+{"kind":"textbox","id":"sh/ydkfydgz","slide":10,"text":"正常结束","textPreview":"正常结束","textChars":4,"textLines":1,"bbox":[492,326,244,30]}
+{"kind":"textbox","id":"sh/zetw7yhk","slide":10,"text":"• 核心字段已经完整","textPreview":"• 核心字段已经完整","textChars":10,"textLines":1,"bbox":[496,382,236,26]}
+{"kind":"textbox","id":"sh/36pkjatg","slide":10,"text":"• 无关键安全缺口","textPreview":"• 无关键安全缺口","textChars":9,"textLines":1,"bbox":[496,422,236,26]}
+{"kind":"textbox","id":"sh/25g3q5sv","slide":10,"text":"• 无未解决冲突","textPreview":"• 无未解决冲突","textChars":8,"textLines":1,"bbox":[496,462,236,26]}
+{"kind":"shape","id":"sh/p872lkb6","slide":10,"bbox":[1018,262,1,38]}
+{"kind":"shape","id":"sh/47ylsfal","slide":10,"bbox":[876,300,284,230]}
+{"kind":"textbox","id":"sh/f25kfqt4","slide":10,"text":"保护性结束","textPreview":"保护性结束","textChars":5,"textLines":1,"bbox":[896,326,244,30]}
+{"kind":"textbox","id":"sh/u1w3m5sj","slide":10,"text":"• 多次无法回答或问题重复","textPreview":"• 多次无法回答或问题重复","textChars":13,"textLines":1,"bbox":[900,382,236,26]}
+{"kind":"textbox","id":"sh/h4n2h0ba","slide":10,"text":"• 剩余内容不宜在线采集","textPreview":"• 剩余内容不宜在线采集","textChars":12,"textLines":1,"bbox":[900,422,236,26]}
+{"kind":"textbox","id":"sh/g3elovap","slide":10,"text":"• AI暂不可用或出现风险","textPreview":"• AI暂不可用或出现风险","textChars":13,"textLines":1,"bbox":[900,462,236,26]}
+{"kind":"textbox","id":"sh/zy94ru98","slide":10,"text":"停止追问不代表资料完整","textPreview":"停止追问不代表资料完整","textChars":11,"textLines":1,"bbox":[896,496,244,20]}
+{"kind":"textbox","id":"sh/ex03yps3","slide":10,"text":"系统依据核心完整度和在线可采集性决定结束时机，不使用固定追问轮数。","textPreview":"系统依据核心完整度和在线可采集性决定结束时机，不使用固定追问轮数。","textChars":33,"textLines":1,"bbox":[68,590,1092,24]}
+{"kind":"notes","id":"nt/67bgem","slide":10,"text":"系统根据核心完整度和在线可采集性决定继续、正常结束或保护性结束。保护性结束不代表资料完整。"}
+{"kind":"slide","id":"sl/ojv3d6","slide":11,"title":"项目实现中的关键难点","textShapes":18}
+{"kind":"textbox","id":"sh/i58nq14r","slide":11,"text":"项目实现中的关键难点","textPreview":"项目实现中的关键难点","textChars":10,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/58j6lg3i","slide":11,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/47q5sb2x","slide":11,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/ra1on6l8","slide":11,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/69snulkn","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"textbox","id":"sh/dcj6pg3e","slide":11,"text":"关键难点","textPreview":"关键难点","textChars":4,"textLines":1,"bbox":[68,148,240,26]}
+{"kind":"textbox","id":"sh/sba5wb2t","slide":11,"text":"解决方式","textPreview":"解决方式","textChars":4,"textLines":1,"bbox":[330,148,620,26]}
+{"kind":"textbox","id":"sh/fy1orqlk","slide":11,"text":"当前状态","textPreview":"当前状态","textChars":4,"textLines":1,"bbox":[1010,148,150,26]}
+{"kind":"shape","id":"sh/edsnylkz","slide":11,"bbox":[68,190,1092,66]}
+{"kind":"textbox","id":"sh/szqhgb6p","slide":11,"text":"追问轮数过多","textPreview":"追问轮数过多","textChars":6,"textLines":1,"bbox":[88,210,220,26]}
+{"kind":"textbox","id":"sh/d0zypw7a","slide":11,"text":"核心字段驱动停止，可选字段不无限阻塞","textPreview":"核心字段驱动停止，可选字段不无限阻塞","textChars":18,"textLines":1,"bbox":[330,208,640,30]}
+{"kind":"textbox","id":"sh/qdoze1oj","slide":11,"text":"已实现","textPreview":"已实现","textChars":3,"textLines":1,"bbox":[1010,210,126,24]}
+{"kind":"shape","id":"sh/rehgn6p4","slide":11,"bbox":[68,274,1092,66]}
+{"kind":"textbox","id":"sh/03qhkb61","slide":11,"text":"Agent输出不稳定","textPreview":"Agent输出不稳定","textChars":10,"textLines":1,"bbox":[88,294,220,26]}
+{"kind":"textbox","id":"sh/14zitg76","slide":11,"text":"Agent提供证据，确定性规则统一决策","textPreview":"Agent提供证据，确定性规则统一决策","textChars":19,"textLines":1,"bbox":[330,292,640,30]}
+{"kind":"textbox","id":"sh/e18zi1ov","slide":11,"text":"已实现","textPreview":"已实现","textChars":3,"textLines":1,"bbox":[1010,294,126,24]}
+{"kind":"shape","id":"sh/f2h0r6pg","slide":11,"bbox":[68,358,1092,66]}
+{"kind":"textbox","id":"sh/o7ahov6x","slide":11,"text":"“不知道”导致重复","textPreview":"“不知道”导致重复","textChars":9,"textLines":1,"bbox":[88,378,220,26]}
+{"kind":"textbox","id":"sh/98jixg7i","slide":11,"text":"记录尝试次数与回答质量，达到上限后转医生","textPreview":"记录尝试次数与回答质量，达到上限后转医生","textChars":20,"textLines":1,"bbox":[330,376,640,30]}
+{"kind":"textbox","id":"sh/xofyhgzm","slide":11,"text":"已实现","textPreview":"已实现","textChars":3,"textLines":1,"bbox":[1010,378,126,24]}
+{"kind":"shape","id":"sh/wn6h8by1","slide":11,"bbox":[68,442,1092,66]}
+{"kind":"textbox","id":"sh/vmxgfqhg","slide":11,"text":"多患者数据隔离","textPreview":"多患者数据隔离","textChars":7,"textLines":1,"bbox":[88,462,220,26]}
+{"kind":"textbox","id":"sh/aloz6lgv","slide":11,"text":"显式patient_id与资源归属校验，跨患者返回404","textPreview":"显式patient_id与资源归属校验，跨患者返回404","textChars":28,"textLines":1,"bbox":[330,460,640,30]}
+{"kind":"textbox","id":"sh/5szil0zi","slide":11,"text":"已实现","textPreview":"已实现","textChars":3,"textLines":1,"bbox":[1010,462,126,24]}
+{"kind":"shape","id":"sh/kr6hcvyd","slide":11,"bbox":[68,554,1092,70]}
+{"kind":"textbox","id":"sh/jqxgjqhs","slide":11,"text":"当前边界：演示身份不等于正式鉴权；真实临床效果、规则覆盖范围和权限体系仍需进一步验证。","textPreview":"当前边界：演示身份不等于正式鉴权；真实临床效果、规则覆盖范围和权限体系仍需进一步验证。","textChars":43,"textLines":1,"bbox":[92,574,1044,36]}
+{"kind":"notes","id":"nt/ojv3d6","slide":11,"text":"当前版本已经实现核心字段驱动停止、规则约束Agent、尝试次数控制和多患者数据隔离。"}
+{"kind":"slide","id":"sl/e6etgx","slide":12,"title":"项目操作展示：身份选择与患者端","textShapes":9}
+{"kind":"textbox","id":"sh/p4z29036","slide":12,"text":"项目操作展示：身份选择与患者端","textPreview":"项目操作展示：身份选择与患者端","textChars":15,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/2h8jel4f","slide":12,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/3ihk7ql0","slide":12,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/c7alkv2h","slide":12,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/d8j2d032","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"shape","id":"sh/q5s3i54b","slide":12,"bbox":[68,148,690,390]}
+{"kind":"textbox","id":"sh/b61kbqlw","slide":12,"text":"01  身份选择首页","textPreview":"01  身份选择首页","textChars":10,"textLines":1,"bbox":[88,168,300,24]}
+{"kind":"textbox","id":"sh/0balof2t","slide":12,"text":"放置主截图","textPreview":"放置主截图","textChars":5,"textLines":1,"bbox":[238,308,350,32]}
+{"kind":"shape","id":"sh/lc32hk3y","slide":12,"bbox":[790,148,370,184]}
+{"kind":"textbox","id":"sh/5gbqpkjm","slide":12,"text":"02  基础资料","textPreview":"02  基础资料","textChars":8,"textLines":1,"bbox":[810,168,300,24]}
+{"kind":"textbox","id":"sh/4f2pgf21","slide":12,"text":"放置截图","textPreview":"放置截图","textChars":4,"textLines":1,"bbox":[870,235,210,28]}
+{"kind":"shape","id":"sh/3et8na1g","slide":12,"bbox":[790,354,370,184]}
+{"kind":"textbox","id":"sh/idk7e5kv","slide":12,"text":"03  侧栏与历史记录","textPreview":"03  侧栏与历史记录","textChars":11,"textLines":1,"bbox":[810,374,320,24]}
+{"kind":"textbox","id":"sh/dkvqtkji","slide":12,"text":"放置截图","textPreview":"放置截图","textChars":4,"textLines":1,"bbox":[870,441,210,28]}
+{"kind":"textbox","id":"sh/sjmpkf2x","slide":12,"text":"演示重点：多患者入口、数据隔离、侧栏折叠、未完成问诊恢复、独立历史记录。","textPreview":"演示重点：多患者入口、数据隔离、侧栏折叠、未完成问诊恢复、独立历史记录。","textChars":36,"textLines":1,"bbox":[68,584,1092,28]}
+{"kind":"notes","id":"nt/e6etgx","slide":12,"text":"此页展示身份选择、基础资料和侧栏历史记录。后续可直接用真实截图替换占位框。"}
+{"kind":"slide","id":"sl/afspga","slide":13,"title":"项目操作展示：问诊过程","textShapes":9}
+{"kind":"textbox","id":"sh/i94ridk3","slide":13,"text":"项目操作展示：问诊过程","textPreview":"项目操作展示：问诊过程","textChars":11,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/5cvatsju","slide":13,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/4bm9kn29","slide":13,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/redsvi1k","slide":13,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/6d4rmdkz","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"shape","id":"sh/tgfaxsjq","slide":13,"bbox":[68,154,340,340]}
+{"kind":"textbox","id":"sh/sf6ton25","slide":13,"text":"01  开放描述","textPreview":"01  开放描述","textChars":8,"textLines":1,"bbox":[88,176,300,24]}
+{"kind":"textbox","id":"sh/7itsjy1g","slide":13,"text":"放置截图","textPreview":"放置截图","textChars":4,"textLines":1,"bbox":[138,306,200,30]}
+{"kind":"shape","id":"sh/mhkratkv","slide":13,"bbox":[444,154,340,340]}
+{"kind":"textbox","id":"sh/kfa9s7a1","slide":13,"text":"02  逐项补充追问","textPreview":"02  逐项补充追问","textChars":10,"textLines":1,"bbox":[464,176,300,24]}
+{"kind":"textbox","id":"sh/5gjalcbm","slide":13,"text":"放置截图","textPreview":"放置截图","textChars":4,"textLines":1,"bbox":[514,306,200,30]}
+{"kind":"shape","id":"sh/idsrqxcv","slide":13,"bbox":[820,154,340,340]}
+{"kind":"textbox","id":"sh/je1sj2tg","slide":13,"text":"03  完成后的诊前档案","textPreview":"03  完成后的诊前档案","textChars":12,"textLines":1,"bbox":[840,176,300,24]}
+{"kind":"textbox","id":"sh/sja9wrad","slide":13,"text":"放置截图","textPreview":"放置截图","textChars":4,"textLines":1,"bbox":[890,306,200,30]}
+{"kind":"shape","id":"sh/tk3apcbi","slide":13,"bbox":[68,548,1092,1]}
+{"kind":"textbox","id":"sh/6hsruhs7","slide":13,"text":"自由描述　→　信息抽取　→　单项追问　→　完整度更新　→　生成档案","textPreview":"自由描述　→　信息抽取　→　单项追问　→　完整度更新　→　生成档案","textChars":33,"textLines":1,"bbox":[68,574,1092,26]}
+{"kind":"notes","id":"nt/afspga","slide":13,"text":"此页按开放描述、逐项追问和诊前档案三个阶段展示完整操作过程。"}
+{"kind":"slide","id":"sl/o0z7m2","slide":14,"title":"项目操作展示：医生工作台与总结","textShapes":14}
+{"kind":"textbox","id":"sh/7m5wb2to","slide":14,"text":"项目操作展示：医生工作台与总结","textPreview":"项目操作展示：医生工作台与总结","textChars":15,"textLines":1,"bbox":[68,42,1040,52]}
+{"kind":"shape","id":"sh/snex4na9","slide":14,"bbox":[68,110,88,4]}
+{"kind":"shape","id":"sh/tonedsbu","slide":14,"bbox":[156,111,1004,2]}
+{"kind":"shape","id":"sh/upwf6xsf","slide":14,"bbox":[68,646,1092,1]}
+{"kind":"textbox","id":"sh/fq5gf2t0","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1100,658,36,18]}
+{"kind":"shape","id":"sh/gbyx87al","slide":14,"bbox":[68,146,1092,338]}
+{"kind":"textbox","id":"sh/hc7yhcbq","slide":14,"text":"医生三栏工作台 / 放置完整截图","textPreview":"医生三栏工作台 / 放置完整截图","textChars":16,"textLines":1,"bbox":[92,168,500,24]}
+{"kind":"textbox","id":"sh/atcfudcb","slide":14,"text":"患者列表　｜　问诊详情　｜　决策解释","textPreview":"患者列表　｜　问诊详情　｜　决策解释","textChars":18,"textLines":1,"bbox":[300,300,680,34]}
+{"kind":"textbox","id":"sh/bulw3itg","slide":14,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[68,526,34,22]}
+{"kind":"textbox","id":"sh/7yd0325g","slide":14,"text":"患者列表","textPreview":"患者列表","textChars":4,"textLines":1,"bbox":[112,524,260,26]}
+{"kind":"textbox","id":"sh/6xkzahov","slide":14,"text":"档案数量与快速切换","textPreview":"档案数量与快速切换","textChars":9,"textLines":1,"bbox":[112,558,300,38]}
+{"kind":"textbox","id":"sh/tkvi5cnm","slide":14,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[432,526,34,22]}
+{"kind":"textbox","id":"sh/8jmhc761","slide":14,"text":"问诊详情","textPreview":"问诊详情","textChars":4,"textLines":1,"bbox":[476,524,260,26]}
+{"kind":"textbox","id":"sh/jut0z25k","slide":14,"text":"基础资料、描述和逐轮问答","textPreview":"基础资料、描述和逐轮问答","textChars":12,"textLines":1,"bbox":[476,558,300,38]}
+{"kind":"textbox","id":"sh/ytkz6xoz","slide":14,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[796,526,34,22]}
+{"kind":"textbox","id":"sh/lwbi1cna","slide":14,"text":"决策解释","textPreview":"决策解释","textChars":4,"textLines":1,"bbox":[840,524,260,26]}
+{"kind":"textbox","id":"sh/kv2h8765","slide":14,"text":"完整度、缺口、来源和停止原因","textPreview":"完整度、缺口、来源和停止原因","textChars":14,"textLines":1,"bbox":[840,558,300,38]}
+{"kind":"textbox","id":"sh/bq9gvi58","slide":14,"text":"项目通过规则约束 Agent，完成安全、可追踪、可解释的诊前信息整理。","textPreview":"项目通过规则约束 Agent，完成安全、可追踪、可解释的诊前信息整理。","textChars":35,"textLines":1,"bbox":[68,612,1092,26]}
+{"kind":"notes","id":"nt/o0z7m2","slide":14,"text":"医生工作台集中展示患者列表、问诊详情和决策解释，使问诊结果更容易理解和追溯。"}

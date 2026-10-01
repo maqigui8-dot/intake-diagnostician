@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6" />
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#155E47">04 / 当前方案</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">当前完整流程</text>
+    <text x="64" y="184" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#5E6D65">从可量化的基础资料开始，以可解释的完整度门槛结束。</text>
+  </g>
+  <g id="flow-line">
+    <line x1="136" y1="353" x2="1144" y2="353" stroke="#C9D7CE" stroke-width="5" />
+    <polygon points="1144,353 1126,342 1126,364" fill="#4C8C7B" />
+  </g>
+  <g id="step-one">
+    <circle cx="146" cy="353" r="42" fill="#155E47" />
+    <text x="146" y="363" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#F7F9F6">1</text>
+    <text x="146" y="436" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#15221C">基础资料</text>
+    <text x="146" y="466" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">年龄、身高、体重</text>
+  </g>
+  <g id="step-two">
+    <circle cx="385" cy="353" r="42" fill="#4C8C7B" />
+    <text x="385" y="363" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#F7F9F6">2</text>
+    <text x="385" y="436" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#15221C">开放描述</text>
+    <text x="385" y="466" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">当前诉求与变化</text>
+  </g>
+  <g id="step-three">
+    <circle cx="624" cy="353" r="42" fill="#E07A5F" />
+    <text x="624" y="363" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#F7F9F6">3</text>
+    <text x="624" y="436" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#15221C">分层追问</text>
+    <text x="624" y="466" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">病因、风险、中医资料</text>
+  </g>
+  <g id="step-four">
+    <circle cx="863" cy="353" r="42" fill="#4C8C7B" />
+    <text x="863" y="363" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#F7F9F6">4</text>
+    <text x="863" y="436" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#15221C">资料汇总</text>
+    <text x="863" y="466" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">字段、证据与矛盾</text>
+  </g>
+  <g id="step-five">
+    <circle cx="1102" cy="353" r="42" fill="#155E47" />
+    <text x="1102" y="363" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#F7F9F6">5</text>
+    <text x="1102" y="436" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#15221C">输出档案</text>
+    <text x="1102" y="466" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5E6D65">检查候选与交接</text>
+  </g>
+  <g id="annotation">
+    <path fill="#EAF2EB" d="M70,558 H1210 A6,6 0 0 1 1216,564 V619 A6,6 0 0 1 1210,625 H70 A6,6 0 0 1 64,619 V564 A6,6 0 0 1 70,558 Z" />
+    <text x="96" y="599" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#15221C">患者端隐藏内部执行度；医生端保留缺失项、证据来源和冲突信息，便于诊中核对。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">25</text>
+  </g>
+</svg>

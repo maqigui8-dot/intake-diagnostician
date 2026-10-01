@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <path fill="#2F8F4E" d="M68,55 H68 A4,4 0 0 1 72,59 V95 A4,4 0 0 1 68,99 H68 A4,4 0 0 1 64,95 V59 A4,4 0 0 1 68,55 Z" />
+  <text x="92" y="88" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#21352A">当前完整使用流程</text>
+  <text x="92" y="122" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#6C7A70">先完成十个必问项，再按完整度动态追问，最终形成档案和检查建议</text>
+
+  <line x1="148" y1="300" x2="1134" y2="300" stroke="#DCE5DD" stroke-width="6" />
+  <path d="M1124 289 L1142 300 L1124 311 Z" fill="#2F8F4E" />
+
+  <path fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2" d="M82,188 H251 A18,18 0 0 1 269,206 V394 A18,18 0 0 1 251,412 H82 A18,18 0 0 1 64,394 V206 A18,18 0 0 1 82,188 Z" />
+  <circle cx="166" cy="244" r="31" fill="#2F8F4E" />
+  <text x="166" y="253" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">1</text>
+  <path fill="#E6F4E8" d="M116,278 H216 A14,14 0 0 1 230,292 V292 A14,14 0 0 1 216,306 H116 A14,14 0 0 1 102,292 V292 A14,14 0 0 1 116,278 Z" />
+  <text x="166" y="297" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#2F8F4E">用户可见</text>
+  <text x="166" y="342" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">十个必问项</text>
+  <text x="166" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#6C7A70">采集基础病情信息</text>
+
+  <path fill="#E6F4E8" stroke="#DCE5DD" stroke-width="2" d="M319,188 H488 A18,18 0 0 1 506,206 V394 A18,18 0 0 1 488,412 H319 A18,18 0 0 1 301,394 V206 A18,18 0 0 1 319,188 Z" />
+  <circle cx="403" cy="244" r="31" fill="#1D5732" />
+  <text x="403" y="253" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">2</text>
+  <path fill="#FFFFFF" d="M353,278 H453 A14,14 0 0 1 467,292 V292 A14,14 0 0 1 453,306 H353 A14,14 0 0 1 339,292 V292 A14,14 0 0 1 353,278 Z" />
+  <text x="403" y="297" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#1D5732">后台判断</text>
+  <text x="403" y="342" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">完整度检查</text>
+  <text x="403" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#6C7A70">必问项确认技能</text>
+
+  <path fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2" d="M556,188 H725 A18,18 0 0 1 743,206 V394 A18,18 0 0 1 725,412 H556 A18,18 0 0 1 538,394 V206 A18,18 0 0 1 556,188 Z" />
+  <circle cx="640" cy="244" r="31" fill="#2F8F4E" />
+  <text x="640" y="253" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">3</text>
+  <path fill="#E6F4E8" d="M590,278 H690 A14,14 0 0 1 704,292 V292 A14,14 0 0 1 690,306 H590 A14,14 0 0 1 576,292 V292 A14,14 0 0 1 590,278 Z" />
+  <text x="640" y="297" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#2F8F4E">用户可见</text>
+  <text x="640" y="342" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">对话式追问</text>
+  <text x="640" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#6C7A70">提问策略技能</text>
+
+  <path fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2" d="M793,188 H962 A18,18 0 0 1 980,206 V394 A18,18 0 0 1 962,412 H793 A18,18 0 0 1 775,394 V206 A18,18 0 0 1 793,188 Z" />
+  <circle cx="877" cy="244" r="31" fill="#2F8F4E" />
+  <text x="877" y="253" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">4</text>
+  <path fill="#E6F4E8" d="M827,278 H927 A14,14 0 0 1 941,292 V292 A14,14 0 0 1 927,306 H827 A14,14 0 0 1 813,292 V292 A14,14 0 0 1 827,278 Z" />
+  <text x="877" y="297" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#2F8F4E">系统输出</text>
+  <text x="877" y="342" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">诊前档案</text>
+  <text x="877" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#6C7A70">结构化整理信息</text>
+
+  <path fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2" d="M1030,188 H1199 A18,18 0 0 1 1217,206 V394 A18,18 0 0 1 1199,412 H1030 A18,18 0 0 1 1012,394 V206 A18,18 0 0 1 1030,188 Z" />
+  <circle cx="1114" cy="244" r="31" fill="#D6A74B" />
+  <text x="1114" y="253" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">5</text>
+  <path fill="#FBF4DF" d="M1064,278 H1164 A14,14 0 0 1 1178,292 V292 A14,14 0 0 1 1164,306 H1064 A14,14 0 0 1 1050,292 V292 A14,14 0 0 1 1064,278 Z" />
+  <text x="1114" y="297" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#1D5732">系统输出</text>
+  <text x="1114" y="342" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#21352A">检查建议</text>
+  <text x="1114" y="375" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#6C7A70">按病情推荐项目</text>
+
+  <path d="M638 429 C638 478 565 492 493 477 C451 468 429 447 429 421" fill="none" stroke="#D6A74B" stroke-width="3" stroke-dasharray="8 7" />
+  <path d="M421 431 L429 413 L439 430 Z" fill="#D6A74B" />
+  <path fill="#FBF4DF" d="M487,452 H615 A15,15 0 0 1 630,467 V467 A15,15 0 0 1 615,482 H487 A15,15 0 0 1 472,467 V467 A15,15 0 0 1 487,452 Z" />
+  <text x="551" y="472" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#1D5732">信息不足，继续追问</text>
+
+  <path fill="#F5F8F4" stroke="#DCE5DD" stroke-width="2" d="M82,526 H1198 A18,18 0 0 1 1216,544 V626 A18,18 0 0 1 1198,644 H82 A18,18 0 0 1 64,626 V544 A18,18 0 0 1 82,526 Z" />
+  <text x="92" y="558" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1D5732">追问结束条件</text>
+  <circle cx="111" cy="598" r="7" fill="#2F8F4E" />
+  <text x="130" y="605" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#21352A">关键信息达到完整度阈值</text>
+  <circle cx="436" cy="598" r="7" fill="#2F8F4E" />
+  <text x="455" y="605" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#21352A">连续追问的信息增益较低</text>
+  <circle cx="778" cy="598" r="7" fill="#2F8F4E" />
+  <text x="797" y="605" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#21352A">命中重复问题或达到最大轮次</text>
+  <text x="1204" y="695" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#A5B0A8">04 / 07</text>
+</svg>

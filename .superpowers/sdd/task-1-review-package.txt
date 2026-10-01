@@ -1,0 +1,349 @@
+﻿Task 1 no-index review package
+Base: pre-task file snapshot
+Head: current workspace after review fix
+
+
+===== backend\intake_flow.py =====
+diff --git "a/.superpowers\\sdd\\task-1-before\\intake_flow.py" "b/backend\\intake_flow.py"
+index ca097ad..26743c5 100644
+--- "a/.superpowers\\sdd\\task-1-before\\intake_flow.py"
++++ "b/backend\\intake_flow.py"
+@@ -5,7 +5,7 @@ from datetime import datetime
+ from typing import Any
+ 
+ from intake_execution import blank_field_states, calculate_execution, merge_field_updates
+-from intake_question_policy import question_for_field
++from intake_question_policy import is_clarification_request, question_for_field
+ from obesity_intake_schema import FIELD_DEFINITIONS, RULE_VERSION
+ 
+ 
+@@ -118,13 +118,22 @@ def submit_follow_up_answer(
+     if not key:
+         raise ValueError("当前追问缺少服务端字段标识")
+ 
+-    previous_attempts = sum(1 for item in session["follow_up_answers"] if item.get("question_key") == key)
++    previous_attempts = sum(
++        1
++        for item in session["follow_up_answers"]
++        if item.get("question_key") == key and item.get("answer_quality") != "clarification"
++    )
+     current_attempt = attempt_number or session.get("attempt_number") or (previous_attempts + 1)
+     current_attempt = max(previous_attempts + 1, int(current_attempt))
+     if current_attempt > 2:
+         raise ValueError("该项信息已经确认两次，将留给医生诊中核实")
+ 
+-    quality = "unavailable" if _answer_is_unavailable(clean_answer) else "provided"
++    if is_clarification_request(clean_answer):
++        quality = "clarification"
++    elif _answer_is_unavailable(clean_answer):
++        quality = "unavailable"
++    else:
++        quality = "provided"
+     session["follow_up_answers"].append({
+         "question": question,
+         "answer": clean_answer,
+@@ -135,7 +144,7 @@ def submit_follow_up_answer(
+         "created_at": datetime.now().isoformat(timespec="seconds"),
+     })
+     field = session["field_states"].get(key)
+-    if field is not None:
++    if field is not None and quality != "clarification":
+         field["attempts"] = current_attempt
+         if quality == "unavailable":
+             field["status"] = "unavailable" if current_attempt >= 2 else "partial"
+
+===== backend\intake_question_policy.py =====
+diff --git "a/.superpowers\\sdd\\task-1-before\\intake_question_policy.py" "b/backend\\intake_question_policy.py"
+index 6d52574..993bc17 100644
+--- "a/.superpowers\\sdd\\task-1-before\\intake_question_policy.py"
++++ "b/backend\\intake_question_policy.py"
+@@ -7,10 +7,27 @@ from obesity_intake_schema import get_applicable_fields, get_field_definition
+ 
+ 
+ FALLBACK_SAFETY_KEYS = ("red_flags", "allergies", "medications", "important_history")
++CLARIFICATION_PATTERNS = (
++    "这是什么",
++    "什么意思",
++    "没听懂",
++    "没明白",
++    "能解释",
++    "请解释",
++)
++
++
++def is_clarification_request(answer: str) -> bool:
++    compact = "".join(str(answer or "").split()).rstrip("？?!！。")
++    return len(compact) <= 24 and any(item in compact for item in CLARIFICATION_PATTERNS)
+ 
+ 
+ def _attempt_count(key: str, state: dict[str, Any], history: list[dict[str, Any]]) -> int:
+-    recorded = sum(1 for item in history if item.get("question_key") == key)
++    recorded = sum(
++        1
++        for item in history
++        if item.get("question_key") == key and item.get("answer_quality") != "clarification"
++    )
+     return max(recorded, int(state.get("attempts") or 0))
+ 
+ 
+
+===== backend\skill_analysis.py =====
+diff --git "a/.superpowers\\sdd\\task-1-before\\skill_analysis.py" "b/backend\\skill_analysis.py"
+index 77499de..5eb9ba0 100644
+--- "a/.superpowers\\sdd\\task-1-before\\skill_analysis.py"
++++ "b/backend\\skill_analysis.py"
+@@ -285,15 +285,23 @@ def process_intake_turn(session_id: str, agent: Any) -> dict[str, Any]:
+     state = get_internal_intake_state(session_id)
+     extraction = extract_fields_with_agent(session_id, state, agent)
+     ai_available = extraction.get("status") == "completed"
+-    local_red_flags = extract_local_red_flags(
+-        state.get("latest_answer") or state.get("open_answer", "")
++    latest_follow_up = (state.get("follow_up_answers") or [])[-1:]
++    is_clarification = bool(
++        latest_follow_up and latest_follow_up[0].get("answer_quality") == "clarification"
+     )
++    local_red_flags = []
++    if not is_clarification:
++        local_red_flags = extract_local_red_flags(
++            state.get("latest_answer") or state.get("open_answer", "")
++        )
++    if is_clarification:
++        extraction.update({"field_updates": [], "conflicts": [], "red_flags": []})
+     extraction["red_flags"] = list(dict.fromkeys([
+         *(extraction.get("red_flags") or []),
+         *local_red_flags,
+     ]))
+ 
+-    if not ai_available and state.get("follow_up_answers"):
++    if not ai_available and state.get("follow_up_answers") and not is_clarification:
+         latest = state["follow_up_answers"][-1]
+         if latest.get("answer_quality") == "provided" and latest.get("question_key"):
+             extraction["field_updates"] = [{
+@@ -302,7 +310,7 @@ def process_intake_turn(session_id: str, agent: Any) -> dict[str, Any]:
+                 "evidence": latest.get("answer", ""),
+                 "confidence": 1.0,
+             }]
+-    if not ai_available:
++    if not ai_available and not is_clarification:
+         local_updates = extract_local_basic_fields(state.get("open_answer", ""))
+         existing_keys = {item.get("field_key") for item in extraction.get("field_updates") or []}
+         extraction["field_updates"].extend(
+@@ -345,10 +353,15 @@ def process_intake_turn(session_id: str, agent: Any) -> dict[str, Any]:
+         field_key = decision["next_field_key"]
+         previous_attempts = sum(
+             1 for item in state.get("follow_up_answers") or []
+-            if item.get("question_key") == field_key
++            if item.get("question_key") == field_key and item.get("answer_quality") != "clarification"
+         )
+         attempt_number = previous_attempts + 1
+-        if ai_available:
++        if is_clarification:
++            question = (
++                f"我换一种说法说明：{question_for_field(field_key, attempt_number)} "
++                "如果还有不清楚的词，请告诉我，我会继续解释。"
++            )
++        elif ai_available:
+             question = generate_question_with_agent(session_id, field_key, attempt_number, state, agent)
+         else:
+             question = question_for_field(field_key, attempt_number)
+
+===== backend\tests\test_intake_flow.py =====
+diff --git "a/.superpowers\\sdd\\task-1-before\\test_intake_flow.py" "b/backend\\tests\\test_intake_flow.py"
+index 3ce92f4..ac1607b 100644
+--- "a/.superpowers\\sdd\\task-1-before\\test_intake_flow.py"
++++ "b/backend\\tests\\test_intake_flow.py"
+@@ -66,6 +66,20 @@ class IntakeFlowTests(unittest.TestCase):
+ 
+         self.assertEqual(state["follow_up_answers"][0]["answer_quality"], "provided")
+ 
++    def test_clarification_does_not_consume_attempt_or_update_field(self):
++        session = intake_sessions.get("clarify")
++        session.update({
++            "phase": "follow_up",
++            "current_question": "您有明确的药物或食物过敏吗？",
++            "current_field_key": "allergies",
++            "attempt_number": 1,
++        })
++
++        state = submit_follow_up_answer("clarify", "这是什么意思？")
++
++        self.assertEqual(state["follow_up_answers"][-1]["answer_quality"], "clarification")
++        self.assertEqual(state["field_states"]["allergies"]["attempts"], 0)
++
+     def test_unknown_answer_marks_field_unavailable_after_second_attempt(self):
+         session = intake_sessions.get("session-a")
+         for attempt in (1, 2):
+
+===== backend\tests\test_intake_question_policy.py =====
+diff --git "a/.superpowers\\sdd\\task-1-before\\test_intake_question_policy.py" "b/backend\\tests\\test_intake_question_policy.py"
+index 626096d..254f333 100644
+--- "a/.superpowers\\sdd\\task-1-before\\test_intake_question_policy.py"
++++ "b/backend\\tests\\test_intake_question_policy.py"
+@@ -5,7 +5,7 @@ import sys
+ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+ 
+ from intake_execution import blank_field_states, calculate_execution
+-from intake_question_policy import decide_stop, select_next_field
++from intake_question_policy import decide_stop, is_clarification_request, select_next_field
+ 
+ 
+ class IntakeQuestionPolicyTests(unittest.TestCase):
+@@ -30,6 +30,19 @@ class IntakeQuestionPolicyTests(unittest.TestCase):
+         states["red_flags"].update({"status": "unavailable", "attempts": 2})
+         self.assertEqual(select_next_field(states, history, self.context), "allergies")
+ 
++    def test_clarification_requests_are_detected_and_do_not_consume_attempts(self):
++        states = blank_field_states(self.context)
++        states["red_flags"]["status"] = "partial"
++        history = [
++            {"question_key": "red_flags", "answer_quality": "clarification"},
++            {"question_key": "red_flags", "answer_quality": "clarification"},
++        ]
++
++        self.assertTrue(is_clarification_request("这是什么？"))
++        self.assertTrue(is_clarification_request("我没听懂"))
++        self.assertFalse(is_clarification_request("最近没有胸痛或呼吸困难"))
++        self.assertEqual(select_next_field(states, history, self.context), "red_flags")
++
+     def test_red_flag_keeps_collecting_with_a_persistent_alert(self):
+         states = blank_field_states(self.context)
+         result = decide_stop(states, calculate_execution(states, self.context), [], self.context, red_flags=["胸痛"], ai_available=True)
+
+===== backend\tests\test_skill_analysis.py =====
+diff --git "a/.superpowers\\sdd\\task-1-before\\test_skill_analysis.py" "b/backend\\tests\\test_skill_analysis.py"
+index d1d8bd6..ca1f83d 100644
+--- "a/.superpowers\\sdd\\task-1-before\\test_skill_analysis.py"
++++ "b/backend\\tests\\test_skill_analysis.py"
+@@ -170,6 +170,58 @@ class SkillAnalysisTests(unittest.TestCase):
+         self.assertEqual(state["field_states"]["height_weight"]["status"], "confirmed")
+         self.assertGreater(state["execution"]["total_score"], 0)
+ 
++    def test_process_turn_discards_model_updates_for_clarification_request(self):
++        from intake_flow import intake_sessions, submit_follow_up_answer
++
++        class ClarificationAgent:
++            def invoke(self, payload, config):
++                return {"messages": [type("Message", (), {"type": "ai", "content": (
++                    '{"field_updates":['
++                    '{"field_key":"allergies","status":"confirmed","evidence":"这是什么","confidence":0.99},'
++                    '{"field_key":"main_goal","status":"confirmed","evidence":"这是什么","confidence":0.99}'
++                    '],"conflicts":[],"red_flags":[]}'
++                )})()]}
++
++        intake_sessions.clear()
++        session = intake_sessions.get("clarification-model-output")
++        session["field_states"]["red_flags"]["status"] = "confirmed"
++        session.update({
++            "phase": "follow_up",
++            "current_question": "您有明确的药物或食物过敏吗？",
++            "current_field_key": "allergies",
++            "attempt_number": 1,
++        })
++        submit_follow_up_answer("clarification-model-output", "这是什么意思？")
++
++        state = process_intake_turn("clarification-model-output", ClarificationAgent())
++
++        self.assertEqual(state["field_states"]["allergies"]["status"], "not_asked")
++        self.assertEqual(state["field_states"]["main_goal"]["status"], "not_asked")
++        self.assertEqual(state["current_field_key"], "allergies")
++        self.assertIn("解释", state["current_question"])
++
++    def test_clarification_with_red_flag_word_creates_no_safety_evidence(self):
++        from intake_flow import intake_sessions, submit_follow_up_answer
++
++        agent = FakeAgent(content='{"field_updates":[],"conflicts":[],"red_flags":[]}')
++        intake_sessions.clear()
++        session = intake_sessions.get("clarification-red-flag-word")
++        session.update({
++            "phase": "follow_up",
++            "current_question": "最近有没有胸痛、明显呼吸困难或晕厥？",
++            "current_field_key": "red_flags",
++            "attempt_number": 1,
++        })
++        submit_follow_up_answer("clarification-red-flag-word", "胸痛是什么意思？")
++
++        state = process_intake_turn("clarification-red-flag-word", agent)
++
++        self.assertEqual(state["field_states"]["red_flags"]["status"], "not_asked")
++        self.assertEqual(state["field_states"]["red_flags"]["evidence"], [])
++        self.assertEqual(state["safety_alerts"], [])
++        self.assertEqual(state["current_field_key"], "red_flags")
++        self.assertIn("解释", state["current_question"])
++
+     def test_process_turn_keeps_persisted_red_flags_when_building_final_exams(self):
+         from intake_flow import intake_sessions
+ 
+
+===== frontend\src\App.vue =====
+diff --git "a/.superpowers\\sdd\\task-1-before\\App.vue" "b/frontend\\src\\App.vue"
+index 4b9aaf6..6ac344b 100644
+--- "a/.superpowers\\sdd\\task-1-before\\App.vue"
++++ "b/frontend\\src\\App.vue"
+@@ -53,10 +53,11 @@
+               rows="8"
+               placeholder="例如：最近半年体重增加了十斤，饭后容易困，想改善体重和精神状态。"
+               :disabled="saving"
+-              @keydown.ctrl.enter.prevent="submitOpenAnswer"
++              @keydown.enter="handleOpenEnter"
+             ></textarea>
+             <div class="composer-actions">
+               <p v-if="formError" class="form-error">{{ formError }}</p>
++              <small>按 Enter 发送，Shift + Enter 换行</small>
+               <button class="primary-button" :disabled="!openAnswer.trim() || saving" @click="submitOpenAnswer">
+                 {{ saving ? '正在提交...' : '开始整理' }}
+               </button>
+@@ -108,10 +109,11 @@
+               rows="4"
+               placeholder="请按实际情况回答，不清楚也可以直接说明。"
+               :disabled="saving"
+-              @keydown.ctrl.enter.prevent="submitFollowUp"
++              @keydown.enter="handleFollowUpEnter"
+             ></textarea>
+             <div class="composer-actions">
+               <p v-if="formError" class="form-error">{{ formError }}</p>
++              <small>按 Enter 发送，Shift + Enter 换行</small>
+               <button class="primary-button" :disabled="!followUpAnswer.trim() || saving" @click="submitFollowUp">
+                 {{ saving ? '正在发送...' : '发送回答' }}
+               </button>
+@@ -276,6 +278,20 @@ async function submitFollowUp() {
+   }
+ }
+ 
++function handleComposerEnter(event, submit) {
++  if (event.isComposing || event.shiftKey) return
++  event.preventDefault()
++  submit()
++}
++
++function handleOpenEnter(event) {
++  handleComposerEnter(event, submitOpenAnswer)
++}
++
++function handleFollowUpEnter(event) {
++  handleComposerEnter(event, submitFollowUp)
++}
++
+ async function analyzeTurn() {
+   state.value = await request(`/api/intake/session/${sessionId.value}/analyze`, { method: 'POST' })
+   saved.value = false
+
+===== frontend\tests\patient-visibility.test.mjs =====
+diff --git "a/.superpowers\\sdd\\task-1-before\\patient-visibility.test.mjs" "b/frontend\\tests\\patient-visibility.test.mjs"
+index 3ebc03f..4e78c3b 100644
+--- "a/.superpowers\\sdd\\task-1-before\\patient-visibility.test.mjs"
++++ "b/frontend\\tests\\patient-visibility.test.mjs"
+@@ -8,6 +8,14 @@ const appSource = readFileSync(appPath, 'utf8')
+ const template = appSource.split('<script setup>')[0]
+ const styleSource = readFileSync(new URL('../src/style.css', import.meta.url), 'utf8')
+ 
++test('Enter sends while Shift+Enter keeps a newline', () => {
++  assert.match(template, /@keydown\.enter="handleOpenEnter"/)
++  assert.match(template, /@keydown\.enter="handleFollowUpEnter"/)
++  assert.match(appSource, /event\.isComposing/)
++  assert.match(appSource, /event\.shiftKey/)
++  assert.match(template, /按 Enter 发送，Shift \+ Enter 换行/)
++})
++
+ test('患者首屏使用开放式文本回答而不是固定十题', () => {
+   assert.match(template, /state\.open_question/)
+   assert.match(template, /submitOpenAnswer/)

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9" /></g>
+  <g id="header"><text x="64" y="74" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">追问何时结束：核心资料闭环</text><text x="64" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">不以固定轮数结束，而以核心资料是否可用、回答是否一致作为判断依据</text></g>
+  <g id="readiness-core">
+    <path fill="#236B45" d="M388,158 H892 A8,8 0 0 1 900,166 V292 A8,8 0 0 1 892,300 H388 A8,8 0 0 1 380,292 V166 A8,8 0 0 1 388,158 Z" />
+    
+  <g transform="translate(422, 198) scale(2.33333)" fill="#FFFFFF">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+    <text x="506" y="212" font-family="KaiTi, Georgia, serif" font-size="34" font-weight="bold" fill="#FFFFFF">核心资料闭环</text>
+    <text x="506" y="252" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#F1F6EF">核心字段形成可用答案，关键回答之间没有未解决冲突</text>
+  </g>
+  <g id="decision-lines">
+    <line x1="640" y1="300" x2="640" y2="352" stroke="#D7E2D8" stroke-width="3" />
+    <line x1="206" y1="352" x2="1074" y2="352" stroke="#D7E2D8" stroke-width="3" />
+    <line x1="206" y1="352" x2="206" y2="390" stroke="#D7E2D8" stroke-width="3" />
+    <line x1="640" y1="352" x2="640" y2="390" stroke="#D7E2D8" stroke-width="3" />
+    <line x1="1074" y1="352" x2="1074" y2="390" stroke="#D7E2D8" stroke-width="3" />
+  </g>
+  <g id="branch-complete">
+    <circle cx="206" cy="420" r="30" fill="#236B45" />
+    
+  <g transform="translate(186, 400) scale(1.66667)" fill="#FFFFFF">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+    <text x="206" y="477" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#236B45">可以结束</text>
+    <text font-size="17" font-family="Microsoft YaHei, Arial, sans-serif" text-anchor="middle" fill="#68756D" x="206" y="512">核心资料可用于诊中接续</text><text font-size="17" font-family="Microsoft YaHei, Arial, sans-serif" text-anchor="middle" fill="#68756D" x="206" y="541">生成诊前档案</text></g>
+  <g id="branch-continue">
+    <circle cx="640" cy="420" r="30" fill="#C68A3A" />
+    
+  <g transform="translate(620, 400) scale(1.66667)" fill="#FFFFFF">
+    <path d="M14 3.072a8 8 0 0 1 2.32 11.834l5.387 5.387a1 1 0 0 1 -1.414 1.414l-5.388 -5.387a8 8 0 1 1 -.905 -13.249" />
+  </g>
+    <text x="640" y="477" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#C68A3A">继续追问</text>
+    <text font-size="17" font-family="Microsoft YaHei, Arial, sans-serif" text-anchor="middle" fill="#68756D" x="640" y="512">仍缺少影响判断或用药安全的</text><text font-size="17" font-family="Microsoft YaHei, Arial, sans-serif" text-anchor="middle" fill="#68756D" x="640" y="541">核心信息</text></g>
+  <g id="branch-doctor">
+    <circle cx="1074" cy="420" r="30" fill="#B44A45" />
+    
+  <g transform="translate(1054, 400) scale(1.66667)" fill="#FFFFFF">
+    <path d="M11 2l-.15 .005a2 2 0 0 0 -1.85 1.995v2.803l-2.428 -1.401a2 2 0 0 0 -2.732 .732l-1 1.732l-.073 .138a2 2 0 0 0 .805 2.594l2.427 1.402l-2.427 1.402a2 2 0 0 0 -.732 2.732l1 1.732l.083 .132a2 2 0 0 0 2.649 .6l2.428 -1.402v2.804a2 2 0 0 0 2 2h2l.15 -.005a2 2 0 0 0 1.85 -1.995v-2.804l2.428 1.403a2 2 0 0 0 2.732 -.732l1 -1.732l.073 -.138a2 2 0 0 0 -.805 -2.594l-2.428 -1.403l2.428 -1.402a2 2 0 0 0 .732 -2.732l-1 -1.732l-.083 -.132a2 2 0 0 0 -2.649 -.6l-2.428 1.4v-2.802a2 2 0 0 0 -2 -2h-2z" />
+  </g>
+    <text x="1074" y="477" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#B44A45">转交医生</text>
+    <text font-size="17" font-family="Microsoft YaHei, Arial, sans-serif" text-anchor="middle" fill="#68756D" x="1074" y="512">冲突、不确定或可选细节</text><text font-size="17" font-family="Microsoft YaHei, Arial, sans-serif" text-anchor="middle" fill="#68756D" x="1074" y="541">留待诊中确认</text></g>
+  <g id="interaction-rule">
+    <line x1="140" y1="590" x2="1140" y2="590" stroke="#E8EFE8" stroke-width="2" />
+    <text x="640" y="632" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#24332B">一次只问一个重点 · “不知道/拒答”最多友好澄清一次 · 可选细节不阻塞患者端完成</text>
+  </g>
+  <g id="footer"><text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text><text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">07</text></g>
+</svg>

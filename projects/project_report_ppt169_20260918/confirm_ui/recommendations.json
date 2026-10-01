@@ -1,0 +1,67 @@
+{
+  "lang": "zh",
+  "recommend": {
+    "canvas": "ppt169",
+    "mode": "briefing",
+    "visual_style": "swiss-minimal",
+    "icons": "尽量不使用图标；只在流程关系确有需要时使用极少量细线图标",
+    "image_usage": "placeholder",
+    "formula_policy": "text-only",
+    "generation_mode": "continuous"
+  },
+  "page_count": { "value": "14" },
+  "audience": { "value": "课题组老师和组会成员；重点说明项目思路、核心机制、实现难点与当前效果" },
+  "content_divergence": { "value": "按照已确认的14页大纲制作，允许适当丰富每页内容，但不改变页面顺序和重点" },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "原版·米白墨绿陶土橙",
+        "note": "严格延续参考PPT：暖米白背景、深墨绿标题、陶土橙强调线、灰绿色正文。",
+        "palette": { "background": "#F7F5EF", "secondary_bg": "#EFEEE8", "primary": "#155348", "accent": "#C86A3A", "secondary_accent": "#BFCFC9", "body_text": "#566762" }
+      },
+      {
+        "name": "医疗版·青蓝",
+        "note": "更偏医疗与可信感，整体冷静克制。",
+        "palette": { "background": "#F7FAFA", "secondary_bg": "#EAF3F2", "primary": "#23404B", "accent": "#378A8A", "secondary_accent": "#76AFB2", "body_text": "#34464C" }
+      },
+      {
+        "name": "研究版·深蓝橙",
+        "note": "对比更强，适合突出问题、机制和实验结果。",
+        "palette": { "background": "#FAFAF8", "secondary_bg": "#F0F2F5", "primary": "#183153", "accent": "#D9824B", "secondary_accent": "#6685AA", "body_text": "#313A48" }
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "延续版·微软雅黑",
+        "note": "与之前PPT保持一致，稳妥清晰，适合中文组会汇报。",
+        "heading": { "cjk": "Microsoft YaHei", "latin": "Arial", "css": "'Microsoft YaHei', Arial, sans-serif", "sample_cjk": "项目汇报标题", "sample_latin": "Project Report" },
+        "body": { "cjk": "Microsoft YaHei", "latin": "Arial", "css": "'Microsoft YaHei', Arial, sans-serif", "sample_cjk": "正文信息与机制说明", "sample_latin": "Body Content" },
+        "body_size": 20
+      },
+      {
+        "name": "紧凑版·等线",
+        "note": "字面更紧凑，适合内容稍多的机制说明页。",
+        "heading": { "cjk": "DengXian", "latin": "Arial", "css": "DengXian, 'Microsoft YaHei', Arial, sans-serif", "sample_cjk": "项目汇报标题", "sample_latin": "Project Report" },
+        "body": { "cjk": "DengXian", "latin": "Arial", "css": "DengXian, 'Microsoft YaHei', Arial, sans-serif", "sample_cjk": "正文信息与机制说明", "sample_latin": "Body Content" },
+        "body_size": 19
+      },
+      {
+        "name": "文档版·黑体宋体",
+        "note": "标题使用黑体、正文使用宋体，研究报告感更明显。",
+        "heading": { "cjk": "Microsoft YaHei", "latin": "Arial", "css": "'Microsoft YaHei', Arial, sans-serif", "sample_cjk": "项目汇报标题", "sample_latin": "Project Report" },
+        "body": { "cjk": "SimSun", "latin": "Times New Roman", "css": "SimSun, 'Times New Roman', serif", "sample_cjk": "正文信息与机制说明", "sample_latin": "Body Content" },
+        "body_size": 20
+      }
+    ]
+  },
+  "visual_style_spectrum": [
+    { "id": "swiss-minimal", "tag_zh": "原版延续", "tag_en": "Reference matched", "note_zh": "复用参考PPT的留白、细分隔线和克制排版", "note_en": "matches the reference deck's whitespace and fine rules" },
+    { "id": "soft-rounded", "tag_zh": "略微柔和", "tag_en": "Softer", "note_zh": "在原配色上增加少量圆角分区", "note_en": "adds restrained rounded sections to the original palette" },
+    { "id": "editorial", "tag_zh": "更有叙事感", "tag_en": "More editorial", "note_zh": "像技术专题报告，文字层级更丰富", "note_en": "like a technical feature report" }
+  ],
+  "refine_spec": { "value": false }
+}

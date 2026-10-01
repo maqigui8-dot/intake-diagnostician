@@ -1,0 +1,513 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/nbvv2w",
+    "id": "nbvv2w",
+    "slide": 1,
+    "layoutId": "e8418c92-33fa-421a-9489-a6af64f8acbd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "5ed4b71f-199e-4f83-8cd0-ece6c5f73425",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F9F5",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "e8418c92-33fa-421a-9489-a6af64f8acbd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "5ed4b71f-199e-4f83-8cd0-ece6c5f73425",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "5ed4b71f-199e-4f83-8cd0-ece6c5f73425",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ryd8n2l0",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        18,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F6B4F",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szm9w7m5",
+      "id": "2",
+      "bbox": [
+        74,
+        72,
+        320,
+        30
+      ],
+      "geometry": "rect",
+      "text": "阶段进展 · 2026.08.12",
+      "textPreview": "阶段进展 · 2026.08.12",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#4C8C7A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "阶段进展 · 2026.08.12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "阶段进展 · 2026.08.12",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#4C8C7A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "阶段进展 · 2026.08.12",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#4C8C7A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t0vqpc3q",
+      "id": "3",
+      "bbox": [
+        74,
+        132,
+        510,
+        160
+      ],
+      "geometry": "rect",
+      "text": "中医诊前问诊系统\n阶段进展",
+      "textPreview": "中医诊前问诊系统 | 阶段进展",
+      "resolvedFontSize": 63.75,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 68,
+        "typeface": "Microsoft YaHei",
+        "color": "#1F2A24",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "中医诊前问诊系统"
+          },
+          {
+            "index": 2,
+            "text": "阶段进展"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "中医诊前问诊系统",
+          "resolvedTextStyle": {
+            "fontSize": 68,
+            "typeface": "Microsoft YaHei",
+            "color": "#1F2A24",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "中医诊前问诊系统",
+              "fontSize": 68,
+              "typeface": "Microsoft YaHei",
+              "color": "#1F2A24",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "阶段进展",
+          "resolvedTextStyle": {
+            "fontSize": 68,
+            "typeface": "Microsoft YaHei",
+            "color": "#1F2A24",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "阶段进展",
+              "fontSize": 68,
+              "typeface": "Microsoft YaHei",
+              "color": "#1F2A24",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1oryh4b",
+      "id": "4",
+      "bbox": [
+        76,
+        324,
+        500,
+        45
+      ],
+      "geometry": "rect",
+      "text": "对话式追问与动态完整度判断",
+      "textPreview": "对话式追问与动态完整度判断",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Microsoft YaHei",
+        "color": "#2F6B4F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "对话式追问与动态完整度判断"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "对话式追问与动态完整度判断",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Microsoft YaHei",
+            "color": "#2F6B4F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "对话式追问与动态完整度判断",
+              "fontSize": 30,
+              "typeface": "Microsoft YaHei",
+              "color": "#2F6B4F",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f2x8rmlw",
+      "id": "5",
+      "bbox": [
+        76,
+        396,
+        116,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#D6A84B",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03690rmh",
+      "id": "6",
+      "bbox": [
+        76,
+        430,
+        520,
+        56
+      ],
+      "geometry": "rect",
+      "text": "对话式追问  ·  动态结束规则  ·  两个 Skill 协作",
+      "textPreview": "对话式追问  ·  动态结束规则  ·  两个 Skill 协作",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#657269",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "对话式追问  ·  动态结束规则  ·  两个 Skill 协作"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "对话式追问  ·  动态结束规则  ·  两个 Skill 协作",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#657269",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "对话式追问  ·  动态结束规则  ·  两个 Skill 协作",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#657269",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/14fqtc32",
+      "id": "7",
+      "bbox": [
+        646,
+        70,
+        558,
+        520
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DCE5DC",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/fqtc3e90",
+      "id": "8",
+      "bbox": [
+        666,
+        90,
+        518,
+        480
+      ],
+      "geometry": "roundRect",
+      "alt": "中医诊前问诊系统首页",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 2500"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "237c0521-6f16-4aca-9510-e410ebe3bf62",
+        "contentType": "image/png",
+        "byteLength": 268574
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqx8vmls",
+      "id": "9",
+      "bbox": [
+        74,
+        620,
+        1120,
+        34
+      ],
+      "geometry": "rect",
+      "text": "汇报重点：系统如何在不固定轮次的前提下，把诊前信息逐步问完整。",
+      "textPreview": "汇报重点：系统如何在不固定轮次的前提下，把诊前信息逐步问完整。",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#657269",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "汇报重点：系统如何在不固定轮次的前提下，把诊前信息逐步问完整。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "汇报重点：系统如何在不固定轮次的前提下，把诊前信息逐步问完整。",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#657269",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "汇报重点：系统如何在不固定轮次的前提下，把诊前信息逐步问完整。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#657269",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

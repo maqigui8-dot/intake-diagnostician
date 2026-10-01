@@ -1,0 +1,168 @@
+{"kind":"deck","id":"pr/1xm7eu","name":"Deck"}
+{"kind":"layout","layoutId":"5ed4b71f-199e-4f83-8cd0-ece6c5f73425","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"e8418c92-33fa-421a-9489-a6af64f8acbd","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/nbvv2w","slide":1,"title":"阶段进展 · 2026.08.12","textShapes":5}
+{"kind":"shape","id":"sh/ryd8n2l0","slide":1,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/szm9w7m5","slide":1,"text":"阶段进展 · 2026.08.12","textPreview":"阶段进展 · 2026.08.12","textChars":17,"textLines":1,"bbox":[74,72,320,30]}
+{"kind":"textbox","id":"sh/t0vqpc3q","slide":1,"text":"中医诊前问诊系统\n阶段进展","textPreview":"中医诊前问诊系统 | 阶段进展","textChars":13,"textLines":2,"bbox":[74,132,510,160]}
+{"kind":"textbox","id":"sh/e1oryh4b","slide":1,"text":"对话式追问与动态完整度判断","textPreview":"对话式追问与动态完整度判断","textChars":13,"textLines":1,"bbox":[76,324,500,45]}
+{"kind":"shape","id":"sh/f2x8rmlw","slide":1,"bbox":[76,396,116,4]}
+{"kind":"textbox","id":"sh/03690rmh","slide":1,"text":"对话式追问  ·  动态结束规则  ·  两个 Skill 协作","textPreview":"对话式追问  ·  动态结束规则  ·  两个 Skill 协作","textChars":32,"textLines":1,"bbox":[76,430,520,56]}
+{"kind":"shape","id":"sh/14fqtc32","slide":1,"bbox":[646,70,558,520]}
+{"kind":"textbox","id":"sh/nqx8vmls","slide":1,"text":"汇报重点：系统如何在不固定轮次的前提下，把诊前信息逐步问完整。","textPreview":"汇报重点：系统如何在不固定轮次的前提下，把诊前信息逐步问完整。","textChars":31,"textLines":1,"bbox":[74,620,1120,34]}
+{"kind":"image","id":"im/fqtc3e90","slide":1,"name":"","geometry":"roundRect","alt":"中医诊前问诊系统首页","bbox":[666,90,518,480]}
+{"kind":"notes","id":"nt/nbvv2w","slide":1,"text":"本次汇报聚焦今天完成的两项改造。第一，补充问诊从分析面板调整为连续对话；第二，追问不再固定五轮，而是每轮根据当前资料是否足够决定继续或结束。\n\n[Sources]\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/docs/superpowers/specs/2026-08-12-conversational-follow-up-design.md\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/docs/superpowers/specs/2026-08-12-dynamic-follow-up-completion-design.md\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/output/playwright/project-home-current.png\n[/Sources]"}
+{"kind":"slide","id":"sl/aanvyk","slide":2,"title":"01 · 改造背景","textShapes":12}
+{"kind":"textbox","id":"sh/on6tsj21","slide":2,"text":"01 · 改造背景","textPreview":"01 · 改造背景","textChars":9,"textLines":1,"bbox":[72,46,220,24]}
+{"kind":"textbox","id":"sh/3mxsje1g","slide":2,"text":"固定五轮会提前截断，也可能造成无效追问","textPreview":"固定五轮会提前截断，也可能造成无效追问","textChars":19,"textLines":1,"bbox":[72,82,1040,68]}
+{"kind":"textbox","id":"sh/2lobq9kv","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,50,48,24]}
+{"kind":"shape","id":"sh/dszap8ji","slide":2,"bbox":[72,158,1136,2]}
+{"kind":"textbox","id":"sh/crqtw32d","slide":2,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[92,210,210,210]}
+{"kind":"shape","id":"sh/bqhsny1s","slide":2,"bbox":[116,318,170,8]}
+{"kind":"textbox","id":"sh/qp8butk7","slide":2,"text":"固定轮次","textPreview":"固定轮次","textChars":4,"textLines":1,"bbox":[100,430,190,42]}
+{"kind":"shape","id":"sh/twvad4je","slide":2,"bbox":[350,198,2,390]}
+{"kind":"textbox","id":"sh/svmtkz2t","slide":2,"text":"问题不在“问几次”","textPreview":"问题不在“问几次”","textChars":9,"textLines":1,"bbox":[414,208,630,42]}
+{"kind":"textbox","id":"sh/adkz2pg3","slide":2,"text":"信息复杂时","textPreview":"信息复杂时","textChars":5,"textLines":1,"bbox":[414,294,180,34]}
+{"kind":"textbox","id":"sh/vetgbuho","slide":2,"text":"五次可能仍不足，流程却被迫结束。","textPreview":"五次可能仍不足，流程却被迫结束。","textChars":16,"textLines":1,"bbox":[620,294,500,38]}
+{"kind":"shape","id":"sh/wf2h4zy9","slide":2,"bbox":[414,350,700,1]}
+{"kind":"textbox","id":"sh/xgvyd4zu","slide":2,"text":"信息简单时","textPreview":"信息简单时","textChars":5,"textLines":1,"bbox":[414,386,180,34]}
+{"kind":"textbox","id":"sh/ih4z69gf","slide":2,"text":"为了凑轮次继续询问，会增加用户负担。","textPreview":"为了凑轮次继续询问，会增加用户负担。","textChars":18,"textLines":1,"bbox":[620,386,500,38]}
+{"kind":"shape","id":"sh/jidgfehk","slide":2,"bbox":[414,486,700,92]}
+{"kind":"textbox","id":"sh/kjmh8jy5","slide":2,"text":"新的结束条件：当前信息是否足以支持\n后续诊中判断和开方前准备","textPreview":"新的结束条件：当前信息是否足以支持 | 后续诊中判断和开方前准备","textChars":30,"textLines":2,"bbox":[446,501,640,66]}
+{"kind":"textbox","id":"sh/5kvyhozq","slide":2,"text":"中医诊前问诊系统","textPreview":"中医诊前问诊系统","textChars":8,"textLines":1,"bbox":[72,681,420,18]}
+{"kind":"notes","id":"nt/aanvyk","slide":2,"text":"原来的五轮限制只是工程上的固定阈值，并不能代表诊前资料已经够用。今天把结束条件重新定义为信息完整度：复杂情况可以继续问，简单情况在信息足够时及时结束。\n\n[Sources]\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/docs/superpowers/specs/2026-08-12-dynamic-follow-up-completion-design.md\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/backend/intake_flow.py\n[/Sources]"}
+{"kind":"slide","id":"sl/pmvcsu","slide":3,"title":"02 · 交互升级","textShapes":17}
+{"kind":"textbox","id":"sh/e5wvmhw3","slide":3,"text":"02 · 交互升级","textPreview":"02 · 交互升级","textChars":9,"textLines":1,"bbox":[72,46,220,24]}
+{"kind":"textbox","id":"sh/1s7uhcfe","slide":3,"text":"追问从“分析面板”变成自然对话","textPreview":"追问从“分析面板”变成自然对话","textChars":15,"textLines":1,"bbox":[72,82,1040,68]}
+{"kind":"textbox","id":"sh/0redo7et","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,50,48,24]}
+{"kind":"shape","id":"sh/r25cb2xc","slide":3,"bbox":[72,158,1136,2]}
+{"kind":"textbox","id":"sh/q1wvixwr","slide":3,"text":"每轮只问一个问题","textPreview":"每轮只问一个问题","textChars":8,"textLines":1,"bbox":[82,214,460,44]}
+{"kind":"textbox","id":"sh/d4nudcfi","slide":3,"text":"问题以“小郎中”的口吻承接患者上一轮回答，患者直接在输入框中自由描述。","textPreview":"问题以“小郎中”的口吻承接患者上一轮回答，患者直接在输入框中自由描述。","textChars":35,"textLines":1,"bbox":[82,280,470,92]}
+{"kind":"shape","id":"sh/c3edk7ex","slide":3,"bbox":[84,415,24,24]}
+{"kind":"textbox","id":"sh/3ylc7ix0","slide":3,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[84,416,24,20]}
+{"kind":"textbox","id":"sh/2xcvedwv","slide":3,"text":"问答历史保留","textPreview":"问答历史保留","textChars":6,"textLines":1,"bbox":[124,410,170,30]}
+{"kind":"textbox","id":"sh/gv698nid","slide":3,"text":"患者能看清上下文","textPreview":"患者能看清上下文","textChars":8,"textLines":1,"bbox":[294,411,250,30]}
+{"kind":"shape","id":"sh/hwfa1sjy","slide":3,"bbox":[84,483,24,24]}
+{"kind":"textbox","id":"sh/ut4r6d0n","slide":3,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[84,484,24,20]}
+{"kind":"textbox","id":"sh/fuxszi18","slide":3,"text":"回答后重新整理","textPreview":"回答后重新整理","textChars":7,"textLines":1,"bbox":[124,478,170,30]}
+{"kind":"textbox","id":"sh/srm943ih","slide":3,"text":"系统再决定下一问","textPreview":"系统再决定下一问","textChars":8,"textLines":1,"bbox":[294,479,250,30]}
+{"kind":"shape","id":"sh/tsvax8j2","slide":3,"bbox":[84,551,24,24]}
+{"kind":"textbox","id":"sh/654r2t0b","slide":3,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[84,552,24,20]}
+{"kind":"textbox","id":"sh/76dsvy1w","slide":3,"text":"内部字段隐藏","textPreview":"内部字段隐藏","textChars":6,"textLines":1,"bbox":[124,546,170,30]}
+{"kind":"textbox","id":"sh/cnq9g7il","slide":3,"text":"不展示缺失项清单","textPreview":"不展示缺失项清单","textChars":8,"textLines":1,"bbox":[294,547,250,30]}
+{"kind":"shape","id":"sh/doza9cj6","slide":3,"bbox":[676,190,376,452]}
+{"kind":"textbox","id":"sh/0721436t","slide":3,"text":"手机端单列布局","textPreview":"手机端单列布局","textChars":7,"textLines":1,"bbox":[1054,250,150,66]}
+{"kind":"textbox","id":"sh/z6t0byp8","slide":3,"text":"流程侧栏自动隐藏\n输入区独占整行","textPreview":"流程侧栏自动隐藏 | 输入区独占整行","textChars":16,"textLines":2,"bbox":[1050,338,160,90]}
+{"kind":"textbox","id":"sh/e5kj2ton","slide":3,"text":"中医诊前问诊系统","textPreview":"中医诊前问诊系统","textChars":8,"textLines":1,"bbox":[72,681,420,18]}
+{"kind":"image","id":"im/ydobi5w7","slide":3,"name":"","alt":"手机端对话式追问页面","bbox":[702,208,324,416]}
+{"kind":"notes","id":"nt/pmvcsu","slide":3,"text":"交互层面不再把追问放在信息完整度报告下面，而是进入独立聊天界面。系统一次只问一个问题，保留历史问答，并隐藏缺失必问项、建议选问项等内部判断。手机端也改为单列布局。\n\n[Sources]\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/frontend/src/App.vue\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/frontend/src/style.css\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/output/playwright/dynamic-follow-up-mobile-13.png\n[/Sources]"}
+{"kind":"slide","id":"sl/jyyozd","slide":4,"title":"03 · 动态规则","textShapes":17}
+{"kind":"textbox","id":"sh/7q5gba1g","slide":4,"text":"03 · 动态规则","textPreview":"03 · 动态规则","textChars":9,"textLines":1,"bbox":[72,46,220,24]}
+{"kind":"textbox","id":"sh/8rex4f21","slide":4,"text":"每次回答后重新判断，信息足够才结束","textPreview":"每次回答后重新判断，信息足够才结束","textChars":17,"textLines":1,"bbox":[72,82,1040,68]}
+{"kind":"textbox","id":"sh/9snydkjm","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,50,48,24]}
+{"kind":"shape","id":"sh/utwf6pkr","slide":4,"bbox":[72,158,1136,2]}
+{"kind":"shape","id":"sh/ve5gfu1c","slide":4,"bbox":[72,286,220,142]}
+{"kind":"shape","id":"sh/wfyx8z2x","slide":4,"bbox":[90,304,38,38]}
+{"kind":"textbox","id":"sh/hg7yh4ji","slide":4,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[90,310,38,25]}
+{"kind":"textbox","id":"sh/ihgfa9k3","slide":4,"text":"患者回答","textPreview":"患者回答","textChars":4,"textLines":1,"bbox":[142,304,132,34]}
+{"kind":"textbox","id":"sh/jipgju1o","slide":4,"text":"记录当前问题与回答","textPreview":"记录当前问题与回答","textChars":9,"textLines":1,"bbox":[90,356,184,56]}
+{"kind":"shape","id":"sh/rm103els","slide":4,"bbox":[306,340,48,34]}
+{"kind":"shape","id":"sh/qlsju9k7","slide":4,"bbox":[366,286,244,142]}
+{"kind":"shape","id":"sh/doji5o3i","slide":4,"bbox":[384,304,38,38]}
+{"kind":"textbox","id":"sh/sna1wj2d","slide":4,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[384,310,38,25]}
+{"kind":"textbox","id":"sh/3yh0zelg","slide":4,"text":"完整度检查","textPreview":"完整度检查","textChars":5,"textLines":1,"bbox":[436,304,156,34]}
+{"kind":"textbox","id":"sh/ix8jq9kv","slide":4,"text":"结合十问歌与主诉判断","textPreview":"结合十问歌与主诉判断","textChars":10,"textLines":1,"bbox":[384,356,208,56]}
+{"kind":"shape","id":"sh/5kji1o3m","slide":4,"bbox":[624,340,48,34]}
+{"kind":"shape","id":"sh/4za1sj21","slide":4,"bbox":[690,282,160,150]}
+{"kind":"textbox","id":"sh/nulkbyl0","slide":4,"text":"信息\n足够？","textPreview":"信息 | 足够？","textChars":6,"textLines":2,"bbox":[714,325,112,70]}
+{"kind":"shape","id":"sh/2tcj2tkf","slide":4,"bbox":[864,340,48,34]}
+{"kind":"shape","id":"sh/y9g3ux4n","slide":4,"bbox":[930,286,278,142]}
+{"kind":"shape","id":"sh/jap43258","slide":4,"bbox":[948,304,38,38]}
+{"kind":"textbox","id":"sh/kbylw7md","slide":4,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[948,310,38,25]}
+{"kind":"textbox","id":"sh/lc7m5cny","slide":4,"text":"形成结果","textPreview":"形成结果","textChars":4,"textLines":1,"bbox":[1000,304,190,34]}
+{"kind":"textbox","id":"sh/6dg3yh4j","slide":4,"text":"输出档案与检查建议","textPreview":"输出档案与检查建议","textChars":9,"textLines":1,"bbox":[948,356,242,56]}
+{"kind":"textbox","id":"sh/7ep47m54","slide":4,"text":"是","textPreview":"是","textChars":1,"textLines":1,"bbox":[854,302,64,24]}
+{"kind":"shape","id":"sh/8fyl0rmp","slide":4,"bbox":[770,444,2,90]}
+{"kind":"shape","id":"sh/tg7m9wna","slide":4,"bbox":[504,532,268,2]}
+{"kind":"shape","id":"sh/2hc32d4f","slide":4,"bbox":[450,516,50,34]}
+{"kind":"textbox","id":"sh/ni5kvi50","slide":4,"text":"否：生成一个最关键、且不重复的问题，再进入下一轮","textPreview":"否：生成一个最关键、且不重复的问题，再进入下一轮","textChars":24,"textLines":1,"bbox":[498,548,570,38]}
+{"kind":"shape","id":"sh/5cb61g7i","slide":4,"bbox":[256,190,768,54]}
+{"kind":"textbox","id":"sh/4b2p8v6x","slide":4,"text":"追问次数只用于显示“第 N 问”，不再参与结束判断。","textPreview":"追问次数只用于显示“第 N 问”，不再参与结束判断。","textChars":26,"textLines":1,"bbox":[284,202,712,32]}
+{"kind":"textbox","id":"sh/3atozqpc","slide":4,"text":"中医诊前问诊系统","textPreview":"中医诊前问诊系统","textChars":8,"textLines":1,"bbox":[72,681,420,18]}
+{"kind":"notes","id":"nt/jyyozd","slide":4,"text":"新的规则是一个循环。患者每回答一次，系统立即重新检查资料。信息不足时只生成一个最重要的问题；信息足够时才进入档案和检查建议。因此追问次数只用于历史记录和页面显示。\n\n[Sources]\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/frontend/src/follow-up-stage.js\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/backend/skill_analysis.py\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/docs/superpowers/specs/2026-08-12-dynamic-follow-up-completion-design.md\n[/Sources]"}
+{"kind":"slide","id":"sl/iy1d5x","slide":5,"title":"04 · Skill 协作","textShapes":14}
+{"kind":"textbox","id":"sh/8zuh8jq1","slide":5,"text":"04 · Skill 协作","textPreview":"04 · Skill 协作","textChars":13,"textLines":1,"bbox":[72,46,220,24]}
+{"kind":"textbox","id":"sh/7yl0fy9g","slide":5,"text":"两个 Skill 分工：一个判断问什么，一个控制怎么问","textPreview":"两个 Skill 分工：一个判断问什么，一个控制怎么问","textChars":27,"textLines":1,"bbox":[72,82,1040,68]}
+{"kind":"textbox","id":"sh/6xcz6t8v","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,50,48,24]}
+{"kind":"shape","id":"sh/honil87i","slide":5,"bbox":[72,158,1136,2]}
+{"kind":"shape","id":"sh/gnehc3qx","slide":5,"bbox":[78,210,460,352]}
+{"kind":"textbox","id":"sh/vm50jyps","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[106,238,60,34]}
+{"kind":"textbox","id":"sh/ulczat87","slide":5,"text":"完整度检查 Skill","textPreview":"完整度检查 Skill","textChars":11,"textLines":1,"bbox":[106,282,340,42]}
+{"kind":"textbox","id":"sh/5snip87u","slide":5,"text":"tcm-intake-checklist","textPreview":"tcm-intake-checklist","textChars":20,"textLines":1,"bbox":[106,330,320,28]}
+{"kind":"textbox","id":"sh/4re1g3q9","slide":5,"text":"• 检查基础必问项\n• 按主诉选择条件选问项\n• 决定资料是否够用\n• 选出当前最关键缺口","textPreview":"• 检查基础必问项 | • 按主诉选择条件选问项 | • 决定资料是否够用 | • 选出当前最关键缺口","textChars":45,"textLines":4,"bbox":[106,388,360,138]}
+{"kind":"shape","id":"sh/u18n2d0v","slide":5,"bbox":[742,210,460,352]}
+{"kind":"textbox","id":"sh/vmhobih0","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[770,238,60,34]}
+{"kind":"textbox","id":"sh/wnq54nil","slide":5,"text":"追问表达 Skill","textPreview":"追问表达 Skill","textChars":10,"textLines":1,"bbox":[770,282,340,42]}
+{"kind":"textbox","id":"sh/hoz6dsz6","slide":5,"text":"tcm-questioning-guide","textPreview":"tcm-questioning-guide","textChars":21,"textLines":1,"bbox":[770,330,340,28]}
+{"kind":"textbox","id":"sh/ip8n6d0r","slide":5,"text":"• 每轮只问一个信息点\n• 使用患者能理解的语言\n• 承接已有回答，不重复追问\n• 危险信号优先提示就医","textPreview":"• 每轮只问一个信息点 | • 使用患者能理解的语言 | • 承接已有回答，不重复追问 | • 危险信号优先提示就医","textChars":52,"textLines":4,"bbox":[770,388,370,138]}
+{"kind":"shape","id":"sh/jq1ofihc","slide":5,"bbox":[584,338,112,58]}
+{"kind":"textbox","id":"sh/4ra58nyx","slide":5,"text":"结构化缺口","textPreview":"结构化缺口","textChars":5,"textLines":1,"bbox":[568,414,144,32]}
+{"kind":"shape","id":"sh/5sj6hszi","slide":5,"bbox":[318,600,644,48]}
+{"kind":"textbox","id":"sh/ytonut0n","slide":5,"text":"完整度 Skill 负责决策，追问 Skill 负责表达。","textPreview":"完整度 Skill 负责决策，追问 Skill 负责表达。","textChars":29,"textLines":1,"bbox":[340,610,600,30]}
+{"kind":"textbox","id":"sh/zux43yh8","slide":5,"text":"中医诊前问诊系统","textPreview":"中医诊前问诊系统","textChars":8,"textLines":1,"bbox":[72,681,420,18]}
+{"kind":"notes","id":"nt/iy1d5x","slide":5,"text":"两个 Skill 的职责保持分离。完整度检查 Skill 决定还缺什么、是否可以结束；追问表达 Skill 把一个缺口转换成自然问题。这样能够单独维护规则，也避免模型同时承担过多职责。\n\n[Sources]\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/backend/skills/tcm-intake-checklist/SKILL.md\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/backend/skills/tcm-questioning-guide/SKILL.md\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/backend/agent.py\n[/Sources]"}
+{"kind":"slide","id":"sl/nj6r6q","slide":6,"title":"05 · 改造前后","textShapes":11}
+{"kind":"textbox","id":"sh/xcza10v6","slide":6,"text":"05 · 改造前后","textPreview":"05 · 改造前后","textChars":9,"textLines":1,"bbox":[72,46,220,24]}
+{"kind":"textbox","id":"sh/a9obqlcv","slide":6,"text":"改造后，第 13 问仍能继续","textPreview":"改造后，第 13 问仍能继续","textChars":14,"textLines":1,"bbox":[72,82,1040,68]}
+{"kind":"textbox","id":"sh/bahszqdg","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,50,48,24]}
+{"kind":"shape","id":"sh/o76tobup","slide":6,"bbox":[72,158,1136,2]}
+{"kind":"textbox","id":"sh/98faxgva","slide":6,"text":"改造前","textPreview":"改造前","textChars":3,"textLines":1,"bbox":[84,188,180,34]}
+{"kind":"textbox","id":"sh/m5obm1wj","slide":6,"text":"固定显示 1 / 5","textPreview":"固定显示 1 / 5","textChars":10,"textLines":1,"bbox":[260,192,240,28]}
+{"kind":"shape","id":"sh/n6xsv6d4","slide":6,"bbox":[78,232,526,366]}
+{"kind":"textbox","id":"sh/t4ju9kve","slide":6,"text":"改造后","textPreview":"改造后","textChars":3,"textLines":1,"bbox":[674,188,180,34]}
+{"kind":"textbox","id":"sh/l0nih8ra","slide":6,"text":"只显示第 13 问","textPreview":"只显示第 13 问","textChars":9,"textLines":1,"bbox":[850,192,330,28]}
+{"kind":"shape","id":"sh/0zeho3ap","slide":6,"bbox":[668,232,526,366]}
+{"kind":"textbox","id":"sh/yxwzmtsj","slide":6,"text":"接口实测：第 6 次提交成功","textPreview":"接口实测：第 6 次提交成功","textChars":14,"textLines":1,"bbox":[92,624,330,28]}
+{"kind":"textbox","id":"sh/dwnid8re","slide":6,"text":"浏览器实测：第 13 问仍可回答","textPreview":"浏览器实测：第 13 问仍可回答","textChars":16,"textLines":1,"bbox":[454,624,370,28]}
+{"kind":"textbox","id":"sh/cbuhk3at","slide":6,"text":"自动验证：前端 14 项 / 后端 23 项通过","textPreview":"自动验证：前端 14 项 / 后端 23 项通过","textChars":24,"textLines":1,"bbox":[844,624,360,28]}
+{"kind":"textbox","id":"sh/bal0by98","slide":6,"text":"中医诊前问诊系统","textPreview":"中医诊前问诊系统","textChars":8,"textLines":1,"bbox":[72,681,420,18]}
+{"kind":"image","id":"im/tszyhori","slide":6,"name":"","geometry":"roundRect","alt":"改造前固定五轮追问页面","bbox":[90,244,502,342]}
+{"kind":"image","id":"im/sfep032l","slide":6,"name":"","geometry":"roundRect","alt":"改造后第十三问仍可继续的页面","bbox":[680,244,502,342]}
+{"kind":"notes","id":"nt/nj6r6q","slide":6,"text":"这一页展示实际改造效果。左侧旧页面把追问固定为五轮；右侧新页面在第十三问时仍然保留输入框。接口也已连续提交六次成功，同时前端十四项、后端二十三项测试全部通过。\n\n[Sources]\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/output/playwright/follow-up-desktop.png\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/output/playwright/dynamic-follow-up-13.png\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/frontend/tests/follow-up-stage.test.mjs\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/backend/tests/test_intake_flow.py\n[/Sources]"}
+{"kind":"slide","id":"sl/rbg86v","slide":7,"title":"06 · 完整闭环","textShapes":21}
+{"kind":"textbox","id":"sh/3e54jmls","slide":7,"text":"06 · 完整闭环","textPreview":"06 · 完整闭环","textChars":9,"textLines":1,"bbox":[72,46,220,24]}
+{"kind":"textbox","id":"sh/ofe5sr2x","slide":7,"text":"新流程形成可持续收敛的诊前信息闭环","textPreview":"新流程形成可持续收敛的诊前信息闭环","textChars":17,"textLines":1,"bbox":[72,82,1040,68]}
+{"kind":"textbox","id":"sh/pg76lw3i","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,50,48,24]}
+{"kind":"shape","id":"sh/e9wnmx4v","slide":7,"bbox":[72,158,1136,2]}
+{"kind":"shape","id":"sh/fa54f2lg","slide":7,"bbox":[260,324,34,30]}
+{"kind":"shape","id":"sh/gbe5o7m1","slide":7,"bbox":[72,270,186,146]}
+{"kind":"textbox","id":"sh/1cnmhc3m","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[90,288,42,25]}
+{"kind":"textbox","id":"sh/y5gny1kf","slide":7,"text":"基础问诊","textPreview":"基础问诊","textChars":4,"textLines":1,"bbox":[90,322,150,35]}
+{"kind":"textbox","id":"sh/z6por6lk","slide":7,"text":"采集主诉与十问歌基础信息","textPreview":"采集主诉与十问歌基础信息","textChars":12,"textLines":1,"bbox":[90,364,150,42]}
+{"kind":"shape","id":"sh/fm1grmdw","slide":7,"bbox":[484,324,34,30]}
+{"kind":"shape","id":"sh/elszihwb","slide":7,"bbox":[296,270,186,146]}
+{"kind":"textbox","id":"sh/18jytcv2","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[314,288,42,25]}
+{"kind":"textbox","id":"sh/g7ahk7eh","slide":7,"text":"判断缺口","textPreview":"判断缺口","textChars":4,"textLines":1,"bbox":[314,322,150,35]}
+{"kind":"textbox","id":"sh/3a1gvmd8","slide":7,"text":"确认最影响后续判断的一项","textPreview":"确认最影响后续判断的一项","textChars":12,"textLines":1,"bbox":[314,364,150,42]}
+{"kind":"shape","id":"sh/29szmhwn","slide":7,"bbox":[708,324,34,30]}
+{"kind":"shape","id":"sh/pcjyxwvy","slide":7,"bbox":[520,270,186,146]}
+{"kind":"textbox","id":"sh/obahored","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[538,288,42,25]}
+{"kind":"textbox","id":"sh/belgz6d4","slide":7,"text":"自然追问","textPreview":"自然追问","textChars":4,"textLines":1,"bbox":[538,322,150,35]}
+{"kind":"textbox","id":"sh/qdczq1wj","slide":7,"text":"一次只问一个问题","textPreview":"一次只问一个问题","textChars":8,"textLines":1,"bbox":[538,364,150,42]}
+{"kind":"shape","id":"sh/m9wji5gr","slide":7,"bbox":[932,324,34,30]}
+{"kind":"shape","id":"sh/na5krqxc","slide":7,"bbox":[744,270,186,146]}
+{"kind":"textbox","id":"sh/8be1kvyx","slide":7,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[762,288,42,25]}
+{"kind":"textbox","id":"sh/9c72t0fi","slide":7,"text":"重新判断","textPreview":"重新判断","textChars":4,"textLines":1,"bbox":[762,322,150,35]}
+{"kind":"textbox","id":"sh/y5wjelgv","slide":7,"text":"回答进入档案后再次评估","textPreview":"回答进入档案后再次评估","textChars":11,"textLines":1,"bbox":[762,364,150,42]}
+{"kind":"shape","id":"sh/z65knqxg","slide":7,"bbox":[968,270,186,146]}
+{"kind":"textbox","id":"sh/07e1gvyl","slide":7,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[986,288,42,25]}
+{"kind":"textbox","id":"sh/l8n2p0f6","slide":7,"text":"形成结果","textPreview":"形成结果","textChars":4,"textLines":1,"bbox":[986,322,150,35]}
+{"kind":"textbox","id":"sh/i1gjqpwz","slide":7,"text":"档案与推荐检查项目","textPreview":"档案与推荐检查项目","textChars":9,"textLines":1,"bbox":[986,364,150,42]}
+{"kind":"shape","id":"sh/j2pkzuxk","slide":7,"bbox":[837,196,2,58]}
+{"kind":"shape","id":"sh/twbmpozm","slide":7,"bbox":[389,196,448,2]}
+{"kind":"shape","id":"sh/sv25gji1","slide":7,"bbox":[339,180,50,34]}
+{"kind":"textbox","id":"sh/ru94nehg","slide":7,"text":"信息不足：回到缺口判断，继续下一轮","textPreview":"信息不足：回到缺口判断，继续下一轮","textChars":17,"textLines":1,"bbox":[430,174,440,32]}
+{"kind":"shape","id":"sh/6t0ne90b","slide":7,"bbox":[196,510,888,100]}
+{"kind":"textbox","id":"sh/5srml4zq","slide":7,"text":"结束条件不是“已经问了几次”，\n而是“当前信息是否足够”。","textPreview":"结束条件不是“已经问了几次”， | 而是“当前信息是否足够”。","textChars":29,"textLines":2,"bbox":[250,530,780,62]}
+{"kind":"textbox","id":"sh/4rilczi5","slide":7,"text":"当前成果：对话式追问、动态完整度判断、双 Skill 协作均已落地","textPreview":"当前成果：对话式追问、动态完整度判断、双 Skill 协作均已落地","textChars":33,"textLines":1,"bbox":[72,681,420,18]}
+{"kind":"notes","id":"nt/rbg86v","slide":7,"text":"当前流程已经形成闭环：基础问诊之后识别缺口，用追问 Skill 生成一个自然问题，患者回答后重新判断。信息不足就继续循环，信息足够才形成档案和检查建议。今天改造的核心结论，就是结束条件由信息本身决定。\n\n[Sources]\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/docs/superpowers/specs/2026-08-12-conversational-follow-up-design.md\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/docs/superpowers/specs/2026-08-12-dynamic-follow-up-completion-design.md\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/backend/skills/tcm-intake-checklist/SKILL.md\n- C:/Users/Administrator/Desktop/project/intake-diagnostician/backend/skills/tcm-questioning-guide/SKILL.md\n[/Sources]"}

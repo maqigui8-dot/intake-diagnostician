@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F7F9F5" />
+    <rect x="0" y="0" width="36" height="720" fill="#2F6B4F" />
+    <circle cx="1160" cy="76" r="48" fill="#D6A84B" fill-opacity="0.14" />
+    <path d="M80 624 H680" fill="none" stroke="#DCE5DC" stroke-width="2" />
+  </g>
+  <g id="title-block">
+    <path fill="#EAF2E8" d="M99,112 H225 A17,17 0 0 1 242,129 V129 A17,17 0 0 1 225,146 H99 A17,17 0 0 1 82,129 V129 A17,17 0 0 1 99,112 Z" />
+    <text x="162" y="136" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2F6B4F">项目进展汇报</text>
+    <text x="82" y="236" font-family="Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="bold" fill="#1F2A24">中医诊前问诊系统</text>
+    <text x="82" y="296" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" fill="#2F6B4F">从固定问卷走向动态信息闭环</text>
+    <text x="82" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#657269">本轮迭代：完整度判断 · 动态补问 · 检查建议</text>
+  </g>
+  <g id="progress-tags">
+    <path fill="#FFFFFF" stroke="#DCE5DC" d="M96,442 H236 A14,14 0 0 1 250,456 V476 A14,14 0 0 1 236,490 H96 A14,14 0 0 1 82,476 V456 A14,14 0 0 1 96,442 Z" />
+    
+  <g transform="translate(100, 454)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M9 14l2 2l4 -4" />
+  </g>
+    <text x="136" y="474" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">完整度规则</text>
+    <path fill="#FFFFFF" stroke="#DCE5DC" d="M280,442 H420 A14,14 0 0 1 434,456 V476 A14,14 0 0 1 420,490 H280 A14,14 0 0 1 266,476 V456 A14,14 0 0 1 280,442 Z" />
+    
+  <g transform="translate(284, 454)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M8 9h8" />
+    <path d="M8 13h6" />
+    <path d="M14 18h-1l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5" />
+    <path d="M19 22v.01" />
+    <path d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+  </g>
+    <text x="320" y="474" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">动态追问</text>
+    <path fill="#FFFFFF" stroke="#DCE5DC" d="M464,442 H604 A14,14 0 0 1 618,456 V476 A14,14 0 0 1 604,490 H464 A14,14 0 0 1 450,476 V456 A14,14 0 0 1 464,442 Z" />
+    
+  <g transform="translate(468, 454)" fill="none" stroke="#D6A84B" stroke-width="2">
+    <path d="M9 3l6 0" />
+    <path d="M10 9l4 0" />
+    <path d="M10 3v6l-4 11a.7 .7 0 0 0 .5 1h11a.7 .7 0 0 0 .5 -1l-4 -11v-6" />
+  </g>
+    <text x="504" y="474" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2A24">检查建议</text>
+  </g>
+  <g id="product-preview">
+    <path fill="#FFFFFF" stroke="#DCE5DC" stroke-width="2" d="M744,98 H1200 A20,20 0 0 1 1220,118 V568 A20,20 0 0 1 1200,588 H744 A20,20 0 0 1 724,568 V118 A20,20 0 0 1 744,98 Z" />
+    <path fill="#EAF2E8" d="M758,118 H1186 A14,14 0 0 1 1200,132 V158 A14,14 0 0 1 1186,172 H758 A14,14 0 0 1 744,158 V132 A14,14 0 0 1 758,118 Z" />
+    
+  <g transform="translate(764, 133)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M6 4h-1a2 2 0 0 0 -2 2v3.5a5.5 5.5 0 0 0 11 0v-3.5a2 2 0 0 0 -2 -2h-1" />
+    <path d="M8 15a6 6 0 1 0 12 0v-3" />
+    <path d="M11 3v2" />
+    <path d="M6 3v2" />
+    <path d="M18 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  </g>
+    <text x="802" y="153" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2A24">诊前信息检查</text>
+    <path fill="#F7F9F5" stroke="#DCE5DC" d="M758,192 H1010 A14,14 0 0 1 1024,206 V274 A14,14 0 0 1 1010,288 H758 A14,14 0 0 1 744,274 V206 A14,14 0 0 1 758,192 Z" />
+    <text x="768" y="224" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">当前完整度</text>
+    <text x="768" y="266" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#2F6B4F">72%</text>
+    <path fill="#F6EFD9" d="M1058,192 H1186 A14,14 0 0 1 1200,206 V274 A14,14 0 0 1 1186,288 H1058 A14,14 0 0 1 1044,274 V206 A14,14 0 0 1 1058,192 Z" />
+    <text x="1066" y="224" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#657269">待补关键项</text>
+    <text x="1066" y="266" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#D6A84B">2</text>
+    <path fill="#F7F9F5" stroke="#DCE5DC" d="M758,308 H1186 A14,14 0 0 1 1200,322 V470 A14,14 0 0 1 1186,484 H758 A14,14 0 0 1 744,470 V322 A14,14 0 0 1 758,308 Z" />
+    <text x="768" y="342" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1F2A24">下一步动态补问</text>
+    <path fill="#FFFFFF" stroke="#DCE5DC" d="M780,364 H1164 A12,12 0 0 1 1176,376 V408 A12,12 0 0 1 1164,420 H780 A12,12 0 0 1 768,408 V376 A12,12 0 0 1 780,364 Z" />
+    
+  <g transform="translate(786, 380)" fill="none" stroke="#2F6B4F" stroke-width="2">
+    <path d="M8 9h8" />
+    <path d="M8 13h6" />
+    <path d="M14 18h-1l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5" />
+    <path d="M19 22v.01" />
+    <path d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+  </g>
+    <text x="824" y="399" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1F2A24">选择最重要的信息缺口，一次一问</text>
+    <path fill="#EAF2E8" d="M783,434 H947 A15,15 0 0 1 962,449 V449 A15,15 0 0 1 947,464 H783 A15,15 0 0 1 768,449 V449 A15,15 0 0 1 783,434 Z" />
+    <text x="865" y="455" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F6B4F">回答后重新评估</text>
+    <path fill="#2F6B4F" d="M758,508 H1186 A14,14 0 0 1 1200,522 V542 A14,14 0 0 1 1186,556 H758 A14,14 0 0 1 744,542 V522 A14,14 0 0 1 758,508 Z" />
+    <text x="972" y="539" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">形成结构化档案与检查建议</text>
+  </g>
+  <g id="footer">
+    <text x="82" y="666" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#657269">2026.08 · 阶段进展</text>
+    <text x="1200" y="666" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#657269">01</text>
+  </g>
+</svg>

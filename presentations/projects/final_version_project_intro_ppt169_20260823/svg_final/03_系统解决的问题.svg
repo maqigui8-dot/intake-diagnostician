@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9" /></g>
+  <g id="header">
+    <text x="64" y="78" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">系统解决的问题</text>
+    <text x="64" y="116" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">从患者自然表达，到医生可以直接接续的诊前资料</text>
+  </g>
+  <g id="problem-1">
+    <path fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2" d="M72,178 H388 A8,8 0 0 1 396,186 V446 A8,8 0 0 1 388,454 H72 A8,8 0 0 1 64,446 V186 A8,8 0 0 1 72,178 Z" />
+    <circle cx="112" cy="224" r="24" fill="#F1F6EF" />
+    
+  <g transform="translate(96, 208) scale(1.33333)" fill="#236B45">
+    <path d="M18 3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-4.724l-4.762 2.857a1 1 0 0 1 -1.508 -.743l-.006 -.114v-2h-1a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-8a4 4 0 0 1 4 -4zm-2.8 9.286a1 1 0 0 0 -1.414 .014a2.5 2.5 0 0 1 -3.572 0a1 1 0 0 0 -1.428 1.4a4.5 4.5 0 0 0 6.428 0a1 1 0 0 0 -.014 -1.414m-5.69 -4.286h-.01a1 1 0 1 0 0 2h.01a1 1 0 0 0 0 -2m5 0h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2" />
+  </g>
+    <text x="148" y="232" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#24332B">说不清</text>
+    <text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="96" y="292">患者的症状、持续时间、</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="96" y="326">诱因和既往情况，常常混在</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="96" y="360">一段自然语言里。</text><path fill="#C68A3A" d="M98,402 H178 A2,2 0 0 1 180,404 V404 A2,2 0 0 1 178,406 H98 A2,2 0 0 1 96,404 V404 A2,2 0 0 1 98,402 Z" />
+  </g>
+  <g id="connector-1"><polygon points="412,304 440,288 440,298 466,298 466,310 440,310 440,320" fill="#72A984" /></g>
+  <g id="problem-2">
+    <path fill="#F1F6EF" d="M484,178 H800 A8,8 0 0 1 808,186 V446 A8,8 0 0 1 800,454 H484 A8,8 0 0 1 476,446 V186 A8,8 0 0 1 484,178 Z" />
+    <circle cx="524" cy="224" r="24" fill="#FFFFFF" />
+    
+  <g transform="translate(508, 208) scale(1.33333)" fill="#236B45">
+    <path d="M14 3.072a8 8 0 0 1 2.32 11.834l5.387 5.387a1 1 0 0 1 -1.414 1.414l-5.388 -5.387a8 8 0 1 1 -.905 -13.249" />
+  </g>
+    <text x="560" y="232" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#24332B">问不全</text>
+    <text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="508" y="292">首次问诊时间有限，需要同时</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="508" y="326">覆盖中医症状、用药安全、</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="508" y="360">既往史和代谢风险。</text><path fill="#C68A3A" d="M510,402 H590 A2,2 0 0 1 592,404 V404 A2,2 0 0 1 590,406 H510 A2,2 0 0 1 508,404 V404 A2,2 0 0 1 510,402 Z" />
+  </g>
+  <g id="connector-2"><polygon points="824,304 852,288 852,298 878,298 878,310 852,310 852,320" fill="#72A984" /></g>
+  <g id="problem-3">
+    <path fill="#FFFFFF" stroke="#D7E2D8" stroke-width="2" d="M896,178 H1208 A8,8 0 0 1 1216,186 V446 A8,8 0 0 1 1208,454 H896 A8,8 0 0 1 888,446 V186 A8,8 0 0 1 896,178 Z" />
+    <circle cx="936" cy="224" r="24" fill="#F1F6EF" />
+    
+  <g transform="translate(920, 208) scale(1.33333)" fill="#236B45">
+    <path d="M17.997 4.17a3 3 0 0 1 2.003 2.83v12a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 2.003 -2.83a4 4 0 0 0 3.997 3.83h4a4 4 0 0 0 3.98 -3.597zm-8.987 10.83h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m5.99 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0 -2m-5.99 -4h-.01a1 1 0 0 0 -.117 1.993l.127 .007a1 1 0 0 0 0 -2m5.99 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0 -2m-1 -9a2 2 0 1 1 0 4h-4a2 2 0 1 1 0 -4z" />
+  </g>
+    <text x="972" y="232" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#24332B">看不快</text>
+    <text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="920" y="292">医生需要在较短时间内识别</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="920" y="326">信息缺口、回答冲突和需要</text><text font-size="19" font-family="Microsoft YaHei, Arial, sans-serif" fill="#68756D" x="920" y="360">优先确认的风险线索。</text><path fill="#C68A3A" d="M922,402 H1002 A2,2 0 0 1 1004,404 V404 A2,2 0 0 1 1002,406 H922 A2,2 0 0 1 920,404 V404 A2,2 0 0 1 922,402 Z" />
+  </g>
+  <g id="outcome-band">
+    <path fill="#236B45" d="M72,502 H1208 A8,8 0 0 1 1216,510 V604 A8,8 0 0 1 1208,612 H72 A8,8 0 0 1 64,604 V510 A8,8 0 0 1 72,502 Z" />
+    
+  <g transform="translate(96, 531) scale(2.16667)" fill="#FFFFFF">
+    <path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm3 14h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m0 -4h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2" />
+    <path d="M19 7h-4l-.001 -4.001z" />
+  </g>
+    <text x="180" y="546" font-family="KaiTi, Georgia, serif" font-size="27" font-weight="bold" fill="#FFFFFF">系统输出</text>
+    <text x="180" y="582" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#F1F6EF">结构化、可追溯、可继续确认的诊前档案与检查准备建议</text>
+  </g>
+  <g id="footer"><text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text><text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">03</text></g>
+</svg>

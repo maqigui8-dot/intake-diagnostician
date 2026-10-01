@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="page-header">
+    <text x="52" y="68" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">TODAY · BEFORE / AFTER</text>
+    <text x="52" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174B39">原版本与今日新版</text>
+    <text x="1228" y="104" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#617068">五个层面的完整对比</text>
+  </g>
+
+  <g id="comparison-old">
+    <path fill="#FBE9E6" d="M70,146 H554 A18,18 0 0 1 572,164 V548 A18,18 0 0 1 554,566 H70 A18,18 0 0 1 52,548 V164 A18,18 0 0 1 70,146 Z" />
+    <circle cx="92" cy="186" r="22" fill="#E45B4B" />
+    
+  <g transform="translate(79, 173) scale(1.08333)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 8v4" />
+    <path d="M12 16h.01" />
+  </g>
+    <text x="126" y="193" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="700" fill="#1E2A25">修改前</text>
+    <text x="126" y="220" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#617068">流程依赖模型持续生成问题</text>
+
+    <text x="82" y="270" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#E45B4B">交互</text>
+    <text x="158" y="270" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#1E2A25">单张问题卡，交流连续性弱</text>
+    <line x1="82" y1="291" x2="542" y2="291" stroke="#D9E4DE" stroke-width="1" />
+
+    <text x="82" y="330" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#E45B4B">显示</text>
+    <text x="158" y="330" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#1E2A25">内部完整度字段可能外露</text>
+    <line x1="82" y1="351" x2="542" y2="351" stroke="#D9E4DE" stroke-width="1" />
+
+    <text x="82" y="390" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#E45B4B">数据</text>
+    <text x="158" y="390" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#1E2A25">只保存问题文本和回答</text>
+    <line x1="82" y1="411" x2="542" y2="411" stroke="#D9E4DE" stroke-width="1" />
+
+    <text x="82" y="450" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#E45B4B">收敛</text>
+    <text x="158" y="450" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#1E2A25">换一种问法仍可能重复</text>
+    <line x1="82" y1="471" x2="542" y2="471" stroke="#D9E4DE" stroke-width="1" />
+
+    <text x="82" y="510" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#E45B4B">边界</text>
+    <text x="158" y="510" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#1E2A25">取消 5 轮后可持续到 30 轮</text>
+  </g>
+
+  <g id="comparison-arrow">
+    <circle cx="640" cy="350" r="38" fill="#FBF4DD" />
+    
+  <g transform="translate(620, 330) scale(1.66667)" fill="none" stroke="#D6A83B" stroke-width="2">
+    <path d="M7 10h14l-4 -4" />
+    <path d="M17 14h-14l4 4" />
+  </g>
+    <text x="640" y="408" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#617068">今日改造</text>
+  </g>
+
+  <g id="comparison-new">
+    <path fill="#DDEEE6" d="M726,146 H1210 A18,18 0 0 1 1228,164 V548 A18,18 0 0 1 1210,566 H726 A18,18 0 0 1 708,548 V164 A18,18 0 0 1 726,146 Z" />
+    <circle cx="748" cy="186" r="22" fill="#237A57" />
+    
+  <g transform="translate(735, 173) scale(1.08333)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M7 12l5 5l10 -10" />
+    <path d="M2 12l5 5m5 -5l5 -5" />
+  </g>
+    <text x="782" y="193" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="700" fill="#174B39">修改后</text>
+    <text x="782" y="220" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#617068">对话体验与流程策略共同控制</text>
+
+    <text x="738" y="270" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">交互</text>
+    <text x="814" y="270" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#1E2A25">独立聊天区，保留问答历史</text>
+    <line x1="738" y1="291" x2="1198" y2="291" stroke="#D9E4DE" stroke-width="1" />
+
+    <text x="738" y="330" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">显示</text>
+    <text x="814" y="330" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#1E2A25">内部判断隐藏，只展示自然问题</text>
+    <line x1="738" y1="351" x2="1198" y2="351" stroke="#D9E4DE" stroke-width="1" />
+
+    <text x="738" y="390" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">数据</text>
+    <text x="814" y="390" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#1E2A25">新增稳定 key 与必问/选问类型</text>
+    <line x1="738" y1="411" x2="1198" y2="411" stroke="#D9E4DE" stroke-width="1" />
+
+    <text x="738" y="450" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">收敛</text>
+    <text x="814" y="450" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#1E2A25">已问 key 去重，选问项不阻塞</text>
+    <line x1="738" y1="471" x2="1198" y2="471" stroke="#D9E4DE" stroke-width="1" />
+
+    <text x="738" y="510" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">边界</text>
+    <text x="814" y="510" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#1E2A25">动态结束 + 后台 12 轮兜底</text>
+  </g>
+
+  <g id="change-scope">
+    <text x="52" y="612" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#617068">今日修改覆盖</text>
+    <path fill="#F3F7F5" stroke="#D9E4DE" d="M189,590 H317 A21,21 0 0 1 338,611 V611 A21,21 0 0 1 317,632 H189 A21,21 0 0 1 168,611 V611 A21,21 0 0 1 189,590 Z" />
+    <text x="253" y="617" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#174B39">前端交互</text>
+    <path fill="#F3F7F5" stroke="#D9E4DE" d="M375,590 H503 A21,21 0 0 1 524,611 V611 A21,21 0 0 1 503,632 H375 A21,21 0 0 1 354,611 V611 A21,21 0 0 1 375,590 Z" />
+    <text x="439" y="617" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#174B39">后端策略</text>
+    <path fill="#F3F7F5" stroke="#D9E4DE" d="M561,590 H689 A21,21 0 0 1 710,611 V611 A21,21 0 0 1 689,632 H561 A21,21 0 0 1 540,611 V611 A21,21 0 0 1 561,590 Z" />
+    <text x="625" y="617" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#174B39">两个 Skill</text>
+    <path fill="#F3F7F5" stroke="#D9E4DE" d="M747,590 H905 A21,21 0 0 1 926,611 V611 A21,21 0 0 1 905,632 H747 A21,21 0 0 1 726,611 V611 A21,21 0 0 1 747,590 Z" />
+    <text x="826" y="617" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#174B39">智能分析协议</text>
+    <path fill="#F3F7F5" stroke="#D9E4DE" d="M963,590 H1117 A21,21 0 0 1 1138,611 V611 A21,21 0 0 1 1117,632 H963 A21,21 0 0 1 942,611 V611 A21,21 0 0 1 963,590 Z" />
+    <text x="1040" y="617" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#174B39">自动化测试</text>
+  </g>
+
+  <g id="footer">
+    <text x="52" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#A7B3AD">中医诊前问诊系统 · 今日改造对比</text>
+    <text x="1228" y="690" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#617068">02 / 06</text>
+  </g>
+</svg>

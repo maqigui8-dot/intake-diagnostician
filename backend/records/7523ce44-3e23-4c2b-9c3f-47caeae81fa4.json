@@ -1,0 +1,26 @@
+{
+  "record_id": "7523ce44-3e23-4c2b-9c3f-47caeae81fa4",
+  "patient_name": "马先生",
+  "created_at": "2026-07-16T18:21:05.253615",
+  "collected_info": {
+    "patient_name": "马先生",
+    "chief_complaint": "头疼",
+    "headache_character": "胀痛",
+    "fever_chill": "容易觉得热、爱出汗",
+    "headache_timing": "白天重、晚上轻",
+    "sweating": "夜里睡着后出汗，醒来就止（盗汗）",
+    "pain_character": "胀痛",
+    "timing": "白天重、晚上轻",
+    "thirst": "总想喝水",
+    "tongue_coating": "舌苔薄白均匀",
+    "chill_heat_preference": "容易觉得热、爱出汗",
+    "dizziness_character": "头重如裹、眼前发花",
+    "thirst_and_drinking": "总想喝水，更爱喝温热的",
+    "bowel_habits": "大便一天一次",
+    "appetite": "容易饿",
+    "sweating_pattern": "夜里睡着后出汗，醒来就止（盗汗）",
+    "sleep_disturbance": "睡着后容易醒",
+    "chest_discomfort": "胸口发闷"
+  },
+  "markdown_table": ""
+}

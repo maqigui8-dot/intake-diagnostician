@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">05 · 信息模型</text>
+  <text x="64" y="126" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174C43">如何把问诊内容转化为可计算的信息字段</text>
+  <line x1="64" y1="148" x2="1216" y2="148" stroke="#CDD8D2" stroke-width="2"/>
+  <rect x="70" y="190" width="470" height="430" fill="#174C43"/>
+  <!-- icon: tabler-outline/database -->
+  <g transform="translate(104, 224) scale(1.75)" fill="none" stroke="#F7F5EF" stroke-width="2">
+    <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+    <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+    <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+  </g>
+  <text x="166" y="254" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#F7F5EF">一个字段包含什么</text>
+  <line x1="104" y1="284" x2="504" y2="284" stroke="#6E9184" stroke-width="2"/>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#F7F5EF">
+    <text x="108" y="330">01　名称与所属信息层</text><text x="108" y="374">02　临床优先级与核心属性</text><text x="108" y="418">03　适用条件与最大追问次数</text><text x="108" y="462">04　当前回答状态</text><text x="108" y="506">05　患者原始证据与置信度</text><text x="108" y="550">06　冲突记录与审计信息</text>
+  </g>
+  <text x="586" y="210" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#62716B">六种状态</text>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" text-anchor="middle">
+    <rect x="586" y="232" width="176" height="46" fill="#FFFFFF" stroke="#CDD8D2"/><text x="674" y="261" fill="#62716B">未询问</text>
+    <rect x="782" y="232" width="176" height="46" fill="#E8EFEA" stroke="#CDD8D2"/><text x="870" y="261" fill="#174C43">部分确认</text>
+    <rect x="978" y="232" width="176" height="46" fill="#DCEAE4" stroke="#6E9184"/><text x="1066" y="261" fill="#174C43">已确认</text>
+    <rect x="586" y="292" width="176" height="46" fill="#F7E7DE" stroke="#CDD8D2"/><text x="674" y="321" fill="#C76B3C">无法确认</text>
+    <rect x="782" y="292" width="176" height="46" fill="#E8EFEA" stroke="#CDD8D2"/><text x="870" y="321" fill="#62716B">不适用</text>
+    <rect x="978" y="292" width="176" height="46" fill="#F7E7DE" stroke="#C76B3C"/><text x="1066" y="321" fill="#C76B3C">存在冲突</text>
+  </g>
+  <text x="586" y="390" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#62716B">状态示例</text>
+  <rect x="586" y="410" width="568" height="210" fill="#FFFFFF" stroke="#CDD8D2" stroke-width="2"/>
+  <line x1="586" y1="454" x2="1154" y2="454" stroke="#CDD8D2"/><line x1="802" y1="410" x2="802" y2="620" stroke="#CDD8D2"/><line x1="948" y1="410" x2="948" y2="620" stroke="#CDD8D2"/>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#24332E">
+    <text x="606" y="438" font-weight="700">字段</text><text x="822" y="438" font-weight="700">状态</text><text x="968" y="438" font-weight="700">患者证据</text>
+    <text x="606" y="486">体重变化</text><text x="822" y="486" fill="#174C43">已确认</text><text x="968" y="486">“半年胖了十公斤”</text>
+    <text x="606" y="526">睡眠情绪</text><text x="822" y="526" fill="#174C43">部分确认</text><text x="968" y="526">“晚上总是醒”</text>
+    <text x="606" y="566">当前用药</text><text x="822" y="566" fill="#62716B">未询问</text><text x="968" y="566">暂无</text>
+    <text x="606" y="606">过敏史</text><text x="822" y="606" fill="#C76B3C">存在冲突</text><text x="968" y="606">前后回答不一致</text>
+  </g>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">06</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6"/>
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#E07A5F">02 / 改造背景</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">改造前的核心问题</text>
+    <text x="64" y="184" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#5E6D65">问题不在于“能不能问”，而在于问诊过程是否稳定、可解释、可服务诊中。</text>
+  </g>
+  <g id="issue-one">
+    <text x="78" y="283" font-family="Microsoft YaHei, Arial, sans-serif" font-size="58" font-weight="700" fill="#E07A5F">01</text>
+    <line x1="78" y1="310" x2="382" y2="310" stroke="#C9D7CE" stroke-width="2"/>
+    <text x="78" y="361" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="700" fill="#15221C">固定问答</text>
+    <text x="78" y="402" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5E6D65">一次选择无法承接</text>
+    <text x="78" y="432" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5E6D65">患者的自由描述与澄清需求</text>
+  </g>
+  <g id="issue-two">
+    <text x="488" y="283" font-family="Microsoft YaHei, Arial, sans-serif" font-size="58" font-weight="700" fill="#E07A5F">02</text>
+    <line x1="488" y1="310" x2="792" y2="310" stroke="#C9D7CE" stroke-width="2"/>
+    <text x="488" y="361" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="700" fill="#15221C">状态不稳</text>
+    <text x="488" y="402" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5E6D65">页面刷新后，追问进度与</text>
+    <text x="488" y="432" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5E6D65">历史信息容易出现断开</text>
+  </g>
+  <g id="issue-three">
+    <text x="898" y="283" font-family="Microsoft YaHei, Arial, sans-serif" font-size="58" font-weight="700" fill="#E07A5F">03</text>
+    <line x1="898" y1="310" x2="1202" y2="310" stroke="#C9D7CE" stroke-width="2"/>
+    <text x="898" y="361" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="700" fill="#15221C">完成不准</text>
+    <text x="898" y="402" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5E6D65">单一总分可能在关键资料</text>
+    <text x="898" y="432" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#5E6D65">未收集时过早生成档案</text>
+  </g>
+  <g id="consequence">
+    <rect x="64" y="526" width="1152" height="98" rx="6" fill="#EAF2EB"/>
+    <rect x="64" y="526" width="8" height="98" fill="#C94A3D"/>
+    <text x="100" y="569" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#C94A3D">改造方向</text>
+    <text x="100" y="604" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#15221C">将一次性答题改为可恢复的对话式采集，并以分层门槛控制结束时机。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">03</text>
+  </g>
+</svg>

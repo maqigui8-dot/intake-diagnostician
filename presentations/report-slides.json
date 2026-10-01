@@ -1,0 +1,135 @@
+{
+  "style": "pure_black",
+  "footer": "成人肥胖诊前问诊系统 · 组会汇报",
+  "page_numbers": true,
+  "output": "intake-diagnostician-report.pptx",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "成人肥胖诊前问诊系统",
+      "subtitle": "中医智能助手 · 组会汇报",
+      "variant": "centered"
+    },
+    {
+      "type": "agenda",
+      "title": "目录",
+      "topics": [
+        "项目背景与定位",
+        "核心设计理念",
+        "完整度判定机制（重点）",
+        "系统架构",
+        "问诊流程演示",
+        "安全护栏与成果"
+      ],
+      "highlight": 2
+    },
+    {
+      "type": "content",
+      "title": "项目背景与定位",
+      "items": [
+        "定位：面向成人单纯性肥胖的 AI 中医诊前问诊系统，为医生准备好诊前资料",
+        "痛点：诊前信息碎片化、问诊耗时、关键信息（过敏/用药/危险信号）易遗漏",
+        "能力：结构化采集 → 生成「四诊档案」+ 分层执行度 + 检查建议",
+        "边界：只做诊前整理，不诊断、不开方，最终由医生诊中确认"
+      ],
+      "columns": 1
+    },
+    {
+      "type": "two_column",
+      "title": "核心设计理念：规则权威，AI 只提取证据",
+      "left": [
+        "AI（LLM）负责",
+        "把患者原话映射到 34 个字段",
+        "生成自然、温和、一次一问的追问",
+        "识别前后矛盾与危险信号"
+      ],
+      "right": [
+        "确定性规则引擎负责",
+        "计分与阈值（risk 80% / tcm 70% / safety 100%）",
+        "停止决策与字段状态机",
+        "检查推荐，规则不可被 AI 修改"
+      ]
+    },
+    {
+      "type": "table",
+      "title": "完整度判定 ① · 字段状态与得分系数",
+      "headers": ["字段状态", "含义", "得分系数"],
+      "rows": [
+        ["confirmed", "患者明确表达", "1.0"],
+        ["partial", "部分表达 / 前后矛盾", "0.5"],
+        ["unavailable", "明确不知道 / 拒绝", "0.0"],
+        ["not_asked", "尚未询问", "0.0"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "完整度判定 ② · 四层计分与阈值",
+      "headers": ["分层", "覆盖内容", "完成门槛"],
+      "rows": [
+        ["baseline 基础测量", "年龄·性别·身高·体重 → BMI", "硬性就绪"],
+        ["risk 病因与风险", "主诉·体重变化·生活方式·近期检查", "80%"],
+        ["tcm 中医症状", "食欲·寒热·二便·睡眠·舌象", "70%"],
+        ["safety 安全（硬必问）", "过敏·用药·既往史·危险信号", "100%"]
+      ]
+    },
+    {
+      "type": "content",
+      "title": "完整度判定 ③ · 何时追问、何时停止",
+      "items": [
+        "计分公式：某层完成度 = 该层 Σ(字段权重 × 系数) ÷ Σ(字段权重) × 100",
+        "完成需同时满足：基础测量就绪 + 三层过线 + 硬必问字段全部确认 + 无未解决矛盾",
+        "硬必问字段（过敏/用药/既往史/危险信号）缺失即阻塞，永远到不了 completed",
+        "追问优先级：安全层 > 风险层 > 中医层；每轮只问一个字段，每个字段最多问 2 次",
+        "澄清请求（“什么意思”）不计入证据与次数，先解释再重问同一字段",
+        "三种终态：completed（达标）/ incomplete（问不下去，留诊中补充）/ escalated（危险信号转线下）"
+      ],
+      "columns": 1
+    },
+    {
+      "type": "table",
+      "title": "系统架构",
+      "headers": ["层级", "技术选型"],
+      "rows": [
+        ["前端", "Vue 3 + Vite + TailwindCSS（患者端 + 医生端双视图）"],
+        ["后端", "Python FastAPI + 状态机 + 规则计分引擎"],
+        ["LLM", "DeepSeek（deepseek-v4-flash），可回退本地 Ollama"],
+        ["规则库", "34 个问诊字段 · 4 分层（baseline/risk/tcm/safety）"]
+      ]
+    },
+    {
+      "type": "image",
+      "title": "问诊流程 · 基础测量",
+      "image_path": "C:/Users/Administrator/Desktop/project/intake-diagnostician/presentations/output/shot-baseline.png",
+      "overlay": false
+    },
+    {
+      "type": "image",
+      "title": "补充问诊 · 一次只问一个信息点",
+      "image_path": "C:/Users/Administrator/Desktop/project/intake-diagnostician/presentations/output/shot-followup.png",
+      "overlay": false
+    },
+    {
+      "type": "image",
+      "title": "诊前档案 · 结果页与检查建议",
+      "image_path": "C:/Users/Administrator/Desktop/project/intake-diagnostician/presentations/output/shot-result.png",
+      "overlay": false
+    },
+    {
+      "type": "image",
+      "title": "医生视图 · 分层执行度与字段档案",
+      "image_path": "C:/Users/Administrator/Desktop/project/intake-diagnostician/presentations/output/shot-doctor.png",
+      "overlay": false
+    },
+    {
+      "type": "summary",
+      "title": "安全护栏与成果",
+      "points": [
+        "不输出诊断、证型、处方、患病概率；患者端只显示「达到成人肥胖范围，待医生确认」",
+        "危险信号（胸痛 / 呼吸困难 / 晕厥 / 意识异常）→ 转线下就医，但不阻断资料采集",
+        "证据过滤：模型声称必须能在患者原话中找到支撑；每个字段最多追问 2 次",
+        "成果：后端 143 项 + 前端 29 项测试通过，34 字段 · 4 分层 · 3 阈值"
+      ],
+      "conclusion": "「规则权威、AI 只提取证据」让 AI 在医疗场景中可控、可审计，下一步可扩展到更多专病诊前路径。"
+    }
+  ]
+}

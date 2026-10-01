@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FCFDF9"/></g>
+  <g id="header"><text x="64" y="72" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#24332B">患者端使用流程</text><text x="64" y="108" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#68756D">从基础描述进入对话追问，核心资料闭环后形成诊前档案</text></g>
+  <g id="journey-line">
+    <line x1="146" y1="188" x2="1134" y2="188" stroke="#D7E2D8" stroke-width="4"/>
+    <line x1="146" y1="188" x2="1134" y2="188" stroke="#72A984" stroke-width="4" stroke-dasharray="8,4"/>
+  </g>
+  <g id="step-1">
+    <circle cx="146" cy="188" r="30" fill="#236B45"/>
+    <text x="146" y="196" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">1</text>
+    <text x="146" y="244" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#24332B">基础信息</text>
+    <text x="146" y="271" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">主要诉求</text>
+  </g>
+  <g id="step-2">
+    <circle cx="475" cy="188" r="30" fill="#236B45"/>
+    <text x="475" y="196" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">2</text>
+    <text x="475" y="244" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#24332B">开放描述</text>
+    <text x="475" y="271" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">自由表达情况</text>
+  </g>
+  <g id="step-3">
+    <circle cx="804" cy="188" r="30" fill="#C68A3A"/>
+    <text x="804" y="196" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">3</text>
+    <text x="804" y="244" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#24332B">对话追问</text>
+    <text x="804" y="271" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">按核心缺口逐项询问</text>
+  </g>
+  <g id="step-4">
+    <circle cx="1134" cy="188" r="30" fill="#236B45"/>
+    <text x="1134" y="196" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">4</text>
+    <text x="1134" y="244" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="bold" fill="#24332B">形成档案</text>
+    <text x="1134" y="271" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">检查建议与历史记录</text>
+  </g>
+  <g id="screenshot-placeholder">
+    <rect x="64" y="316" width="1152" height="306" rx="8" fill="#FFFFFF" stroke="#72A984" stroke-width="2" stroke-dasharray="8,4"/>
+    <rect x="64" y="316" width="1152" height="42" rx="8" fill="#F1F6EF"/>
+    <rect x="64" y="348" width="1152" height="10" fill="#F1F6EF"/>
+    <circle cx="92" cy="337" r="5" fill="#C68A3A"/>
+    <circle cx="110" cy="337" r="5" fill="#72A984"/>
+    <circle cx="128" cy="337" r="5" fill="#D7E2D8"/>
+    <use data-icon="tabler-filled/file-description" x="594" y="407" width="92" height="92" fill="#D7E2D8"/>
+    <text x="640" y="525" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#236B45">系统截图占位</text>
+    <text x="640" y="564" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#68756D">请放入当前患者端完整流程截图，建议使用浏览器 16:9 截图</text>
+    <text x="640" y="592" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">替换时保留上方四步流程说明</text>
+  </g>
+  <g id="footer"><text x="64" y="676" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">成人肥胖中医诊前问诊系统</text><text x="1216" y="676" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#68756D">05</text></g>
+</svg>

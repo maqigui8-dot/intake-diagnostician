@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#237A57" />
+    </marker>
+    <marker id="arrow-gold" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#D6A83B" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="page-header">
+    <text x="52" y="68" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">CURRENT WORKFLOW</text>
+    <text x="52" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174B39">当前完整业务流程</text>
+    
+  <g transform="translate(1178, 60) scale(1.75)" fill="none" stroke="#237A57" stroke-width="2">
+    <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+    <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+  </g>
+  </g>
+
+  <g id="main-flow-connectors">
+    <line x1="238" y1="224" x2="286" y2="224" stroke="#237A57" stroke-width="3" marker-end="url(#arrow-green)" />
+    <line x1="476" y1="224" x2="524" y2="224" stroke="#237A57" stroke-width="3" marker-end="url(#arrow-green)" />
+    <line x1="714" y1="224" x2="762" y2="224" stroke="#237A57" stroke-width="3" marker-end="url(#arrow-green)" />
+    <line x1="922" y1="224" x2="1000" y2="224" stroke="#237A57" stroke-width="3" marker-end="url(#arrow-green)" />
+  </g>
+
+  <g id="step-base">
+    <path fill="#F3F7F5" stroke="#D9E4DE" d="M68,162 H222 A16,16 0 0 1 238,178 V270 A16,16 0 0 1 222,286 H68 A16,16 0 0 1 52,270 V178 A16,16 0 0 1 68,162 Z" />
+    <circle cx="82" cy="191" r="17" fill="#237A57" />
+    <text x="82" y="197" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="108" y="198" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174B39">基础十题</text>
+    <text x="72" y="238" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">采集主诉、持续时间、</text>
+    <text x="72" y="264" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">寒热、二便等基础资料</text>
+  </g>
+
+  <g id="step-submit">
+    <path fill="#F3F7F5" stroke="#D9E4DE" d="M306,162 H460 A16,16 0 0 1 476,178 V270 A16,16 0 0 1 460,286 H306 A16,16 0 0 1 290,270 V178 A16,16 0 0 1 306,162 Z" />
+    <circle cx="320" cy="191" r="17" fill="#237A57" />
+    <text x="320" y="197" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="346" y="198" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174B39">提交资料</text>
+    <text x="310" y="238" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">生成结构化摘要，</text>
+    <text x="310" y="264" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">进入智能完整度分析</text>
+  </g>
+
+  <g id="step-check">
+    <path fill="#DDEEE6" stroke="#237A57" stroke-width="2" d="M544,162 H698 A16,16 0 0 1 714,178 V270 A16,16 0 0 1 698,286 H544 A16,16 0 0 1 528,270 V178 A16,16 0 0 1 544,162 Z" />
+    <circle cx="558" cy="191" r="17" fill="#237A57" />
+    
+  <g transform="translate(547, 180) scale(0.916667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M3.5 5.5l1.5 1.5l2.5 -2.5" />
+    <path d="M3.5 11.5l1.5 1.5l2.5 -2.5" />
+    <path d="M3.5 17.5l1.5 1.5l2.5 -2.5" />
+    <path d="M11 6l9 0" />
+    <path d="M11 12l9 0" />
+    <path d="M11 18l9 0" />
+  </g>
+    <text x="584" y="198" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174B39">完整度判断</text>
+    <text x="548" y="238" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">区分关键必问项</text>
+    <text x="548" y="264" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">与建议选问项</text>
+  </g>
+
+  <g id="decision">
+    <polygon points="842,158 926,224 842,290 758,224" fill="#FBF4DD" stroke="#D6A83B" stroke-width="2" />
+    <text x="842" y="216" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#174B39">是否还缺</text>
+    <text x="842" y="242" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#174B39">关键必问项？</text>
+  </g>
+
+  <g id="result-output">
+    <path fill="#174B39" d="M1020,152 H1212 A16,16 0 0 1 1228,168 V280 A16,16 0 0 1 1212,296 H1020 A16,16 0 0 1 1004,280 V168 A16,16 0 0 1 1020,152 Z" />
+    
+  <g transform="translate(1028, 176) scale(1.25)" fill="none" stroke="#DDEEE6" stroke-width="2">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+    <path d="M9 15l2 2l4 -4" />
+  </g>
+    <text x="1072" y="199" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">输出结果</text>
+    <text x="1028" y="239" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#DDEEE6">诊前结构化档案</text>
+    <text x="1028" y="266" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#DDEEE6">推荐检查项目 → 保存记录</text>
+  </g>
+
+  <g id="follow-up-loop-connectors">
+    <line x1="842" y1="290" x2="842" y2="350" stroke="#D6A83B" stroke-width="3" marker-end="url(#arrow-gold)" />
+    <line x1="762" y1="420" x2="712" y2="420" stroke="#237A57" stroke-width="3" marker-end="url(#arrow-green)" />
+    <line x1="528" y1="420" x2="478" y2="420" stroke="#237A57" stroke-width="3" marker-end="url(#arrow-green)" />
+    <path d="M 384 482 V 548 H 621 V 306" fill="none" stroke="#237A57" stroke-width="3" stroke-dasharray="8,4" marker-end="url(#arrow-green)" />
+  </g>
+
+  <g id="step-question">
+    <path fill="#DDEEE6" stroke="#237A57" d="M778,354 H932 A16,16 0 0 1 948,370 V466 A16,16 0 0 1 932,482 H778 A16,16 0 0 1 762,466 V370 A16,16 0 0 1 778,354 Z" />
+    
+  <g transform="translate(782, 375) scale(1.16667)" fill="none" stroke="#237A57" stroke-width="2">
+    <path d="M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8" />
+    <path d="M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8" />
+    <path d="M17.5 16a3.5 3.5 0 0 0 0 -7h-.5" />
+    <path d="M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0" />
+    <path d="M6.5 16a3.5 3.5 0 0 1 0 -7h.5" />
+    <path d="M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10" />
+  </g>
+    <text x="822" y="397" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174B39">生成一个问题</text>
+    <text x="782" y="435" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">自然问法 + 稳定 key</text>
+    <text x="782" y="461" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">每轮只问一个信息点</text>
+  </g>
+
+  <g id="step-chat">
+    <path fill="#F3F7F5" stroke="#D9E4DE" d="M544,354 H696 A16,16 0 0 1 712,370 V466 A16,16 0 0 1 696,482 H544 A16,16 0 0 1 528,466 V370 A16,16 0 0 1 544,354 Z" />
+    
+  <g transform="translate(548, 375) scale(1.16667)" fill="none" stroke="#237A57" stroke-width="2">
+    <path d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1" />
+  </g>
+    <text x="588" y="397" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174B39">对话回答</text>
+    <text x="548" y="435" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">历史持续可见</text>
+    <text x="548" y="461" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">用户按实际情况回答</text>
+  </g>
+
+  <g id="step-save-loop">
+    <path fill="#F3F7F5" stroke="#D9E4DE" d="M306,354 H462 A16,16 0 0 1 478,370 V466 A16,16 0 0 1 462,482 H306 A16,16 0 0 1 290,466 V370 A16,16 0 0 1 306,354 Z" />
+    
+  <g transform="translate(310, 375) scale(1.16667)" fill="none" stroke="#237A57" stroke-width="2">
+    <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" />
+    <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" />
+  </g>
+    <text x="350" y="397" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174B39">保存并重分析</text>
+    <text x="310" y="431" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">保存问题和回答</text>
+    <text x="310" y="454" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">记录 key 与类型</text>
+    <text x="310" y="477" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">返回完整度判断</text>
+  </g>
+
+  <g id="stop-conditions">
+    <path fill="#F3F7F5" d="M762,530 H1212 A16,16 0 0 1 1228,546 V618 A16,16 0 0 1 1212,634 H762 A16,16 0 0 1 746,618 V546 A16,16 0 0 1 762,530 Z" />
+    <text x="770" y="558" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">进入结果页的四种条件</text>
+    <text x="770" y="592" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E2A25">信息足够　·　只剩选问项　·　重复缺口　·　达到安全边界</text>
+    
+  <g transform="translate(1174, 548) scale(1.25)" fill="none" stroke="#237A57" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+  </g>
+
+  <g id="loop-label">
+    <path fill="#DDEEE6" d="M68,530 H662 A16,16 0 0 1 678,546 V618 A16,16 0 0 1 662,634 H68 A16,16 0 0 1 52,618 V546 A16,16 0 0 1 68,530 Z" />
+    <text x="78" y="566" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#174B39">核心变化：追问是“判断 → 提问 → 回答 → 再判断”的闭环</text>
+    <text x="78" y="603" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">轮数由信息决定，但流程不再无限延伸。</text>
+  </g>
+
+  <g id="footer">
+    <text x="52" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#A7B3AD">中医诊前问诊系统 · 当前业务流程</text>
+    <text x="1228" y="690" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#617068">04 / 06</text>
+  </g>
+</svg>

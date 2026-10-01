@@ -1,0 +1,165 @@
+{
+  "lang": "zh",
+  "recommend": {
+    "canvas": "ppt169",
+    "mode": "briefing",
+    "visual_style": "soft-rounded",
+    "icons": "tabler-filled",
+    "image_usage": "placeholder",
+    "formula_policy": "text-only",
+    "generation_mode": "continuous"
+  },
+  "page_count": {
+    "value": "10"
+  },
+  "audience": {
+    "value": "项目组老师、同学，以及中医和医学信息化方向的评审者"
+  },
+  "content_divergence": {
+    "value": "严格按照已确认的10页大纲，只介绍当前最终版本，不讲迭代变化"
+  },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "温润医疗绿",
+        "name_en": "Warm Clinical Green",
+        "note_zh": "温和、可信，贴合中医问诊与医疗健康场景",
+        "note_en": "Warm and trustworthy for a TCM healthcare product",
+        "palette": {
+          "background": "#FCFDF9",
+          "secondary_bg": "#F1F6EF",
+          "primary": "#236B45",
+          "accent": "#C68A3A",
+          "secondary_accent": "#72A984",
+          "body_text": "#24332B"
+        }
+      },
+      {
+        "name_zh": "清晰科技青",
+        "name_en": "Clear Health Tech",
+        "note_zh": "更现代、理性，突出智能系统和信息流程",
+        "note_en": "Modern and analytical for an intelligent workflow",
+        "palette": {
+          "background": "#FFFFFF",
+          "secondary_bg": "#F2F7F7",
+          "primary": "#0F6B63",
+          "accent": "#E39B45",
+          "secondary_accent": "#4E9B91",
+          "body_text": "#1F3130"
+        }
+      },
+      {
+        "name_zh": "东方墨绿",
+        "name_en": "Eastern Ink Green",
+        "note_zh": "更具中医文化气质，适合偏正式的现场汇报",
+        "note_en": "A more formal TCM-inspired visual identity",
+        "palette": {
+          "background": "#F8F5ED",
+          "secondary_bg": "#ECE9DE",
+          "primary": "#294C3A",
+          "accent": "#A85B3A",
+          "secondary_accent": "#748D69",
+          "body_text": "#292E2A"
+        }
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "楷体标题 + 微软雅黑正文",
+        "name_en": "Kai Title + YaHei Body",
+        "note_zh": "标题保留中医气质，正文清楚易读",
+        "note_en": "TCM character in headings with readable body copy",
+        "heading": {
+          "cjk": "KaiTi",
+          "latin": "Georgia",
+          "css": "KaiTi, Georgia, serif",
+          "sample_cjk": "成人肥胖中医诊前问诊系统",
+          "sample_latin": "TCM Pre-visit Intake"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "'Microsoft YaHei', Arial, sans-serif",
+          "sample_cjk": "诊前收集、对话追问、档案整理",
+          "sample_latin": "Collect, clarify, organize",
+          "body_size": 20
+        },
+        "body_size": 20
+      },
+      {
+        "name_zh": "微软雅黑统一字族",
+        "name_en": "Unified YaHei Sans",
+        "note_zh": "最稳妥清晰，适合投影和技术汇报",
+        "note_en": "Clean and projector-safe for technical briefings",
+        "heading": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Segoe UI",
+          "css": "'Microsoft YaHei', 'Segoe UI', sans-serif",
+          "sample_cjk": "成人肥胖中医诊前问诊系统",
+          "sample_latin": "TCM Pre-visit Intake"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Segoe UI",
+          "css": "'Microsoft YaHei', 'Segoe UI', sans-serif",
+          "sample_cjk": "诊前收集、对话追问、档案整理",
+          "sample_latin": "Collect, clarify, organize",
+          "body_size": 20
+        },
+        "body_size": 20
+      },
+      {
+        "name_zh": "黑体标题 + 宋体正文",
+        "name_en": "Hei Title + Song Body",
+        "note_zh": "偏正式报告风，层次鲜明且更有学术感",
+        "note_en": "Formal report tone with clear hierarchy",
+        "heading": {
+          "cjk": "SimHei",
+          "latin": "Arial Black",
+          "css": "SimHei, 'Arial Black', sans-serif",
+          "sample_cjk": "成人肥胖中医诊前问诊系统",
+          "sample_latin": "TCM Pre-visit Intake"
+        },
+        "body": {
+          "cjk": "SimSun",
+          "latin": "Cambria",
+          "css": "SimSun, Cambria, serif",
+          "sample_cjk": "诊前收集、对话追问、档案整理",
+          "sample_latin": "Collect, clarify, organize",
+          "body_size": 20
+        },
+        "body_size": 20
+      }
+    ]
+  },
+  "visual_style_spectrum": [
+    {
+      "id": "soft-rounded",
+      "tag_zh": "温和专业",
+      "tag_en": "Warm and professional",
+      "note_zh": "像成熟医疗产品的项目汇报",
+      "note_en": "Like a mature healthcare product briefing"
+    },
+    {
+      "id": "swiss-minimal",
+      "tag_zh": "克制理性",
+      "tag_en": "Restrained and analytical",
+      "note_zh": "像咨询公司整理的产品方案",
+      "note_en": "Like a consulting product deck"
+    },
+    {
+      "id": "ink-wash",
+      "tag_zh": "东方表达",
+      "tag_en": "Eastern expression",
+      "note_zh": "像现代中医文化专题展板",
+      "note_en": "Like a contemporary TCM exhibition"
+    }
+  ],
+  "refine_spec": {
+    "value": false
+  }
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F3F7F5" />
+  <rect x="0" y="0" width="712" height="720" fill="#FFFFFF" />
+
+  <g id="cover-title">
+    <path fill="#DDEEE6" d="M75,64 H167 A17,17 0 0 1 184,81 V81 A17,17 0 0 1 167,98 H75 A17,17 0 0 1 58,81 V81 A17,17 0 0 1 75,64 Z" />
+    <text x="121" y="87" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#237A57">阶段进展汇报</text>
+    <text font-family="Microsoft YaHei, Arial, sans-serif" font-size="64" fill="#174B39" font-weight="700" x="58" y="190">中医诊前</text><text font-family="Microsoft YaHei, Arial, sans-serif" font-size="64" fill="#174B39" font-weight="700" x="58" y="272">问诊系统</text><path fill="#E45B4B" d="M61,312 H127 A3,3 0 0 1 130,315 V315 A3,3 0 0 1 127,318 H61 A3,3 0 0 1 58,315 V315 A3,3 0 0 1 61,312 Z" />
+    <text x="58" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="600" fill="#1E2A25">今日改造对比与当前完整流程</text>
+    <text x="58" y="416" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#617068">从单张问题卡，升级为可收敛的对话式问诊闭环</text>
+    <text x="58" y="650" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#617068">2026.08.13</text>
+  </g>
+
+  <g id="transformation-visual">
+    <path fill="#174B39" d="M782,74 H1198 A26,26 0 0 1 1224,100 V620 A26,26 0 0 1 1198,646 H782 A26,26 0 0 1 756,620 V100 A26,26 0 0 1 782,74 Z" />
+    <text x="796" y="122" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#DDEEE6">TODAY'S CHANGE</text>
+
+    <g id="old-card">
+      <path fill="#FFFFFF" d="M808,164 H1038 A14,14 0 0 1 1052,178 V294 A14,14 0 0 1 1038,308 H808 A14,14 0 0 1 794,294 V178 A14,14 0 0 1 808,164 Z" />
+      <circle cx="828" cy="198" r="19" fill="#FBE9E6" />
+      
+  <g transform="translate(816, 186)" fill="none" stroke="#E45B4B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 8v4" />
+    <path d="M12 16h.01" />
+  </g>
+      <text x="858" y="202" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E2A25">单张问题卡</text>
+      <text x="818" y="244" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">只突出当前问题</text>
+      <text x="818" y="274" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#617068">上下文连续性较弱</text>
+    </g>
+
+    <g id="change-arrow">
+      <line x1="922" y1="328" x2="922" y2="380" stroke="#D6A83B" stroke-width="4" stroke-linecap="round" />
+      <polygon points="922,395 912,377 932,377" fill="#D6A83B" />
+      <path fill="#FBF4DD" d="M883,340 H961 A15,15 0 0 1 976,355 V355 A15,15 0 0 1 961,370 H883 A15,15 0 0 1 868,355 V355 A15,15 0 0 1 883,340 Z" />
+      <text x="922" y="361" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#174B39">交互升级</text>
+    </g>
+
+    <g id="new-chat">
+      <path fill="#DDEEE6" d="M864,408 H1160 A18,18 0 0 1 1178,426 V580 A18,18 0 0 1 1160,598 H864 A18,18 0 0 1 846,580 V426 A18,18 0 0 1 864,408 Z" />
+      <circle cx="884" cy="446" r="20" fill="#237A57" />
+      
+  <g transform="translate(872, 434)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1" />
+  </g>
+      <path fill="#FFFFFF" d="M932,428 H1126 A14,14 0 0 1 1140,442 V464 A14,14 0 0 1 1126,478 H932 A14,14 0 0 1 918,464 V442 A14,14 0 0 1 932,428 Z" />
+      <text x="936" y="459" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E2A25">最近什么时候更明显？</text>
+      <path fill="#237A57" d="M982,492 H1126 A14,14 0 0 1 1140,506 V522 A14,14 0 0 1 1126,536 H982 A14,14 0 0 1 968,522 V506 A14,14 0 0 1 982,492 Z" />
+      <text x="1054" y="520" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#FFFFFF">通常是饭后</text>
+      <path fill="#FFFFFF" d="M933,550 H1091 A15,15 0 0 1 1106,565 V565 A15,15 0 0 1 1091,580 H933 A15,15 0 0 1 918,565 V565 A15,15 0 0 1 933,550 Z" />
+      <circle cx="940" cy="565" r="4" fill="#237A57" />
+      <circle cx="956" cy="565" r="4" fill="#237A57" />
+      <circle cx="972" cy="565" r="4" fill="#237A57" />
+      <text x="1100" y="624" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#DDEEE6">对话式 · 可追踪 · 能结束</text>
+    </g>
+  </g>
+
+  <g id="footer">
+    <text x="1224" y="686" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#617068">01 / 06</text>
+  </g>
+</svg>

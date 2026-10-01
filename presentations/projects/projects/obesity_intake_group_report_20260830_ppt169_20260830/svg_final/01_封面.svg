@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <rect x="0" y="0" width="22" height="720" fill="#174C43"/>
+  <path d="M760 80 H1216 V640 H760" fill="none" stroke="#CDD8D2" stroke-width="2"/>
+  <path d="M820 198 H1120 M820 360 H1120 M820 522 H1120" fill="none" stroke="#E2E8E4" stroke-width="2"/>
+  <circle cx="820" cy="198" r="34" fill="#E8EFEA" stroke="#174C43" stroke-width="2"/>
+  <circle cx="1120" cy="360" r="34" fill="#E8EFEA" stroke="#174C43" stroke-width="2"/>
+  <circle cx="820" cy="522" r="34" fill="#F7E7DE" stroke="#C76B3C" stroke-width="2"/>
+  <path d="M854 198 C980 198 980 360 1086 360 M1086 360 C980 360 980 522 854 522" fill="none" stroke="#6E9184" stroke-width="4"/>
+  <!-- icon: tabler-outline/message-chatbot -->
+  <g transform="translate(802, 180) scale(1.5)" fill="none" stroke="#174C43" stroke-width="2">
+    <path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12" />
+    <path d="M9.5 9h.01" />
+    <path d="M14.5 9h.01" />
+    <path d="M9.5 13a3.5 3.5 0 0 0 5 0" />
+  </g>
+  <!-- icon: tabler-outline/search -->
+  <g transform="translate(1102, 342) scale(1.5)" fill="none" stroke="#174C43" stroke-width="2">
+    <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+    <path d="M21 21l-6 -6" />
+  </g>
+  <!-- icon: tabler-outline/file-description -->
+  <g transform="translate(802, 504) scale(1.5)" fill="none" stroke="#C76B3C" stroke-width="2">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+    <path d="M9 17h6" />
+    <path d="M9 13h6" />
+  </g>
+  <text x="86" y="112" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C" letter-spacing="2">PROJECT BRIEFING · 2026</text>
+  <text x="82" y="216" font-family="Microsoft YaHei, Arial, sans-serif" font-size="54" font-weight="700" fill="#174C43">成人肥胖中医诊前</text>
+  <text x="82" y="288" font-family="Microsoft YaHei, Arial, sans-serif" font-size="54" font-weight="700" fill="#174C43">智能问诊系统</text>
+  <rect x="84" y="330" width="112" height="5" fill="#C76B3C"/>
+  <text x="82" y="388" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" fill="#24332E">基于核心信息完整度的动态追问</text>
+  <text x="82" y="430" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" fill="#24332E">与诊前档案生成</text>
+  <text x="82" y="596" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#62716B">汇报人：________　课题组：________</text>
+  <text x="82" y="630" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#62716B">2026年8月</text>
+  <text x="820" y="150" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#62716B">理解</text>
+  <text x="1120" y="312" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#62716B">判断</text>
+  <text x="820" y="582" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#62716B">整理</text>
+</svg>

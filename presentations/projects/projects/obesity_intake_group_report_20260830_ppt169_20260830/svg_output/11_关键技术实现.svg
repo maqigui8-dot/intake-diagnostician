@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">10 · 技术实现</text>
+  <text x="64" y="126" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174C43">关键技术问题与当前实现</text>
+  <line x1="64" y1="148" x2="1216" y2="148" stroke="#CDD8D2" stroke-width="2"/>
+  <rect x="64" y="186" width="1152" height="54" fill="#174C43"/>
+  <line x1="380" y1="186" x2="380" y2="574" stroke="#CDD8D2"/><line x1="922" y1="186" x2="922" y2="574" stroke="#CDD8D2"/>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="700" fill="#F7F5EF">
+    <text x="88" y="220">关键技术问题</text><text x="406" y="220">当前处理方式</text><text x="948" y="220">当前状态</text>
+  </g>
+  <g stroke="#CDD8D2"><line x1="64" y1="308" x2="1216" y2="308"/><line x1="64" y1="376" x2="1216" y2="376"/><line x1="64" y1="444" x2="1216" y2="444"/><line x1="64" y1="512" x2="1216" y2="512"/><line x1="64" y1="574" x2="1216" y2="574"/></g>
+  <g font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#24332E">
+    <text x="88" y="274">一句话包含多个信息点</text><text x="406" y="264">一次提取多个字段，</text><text x="406" y="289">并保留患者原始证据</text><text x="948" y="276" fill="#174C43">已实现，待病例验证</text>
+    <text x="88" y="350">否定、不确定和拒答</text><text x="406" y="350">分状态记录，并使用本地规则过滤</text><text x="948" y="350" fill="#174C43">已实现基础处理</text>
+    <text x="88" y="418">回答前后存在矛盾</text><text x="406" y="418">保留新旧证据，标记冲突并澄清</text><text x="948" y="418" fill="#174C43">已实现</text>
+    <text x="88" y="486">大模型输出存在波动</text><text x="406" y="476">模型负责理解，规则控制状态、</text><text x="406" y="501">重试次数与停止条件</text><text x="948" y="486" fill="#174C43">已实现</text>
+    <text x="88" y="550">完整度与患者负担</text><text x="406" y="550">患者完成线与医生完善线分离</text><text x="948" y="550" fill="#C76B3C">规则已实现，待临床审核</text>
+  </g>
+  <rect x="160" y="610" width="960" height="50" fill="#E8EFEA"/>
+  <text x="640" y="641" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#174C43">工程实现 ≠ 临床验证：下一阶段需用标准病例与专家评价验证实际效果</text>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">11</text>
+</svg>

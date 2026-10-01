@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6"/>
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#155E47">08 / 对话式追问</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">对话式追问：围绕缺失信息，而不是凑轮次</text>
+    <text x="64" y="184" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#5E6D65">每次只推进一个信息目标，历史对话持续保留并可滚动查看。</text>
+  </g>
+  <g id="dialogue-principles">
+    <text x="64" y="256" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#155E47">追问约束</text>
+    <line x1="64" y1="280" x2="414" y2="280" stroke="#C9D7CE" stroke-width="1"/>
+    <circle cx="83" cy="334" r="13" fill="#155E47"/>
+    <text x="116" y="342" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#15221C">澄清不作为医学证据</text>
+    <text x="116" y="371" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">患者不理解时先解释，不消耗追问机会</text>
+    <circle cx="83" cy="435" r="13" fill="#4C8C7B"/>
+    <text x="116" y="443" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#15221C">同一字段最多委婉重问一次</text>
+    <text x="116" y="472" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">避免机械重复，保留患者拒答或不确定</text>
+    <circle cx="83" cy="536" r="13" fill="#E07A5F"/>
+    <text x="116" y="544" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#15221C">AI 不可用时仍可继续采集</text>
+    <text x="116" y="573" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#5E6D65">降级为固定问题，保证流程不被服务故障阻断</text>
+  </g>
+  <g id="screenshot">
+    <rect x="472" y="238" width="744" height="326" rx="6" fill="#EAF2EB" stroke="#C9D7CE" stroke-width="2"/>
+    <image href="../images/shot-followup.png" x="472" y="238" width="744" height="326" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="492" y="522" width="146" height="27" rx="13.5" fill="#155E47"/>
+    <text x="565" y="541" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#F7F9F6">真实系统页面</text>
+  </g>
+  <g id="footer">
+    <rect x="64" y="625" width="1152" height="1" fill="#C9D7CE"/>
+    <text x="64" y="666" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="700" fill="#155E47">停止条件由完整度模型决定，不再依赖固定 12 轮上限。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">09</text>
+  </g>
+</svg>

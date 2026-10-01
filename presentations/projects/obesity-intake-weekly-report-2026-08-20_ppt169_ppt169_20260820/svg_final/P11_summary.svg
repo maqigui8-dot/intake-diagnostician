@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F9F6" />
+  <g id="header">
+    <text x="64" y="82" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#155E47">10 / 总结与下一步</text>
+    <text x="64" y="144" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#15221C">当前成果与下一步</text>
+    <text x="64" y="184" font-family="Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#5E6D65">从单次答题页面，迭代为面向诊中服务的诊前采集闭环。</text>
+  </g>
+  <g id="completed">
+    <text x="64" y="258" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#155E47">本周已完成</text>
+    <path fill="#EAF2EB" d="M70,281 H568 A6,6 0 0 1 574,287 V513 A6,6 0 0 1 568,519 H70 A6,6 0 0 1 64,513 V287 A6,6 0 0 1 70,281 Z" />
+    <text x="100" y="337" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#15221C">01　流程从固定问答改为对话式追问</text>
+    <text x="100" y="384" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#15221C">02　建立四层完整度与停止条件</text>
+    <text x="100" y="431" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#15221C">03　完善患者端与医生端结果分层</text>
+    <text x="100" y="480" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5E6D65">基础资料、追问、档案与检查建议已形成可演示链路</text>
+  </g>
+  <g id="next-steps">
+    <text x="662" y="258" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#E07A5F">下一步收口</text>
+    <line x1="662" y1="281" x2="1216" y2="281" stroke="#C9D7CE" stroke-width="1" />
+    <text x="662" y="337" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#15221C">01　补充真实浏览器端到端流程测试</text>
+    <text x="662" y="384" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#15221C">02　继续打磨医生端访问控制与隐私</text>
+    <text x="662" y="431" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#15221C">03　补足文档，收口旧接口与演示路径</text>
+    <text x="662" y="480" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5E6D65">把“可演示”推进到“可稳定验证、可持续迭代”。</text>
+  </g>
+  <g id="closing">
+    <path fill="#155E47" d="M70,578 H1210 A6,6 0 0 1 1216,584 V635 A6,6 0 0 1 1210,641 H70 A6,6 0 0 1 64,635 V584 A6,6 0 0 1 70,578 Z" />
+    <text x="640" y="618" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="700" fill="#F7F9F6">采集更完整，交接更清楚，服务于医生的最终判断。</text>
+    <text x="1190" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#155E47">11</text>
+  </g>
+</svg>

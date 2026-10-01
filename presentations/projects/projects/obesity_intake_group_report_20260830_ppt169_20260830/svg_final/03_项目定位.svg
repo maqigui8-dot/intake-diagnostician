@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F7F5EF"/>
+  <text x="64" y="78" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700" fill="#C76B3C">02 · 项目边界</text>
+  <text x="64" y="126" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="700" fill="#174C43">项目定位：诊前信息整理，而非自动诊断</text>
+  <line x1="64" y1="148" x2="1216" y2="148" stroke="#CDD8D2" stroke-width="2"/>
+  <text x="126" y="220" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#174C43">系统负责</text>
+  <!-- icon: tabler-outline/clipboard-list -->
+  <g transform="translate(72, 194) scale(1.66667)" fill="none" stroke="#174C43" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M9 12l.01 0" />
+    <path d="M13 12l2 0" />
+    <path d="M9 16l.01 0" />
+    <path d="M13 16l2 0" />
+  </g>
+  <text x="126" y="282" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#24332E">采集基础资料与患者陈述</text>
+  <text x="126" y="330" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#24332E">提取病程、症状和安全信息</text>
+  <text x="126" y="378" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#24332E">识别缺口、冲突与危险信号</text>
+  <text x="126" y="426" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#24332E">根据核心完整度动态追问</text>
+  <text x="126" y="474" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#24332E">生成结构化诊前档案</text>
+  <line x1="640" y1="194" x2="640" y2="518" stroke="#CDD8D2" stroke-width="2"/>
+  <text x="728" y="220" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#C76B3C">系统不替代</text>
+  <!-- icon: tabler-outline/shield-check -->
+  <g transform="translate(674, 194) scale(1.66667)" fill="none" stroke="#C76B3C" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+  <text x="728" y="282" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#24332E">医生的最终疾病诊断</text>
+  <text x="728" y="330" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#24332E">中医辨证结论</text>
+  <text x="728" y="378" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#24332E">检查项目选择</text>
+  <text x="728" y="426" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#24332E">处方和治疗决策</text>
+  <rect x="94" y="558" width="1092" height="78" fill="#E8EFEA"/>
+  <rect x="94" y="558" width="8" height="78" fill="#174C43"/>
+  <text x="640" y="608" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700" fill="#174C43">把患者说过的话整理清楚，把专业判断留给医生</text>
+  <text x="1216" y="684" text-anchor="end" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#62716B">03</text>
+</svg>
