@@ -105,13 +105,15 @@ def build_llm() -> ChatOpenAI:
 
     api_key = os.getenv("DEEPSEEK_API_KEY", "")
     if api_key:
+        # deepseek-v4-flash 同样是推理模型（返回 reasoning_content），
+        # max_tokens 太小会被思考过程消耗导致正文截断
         return ChatOpenAI(
             model="deepseek-v4-flash",
             api_key=api_key,
             base_url="https://api.deepseek.com",
             temperature=0.7,
-            max_tokens=1024,
-            timeout=30,
+            max_tokens=4096,
+            timeout=60,
         )
 
     return ChatOpenAI(
