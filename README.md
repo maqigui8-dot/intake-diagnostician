@@ -172,10 +172,18 @@ npm run dev
 
 ## LLM 配置说明
 
-| 场景 | 环境变量 | 模型 |
-|------|----------|------|
-| DeepSeek 云端 | `DEEPSEEK_API_KEY=xxx` | deepseek-v4-flash |
-| 本地 Ollama | 不设置 API Key | qwen3:8b |
+后端按优先级自动降级选择模型（见 `backend/agent.py` 的 `build_llm`）：
+
+| 优先级 | 场景 | 环境变量 | 模型 |
+|------|------|----------|------|
+| 1 | 校内千问（校园网内，免费） | `SCHOOL_LLM_API_KEY=sk-xxx` | `vllm.Qwen3.8-27B`（可用 `SCHOOL_LLM_MODEL` / `SCHOOL_LLM_BASE_URL` 覆盖） |
+| 2 | DeepSeek 云端 | `DEEPSEEK_API_KEY=xxx` | deepseek-v4-flash |
+| 3 | 本地 Ollama | 前两者都未配置 | qwen3:8b |
+
+校内网关为 OpenAI 兼容接口，仅 `POST /api/chat/completions` 可用（`/v1/*` 不可用）；
+校内 IP 不可走系统代理，后端已用 `httpx.Client(trust_env=False)` 强制直连。
+`vllm.Qwen3.8-27B` 为推理模型，思考过程单独返回 `reasoning_content`，正文在 `content`；
+`max_tokens` 需留足思考空间（当前配置 4096）。
 
 使用本地 Ollama 时，请确保：
 

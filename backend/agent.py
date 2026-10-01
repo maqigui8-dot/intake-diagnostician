@@ -80,7 +80,29 @@ sessions = SessionManager()
 # ============================================================
 
 def build_llm() -> ChatOpenAI:
-    """根据环境变量创建 LLM 实例（DeepSeek 云端 / 本地 Ollama）。"""
+    """根据环境变量创建 LLM 实例，按优先级降级：
+    1. 校内千问（SCHOOL_LLM_API_KEY，校园网内可用，免费）
+    2. DeepSeek 云端（DEEPSEEK_API_KEY）
+    3. 本地 Ollama（两者都未配置时）
+    """
+    import httpx
+
+    school_key = os.getenv("SCHOOL_LLM_API_KEY", "")
+    if school_key:
+        # 校内网关是 OpenAI 兼容接口，但 /v1/chat/completions 不可用，
+        # 唯一可用端点是 /api/chat/completions，因此 base_url 以 /api 结尾。
+        # 校内 IP 不能走系统代理，必须 trust_env=False 强制直连。
+        return ChatOpenAI(
+            model=os.getenv("SCHOOL_LLM_MODEL", "vllm.Qwen3.8-27B"),
+            api_key=school_key,
+            base_url=os.getenv("SCHOOL_LLM_BASE_URL", "http://59.69.101.206:3000/api"),
+            temperature=0.7,
+            # 该模型为推理模型（思考过程消耗 token），max_tokens 太小会截断正文
+            max_tokens=4096,
+            timeout=120,
+            http_client=httpx.Client(trust_env=False, timeout=120),
+        )
+
     api_key = os.getenv("DEEPSEEK_API_KEY", "")
     if api_key:
         return ChatOpenAI(
@@ -91,15 +113,15 @@ def build_llm() -> ChatOpenAI:
             max_tokens=1024,
             timeout=30,
         )
-    else:
-        return ChatOpenAI(
-            model="qwen3:8b",
-            api_key="ollama",
-            base_url="http://localhost:11434/v1",
-            temperature=0.7,
-            max_tokens=1024,
-            timeout=30,
-        )
+
+    return ChatOpenAI(
+        model="qwen3:8b",
+        api_key="ollama",
+        base_url="http://localhost:11434/v1",
+        temperature=0.7,
+        max_tokens=1024,
+        timeout=30,
+    )
 
 
 # ============================================================
