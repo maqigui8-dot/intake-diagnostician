@@ -862,9 +862,13 @@ class SkillConfigurationTests(unittest.TestCase):
         self.assertTrue(checklist.exists())
         self.assertTrue(questioning.exists())
         agent_source = (backend_dir / "agent.py").read_text(encoding="utf-8")
-        self.assertIn('str(_skills_dir / "tcm-intake-checklist")', agent_source)
-        self.assertIn('str(_skills_dir / "tcm-questioning-guide")', agent_source)
-        self.assertNotIn('str(_skills_dir / "tcm-zhengxing")', agent_source)
+        # IntakeAnalysisAgent 通过 read_text 注入两个 Skill 的全文
+        self.assertIn('"tcm-intake-checklist"', agent_source)
+        self.assertIn('"tcm-questioning-guide"', agent_source)
+        self.assertIn("skill_contents", agent_source)
+        # 已删除的旧对话链与未被引用的辨证 Skill 不得回流
+        self.assertNotIn("tcm-zhengxing", agent_source)
+        self.assertNotIn("create_tcm_agent", agent_source)
 
 
 class SkillSourceContractTests(unittest.TestCase):

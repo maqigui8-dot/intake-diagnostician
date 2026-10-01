@@ -16,7 +16,6 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
-from langchain_core.messages import HumanMessage
 
 load_dotenv()
 
@@ -30,9 +29,8 @@ from repository import (
 )
 
 from agent import (
+    analysis_timeout_seconds,
     create_intake_analysis_agent,
-    create_tcm_agent,
-    sessions,
 )
 from intake_flow import (
     complete_intake_session,
@@ -58,7 +56,7 @@ from patient_history import (
     make_history_item,
     make_patient_history_detail,
 )
-from skill_analysis import analyze_intake_with_agent, process_intake_turn, unavailable_analysis
+from skill_analysis import process_intake_turn, unavailable_analysis
 
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
@@ -111,13 +109,12 @@ async def handle_deleted_report(_request, _error):
         content={"detail": "该档案已删除。"},
     )
 
-ANALYSIS_TIMEOUT_SECONDS = 45
+ANALYSIS_TIMEOUT_SECONDS = analysis_timeout_seconds()
 
 RECORDS_DIR = Path(__file__).parent / "records"
 RECORDS_DIR.mkdir(exist_ok=True)
 
 # 启动时初始化 Agent（全局单例）
-_tcm_agent = None
 _intake_analysis_agent = None
 _report_repository = None
 
@@ -125,13 +122,6 @@ _report_repository = None
 def configure_report_repository(repository=None):
     global _report_repository
     _report_repository = repository
-
-
-def get_agent():
-    global _tcm_agent
-    if _tcm_agent is None:
-        _tcm_agent = create_tcm_agent()
-    return _tcm_agent
 
 
 def get_analysis_agent():
@@ -144,17 +134,6 @@ def get_analysis_agent():
 # ============================================================
 # 请求 / 响应模型（与前端兼容）
 # ============================================================
-
-class ChatRequest(BaseModel):
-    session_id: str
-    message: str
-
-
-class ChatResponse(BaseModel):
-    reply: str
-    table: Optional[str] = None
-    is_complete: bool = False
-    collected_info: Optional[dict] = None
 
 
 class SaveRecordRequest(BaseModel):
@@ -215,16 +194,6 @@ class SessionCreateRequest(BaseModel):
 # ============================================================
 # 辅助函数
 # ============================================================
-
-def extract_last_ai_message(messages: list) -> str:
-    """从消息列表中提取最后一条 AI 消息的内容"""
-    for m in reversed(messages):
-        t = getattr(m, "type", None)
-        content = getattr(m, "content", "")
-        if t == "ai" and content:
-            return str(content)
-    return "（小郎中正在思考……）"
-
 
 def save_record_to_file(record_id: str, data: dict):
     filepath = RECORDS_DIR / f"{record_id}.json"
@@ -390,69 +359,6 @@ async def delete_scoped_patient_record(patient_id: str, record_id: str):
         return repository.soft_delete_report(patient_id, record_id)
     except KeyError as error:
         raise HTTPException(status_code=404, detail="记录不存在") from error
-
-
-async def chat(request: ChatRequest):
-    session_id = request.session_id
-    user_message = request.message.strip()
-
-    if not user_message:
-        raise HTTPException(status_code=400, detail="消息不能为空")
-
-    # 如果已完成，拒绝继续对话
-    if sessions.is_complete(session_id):
-        collected_info = sessions.get_info(session_id)
-        if collected_info:
-            collected_info["patient_name"] = (
-                collected_info.get("姓名", "")
-                or sessions.get_patient_name(session_id)
-                or "匿名患者"
-            )
-        return ChatResponse(
-            reply="本次问诊已经完成。如有新的不适，请刷新页面重新开始。",
-            table=sessions.get_report(session_id),
-            is_complete=True,
-            collected_info=collected_info,
-        )
-
-    agent = get_agent()
-
-    try:
-        config = {"configurable": {"thread_id": session_id}}
-        result = agent.invoke(
-            {"messages": [HumanMessage(content=user_message)]},
-            config,
-        )
-    except Exception as e:
-        return ChatResponse(
-            reply=f"抱歉，AI老中医此刻有些疲惫，请您稍后再试。（{str(e)}）",
-            table=None,
-            is_complete=False,
-        )
-
-    # 提取 AI 回复
-    all_messages = result.get("messages", [])
-    reply = extract_last_ai_message(all_messages)
-
-    # 检查是否已完成
-    is_complete = sessions.is_complete(session_id)
-    report = sessions.get_report(session_id)
-    collected_info = sessions.get_info(session_id)
-
-    # 前端兼容：在 collected_info 中附带 patient_name
-    if collected_info:
-        collected_info["patient_name"] = (
-            collected_info.get("姓名", "")
-            or sessions.get_patient_name(session_id)
-            or "匿名患者"
-        )
-
-    return ChatResponse(
-        reply=reply,
-        table=report,
-        is_complete=is_complete,
-        collected_info=collected_info if collected_info else None,
-    )
 
 
 async def get_structured_intake(session_id: str):
