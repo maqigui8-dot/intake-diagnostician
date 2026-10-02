@@ -339,6 +339,82 @@ class SkillAnalysisTests(unittest.TestCase):
         self.assertEqual(state["field_states"]["onset_course"]["evidence"], ["一年"])
         self.assertNotEqual(state["current_field_key"], "onset_course")
 
+    def test_online_omission_confirms_current_stool_urine_negative(self):
+        from intake_flow import intake_sessions, submit_follow_up_answer
+
+        intake_sessions.clear()
+        confirm_baseline("online-stool-negative")
+        session = intake_sessions.get("online-stool-negative")
+        session.update({
+            "phase": "follow_up",
+            "current_question": "大便和小便有异常吗？",
+            "current_field_key": "stool_urine",
+            "attempt_number": 1,
+        })
+        submit_follow_up_answer("online-stool-negative", "没有")
+
+        state = process_intake_turn(
+            "online-stool-negative",
+            FakeAgent(content='{"field_updates":[],"conflicts":[],"red_flags":[]}'),
+        )
+
+        self.assertEqual(state["field_states"]["stool_urine"]["status"], "confirmed")
+        self.assertEqual(state["field_states"]["stool_urine"]["evidence"], ["没有"])
+        self.assertNotEqual(state["current_field_key"], "stool_urine")
+
+    def test_online_omission_confirms_current_onset_course_duration(self):
+        from intake_flow import intake_sessions, submit_follow_up_answer
+
+        intake_sessions.clear()
+        confirm_baseline("online-onset-duration")
+        session = intake_sessions.get("online-onset-duration")
+        session.update({
+            "phase": "follow_up",
+            "current_question": "体重或相关不适大约持续多久了？",
+            "current_field_key": "onset_course",
+            "attempt_number": 1,
+        })
+        submit_follow_up_answer("online-onset-duration", "一年")
+
+        state = process_intake_turn(
+            "online-onset-duration",
+            FakeAgent(content='{"field_updates":[],"conflicts":[],"red_flags":[]}'),
+        )
+
+        self.assertEqual(state["field_states"]["onset_course"]["status"], "confirmed")
+        self.assertEqual(state["field_states"]["onset_course"]["evidence"], ["一年"])
+        self.assertNotEqual(state["current_field_key"], "onset_course")
+
+    def test_online_simple_negative_does_not_resolve_existing_conflict(self):
+        from intake_flow import intake_sessions, submit_follow_up_answer
+
+        intake_sessions.clear()
+        confirm_baseline("online-unresolved-conflict")
+        session = intake_sessions.get("online-unresolved-conflict")
+        session["field_states"]["stool_urine"].update({
+            "status": "partial",
+            "conflicts": [{"turn": 1, "evidence": "前后回答矛盾", "resolved": False}],
+        })
+        session.update({
+            "phase": "follow_up",
+            "current_question": "大便和小便有异常吗？",
+            "current_field_key": "stool_urine",
+            "attempt_number": 1,
+        })
+        submit_follow_up_answer("online-unresolved-conflict", "没有")
+
+        state = process_intake_turn(
+            "online-unresolved-conflict",
+            FakeAgent(content=(
+                '{"field_updates":[{"field_key":"stool_urine","status":"confirmed",'
+                '"evidence":"没有","confidence":0.99}],"conflicts":[],"red_flags":[]}'
+            )),
+        )
+
+        field = state["field_states"]["stool_urine"]
+        self.assertNotEqual(field["status"], "confirmed")
+        self.assertFalse(field["conflicts"][0]["resolved"])
+
     def test_offline_common_lifestyle_answers_confirm_current_field(self):
         cases = (
             ("appetite_thirst", "胃口正常，但最近容易口渴"),

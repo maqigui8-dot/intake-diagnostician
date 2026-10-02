@@ -488,6 +488,43 @@ def process_intake_turn(session_id: str, agent: Any) -> dict[str, Any]:
         *local_red_flags,
     ]))
 
+    if ai_available and latest_follow_up and not is_clarification:
+        latest = latest_follow_up[0]
+        field_key = latest.get("question_key")
+        answer = latest.get("answer", "")
+        if latest.get("answer_quality") == "provided" and field_key and (
+            _is_direct_negative_answer(answer) or field_key == "onset_course"
+        ):
+            local_update = extract_local_follow_up_field(field_key, answer)
+            if local_update and local_update["status"] == "confirmed":
+                field = state["field_states"].get(field_key) or {}
+                unresolved = any(
+                    isinstance(conflict, dict) and not conflict.get("resolved", False)
+                    for conflict in field.get("conflicts") or []
+                )
+                updates = extraction.get("field_updates") or []
+                if unresolved:
+                    # A bare answer cannot by itself settle a previous contradiction.
+                    extraction["field_updates"] = [
+                        item for item in updates
+                        if item.get("field_key") != field_key or item.get("status") != "confirmed"
+                    ]
+                elif not any(
+                    item.get("field_key") == field_key and item.get("conflict")
+                    for item in updates
+                ) and not any(
+                    item.get("field_key") == field_key
+                    for item in extraction.get("conflicts") or []
+                ):
+                    extraction["field_updates"] = [
+                        item for item in updates
+                        if item.get("field_key") != field_key or item.get("status") == "confirmed"
+                    ]
+                    if not any(
+                        item.get("field_key") == field_key for item in extraction["field_updates"]
+                    ):
+                        extraction["field_updates"].append(local_update)
+
     if not ai_available and state.get("follow_up_answers") and not is_clarification:
         latest = state["follow_up_answers"][-1]
         if latest.get("answer_quality") == "provided" and latest.get("question_key"):
