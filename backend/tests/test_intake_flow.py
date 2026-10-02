@@ -472,7 +472,7 @@ class IntakeFlowTests(unittest.TestCase):
         state["open_answer"] = "最近半年体重增加，想改善疲乏"
         report = generate_report(state)
         self.assertIn("最近半年体重增加", report)
-        self.assertIn("待诊中确认", report)
+        self.assertIn("尚未提供", report)
         self.assertNotIn("main_goal", report)
         self.assertNotIn("处方：", report)
         self.assertNotIn("证型：", report)

@@ -5,6 +5,8 @@
   {"id":"course-half-year","synthetic":true,"category":"duration","kind":"field","field_key":"onset_course","text":"最近半年","expected":true},
   {"id":"course-two-months","synthetic":true,"category":"duration","kind":"field","field_key":"onset_course","text":"大约两个月","expected":true},
   {"id":"course-unknown","synthetic":true,"category":"ambiguous","kind":"field","field_key":"onset_course","text":"不记得多久了","expected":false},
+  {"id":"course-negated-year","synthetic":true,"category":"ambiguous","kind":"field","field_key":"onset_course","text":"不是一年","expected":false},
+  {"id":"course-uncertain-year","synthetic":true,"category":"ambiguous","kind":"field","field_key":"onset_course","text":"不确定是不是一年","expected":false},
   {"id":"med-blood-pressure","synthetic":true,"category":"medication","kind":"field","field_key":"medications","text":"降压药","expected":true},
   {"id":"med-daily","synthetic":true,"category":"medication","kind":"field","field_key":"medications","text":"每天服用降压药","expected":true},
   {"id":"med-none","synthetic":true,"category":"medication","kind":"field","field_key":"medications","text":"没有用药","expected":true},

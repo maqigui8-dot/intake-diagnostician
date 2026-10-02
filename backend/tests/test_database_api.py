@@ -124,7 +124,7 @@ class DatabaseApiTests(unittest.IsolatedAsyncioTestCase):
             await main.save_record(main.SaveRecordRequest(session_id="unfinished-save"))
 
         self.assertEqual(raised.exception.status_code, 400)
-        self.assertIn("继续补充问诊", raised.exception.detail)
+        self.assertIn("返回草稿补充", raised.exception.detail)
         self.assertNotIn("由医生继续", raised.exception.detail)
 
 

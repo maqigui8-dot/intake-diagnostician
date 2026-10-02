@@ -5,6 +5,7 @@ from datetime import datetime
 from typing import Any
 
 from intake_execution import (
+    PATIENT_CORE_FIELD_KEYS,
     blank_field_states,
     calculate_execution,
     evaluate_patient_readiness,
@@ -237,7 +238,7 @@ def submit_follow_up_answer(
     current_attempt = attempt_number or session.get("attempt_number") or (previous_attempts + 1)
     current_attempt = max(previous_attempts + 1, int(current_attempt))
     if current_attempt > 2:
-        raise ValueError("该项信息已经确认两次，将留给医生诊中核实")
+        raise ValueError("该项信息已询问两次；本轮追问结束后仍可在草稿中补充")
 
     if is_clarification_request(clean_answer):
         quality = "clarification"
@@ -337,8 +338,9 @@ def apply_analysis_turn(
 
 
 def generate_report(state: dict[str, Any]) -> str:
+    is_draft = state.get("phase") == "incomplete"
     rows = [
-        "## 成人肥胖诊前资料",
+        "## 成人肥胖诊前资料草稿" if is_draft else "## 成人肥胖诊前资料",
         "",
         f"**开放描述：** {state.get('open_answer') or '未提供'}",
         "",
@@ -359,7 +361,7 @@ def generate_report(state: dict[str, Any]) -> str:
         elif group["statuses"] and all(status == "not_applicable" for status in group["statuses"]):
             detail = "不适用"
         else:
-            detail = "待诊中确认"
+            detail = "尚未提供"
         rows.append(f"| {group_name} | {detail} |")
     if state.get("patient_corrections"):
         rows.extend(["", "### 患者核对修正"])
@@ -375,9 +377,13 @@ def generate_report(state: dict[str, Any]) -> str:
             rows.append(f"{index}. 问：{item['question']}  答：{item['answer']}")
     rows.extend([
         "",
-        "**舌象与脉象：** 舌照可选；脉象待医生诊中采集。",
+        "**舌象与脉象：** 舌照可选；脉象不由本系统采集。",
         "",
-        "本档案仅用于诊前资料整理和检查准备，不能替代医生诊断或治疗。",
+        (
+            "本草稿仍有未确认信息，仅用于继续整理诊前资料，不能替代医生诊断或治疗。"
+            if is_draft else
+            "本档案仅用于诊前资料整理和检查准备，不能替代医生诊断或治疗。"
+        ),
     ])
     return "\n".join(rows)
 
@@ -388,7 +394,13 @@ def correct_patient_field(
     session = intake_sessions.get(session_id, patient_id)
     if session.get("phase") not in {"completed", "incomplete"}:
         raise ValueError("仅在问诊结束后可以核对并修正资料")
-    if field_key not in PATIENT_REVIEW_FIELD_KEYS:
+    readiness_before = evaluate_patient_readiness(session["field_states"], session["context"])
+    draft_blocker = (
+        session.get("phase") == "incomplete"
+        and field_key in PATIENT_CORE_FIELD_KEYS
+        and field_key in readiness_before["blocking_keys"]
+    )
+    if field_key not in PATIENT_REVIEW_FIELD_KEYS and not draft_blocker:
         raise ValueError("该项不可在此修改，请通过线下就医进一步确认")
     clean = " ".join(str(value or "").split())
     if not clean or len(clean) > 300:
@@ -396,9 +408,20 @@ def correct_patient_field(
 
     field = session["field_states"][field_key]
     previous = "；".join(field.get("evidence") or [])
-    if previous == clean:
+    if previous == clean and not draft_blocker:
         return get_intake_state(session_id, patient_id)
     unavailable = _answer_is_unavailable(clean)
+    added_red_flags: list[str] = []
+    if draft_blocker and not unavailable:
+        from skill_analysis import extract_local_follow_up_field, extract_local_red_flags
+
+        correction_update = extract_local_follow_up_field(field_key, clean)
+        if not correction_update or correction_update.get("status") != "confirmed":
+            raise ValueError("补充内容未能回答当前资料项，请根据提示具体说明")
+        if field_key == "red_flags":
+            added_red_flags = extract_local_red_flags(clean)
+            if session.get("safety_alerts") and not added_red_flags:
+                raise ValueError("已有危险信号记录，不能通过此处的否定回答清除")
     session["turn"] += 1
     correction = {
         "field_key": field_key,
@@ -411,6 +434,10 @@ def correct_patient_field(
     field["evidence"] = [clean]
     field["status"] = "unavailable" if unavailable else "confirmed"
     field["confidence"] = 1.0 if not unavailable else 0.0
+    if added_red_flags:
+        session["safety_alerts"] = list(dict.fromkeys([
+            *(session.get("safety_alerts") or []), *added_red_flags,
+        ]))
     if not unavailable:
         for conflict in field.get("conflicts") or []:
             if isinstance(conflict, dict) and not conflict.get("resolved", False):
@@ -483,7 +510,7 @@ def _assistant_note(session: dict[str, Any]) -> str:
         return "您可以按自己的话描述，不需要使用医学术语。"
     if session["phase"] in {"processing", "follow_up"}:
         return "我会根据您已经说过的内容，每次只补充确认一个重点。"
-    return "本次诊前资料已整理，剩余信息请由医生诊中确认。"
+    return "本次诊前资料已整理；如有未确认项，可在草稿中补充。"
 
 
 # 旧接口兼容层：保留导入能力，患者新流程不再调用固定选项题。

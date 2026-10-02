@@ -102,6 +102,16 @@ test('未完整阶段显示保护性结果并进入档案进度', () => {
   assert.match(appSource, /\['completed', 'incomplete', 'escalated'\]/)
 })
 
+test('未完成草稿显示具体缺口和患者补充入口，不承诺诊中核实', () => {
+  const result = template.match(/viewStage === 'result'[\s\S]*?(?=<p class="disclaimer")/)?.[0] || ''
+  assert.match(result, /state\.blocking_fields/)
+  assert.match(result, /草稿/)
+  assert.match(result, /submitPatientCorrection/)
+  assert.doesNotMatch(result, /未确认的资料可在就医时补充/)
+  assert.match(result, /v-else-if="state\.phase === 'completed'"[^>]*@click="saveRecord"/)
+  assert.doesNotMatch(template, /资料仅用于诊前整理，并由医生在诊中确认/)
+})
+
 test('手机端布局使用单列且文本框不会溢出', () => {
   assert.match(styleSource, /@media \(max-width: 860px\)/)
   assert.match(styleSource, /grid-template-columns:\s*1fr/)

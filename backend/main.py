@@ -467,7 +467,7 @@ async def save_record(req: SaveRecordRequest):
     if internal_state.get("phase") != "completed" or not readiness["can_complete"]:
         raise HTTPException(
             status_code=400,
-            detail="关键资料尚未确认完，暂不能保存。请继续补充问诊；仍不清楚的情况可在线下就医时说明。",
+            detail="关键资料尚未确认完，暂不能保存正式档案；请返回草稿补充。",
         )
     record_id = str(uuid.uuid4())
     patient_name = req.patient_name or "匿名患者"

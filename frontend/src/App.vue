@@ -82,7 +82,7 @@
             <option value="patient-li">李女士</option>
           </select>
         </div>
-        <p>资料仅用于诊前整理，并由医生在诊中确认。</p>
+        <p>资料仅用于诊前整理，不能替代医生判断。</p>
       </div>
     </aside>
 
@@ -303,7 +303,7 @@
               <span class="section-label">{{ state.phase === 'incomplete' ? '资料待补充' : '问诊完成' }}</span>
               <h2>{{ state.phase === 'incomplete' ? '本次诊前资料尚未完整' : '本次诊前档案已整理完成' }}</h2>
               <p>{{ state.stop_reason_public }}</p>
-              <p v-if="state.phase === 'incomplete' && !state.can_continue">在线追问已结束，未确认的资料可在就医时补充；如需重新填写，可点击“重新开始”。</p>
+              <p v-if="state.phase === 'incomplete' && !state.can_continue">在线追问已结束，本次回答已保留为草稿。请在下方补充仍未确认的资料。</p>
             </div>
           </div>
           <div v-if="state.progress" class="result-progress" aria-label="关键资料状态">
@@ -312,6 +312,11 @@
             <div><strong>{{ state.progress.unavailable_count }}</strong><span>暂无法确认</span></div>
           </div>
           <p class="result-progress-note">以上仅表示关键诊前资料的整理状态，不代表诊断结论。</p>
+          <section v-if="state.phase === 'incomplete' && state.blocking_fields?.length" class="patient-review" aria-label="草稿待补充资料">
+            <div class="section-title"><span class="section-label">草稿缺口</span><h3>仍需您确认</h3></div>
+            <p class="review-hint">这些内容尚未核实，不能保存为正式档案。您可以在下方逐项补充。</p>
+            <ul><li v-for="item in state.blocking_fields" :key="item.field_key">{{ item.label }}</li></ul>
+          </section>
           <div v-if="state.bmi_assessment?.bmi" class="bmi-card">
             <div class="bmi-row">
               <span class="section-label">BMI 结果</span>
@@ -329,7 +334,7 @@
           <section v-if="!saved && state.review_fields?.length" class="patient-review" aria-label="患者核对资料">
             <div class="section-title">
               <span class="section-label">保存前确认</span>
-              <h3>请核对以下关键资料</h3>
+              <h3>{{ state.phase === 'incomplete' ? '补充并核对草稿资料' : '请核对以下关键资料' }}</h3>
             </div>
             <p class="review-hint">发现整理有误时可以修改。原始问答会保留；危险信号不能在这里删除。</p>
             <div v-for="item in state.review_fields" :key="item.field_key" class="review-row">

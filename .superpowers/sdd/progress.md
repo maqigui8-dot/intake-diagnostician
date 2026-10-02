@@ -17,3 +17,11 @@ Task 7: complete (review approved; backend 144/144, frontend 29/29, build passed
   - waist (layer=risk) grouped under 肥胖病程与可能病因 rather than 基础测量 — debatable.
   - doctor-view.js scoreTone now a dead export (no production caller).
 Task 8: complete (backend 143/143, frontend 29/29, build passed; backend :8000 + frontend :5173 served; API flow smoke test passed baseline→open→analyze(LLM)→doctor-summary)
+
+## 2026-10-02 intake answer and stop quality
+
+Plan: docs/superpowers/plans/2026-10-02-intake-answer-and-stop-quality.md
+Task 1: complete (commits 4ccbdac..590eefb; reviewer Important fixed; backend unittest 226/226)
+Task 2: complete (draft blockers can be corrected; unfinished sessions remain separate from formal records)
+Task 3: complete (patient UI explains draft gaps and formal-save gate)
+Task 4: complete (offline evaluation 42/42; dialogue evaluation 30/30; backend 234/234; frontend 46/46; build passed)

@@ -495,6 +495,17 @@ class SkillAnalysisTests(unittest.TestCase):
                 self.assertIsNotNone(update)
                 self.assertEqual(update["status"], "confirmed")
 
+    def test_direct_weight_stability_and_pregnancy_negative_answer_current_field(self):
+        for field_key, answer in (
+            ("weight_change", "没有变化"),
+            ("weight_change", "基本稳定"),
+            ("pregnancy", "没有"),
+        ):
+            with self.subTest(field_key=field_key, answer=answer):
+                update = extract_local_follow_up_field(field_key, answer)
+                self.assertIsNotNone(update)
+                self.assertEqual(update["status"], "confirmed")
+
     def test_offline_open_answer_extracts_weight_change_and_duration(self):
         from intake_flow import intake_sessions, submit_open_answer
 

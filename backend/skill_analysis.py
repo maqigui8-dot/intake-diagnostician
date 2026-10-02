@@ -23,7 +23,7 @@ LOCAL_RED_FLAG_MARKERS = {
 }
 RED_FLAG_NEGATIONS = ("没有", "没出现", "未出现", "无", "否认", "从未", "不伴")
 RED_FLAG_ASSERTION_RESETS = ("但是", "但", "后来", "随后", "又有", "仍有", "出现", "发生")
-DIRECT_SAFETY_NEGATION_KEYS = ("red_flags", "allergies", "medications", "important_history")
+DIRECT_SAFETY_NEGATION_KEYS = ("red_flags", "allergies", "medications", "important_history", "pregnancy")
 DIRECT_SAFETY_NEGATIONS = ("没有", "无", "否", "否认", "未")
 
 
@@ -276,6 +276,17 @@ def extract_local_follow_up_field(field_key: str, text: str) -> dict[str, Any] |
             "confidence": 1.0,
         }
 
+    if field_key == "weight_change" and (
+        _is_direct_negative_answer(clean)
+        or _normalize_evidence_text(clean) in {"基本稳定", "体重基本稳定", "体重稳定"}
+    ):
+        return {
+            "field_key": field_key,
+            "status": "confirmed",
+            "evidence": clean,
+            "confidence": 1.0,
+        }
+
     for update in extract_local_basic_fields(clean):
         if update["field_key"] == field_key:
             return update
@@ -509,7 +520,11 @@ def process_intake_turn(session_id: str, agent: Any) -> dict[str, Any]:
                 or not _evidence_is_supported(item.get("evidence"), [answer])
             ]
         if latest.get("answer_quality") == "provided" and field_key and (
-            _is_direct_negative_answer(answer) or field_key == "onset_course"
+            _is_direct_negative_answer(answer)
+            or field_key == "onset_course"
+            or (field_key == "weight_change" and _normalize_evidence_text(answer) in {
+                "基本稳定", "体重基本稳定", "体重稳定",
+            })
         ):
             local_update = extract_local_follow_up_field(field_key, answer)
             if local_update and local_update["status"] == "confirmed":

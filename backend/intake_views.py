@@ -10,13 +10,13 @@ from obesity_intake_schema import FIELD_DEFINITIONS, RULE_VERSION
 
 
 PUBLIC_STOP_REASONS = {
-    "core_information_ready": "本次核心诊前资料已整理完成，其余细节可在诊中继续补充。",
+    "core_information_ready": "本次核心诊前资料已整理完成，请核对后保存。",
     "threshold_reached": "本次诊前资料已整理完成。",
     "red_flag_escalation": "您描述的情况需要优先由医生线下评估，请及时就医。",
-    "patient_unavailable": "部分信息暂时无法确认，请在诊中向医生补充。",
-    "safety_limit": "历史问诊已保护性结束，剩余信息请在诊中补充。",
-    "duplicate_gap": "当前能在线确认的信息已整理，剩余内容请在诊中补充。",
-    "no_collectable_gap": "当前能在线确认的信息已整理，剩余内容请在诊中补充。",
+    "patient_unavailable": "部分信息暂时无法确认，本次回答已保留为可补充草稿。",
+    "safety_limit": "在线追问已结束，未确认信息仍保留在草稿中。",
+    "duplicate_gap": "当前能在线确认的信息已整理，未确认项可在下方自行补充。",
+    "no_collectable_gap": "当前能在线确认的信息已整理，未确认项可在下方自行补充。",
     "ai_unavailable": "智能整理暂时不可用，本次在线追问已结束；已提供的安全信息仍保留在本次问诊中。",
     "manual_completion": "本次诊前资料已整理完成。",
     "manual_incomplete": "当前资料尚未达到完整条件，未列入已完成档案。",
@@ -71,9 +71,22 @@ def build_patient_state(internal_state: dict[str, Any]) -> dict[str, Any]:
     ]
     phase = internal_state.get("phase", "open_intake")
     readiness = build_decision_explanation(internal_state)["readiness"]
-    core_keys = evaluate_patient_readiness(
+    core_readiness = evaluate_patient_readiness(
         internal_state.get("field_states") or {}, internal_state.get("context") or {},
-    )["core_field_keys"]
+    )
+    core_keys = core_readiness["core_field_keys"]
+    blocking_keys = set(core_readiness["blocking_keys"])
+    field_definitions = {definition.key: definition for definition in FIELD_DEFINITIONS}
+    blocking_fields = [
+        {
+            "field_key": key,
+            "label": field_definitions[key].question,
+            "status": (internal_state.get("field_states") or {}).get(key, {}).get("status", "not_asked"),
+            "value": "；".join((internal_state.get("field_states") or {}).get(key, {}).get("evidence") or []),
+        }
+        for key in core_readiness["blocking_keys"]
+        if key in field_definitions
+    ]
     unavailable_count = sum(
         (internal_state.get("field_states") or {}).get(key, {}).get("status") == "unavailable"
         for key in core_keys
@@ -87,12 +100,14 @@ def build_patient_state(internal_state: dict[str, Any]) -> dict[str, Any]:
     review_fields = [
         {
             "field_key": definition.key,
-            "label": definition.group,
+            "label": definition.question if phase == "incomplete" and definition.key in blocking_keys else definition.group,
             "value": "；".join((internal_state.get("field_states") or {}).get(definition.key, {}).get("evidence") or []),
             "status": (internal_state.get("field_states") or {}).get(definition.key, {}).get("status", "not_asked"),
         }
         for definition in FIELD_DEFINITIONS
-        if definition.key in PATIENT_REVIEW_FIELD_KEYS
+        if definition.key in PATIENT_REVIEW_FIELD_KEYS or (
+            phase == "incomplete" and definition.key in blocking_keys
+        )
     ]
     return {
         "session_id": internal_state.get("session_id", ""),
@@ -111,6 +126,7 @@ def build_patient_state(internal_state: dict[str, Any]) -> dict[str, Any]:
         "stop_reason_public": PUBLIC_STOP_REASONS.get(internal_state.get("stop_reason"), ""),
         "is_complete": phase == "completed",
         "can_continue": can_continue,
+        "blocking_fields": blocking_fields if phase == "incomplete" else [],
         "review_fields": review_fields if phase in {"completed", "incomplete"} else [],
         "progress": {
             "core_completed": readiness["core"]["completed"],

@@ -44,7 +44,7 @@ class IntakeViewTests(unittest.TestCase):
         state = get_intake_state("session-a")
         state.update({"phase": "completed", "stop_reason": "safety_limit"})
         public = build_patient_state(state)
-        self.assertEqual(public["stop_reason_public"], "历史问诊已保护性结束，剩余信息请在诊中补充。")
+        self.assertEqual(public["stop_reason_public"], "在线追问已结束，未确认信息仍保留在草稿中。")
 
     def test_patient_state_shows_core_progress_without_doctor_details(self):
         state = get_intake_state("session-a")

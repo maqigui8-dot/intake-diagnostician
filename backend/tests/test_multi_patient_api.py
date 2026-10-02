@@ -119,6 +119,43 @@ class MultiPatientApiTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(first["record_id"], second["record_id"])
         self.assertIn("目前没有服用药物", self.repository.get_patient_report("patient-ma", first["record_id"])["markdown_table"])
 
+    async def test_stopped_draft_is_reopenable_and_only_saves_after_patient_fills_gap(self):
+        await main.create_scoped_intake_session(
+            "patient-ma", main.SessionCreateRequest(session_id="draft-save"),
+        )
+        set_baseline("draft-save", {
+            "age": 32, "sex": "male", "height_cm": 170, "weight_kg": 83,
+            "measured_at": "2026-10-01",
+        }, "patient-ma")
+        submit_open_answer("draft-save", "最近体重增加", "patient-ma")
+        session = intake_sessions.get("draft-save", "patient-ma")
+        for key in PATIENT_CORE_FIELD_KEYS:
+            if session["field_states"][key]["status"] != "not_applicable":
+                session["field_states"][key].update({"status": "confirmed", "evidence": ["已回答"]})
+        session["field_states"]["stool_urine"].update({
+            "status": "unavailable", "evidence": [], "attempts": 2,
+        })
+        intake_sessions.save(session)
+        complete_intake_session("draft-save")
+
+        drafts = await main.list_scoped_unfinished_sessions("patient-ma")
+        self.assertIn("draft-save", {item["session_id"] for item in drafts})
+        with self.assertRaises(main.HTTPException) as incomplete:
+            await main.save_scoped_patient_record(
+                "patient-ma", "draft-save", main.PatientSaveRequest(patient_confirmed=True),
+            )
+        self.assertEqual(incomplete.exception.status_code, 400)
+
+        corrected = await main.correct_scoped_intake_field(
+            "patient-ma", "draft-save",
+            main.IntakeCorrectionRequest(field_key="stool_urine", value="没有"),
+        )
+        self.assertEqual(corrected["phase"], "completed")
+        saved = await main.save_scoped_patient_record(
+            "patient-ma", "draft-save", main.PatientSaveRequest(patient_confirmed=True),
+        )
+        self.assertTrue(saved["record_id"])
+
     async def test_correction_rejects_another_patients_session(self):
         self.repository.get_or_create_session("zhang-review", "patient-zhang")
 
