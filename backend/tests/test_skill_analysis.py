@@ -385,6 +385,35 @@ class SkillAnalysisTests(unittest.TestCase):
         self.assertEqual(state["field_states"]["onset_course"]["evidence"], ["一年"])
         self.assertNotEqual(state["current_field_key"], "onset_course")
 
+    def test_online_uncertain_or_negated_duration_does_not_confirm_onset_course(self):
+        from intake_flow import intake_sessions, submit_follow_up_answer
+
+        for index, answer in enumerate((
+            "不是一年", "不确定是不是一年", "不是一年，体重是后来才增加的",
+        )):
+            for model_content in (
+                '{"field_updates":[],"conflicts":[],"red_flags":[]}',
+                '{"field_updates":[{"field_key":"onset_course","status":"confirmed",'
+                '"evidence":"一年","confidence":0.99}],"conflicts":[],"red_flags":[]}',
+            ):
+                with self.subTest(answer=answer, model_content=model_content):
+                    intake_sessions.clear()
+                    session_id = f"online-uncertain-duration-{index}"
+                    confirm_baseline(session_id)
+                    session = intake_sessions.get(session_id)
+                    session.update({
+                        "phase": "follow_up",
+                        "current_question": "体重或相关不适大约持续多久了？",
+                        "current_field_key": "onset_course",
+                        "attempt_number": 1,
+                    })
+                    submit_follow_up_answer(session_id, answer)
+
+                    state = process_intake_turn(session_id, FakeAgent(content=model_content))
+
+                    self.assertNotEqual(state["field_states"]["onset_course"]["status"], "confirmed")
+                    self.assertIsNone(extract_local_follow_up_field("onset_course", answer))
+
     def test_online_simple_negative_does_not_resolve_existing_conflict(self):
         from intake_flow import intake_sessions, submit_follow_up_answer
 

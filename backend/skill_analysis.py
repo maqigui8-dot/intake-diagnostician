@@ -160,6 +160,13 @@ def _is_direct_negative_answer(value: object) -> bool:
     )
 
 
+def _has_duration_uncertainty(value: object) -> bool:
+    clean = _normalize_evidence_text(value)
+    return any(marker in clean for marker in (
+        "不是", "是不是", "不确定", "不清楚", "不知道", "记不清", "没有", "不到", "可能", "也许",
+    ))
+
+
 def _patient_evidence_sources(state: dict[str, Any]) -> list[str]:
     open_answer = str(state.get("open_answer") or "")
     sources = [] if is_clarification_request(open_answer) else [open_answer]
@@ -254,6 +261,8 @@ def extract_local_basic_fields(text: str) -> list[dict[str, Any]]:
 def extract_local_follow_up_field(field_key: str, text: str) -> dict[str, Any] | None:
     clean = str(text or "").strip()
     if not clean:
+        return None
+    if field_key == "onset_course" and _has_duration_uncertainty(clean):
         return None
 
     if (
@@ -492,6 +501,13 @@ def process_intake_turn(session_id: str, agent: Any) -> dict[str, Any]:
         latest = latest_follow_up[0]
         field_key = latest.get("question_key")
         answer = latest.get("answer", "")
+        if field_key == "onset_course" and _has_duration_uncertainty(answer):
+            extraction["field_updates"] = [
+                item for item in extraction.get("field_updates") or []
+                if item.get("field_key") != field_key
+                or item.get("status") != "confirmed"
+                or not _evidence_is_supported(item.get("evidence"), [answer])
+            ]
         if latest.get("answer_quality") == "provided" and field_key and (
             _is_direct_negative_answer(answer) or field_key == "onset_course"
         ):
